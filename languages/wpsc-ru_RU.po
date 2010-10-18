@@ -1,0 +1,3929 @@
+# Над переводом в разное время работали:
+# * Николай Першай (http://www.mikolka.info/)
+# * Иван Калинин (http://lecactus.ru/)
+# * Вячеслав Абакумов (http://cosydale.com/)
+# * Сергей Бирюков (http://sergeybiryukov.ru/)
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Shopping Cart 3.7.6.5\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-e-commerce\n"
+"POT-Creation-Date: 2010-06-15 23:21+0000\n"
+"PO-Revision-Date: 2010-07-05 22:53+0300\n"
+"Last-Translator: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
+"Language-Team: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : ((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: admin-form-functions.php:10
+msgid "You are editing the &quot;[categorisation]&quot; Category"
+msgstr "Вы редактируете категорию &laquo;[categorisation]&raquo;"
+
+#: admin-form-functions.php:11
+#: wpsc-admin/display-groups.page.php:759
+msgid "+ Add new category to the &quot;[categorisation]&quot; Group"
+msgstr "+ Добавить новую категорию в группу &laquo;[categorisation]&raquo;"
+
+#: admin-form-functions.php:25
+#: admin-form-functions.php:279
+#: admin-form-functions.php:867
+#: display-ecommerce-subs.php:9
+#: js/tinymce3/window.php:105
+#: user-log.php:200
+#: user-log.php:359
+#: wpsc-admin/display-groups.page.php:698
+#: wpsc-admin/display-groups.page.php:774
+#: wpsc-admin/display-upgrades.page.php:88
+#: wpsc-admin/display-variations.page.php:13
+#: wpsc-admin/display-variations.page.php:156
+#: wpsc-admin/includes/display-items-functions.php:792
+#: wpsc-admin/includes/display-items-functions.php:804
+#: wpsc-admin/includes/settings-pages/presentation.php:457
+msgid "Name"
+msgstr "Имя"
+
+#: admin-form-functions.php:34
+#: js/tinymce3/window.php:109
+#: wpsc-admin/display-groups.page.php:782
+#: wpsc-admin/includes/display-items-functions.php:807
+msgid "Description"
+msgstr "Описание"
+
+#: admin-form-functions.php:44
+msgid "Category Parent"
+msgstr "Родительская категория"
+
+#: admin-form-functions.php:85
+msgid "Category&nbsp;Image"
+msgstr "Изображение&nbsp;категории"
+
+#: admin-form-functions.php:101
+#: admin-form-functions.php:110
+#: admin-form-functions.php:198
+#: wpsc-admin/display-groups.page.php:812
+#: wpsc-admin/display-groups.page.php:865
+#: wpsc-admin/includes/display-items-functions.php:675
+#: wpsc-admin/includes/settings-pages/presentation.php:864
+#: wpsc-admin/includes/settings-pages/presentation.php:875
+#: wpsc-admin/includes/settings-pages/presentation.php:884
+#: wpsc-admin/includes/settings-pages/presentation.php:945
+msgid "Height"
+msgstr "Высота"
+
+#: admin-form-functions.php:101
+#: admin-form-functions.php:110
+#: admin-form-functions.php:199
+#: wpsc-admin/display-groups.page.php:812
+#: wpsc-admin/display-groups.page.php:866
+#: wpsc-admin/includes/display-items-functions.php:687
+#: wpsc-admin/includes/settings-pages/presentation.php:865
+#: wpsc-admin/includes/settings-pages/presentation.php:875
+#: wpsc-admin/includes/settings-pages/presentation.php:884
+#: wpsc-admin/includes/settings-pages/presentation.php:946
+msgid "Width"
+msgstr "Ширина"
+
+#: admin-form-functions.php:102
+#: admin-form-functions.php:111
+#: wpsc-admin/display-groups.page.php:813
+msgid "You can upload thumbnail images for each group. To display Group details in your shop you must configure these settings under <a href=\"admin.php?page=wpsc-settings&tab=presentation\">Presentation Settings</a>."
+msgstr "Вы можете загружать миниатюры для каждой группы. Для отображения деталей группы вы должны настроить это  в <a href=\"admin.php?page=wpsc-settings&tab=presentation\">Настройках отображения</a>."
+
+#: admin-form-functions.php:119
+msgid "Delete Image"
+msgstr "Удалить изображение"
+
+#: admin-form-functions.php:133
+#: wpsc-admin/display-groups.page.php:16
+#: wpsc-admin/includes/settings-pages/general.php:83
+msgid "Target Markets"
+msgstr "Целевые рынки"
+
+#: admin-form-functions.php:138
+#: wpsc-admin/display-groups.page.php:22
+#: wpsc-admin/includes/settings-pages/general.php:89
+msgid ""
+"The Target Markets feature has been disabled because you have the Suhosin PHP extension installed on this server. If you need to use the Target Markets feature then disable the suhosin extension, if you can not do this, you will need to contact your hosting provider.\r\n"
+"\t\t\t"
+msgstr ""
+"Функция целевых рынков отключена, потому что на вашем сервере установлено PHP-расширение Suhosin. Если вам нужна функция целевых рынков, отключите расширение Suhosin. Если вы не можете этого сделать, обратитесь к вашему хостинг-провайдеру.\r\n"
+"\t\t\t"
+
+#: admin-form-functions.php:164
+#: wpsc-admin/display-groups.page.php:822
+#: wpsc-admin/includes/settings-pages/presentation.php:57
+msgid "Presentation Settings"
+msgstr "Настройки отображения"
+
+#: admin-form-functions.php:165
+#: wpsc-admin/display-groups.page.php:823
+msgid "To over-ride the presentation settings for this group you can enter in your prefered settings here"
+msgstr "Чтобы переопределить настройки отображения этой группы, введите здесь желаемые параметры"
+
+#: admin-form-functions.php:171
+#: wpsc-admin/display-groups.page.php:831
+#: wpsc-admin/includes/settings-pages/presentation.php:288
+msgid "Catalog View"
+msgstr "Отображение каталога"
+
+#: admin-form-functions.php:175
+#: wpsc-includes/form-display.functions.php:6
+msgid "Please select"
+msgstr "Пожалуйста, выберите"
+
+#: admin-form-functions.php:176
+#: wpsc-admin/display-groups.page.php:835
+#: wpsc-admin/includes/settings-pages/presentation.php:346
+msgid "Default View"
+msgstr "По умолчанию"
+
+#: admin-form-functions.php:178
+#: admin-form-functions.php:180
+#: wpsc-admin/display-groups.page.php:839
+#: wpsc-admin/display-groups.page.php:843
+#: wpsc-admin/includes/settings-pages/presentation.php:350
+#: wpsc-admin/includes/settings-pages/presentation.php:354
+msgid "List View"
+msgstr "В виде списка"
+
+#: admin-form-functions.php:183
+#: admin-form-functions.php:185
+#: wpsc-admin/display-groups.page.php:849
+#: wpsc-admin/display-groups.page.php:853
+#: wpsc-admin/includes/settings-pages/presentation.php:361
+#: wpsc-admin/includes/settings-pages/presentation.php:365
+msgid "Grid View"
+msgstr "В виде таблицы"
+
+#: admin-form-functions.php:195
+#: wpsc-admin/display-groups.page.php:863
+msgid "Thumbnail&nbsp;Size"
+msgstr "Размер&nbsp;миниатюры"
+
+#: admin-form-functions.php:208
+#: wpsc-admin/display-groups.page.php:872
+#: wpsc-admin/display-sales-logs.php:317
+#: wpsc-admin/display-sales-logs.php:318
+msgid "Checkout Settings"
+msgstr "Настройки заказа"
+
+#: admin-form-functions.php:217
+#: wpsc-admin/display-groups.page.php:878
+msgid "This category requires additional checkout form fields"
+msgstr "Для этой категории требуются дополнительные поля в форме заказа"
+
+#: admin-form-functions.php:222
+msgid "None"
+msgstr "Нет"
+
+#: admin-form-functions.php:247
+#: wpsc-admin/display-groups.page.php:906
+msgid "Products in this category use the billing address to calculate shipping"
+msgstr "Для товаров из этой категории используется адрес биллинга при расчёте стоимости доставки"
+
+#: admin-form-functions.php:250
+#: display-coupons.php:502
+#: display-coupons.php:526
+#: merchants/chronopay.php:427
+#: merchants/paypal_multiple.php:478
+#: merchants/paypal_multiple.php:486
+#: merchants/paypal_multiple.php:502
+#: wpsc-admin/display-groups.page.php:908
+#: wpsc-admin/includes/display-items-functions.php:823
+#: wpsc-admin/includes/settings-pages/admin.php:38
+#: wpsc-admin/includes/settings-pages/admin.php:64
+#: wpsc-admin/includes/settings-pages/checkout.php:71
+#: wpsc-admin/includes/settings-pages/checkout.php:95
+#: wpsc-admin/includes/settings-pages/checkout.php:118
+#: wpsc-admin/includes/settings-pages/checkout.php:143
+#: wpsc-admin/includes/settings-pages/general.php:72
+#: wpsc-admin/includes/settings-pages/general.php:197
+#: wpsc-admin/includes/settings-pages/presentation.php:108
+#: wpsc-admin/includes/settings-pages/presentation.php:139
+#: wpsc-admin/includes/settings-pages/presentation.php:163
+#: wpsc-admin/includes/settings-pages/presentation.php:187
+#: wpsc-admin/includes/settings-pages/presentation.php:210
+#: wpsc-admin/includes/settings-pages/presentation.php:232
+#: wpsc-admin/includes/settings-pages/presentation.php:483
+#: wpsc-admin/includes/settings-pages/presentation.php:534
+#: wpsc-admin/includes/settings-pages/presentation.php:575
+#: wpsc-admin/includes/settings-pages/presentation.php:611
+#: wpsc-admin/includes/settings-pages/presentation.php:716
+#: wpsc-admin/includes/settings-pages/presentation.php:740
+#: wpsc-admin/includes/settings-pages/presentation.php:771
+#: wpsc-admin/includes/settings-pages/presentation.php:796
+#: wpsc-admin/includes/settings-pages/presentation.php:823
+#: wpsc-admin/includes/settings-pages/presentation.php:849
+#: wpsc-admin/includes/settings-pages/presentation.php:909
+#: wpsc-admin/includes/settings-pages/presentation.php:935
+#: wpsc-admin/includes/settings-pages/presentation.php:979
+#: wpsc-admin/includes/settings-pages/presentation.php:1026
+#: wpsc-admin/includes/settings-pages/shipping.php:87
+#: wpsc-admin/includes/settings-pages/shipping.php:122
+#: wpsc-admin/includes/settings-pages/shipping.php:152
+msgid "Yes"
+msgstr "Да"
+
+#: admin-form-functions.php:251
+#: display-coupons.php:503
+#: display-coupons.php:527
+#: merchants/chronopay.php:428
+#: merchants/paypal_multiple.php:479
+#: merchants/paypal_multiple.php:487
+#: merchants/paypal_multiple.php:503
+#: wpsc-admin/display-groups.page.php:909
+#: wpsc-admin/includes/display-items-functions.php:825
+#: wpsc-admin/includes/settings-pages/admin.php:39
+#: wpsc-admin/includes/settings-pages/admin.php:65
+#: wpsc-admin/includes/settings-pages/checkout.php:72
+#: wpsc-admin/includes/settings-pages/checkout.php:97
+#: wpsc-admin/includes/settings-pages/checkout.php:120
+#: wpsc-admin/includes/settings-pages/checkout.php:145
+#: wpsc-admin/includes/settings-pages/general.php:74
+#: wpsc-admin/includes/settings-pages/general.php:200
+#: wpsc-admin/includes/settings-pages/presentation.php:109
+#: wpsc-admin/includes/settings-pages/presentation.php:140
+#: wpsc-admin/includes/settings-pages/presentation.php:164
+#: wpsc-admin/includes/settings-pages/presentation.php:188
+#: wpsc-admin/includes/settings-pages/presentation.php:212
+#: wpsc-admin/includes/settings-pages/presentation.php:234
+#: wpsc-admin/includes/settings-pages/presentation.php:484
+#: wpsc-admin/includes/settings-pages/presentation.php:535
+#: wpsc-admin/includes/settings-pages/presentation.php:576
+#: wpsc-admin/includes/settings-pages/presentation.php:612
+#: wpsc-admin/includes/settings-pages/presentation.php:717
+#: wpsc-admin/includes/settings-pages/presentation.php:741
+#: wpsc-admin/includes/settings-pages/presentation.php:772
+#: wpsc-admin/includes/settings-pages/presentation.php:797
+#: wpsc-admin/includes/settings-pages/presentation.php:824
+#: wpsc-admin/includes/settings-pages/presentation.php:850
+#: wpsc-admin/includes/settings-pages/presentation.php:910
+#: wpsc-admin/includes/settings-pages/presentation.php:936
+#: wpsc-admin/includes/settings-pages/presentation.php:980
+#: wpsc-admin/includes/settings-pages/presentation.php:1027
+#: wpsc-admin/includes/settings-pages/shipping.php:88
+#: wpsc-admin/includes/settings-pages/shipping.php:123
+#: wpsc-admin/includes/settings-pages/shipping.php:153
+msgid "No"
+msgstr "Нет"
+
+#: admin-form-functions.php:261
+msgid "Update Category"
+msgstr "Обновить категорию"
+
+#: admin-form-functions.php:262
+#: admin-form-functions.php:300
+#: admin-form-functions.php:319
+#: shipping/tablerate.php:44
+#: shipping/weightrate.php:35
+#: wpsc-admin/admin.php:347
+#: wpsc-admin/ajax-and-init.php:1902
+#: wpsc-admin/display-groups.page.php:669
+#: wpsc-admin/display-items.page.php:277
+#: wpsc-admin/display-items.page.php:401
+#: wpsc-admin/display-sales-logs.php:425
+#: wpsc-admin/display-sales-logs.php:550
+#: wpsc-admin/display-variations.page.php:178
+#: wpsc-admin/display-variations.page.php:191
+#: wpsc-admin/display-variations.page.php:213
+#: wpsc-admin/includes/display-items-functions.php:351
+#: wpsc-admin/includes/display-items-functions.php:797
+#: wpsc-admin/includes/settings-pages/checkout.php:248
+msgid "Delete"
+msgstr "Удалить"
+
+#: admin-form-functions.php:288
+#: wpsc-admin/display-variations.page.php:164
+msgid "Variation Values"
+msgstr "Значения вариации"
+
+#: admin-form-functions.php:307
+#: wpsc-admin/admin.php:236
+#: wpsc-admin/display-variations.page.php:218
+#: wpsc-admin/includes/settings-pages/checkout.php:175
+msgid "Add"
+msgstr "Добавить"
+
+#: admin-form-functions.php:318
+#: display-coupons.php:389
+#: display-coupons.php:450
+#: wpsc-admin/display-groups.page.php:106
+#: wpsc-admin/display-groups.page.php:706
+#: wpsc-admin/display-groups.page.php:719
+#: wpsc-admin/display-variations.page.php:14
+#: wpsc-admin/display-variations.page.php:111
+#: wpsc-includes/variations.class.php:343
+#: wpsc-includes/wpsc_query.php:226
+msgid "Edit"
+msgstr "Изменить"
+
+#: admin-form-functions.php:339
+#: display-coupons.php:174
+#: display-coupons.php:365
+#: wpsc-admin/display-sales-logs.php:247
+msgid "Coupon Code"
+msgstr "Код купона"
+
+#: admin-form-functions.php:340
+#: display-coupons.php:177
+#: display-coupons.php:369
+#: themes/default/shopping_cart_page.php:190
+#: themes/iShop/shopping_cart_page.php:163
+#: themes/marketplace/shopping_cart_page.php:161
+#: transaction_result_functions.php:207
+#: transaction_result_functions.php:215
+#: wpsc-admin/ajax-and-init.php:1146
+#: wpsc-admin/ajax-and-init.php:1152
+#: wpsc-admin/display-sales-logs.php:250
+msgid "Discount"
+msgstr "Купон на скидку"
+
+#: admin-form-functions.php:341
+#: display-coupons.php:180
+#: display-coupons.php:373
+msgid "Start"
+msgstr "Начало"
+
+#: admin-form-functions.php:342
+#: display-coupons.php:183
+#: display-coupons.php:377
+msgid "Expiry"
+msgstr "Истекает"
+
+#: admin-form-functions.php:343
+#: display-coupons.php:186
+msgid "Use Once"
+msgstr "Одноразовый"
+
+#: admin-form-functions.php:344
+#: display-coupons.php:189
+#: display-coupons.php:381
+msgid "Active"
+msgstr "Активен"
+
+#: admin-form-functions.php:345
+#: display-coupons.php:193
+#: display-coupons.php:287
+#: display-coupons.php:385
+msgid "Apply On All Products"
+msgstr "Действует на все товары"
+
+#: admin-form-functions.php:554
+msgid "Update Coupon"
+msgstr "Обновить купон"
+
+#: admin-form-functions.php:555
+msgid "Delete Coupon"
+msgstr "Удалить купон"
+
+#: admin-form-functions.php:566
+#: wpsc-admin/admin.php:137
+msgid "Settings"
+msgstr "Параметры"
+
+#: admin-form-functions.php:570
+#: wpsc-admin/display-sales-logs.php:316
+msgid "Shop Settings"
+msgstr "Настройки магазина"
+
+#: admin-form-functions.php:571
+msgid "Money and Payment"
+msgstr "Деньги и платежи"
+
+#: admin-form-functions.php:572
+msgid "Checkout Page Settings"
+msgstr "Настройки страницы заказа"
+
+#: admin-form-functions.php:590
+#: admin-form-functions.php:591
+msgid "product"
+msgstr "Товар"
+
+#: admin-form-functions.php:590
+#: admin-form-functions.php:591
+msgid "products"
+msgstr "Товаров"
+
+#: admin-form-functions.php:595
+#: admin-form-functions.php:596
+msgid "group"
+msgstr "Группа"
+
+#: admin-form-functions.php:595
+#: admin-form-functions.php:596
+msgid "groups"
+msgstr "Групп"
+
+#: admin-form-functions.php:600
+#: admin-form-functions.php:601
+msgid "sale"
+msgstr "Продажа"
+
+#: admin-form-functions.php:600
+#: admin-form-functions.php:601
+msgid "sales"
+msgstr "Продаж"
+
+#: admin-form-functions.php:607
+msgid "variation"
+msgstr "Вариация"
+
+#: admin-form-functions.php:607
+msgid "variations"
+msgstr "Вариаций"
+
+#: admin-form-functions.php:611
+#: admin-form-functions.php:612
+#: admin-form-functions.php:615
+msgid "transaction"
+msgstr "транзакция"
+
+#: admin-form-functions.php:611
+#: admin-form-functions.php:612
+#: admin-form-functions.php:615
+msgid "transactions"
+msgstr "транзакций"
+
+#: admin-form-functions.php:624
+msgid "Current Month"
+msgstr "Текущий месяц"
+
+#: admin-form-functions.php:629
+msgid "At a Glance"
+msgstr "На виду"
+
+#: admin-form-functions.php:659
+msgid "Pending"
+msgstr "Ожидающих"
+
+#: admin-form-functions.php:674
+msgid "Closed"
+msgstr "Закрытых"
+
+#: admin-form-functions.php:682
+#: admin-form-functions.php:690
+#: wpsc-admin/includes/display-items-functions.php:350
+msgid "Add New Product"
+msgstr "Добавить новый товар"
+
+#: admin-form-functions.php:682
+msgid "Here you can add products, groups or variations"
+msgstr "Здесь можно добавить товары, группы и вариации"
+
+#: admin-form-functions.php:691
+msgid "Right Now"
+msgstr "Прямо сейчас"
+
+#: admin-form-functions.php:696
+msgid "You have <a href=\"admin.php?page=wpsc-edit-products\">:productcount:</a>, contained within <a href=\"admin.php?page=wpsc-edit-groups\">:groupcount:</a>. This month you made :salecount: and generated a total of :monthtotal: and your total sales ever is :overaltotal:. You have :pendingcount: awaiting approval."
+msgstr "На сайте <a href=\"admin.php?page=wpsc-edit-products\">:productcount:</a>, их содержат <a href='admin.php?page=wpsc-edit-groups'>:groupcount:</a>. В этом месяце вы совершили :salecount: на общую сумму :monthtotal:, а за всё время продано товаров на :overaltotal:. У вас :pendingcount:, ожидающих подтверждения."
+
+#: admin-form-functions.php:698
+msgid "You are using the :theme: style. This is WP e-Commerce :versionnumber:."
+msgstr "Вы используете тему :theme:. Это WP e-Commerce :versionnumber:."
+
+#: admin-form-functions.php:729
+msgid "Packing Slip"
+msgstr "Упаковочный купон"
+
+#: admin-form-functions.php:730
+msgid "Order"
+msgstr "№ п/п"
+
+#: admin-form-functions.php:865
+#: themes/default/list_view.php:137
+#: themes/default/products_page.php:197
+#: themes/default/shopping_cart_page.php:15
+#: themes/default/single_product.php:131
+#: themes/iShop/list_view.php:138
+#: themes/iShop/products_page.php:196
+#: themes/iShop/shopping_cart_page.php:14
+#: themes/iShop/single_product.php:134
+#: themes/marketplace/list_view.php:139
+#: themes/marketplace/products_page.php:199
+#: themes/marketplace/shopping_cart_page.php:14
+#: themes/marketplace/single_product.php:136
+#: user-log.php:204
+#: wpsc-includes/display.functions.php:47
+msgid "Quantity"
+msgstr "Количество"
+
+#: admin-form-functions.php:870
+#: js/tinymce3/window.php:113
+#: themes/default/cart_widget.php:25
+#: themes/default/products_page.php:214
+#: themes/default/products_page.php:216
+#: themes/default/shopping_cart_page.php:19
+#: themes/default/single_product.php:148
+#: themes/default/single_product.php:150
+#: themes/iShop/cart_widget.php:25
+#: themes/iShop/products_page.php:212
+#: themes/iShop/products_page.php:214
+#: themes/iShop/shopping_cart_page.php:18
+#: themes/iShop/single_product.php:151
+#: themes/iShop/single_product.php:153
+#: themes/marketplace/cart_widget.php:25
+#: themes/marketplace/products_page.php:216
+#: themes/marketplace/products_page.php:218
+#: themes/marketplace/shopping_cart_page.php:18
+#: themes/marketplace/single_product.php:153
+#: themes/marketplace/single_product.php:155
+#: user-log.php:60
+#: user-log.php:208
+#: wpsc-admin/includes/display-items-functions.php:189
+#: wpsc-admin/includes/display-items-functions.php:242
+#: wpsc-admin/includes/settings-pages/presentation.php:458
+#: wpsc-includes/variations.class.php:218
+msgid "Price"
+msgstr "Цена"
+
+#: admin-form-functions.php:872
+#: themes/default/cart_widget.php:40
+#: themes/default/shopping_cart_page.php:17
+#: themes/iShop/cart_widget.php:40
+#: themes/iShop/shopping_cart_page.php:16
+#: themes/marketplace/cart_widget.php:40
+#: themes/marketplace/shopping_cart_page.php:16
+#: transaction_result_functions.php:176
+#: transaction_result_functions.php:178
+#: wpsc-admin/ajax-and-init.php:1125
+#: wpsc-admin/ajax-and-init.php:1127
+#: wpsc-admin/display-options-settings.page.php:102
+#: wpsc-admin/display-sales-logs.php:256
+msgid "Shipping"
+msgstr "Доставка"
+
+#: admin-form-functions.php:980
+msgid "This users cart was empty"
+msgstr "Корзина пользователя была пустой"
+
+#: display-coupons.php:29
+msgid "Thanks, the coupon has been added."
+msgstr "Спасибо, купон добавлен."
+
+#: display-coupons.php:155
+msgid "Coupons"
+msgstr "Купоны"
+
+#: display-coupons.php:160
+msgid "Create Coupon"
+msgstr "Создать купон"
+
+#: display-coupons.php:351
+msgid "Add New Condition"
+msgstr "Добавить новое условие"
+
+#: display-coupons.php:466
+msgid "<strong>Note:</strong> Due to a current limitation of PayPal, if your user makes a purchase and uses a coupon, we can not send a list of items through to paypal for processing. Rather, we must send the total amount of the purchase, so that within PayPal the user who purchases a product will see your shop name and the total amount of their purchase."
+msgstr "<strong>Внимание:</strong> В соответствии с текущими ограничениями в PayPal, если клиент делает покупку и использует купон на скидку, мы не можем послать список купленных товаров для обработки на серверы PayPal.<br>Однако, мы должны послать общую сумму заказа, а посему покупая через PayPal пользователь получит счёт с одним товаром - общей суммой заказа."
+
+#: display-coupons.php:478
+msgid "Marketing Settings"
+msgstr "Настройки маркетинга"
+
+#: display-coupons.php:485
+msgid "Display Cross Sales"
+msgstr "Отображать перекрёстные продажи"
+
+#: display-coupons.php:509
+msgid "Show Share This (Social Bookmarks)"
+msgstr "Показывать социальные закладки"
+
+#: display-coupons.php:532
+msgid "Display How Customer Found Us Survey"
+msgstr "Отображать опрос &laquo;Как клиент нас нашёл&raquo;"
+
+#: display-coupons.php:549
+#: wpsc-admin/display-groups.page.php:642
+#: wpsc-admin/display-groups.page.php:667
+msgid "Submit"
+msgstr "Отправить"
+
+#: display-coupons.php:555
+msgid "RSS Address"
+msgstr "RSS-лента"
+
+#: display-coupons.php:559
+msgid "<strong>Note:</strong> Not only can people use this RSS to keep update with your product list but you can also use this link to promote your products in your facebook profile. <br />Just add the <a href=\"http://apps.facebook.com/getshopped\">getshopped! facebook application</a> to your facebook profile and follow the instructions."
+msgstr "<strong>Внимание:</strong> RSS-ленту могут использовать не только клиенты вашего магазина для отслеживания списка товаров, но и вы сами для рекламы товаров в вашем профиле на Facebook. <br>Просто добавьте <a href=\"http://apps.facebook.com/getshopped\">приложение GetShopped! для Facebook</a> в ваш профиль и следуйте указаниям."
+
+#: display-coupons.php:573
+msgid "Google Merchant Centre / Google Product Search"
+msgstr "Центр Google Merchant / Поиск товаров Google"
+
+#: display-ecommerce-subs.php:9
+msgid "User ID"
+msgstr "ID пользователя"
+
+#: display-ecommerce-subs.php:9
+#: edit-profile.php:39
+#: user-log.php:362
+#: wpsc-admin/admin.php:349
+#: wpsc-includes/install_and_update.functions.php:656
+msgid "Email"
+msgstr "Email"
+
+#: display-ecommerce-subs.php:9
+msgid "Registered Date"
+msgstr "Дата регистрации"
+
+#: display-ecommerce-subs.php:9
+msgid "Suspend"
+msgstr "Заблокировать"
+
+#: display-ecommerce-subs.php:9
+msgid "Activate"
+msgstr "Активировать"
+
+#: edit-profile.php:31
+#: wpsc-includes/install_and_update.functions.php:650
+#: wpsc-includes/install_and_update.functions.php:658
+msgid "First Name"
+msgstr "Имя"
+
+#: edit-profile.php:32
+msgid "Please enter a valid name"
+msgstr "Пожалуйста, введите корректное имя"
+
+#: edit-profile.php:35
+#: wpsc-includes/install_and_update.functions.php:651
+#: wpsc-includes/install_and_update.functions.php:659
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: edit-profile.php:36
+msgid "Please enter a valid surname"
+msgstr "Пожалуйста, введите корректную фамилию"
+
+#: edit-profile.php:40
+msgid "Please enter a valid email address"
+msgstr "Пожалуйста, введите корректный адрес e-mail"
+
+#: edit-profile.php:43
+msgid "Address 1"
+msgstr "Адрес 1"
+
+#: edit-profile.php:44
+msgid "Address 2"
+msgstr "Адрес 2"
+
+#: edit-profile.php:45
+msgid "Please enter a valid address"
+msgstr "Пожалуйста, введите корректный адрес"
+
+#: edit-profile.php:48
+#: wpsc-includes/install_and_update.functions.php:653
+#: wpsc-includes/install_and_update.functions.php:661
+msgid "City"
+msgstr "Город"
+
+#: edit-profile.php:49
+msgid "Please enter your town or city."
+msgstr "Заполните ваш населённый пункт."
+
+#: edit-profile.php:52
+#: user-log.php:361
+#: wpsc-includes/install_and_update.functions.php:669
+msgid "Phone"
+msgstr "Телефон"
+
+#: edit-profile.php:53
+msgid "Please enter a valid phone number"
+msgstr "Пожалуйста, введите корректный номер телефона"
+
+#: edit-profile.php:56
+#: wpsc-admin/admin.php:350
+#: wpsc-includes/install_and_update.functions.php:654
+#: wpsc-includes/install_and_update.functions.php:663
+msgid "Country"
+msgstr "Страна"
+
+#: edit-profile.php:57
+msgid "Please select your country from the list."
+msgstr "Выберите страну из списка."
+
+#: edit-profile.php:61
+#: wpsc-includes/checkout.class.php:536
+#: wpsc-includes/checkout.class.php:550
+#: wpsc-includes/checkout.class.php:561
+#: wpsc-includes/checkout.class.php:569
+#: wpsc-includes/checkout.class.php:580
+#: wpsc-includes/checkout.class.php:679
+msgid "Please enter a valid"
+msgstr "Пожалуйста введите корректно"
+
+#: edit-profile.php:84
+msgid "Thanks, your changes have been saved."
+msgstr "Спасибо, изменения сохранены."
+
+#: edit-profile.php:188
+msgid "Save Profile"
+msgstr "Сохранить профиль"
+
+#: editor.php:49
+msgid "placeholder for:"
+msgstr "заполнитель для:"
+
+#: editor.php:144
+msgid "Your forms:"
+msgstr "Ваши формы"
+
+#: editor.php:146
+#: insertcate.php:87
+#: js/tinymce3/window.php:144
+msgid "Insert"
+msgstr "Вставить"
+
+#: editor.php:147
+#: insertcate.php:90
+#: js/tinymce3/window.php:140
+msgid "Cancel"
+msgstr "Отмена"
+
+#: google_shipping_country.php:7
+msgid "Google Shipping Country"
+msgstr "Страна доставки Google"
+
+#: google_shipping_country.php:43
+#: tax_and_shipping.php:86
+#: wpsc-admin/includes/settings-pages/checkout.php:268
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: homepage_products_functions.php:85
+#: widgets/donations_widget.php:6
+#: widgets/donations_widget.php:77
+#: widgets/donations_widget.php:78
+msgid "Product Donations"
+msgstr "Пожертвования"
+
+#: homepage_products_functions.php:157
+#: themes/default/products_page.php:126
+#: themes/iShop/products_page.php:127
+#: themes/marketplace/products_page.php:129
+msgid "More Details"
+msgstr "Более детально"
+
+#: homepage_products_functions.php:189
+#: themes/default/grid_view.php:142
+#: themes/default/list_view.php:154
+#: themes/default/products_page.php:234
+#: themes/default/single_product.php:180
+#: themes/iShop/grid_view.php:144
+#: themes/iShop/list_view.php:157
+#: themes/iShop/products_page.php:232
+#: themes/iShop/single_product.php:181
+#: themes/marketplace/grid_view.php:145
+#: themes/marketplace/list_view.php:156
+#: themes/marketplace/products_page.php:236
+#: themes/marketplace/single_product.php:183
+#: widgets/donations_widget.php:48
+#: widgets/specials_widget.php:69
+#: wpsc-admin/includes/settings-pages/presentation.php:85
+#: wpsc-includes/display.functions.php:326
+msgid "Add To Cart"
+msgstr "Добавить в корзину"
+
+#: homepage_products_functions.php:205
+#: wpsc-includes/wpsc_query.php:875
+msgid "Avg. Customer Rating"
+msgstr "Средний рейтинг"
+
+#: homepage_products_functions.php:212
+#: wpsc-includes/wpsc_query.php:882
+msgid "Your Rating"
+msgstr "Ваш рейтинг"
+
+#: homepage_products_functions.php:213
+#: homepage_products_functions.php:217
+#: wpsc-includes/wpsc_query.php:883
+msgid "Saved"
+msgstr "Сохранено"
+
+#: homepage_products_functions.php:216
+msgid "Rate This item"
+msgstr "Голосуйте за товар"
+
+#: insertcate.php:67
+msgid "Pick a Category"
+msgstr "Выберите категорию"
+
+#: insertcate.php:74
+msgid "Your Categories:"
+msgstr "Ваши категории:"
+
+#: js/tinymce3/window.php:36
+#: js/tinymce3/window.php:118
+msgid "Category"
+msgstr "Категория"
+
+#: js/tinymce3/window.php:37
+#: wpsc-admin/display-upgrades.page.php:47
+msgid "Product Slider"
+msgstr "Слайдер товара"
+
+#: js/tinymce3/window.php:38
+#: wpsc-admin/includes/display-items-functions.php:137
+#: wpsc-admin/includes/display-items-functions.php:139
+msgid "Add Product"
+msgstr "Добавить товар"
+
+#: js/tinymce3/window.php:48
+#: js/tinymce3/window.php:76
+msgid "Select Category"
+msgstr "Выберите категорию"
+
+#: js/tinymce3/window.php:51
+#: js/tinymce3/window.php:78
+#: js/tinymce3/window.php:122
+msgid "No Category"
+msgstr "Нет категории"
+
+#: js/tinymce3/window.php:65
+msgid "Number of items per Page"
+msgstr "Количество элементов на странице"
+
+#: js/tinymce3/window.php:91
+msgid "Number of visible items"
+msgstr "Количество видимых элементов"
+
+#: merchants/chronopay.php:440
+#: merchants/paypal_multiple.php:562
+#: wpsc-admin/includes/settings-pages/admin.php:227
+#: wpsc-admin/includes/settings-pages/gateway.php:92
+#: wpsc-admin/includes/settings-pages/gateway.php:172
+#: wpsc-admin/includes/settings-pages/general.php:207
+#: wpsc-admin/includes/settings-pages/presentation.php:1060
+#: wpsc-admin/includes/settings-pages/shipping.php:276
+#: wpsc-admin/includes/settings-pages/shipping.php:298
+msgid "Update &raquo;"
+msgstr "Обновить &raquo;"
+
+#: merchants/paypal-standard.merchant.php:137
+msgid "Your Subscription"
+msgstr "Ваша подписка"
+
+#: merchants/paypal_certified.php:621
+#: merchants/paypal_multiple.php:527
+msgid "Currency Converter"
+msgstr "Конвертер валют"
+
+#: merchants/paypal_certified.php:624
+msgid "If your website uses a currency not accepted by Paypal, select an accepted currency using the drop down menu bellow. Buyers on your site will still pay in your local currency however we will send the order through to Paypal using currency you choose below."
+msgstr "Если ваш сайт использует валюту, которая не принимается в PayPal, выберите принимаемую валюту из списка. Клиенты вашего магазина по-прежнему смогут платить в вашей местной валюте, однако в PayPal заказ будет отправлен с использованием валюты, выбранной из списка."
+
+#: merchants/paypal_multiple.php:530
+#, php-format
+msgid "Your website uses <strong>%s</strong>. This currency is not supported by PayPal, please  select a currency using the drop down menu below. Buyers on your site will still pay in your local currency however we will send the order through to Paypal using the currency you choose below."
+msgstr "Ваш сайт использует <strong>%s</strong>. Эта валюта на текущий момент не поддерживается в PayPal, поэтому выберите принимаемую валюту из списка. Клиенты вашего магазина по-прежнему смогут платить в вашей местной валюте, однако в PayPal заказ будет отправлен с использованием валюты, выбранной из списка."
+
+#: merchants/paypal_pro.php:276
+msgid "There is a problem with your PayPal account configuration, please contact PayPal for further information."
+msgstr "Обнаружена проблема с вашим аккаунтов в PayPal. Пожалуйста, обратитесь в службу поддержки PayPal за дополнительной информацией."
+
+#: merchants/paypal_pro.php:281
+msgid "Sorry your transaction did not go through to Paypal successfully, please try again."
+msgstr "Извините, ваша транзакция некорректно прошла в PayPal. Попробуйте ещё раз."
+
+#: merchants/paypal_pro.php:370
+msgid "API Username:"
+msgstr "Логин API:"
+
+#: merchants/paypal_pro.php:378
+msgid "API Password:"
+msgstr "Пароль API:"
+
+#: merchants/paypal_pro.php:386
+msgid "API Signature:"
+msgstr "Подпись API:"
+
+#: merchants/paypal_pro.php:394
+msgid "Test Mode Enabled:"
+msgstr "Включён тестовый режим:"
+
+#: merchants/testmode.php:30
+msgid "Enter the payment instructions that you wish to display to your customers when they make a purchase"
+msgstr "Введите описание способа оплаты, которое будет отображатся клиентам при оформлении заказа."
+
+#: merchants/testmode.php:32
+msgid "For example, this is where you the Shop Owner might enter your bank account details or address so that your customer can make their manual payment."
+msgstr "Например, здесь вы как владелец магазина можете ввести свой банковский счёт или адрес, чтобы клиент мог оплатить заказ вручную."
+
+#: share-this.php:435
+msgid "E-mail this, post to del.icio.us, etc."
+msgstr "Отправить по e-mail, сохранить в del.icio.us и т.п."
+
+#: share-this.php:488
+msgid "Close"
+msgstr "Закрыть"
+
+#: share-this.php:490
+#: share-this.php:842
+msgid "Social Web"
+msgstr "Социальные сайты"
+
+#: share-this.php:491
+#: share-this.php:867
+#: themes/default/shopping_cart_page.php:242
+#: themes/iShop/shopping_cart_page.php:213
+#: themes/marketplace/shopping_cart_page.php:211
+msgid "E-mail"
+msgstr "E-mail"
+
+#: share-this.php:508
+#: share-this.php:871
+msgid "E-mail It"
+msgstr "Отправить по e-mail"
+
+#: share-this.php:511
+#: share-this.php:874
+msgid "To Address:"
+msgstr "Кому:"
+
+#: share-this.php:515
+#: share-this.php:878
+msgid "Your Name:"
+msgstr "Ваше имя:"
+
+#: share-this.php:519
+#: share-this.php:882
+msgid "Your Address:"
+msgstr "Ваш адрес:"
+
+#: share-this.php:523
+#: share-this.php:886
+msgid "Send It"
+msgstr "Отправить"
+
+#: share-this.php:605
+msgid "Click your <strong>back button</strong> and make sure those e-mail addresses are valid then try again."
+msgstr "Нажмите кнопку <strong>&laquo;Назад&raquo;</strong>, проверьте адрес e-mail, затем попробуйте снова."
+
+#: share-this.php:615
+msgid "Check out this product on "
+msgstr "Посмотрите товар на сайте "
+
+#: share-this.php:620
+#: share-this.php:640
+msgid "Greetings--"
+msgstr "Добрый день,"
+
+#: share-this.php:621
+#: share-this.php:641
+msgid " thinks this will be of interest to you:"
+msgstr " считает, что вам это может пригодиться:"
+
+#: share-this.php:634
+#: share-this.php:644
+msgid "Enjoy."
+msgstr "Успехов!"
+
+#: share-this.php:702
+msgid "Share This : "
+msgstr "Поделиться с друзьями: "
+
+#: share-this.php:838
+#, php-format
+msgid "<strong>What is this?</strong> From this page you can use the <em>Social Web</em> links to save %s to a social bookmarking site, or the <em>E-mail</em> form to send a link via e-mail."
+msgstr "<strong>Что здесь?</strong> На этой странице можно воспользоваться меню <em>&laquo;Социальные сайты&raquo;</em>, чтобы добавить статью %s в закладки, или формой <em>E-mail</em>, чтобы отправить ссылку по почте."
+
+#: share-this.php:909
+msgid "Posted in: "
+msgstr "Рубрика: "
+
+#: share-this.php:912
+msgid "Return to:"
+msgstr "Вернуться:"
+
+#: shipping/australiapost.php:47
+msgid "Australia Post"
+msgstr "Почта Австралии"
+
+#: shipping/australiapost.php:54
+msgid "Standard Parcel Post"
+msgstr "Стандартная почтовая служба"
+
+#: shipping/australiapost.php:55
+msgid "Express Post"
+msgstr "Экспресс-почта"
+
+#: shipping/australiapost.php:56
+msgid "Air Mail"
+msgstr "Воздушная почта"
+
+#: shipping/australiapost.php:57
+msgid "Sea Mail"
+msgstr "Морская почта"
+
+#: shipping/australiapost.php:58
+msgid "Economy Air Parcel Post"
+msgstr "Экономичная воздушная почта"
+
+#: shipping/australiapost.php:59
+msgid "Express Post International"
+msgstr "Международная экспресс-почта"
+
+#: shipping/australiapost.php:95
+msgid "This shipping module only works if the base country in settings, region is set to Australia."
+msgstr "Этот модуль доставки работает, только если основным регионом в настройках указана Австралия."
+
+#: shipping/australiapost.php:100
+msgid "You must set your base postcode above before this shipping module will work."
+msgstr "Чтобы этот модуль доставки работал, нужно указать основной почтовый индекс."
+
+#: shipping/australiapost.php:103
+msgid "Select the Australia Post services that you want to offer during checkout:"
+msgstr "Выберите службы австралийской почты, которые вы хотите предложить во время заказа:"
+
+#: shipping/australiapost.php:110
+msgid "Notes:"
+msgstr "Заметки:"
+
+#: shipping/australiapost.php:111
+msgid "1. The actual services quoted to the customer during checkout will depend on the destination country. Not all methods are available to all destinations."
+msgstr "1. Стоимость услуг, доступных клиенту при заказе, зависит от страны назначения. Не все способы действуют во всех странах."
+
+#: shipping/australiapost.php:112
+msgid "2. Each product must have a valid weight configured. When editing a product, use the weight field.)."
+msgstr "2. Для каждого товара должен быть правильно указан вес. При редактировании товара заполните поле &laquo;Вес&raquo;."
+
+#: shipping/australiapost.php:113
+msgid "3. To ensure accurate quotes, each product must valid dimensions configured. When editing a product, use the height, width and length fields."
+msgstr "3. Чтобы обеспечить точный подсчёт стоимости услуг, для каждого товара должны быть правильно указаны размеры. При редактировании товара заполните поля &laquo;Высота&raquo;, &laquo;Ширина&raquo; и &laquo;Длина&raquo;."
+
+#: shipping/australiapost.php:114
+msgid "4. The combined dimensions are estimated by calculating the volume of each item, and then calculating the cubed root of the overall order volume which becomes width, length and height."
+msgstr "4. Общие размеры рассчитываются путём вычисления объёма каждого элемента и кубического корня из объёма всего заказа. Получаются ширина, длина и высота."
+
+#: shipping/australiapost.php:115
+msgid "5. If no product volumes are defined, then default package dimensions of 100mm x 100mm x 100mm will be used."
+msgstr "5. Если объём товара не задан, используются размеры по умолчанию: 100 мм x 100 мм x 100 мм."
+
+#: shipping/australiapost.php:257
+#, php-format
+msgid "%1$s (estimated delivery time: %2$d business day)"
+msgid_plural "%1$s (estimated delivery time: %2$d business days)"
+msgstr[0] "%1$s (планируемое время доставки: %2$d рабочий день)"
+msgstr[1] "%1$s (планируемое время доставки: %2$d рабочих дня)"
+msgstr[2] "%1$s (планируемое время доставки: %2$d рабочих дней)"
+
+#: shipping/flatrate.php:31
+msgid "If you do not wish to ship to a particular region, leave the field blank. To offer free shipping to a region, enter 0."
+msgstr "Если вы не хотите осуществлять доставку в определённый регион, оставьте поле пустым. Чтобы предложить бесплатную доставку, введите 0."
+
+#: shipping/tablerate.php:30
+#: themes/default/shopping_cart_page.php:202
+#: themes/iShop/shopping_cart_page.php:175
+#: themes/marketplace/shopping_cart_page.php:173
+msgid "Total Price"
+msgstr "Общая стоимость"
+
+#: shipping/tablerate.php:30
+#: shipping/weightrate.php:30
+msgid "Shipping Price"
+msgstr "Цена доставки"
+
+#: shipping/tablerate.php:37
+#: wpsc-admin/admin.php:366
+msgid "If price is "
+msgstr "Если цена составляет "
+
+#: shipping/tablerate.php:39
+#: shipping/weightrate.php:35
+#: wpsc-admin/admin.php:365
+msgid " and above"
+msgstr " и выше"
+
+#: shipping/ups.php:76
+msgid "UPS Letter"
+msgstr "Письмо UPS"
+
+#: shipping/ups.php:77
+msgid "Your Packaging"
+msgstr "Ваша упаковка"
+
+#: shipping/ups.php:78
+msgid "UPS Tube"
+msgstr "Трубка UPS"
+
+#: shipping/ups.php:79
+msgid "UPS Pak"
+msgstr "Упаковка UPS"
+
+#: shipping/ups.php:80
+msgid "UPS Express Box"
+msgstr "Экспресс-посылка UPS"
+
+#: shipping/ups.php:81
+msgid "UPS Express Box - Small"
+msgstr "Экспресс-посылка UPS &#8212; Маленькая"
+
+#: shipping/ups.php:82
+msgid "UPS Express Box - Medium"
+msgstr "Экспресс-посылка UPS &#8212; Средняя"
+
+#: shipping/ups.php:83
+msgid "UPS Express Box - Large"
+msgstr "Экспресс-посылка UPS &#8212; Большая"
+
+#: shipping/ups.php:86
+msgid "Destination Type"
+msgstr "Тип места доставки"
+
+#: shipping/ups.php:97
+msgid "Residential Address"
+msgstr "Домашний адрес"
+
+#: shipping/ups.php:98
+msgid "Commercial Address"
+msgstr "Адрес предприятия"
+
+#: shipping/ups.php:104
+msgid "Packaging"
+msgstr "Упаковка"
+
+#: shipping/ups.php:124
+msgid "Use Testing Environment"
+msgstr "Использовать тестовое окружение"
+
+#: shipping/ups.php:133
+msgid "UPS Preferred Services"
+msgstr "Предпочтительные службы UPS"
+
+#: shipping/ups.php:154
+msgid "All services used if no services selected"
+msgstr "Если ни один сервис не выбран, используются все сервисы"
+
+#: shipping/ups.php:158
+msgid "UPS Username"
+msgstr "Логин UPS"
+
+#: shipping/ups.php:164
+msgid "UPS Password"
+msgstr "Пароль UPS"
+
+#: shipping/ups.php:170
+msgid "UPS XML API Key"
+msgstr "API-ключ UPS XML"
+
+#: shipping/ups.php:174
+msgid "Don't have an API login/ID ?"
+msgstr "У вас ещё нет API-логина/ID?"
+
+#: shipping/ups.php:175
+msgid "Click Here"
+msgstr "Нажмите сюда"
+
+#: shipping/usps.php:37
+msgid "USPS ID"
+msgstr "USPS ID"
+
+#: shipping/usps.php:45
+msgid "USPS Password"
+msgstr "USPS Пароль"
+
+#: shipping/usps.php:53
+msgid "Use Test Server:"
+msgstr "Использовать тестовый сервер:"
+
+#: shipping/weightrate.php:30
+msgid "Total weight <br />(<abbr alt=\"You must enter the weight here in pounds, regardless of what you used on your products\" title=\"You must enter the weight here in pounds, regardless of what you used on your products\">in Pounds</abbr>)"
+msgstr "Общий вес <br />(<abbr alt=\"Здесь нужно указать вес в фунтах, независимо от единиц, используемых для товаров\" title=\"Здесь нужно указать вес в фунтах, независимо от единиц, используемых для товаров\">в фунтах</abbr>)"
+
+#: shipping/weightrate.php:35
+#: wpsc-admin/admin.php:367
+msgid "If weight is "
+msgstr "Если вес составляет "
+
+#: shopping_cart_functions.php:36
+#: shopping_cart_functions.php:44
+#: shopping_cart_functions.php:54
+#: widgets/shopping_cart_widget.php:27
+msgid "Shopping Cart"
+msgstr "Корзина покупок"
+
+#: tagging_functions.php:79
+#, php-format
+msgid "%d topics"
+msgstr "%d тем"
+
+#: tax_and_shipping.php:34
+msgid "GST/Tax Rate"
+msgstr "GST/Налог"
+
+#: themes/default/cart_widget.php:15
+#: themes/iShop/cart_widget.php:15
+#: themes/marketplace/cart_widget.php:15
+msgid "Number of items"
+msgstr "Количество товаров"
+
+#: themes/default/cart_widget.php:23
+#: themes/default/shopping_cart_page.php:14
+#: themes/iShop/cart_widget.php:23
+#: themes/iShop/shopping_cart_page.php:13
+#: themes/marketplace/cart_widget.php:23
+#: themes/marketplace/shopping_cart_page.php:13
+msgid "Product"
+msgstr "Товар"
+
+#: themes/default/cart_widget.php:24
+#: themes/iShop/cart_widget.php:24
+#: themes/marketplace/cart_widget.php:24
+msgid "Qty"
+msgstr "Шт."
+
+#: themes/default/cart_widget.php:59
+#: themes/iShop/cart_widget.php:60
+#: themes/marketplace/cart_widget.php:59
+msgid "Postage &amp; Tax "
+msgstr "Доставка и Налог "
+
+#: themes/default/cart_widget.php:63
+#: themes/iShop/cart_widget.php:64
+#: themes/marketplace/cart_widget.php:63
+#: transaction_result_functions.php:211
+#: transaction_result_functions.php:218
+#: user-log.php:220
+#: wpsc-admin/ajax-and-init.php:1149
+#: wpsc-admin/ajax-and-init.php:1155
+#: wpsc-admin/display-sales-logs.php:261
+msgid "Total"
+msgstr "Всего"
+
+#: themes/default/cart_widget.php:72
+#: themes/iShop/cart_widget.php:73
+#: themes/marketplace/cart_widget.php:72
+msgid "Empty your cart"
+msgstr "Очистить корзину"
+
+#: themes/default/cart_widget.php:76
+#: themes/iShop/cart_widget.php:77
+#: themes/marketplace/cart_widget.php:76
+#: wpsc-includes/display.functions.php:153
+msgid "Go to Checkout"
+msgstr "Перейти к проверке"
+
+#: themes/default/cart_widget.php:78
+#: themes/iShop/cart_widget.php:79
+#: themes/marketplace/cart_widget.php:78
+msgid "Your shopping cart is empty"
+msgstr "Ваша корзина пуста"
+
+#: themes/default/cart_widget.php:80
+#: themes/iShop/cart_widget.php:81
+#: themes/marketplace/cart_widget.php:80
+msgid "Visit the shop"
+msgstr "Посетите магазин"
+
+#: themes/default/functions.php:15
+#: themes/iShop/functions.php:15
+#: themes/marketplace/functions.php:15
+#: wpsc-admin/includes/settings-pages/presentation.php:989
+msgid "Page Number position"
+msgstr "Позиция количества страниц"
+
+#: themes/default/grid_view.php:144
+#: themes/default/list_view.php:162
+#: themes/default/products_page.php:242
+#: themes/default/single_product.php:189
+#: themes/iShop/grid_view.php:146
+#: themes/iShop/list_view.php:167
+#: themes/iShop/products_page.php:240
+#: themes/iShop/single_product.php:190
+#: themes/marketplace/grid_view.php:147
+#: themes/marketplace/list_view.php:163
+#: themes/marketplace/products_page.php:245
+#: themes/marketplace/single_product.php:192
+#: widgets/specials_widget.php:66
+msgid "This product has sold out."
+msgstr "Этот товар был продан."
+
+#: themes/default/grid_view.php:168
+#: themes/default/list_view.php:184
+#: themes/default/products_page.php:266
+#: themes/iShop/grid_view.php:170
+#: themes/iShop/list_view.php:189
+#: themes/iShop/products_page.php:265
+#: themes/marketplace/grid_view.php:171
+#: themes/marketplace/list_view.php:185
+#: themes/marketplace/products_page.php:270
+msgid "There are no products in this group."
+msgstr "В этой группе нет товаров."
+
+#: themes/default/list_view.php:152
+#: themes/default/products_page.php:232
+#: themes/default/single_product.php:178
+#: themes/iShop/list_view.php:155
+#: themes/iShop/products_page.php:230
+#: themes/iShop/single_product.php:179
+#: themes/marketplace/list_view.php:154
+#: themes/marketplace/products_page.php:234
+#: themes/marketplace/single_product.php:181
+#: wpsc-admin/includes/settings-pages/presentation.php:87
+#: wpsc-includes/display.functions.php:242
+msgid "Buy Now"
+msgstr "Купить сейчас"
+
+#: themes/default/list_view.php:158
+#: themes/default/products_page.php:238
+#: themes/default/single_product.php:185
+#: themes/iShop/list_view.php:163
+#: themes/iShop/products_page.php:236
+#: themes/iShop/single_product.php:186
+#: themes/marketplace/list_view.php:159
+#: themes/marketplace/products_page.php:241
+#: themes/marketplace/single_product.php:188
+msgid "Updating cart..."
+msgstr "Обновление корзины..."
+
+#: themes/default/products_page.php:207
+#: themes/default/single_product.php:141
+#: themes/iShop/products_page.php:205
+#: themes/iShop/single_product.php:144
+#: themes/marketplace/products_page.php:209
+#: themes/marketplace/single_product.php:146
+#: widgets/donations_widget.php:47
+msgid "Donation"
+msgstr "Пожертвование"
+
+#: themes/default/products_page.php:218
+#: themes/default/single_product.php:157
+#: themes/iShop/products_page.php:216
+#: themes/iShop/single_product.php:158
+#: themes/marketplace/products_page.php:220
+#: themes/marketplace/single_product.php:160
+#: user-log.php:216
+msgid "P&amp;P"
+msgstr "P&amp;P"
+
+#: themes/default/shopping_cart_page.php:10
+#: themes/iShop/shopping_cart_page.php:9
+#: themes/marketplace/shopping_cart_page.php:9
+msgid "Please review your order"
+msgstr "Пожалуйста, проверьте ваш заказ."
+
+#: themes/default/shopping_cart_page.php:37
+#: themes/default/shopping_cart_page.php:66
+#: themes/iShop/shopping_cart_page.php:35
+#: themes/iShop/shopping_cart_page.php:66
+#: themes/marketplace/shopping_cart_page.php:35
+#: themes/marketplace/shopping_cart_page.php:65
+msgid "Update"
+msgstr "Обновить"
+
+#: themes/default/shopping_cart_page.php:50
+#: themes/iShop/shopping_cart_page.php:49
+#: themes/marketplace/shopping_cart_page.php:48
+msgid "Remove"
+msgstr "Удалить"
+
+#: themes/default/shopping_cart_page.php:59
+#: themes/iShop/shopping_cart_page.php:59
+#: themes/marketplace/shopping_cart_page.php:58
+msgid "Coupon is not valid."
+msgstr "Купон недействителен."
+
+#: themes/default/shopping_cart_page.php:62
+#: themes/iShop/shopping_cart_page.php:62
+#: themes/marketplace/shopping_cart_page.php:61
+msgid "Enter your coupon number"
+msgstr "Введите номер купона"
+
+#: themes/default/shopping_cart_page.php:92
+#: themes/iShop/shopping_cart_page.php:91
+#: themes/marketplace/shopping_cart_page.php:90
+msgid "Calculate Shipping Price"
+msgstr "Посчитать стоимость доставки"
+
+#: themes/default/shopping_cart_page.php:96
+#: themes/iShop/shopping_cart_page.php:95
+#: themes/marketplace/shopping_cart_page.php:94
+msgid "Please choose a country below to calculate your shipping costs"
+msgstr "Пожалуйста, выберите страну для расчёта стоимости доставки"
+
+#: themes/default/shopping_cart_page.php:105
+msgid "Please provide a Zipcode and click Calculate in order to continue."
+msgstr "Пожалуйста, укажите индекс и нажмите &laquo;Посчитать&raquo; для продолжения."
+
+#: themes/default/shopping_cart_page.php:112
+#: themes/iShop/shopping_cart_page.php:139
+#: themes/marketplace/shopping_cart_page.php:138
+msgid "Sorry, online ordering is unavailable to this destination and/or weight. Please double check your destination details."
+msgstr "Извините, онлайн-заказ с такими параметрами доставки и веса недоступен. Пожалуйста, перепроверьте данные о доставке."
+
+#: themes/default/shopping_cart_page.php:130
+#: themes/iShop/shopping_cart_page.php:115
+#: themes/marketplace/shopping_cart_page.php:114
+#: wpsc-includes/ajax.functions.php:405
+msgid "- Choose a Shipping Rate"
+msgstr "- Выберите цену доставки"
+
+#: themes/default/shopping_cart_page.php:179
+#: transaction_result_functions.php:210
+#: transaction_result_functions.php:217
+#: user-log.php:317
+#: wpsc-admin/ajax-and-init.php:1148
+#: wpsc-admin/ajax-and-init.php:1154
+msgid "Total Shipping"
+msgstr "Всего за доставку"
+
+#: themes/default/shopping_cart_page.php:225
+#: themes/iShop/shopping_cart_page.php:196
+#: themes/marketplace/shopping_cart_page.php:194
+msgid "Not yet a member?"
+msgstr "Ещё не зарегистрированы?"
+
+#: themes/default/shopping_cart_page.php:226
+#: themes/iShop/shopping_cart_page.php:197
+#: themes/marketplace/shopping_cart_page.php:195
+msgid "In order to buy from us, you'll need an account. Joining is free and easy. All you need is a username, password and valid email address."
+msgstr "Чтобы делать покупки в нашем магазине, вам понадобится учётная запись. Регистрация бесплатна и проста. Нужен только логин, пароль и адрес e-mail."
+
+#: themes/default/shopping_cart_page.php:240
+#: themes/iShop/shopping_cart_page.php:211
+#: themes/marketplace/shopping_cart_page.php:209
+msgid "Username"
+msgstr "Логин"
+
+#: themes/default/shopping_cart_page.php:241
+#: themes/iShop/shopping_cart_page.php:212
+#: themes/marketplace/shopping_cart_page.php:210
+msgid "Password"
+msgstr "Пароль"
+
+#: themes/default/shopping_cart_page.php:246
+#: themes/iShop/shopping_cart_page.php:217
+#: themes/marketplace/shopping_cart_page.php:215
+msgid "Please enter your contact details:"
+msgstr "Пожалуйста, заполните контактную информацию:"
+
+#: themes/default/shopping_cart_page.php:248
+#: themes/iShop/shopping_cart_page.php:219
+#: themes/marketplace/shopping_cart_page.php:217
+msgid "Fields marked with an asterisk must be filled in."
+msgstr "Области, отмеченные звёздочкой, должны быть заполненны."
+
+#: themes/default/shopping_cart_page.php:323
+#: themes/iShop/shopping_cart_page.php:294
+#: themes/marketplace/shopping_cart_page.php:292
+msgid "Select a payment gateway"
+msgstr "Выберите платёжную систему"
+
+#: themes/default/shopping_cart_page.php:357
+#: themes/iShop/shopping_cart_page.php:328
+#: themes/marketplace/shopping_cart_page.php:326
+msgid "I agree to The "
+msgstr "Я принимаю "
+
+#: themes/default/shopping_cart_page.php:358
+#: themes/iShop/shopping_cart_page.php:329
+#: themes/marketplace/shopping_cart_page.php:327
+#: wpsc-admin/includes/settings-pages/admin.php:107
+msgid "Terms and Conditions"
+msgstr "Соглашения и условия"
+
+#: themes/default/shopping_cart_page.php:370
+#: themes/iShop/shopping_cart_page.php:341
+#: themes/marketplace/shopping_cart_page.php:339
+msgid "Make Purchase"
+msgstr "Сделать заказ"
+
+#: themes/default/shopping_cart_page.php:384
+#: themes/iShop/shopping_cart_page.php:355
+#: themes/marketplace/shopping_cart_page.php:353
+#: transaction_result_functions.php:375
+msgid "Oops, there is nothing in your cart."
+msgstr "Ваша корзина пуста."
+
+#: themes/default/shopping_cart_page.php:384
+#: themes/iShop/shopping_cart_page.php:355
+#: themes/marketplace/shopping_cart_page.php:353
+#: transaction_result_functions.php:375
+msgid "Please visit our shop"
+msgstr "Пожалуйста, посетите наш магазин"
+
+#: themes/default/single_product.php:96
+#: themes/iShop/single_product.php:99
+#: themes/marketplace/single_product.php:101
+msgid "Personalize your product"
+msgstr "Персонализировать ваш товар"
+
+#: themes/default/single_product.php:97
+#: themes/iShop/single_product.php:100
+#: themes/marketplace/single_product.php:102
+msgid "Complete this form to include a personalized message with your purchase."
+msgstr "Заполните эту форму для включения персонализированной информации в товар."
+
+#: themes/default/single_product.php:104
+#: themes/iShop/single_product.php:107
+#: themes/marketplace/single_product.php:109
+msgid "Upload a File"
+msgstr "Загрузить файл"
+
+#: themes/default/single_product.php:105
+#: themes/iShop/single_product.php:108
+#: themes/marketplace/single_product.php:110
+msgid "Select a file from your computer to include with this purchase.  "
+msgstr "Выберите файл на вашем компьютере для включения его в товар.  "
+
+#: transaction_result_functions.php:35
+msgid "We&#39;re Sorry, your order has not been accepted, the most likely reason is that you have insufficient funds."
+msgstr "Мы сожалеем, но ваш заказ не был принят. Самая вероятная причина &#8212; недостаток средств."
+
+#: transaction_result_functions.php:37
+msgid "New pending order"
+msgstr "Новый отложенный заказ"
+
+#: transaction_result_functions.php:37
+msgid "There is a new order awaiting processing:"
+msgstr "Новый заказ ожидает обработки:"
+
+#: transaction_result_functions.php:41
+#: transaction_result_functions.php:257
+#: wpsc-admin/ajax-and-init.php:1189
+msgid "Thank you, your purchase is pending, you will be sent an email once the order clears."
+msgstr "Спасибо. Ваш заказ в обработке. Когда обработка завершится, вам будет отправлено письмо."
+
+#: transaction_result_functions.php:220
+#: transaction_result_functions.php:221
+#: wpsc-admin/ajax-and-init.php:1157
+#: wpsc-admin/ajax-and-init.php:1158
+msgid "Your Transaction ID"
+msgstr "ID вашей транзакции"
+
+#: transaction_result_functions.php:222
+#: wpsc-admin/ajax-and-init.php:1159
+msgid "Transaction ID"
+msgstr "ID транзакции"
+
+#: transaction_result_functions.php:258
+#: wpsc-admin/ajax-and-init.php:1190
+msgid "Order Pending: Payment Required"
+msgstr "Ожидание заказа: Требуется оплата"
+
+#: transaction_result_functions.php:260
+#: wpsc-admin/ajax-and-init.php:1193
+#: wpsc-admin/includes/settings-pages/admin.php:128
+msgid "Purchase Receipt"
+msgstr "Чек"
+
+#: transaction_result_functions.php:265
+#: user-log.php:336
+msgid "Customer Details"
+msgstr "Детали клиента"
+
+#: transaction_result_functions.php:351
+msgid "Purchase Report"
+msgstr "Отчёт по оплате"
+
+#: transaction_result_functions.php:367
+msgid "The Transaction was successful"
+msgstr "Транзакция осуществлена успешно"
+
+#: transaction_results.php:40
+#: transaction_results.php:49
+msgid "Sorry your transaction was not accepted.<br /><a href="
+msgstr "Извините, ваша транзакция не была принята.<br /><a href="
+
+#: updates/updating_tasks.php:53
+msgid ""
+"Your purchase from %shop_name% has just been dispatched. It should arrive soon. To keep track of your products status a tracking id has been attached. \\r\\n"
+" your tracking id is: %trackid%"
+msgstr ""
+"Ваш заказ в магазине «%shop_name%» обработан. Он должен скоро прийти. Чтобы вы могли отслеживать статус заказа, вам присвоен идентификатор. \\r\\n"
+" ваш id для отслеживания заказа: %trackid%"
+
+#: updates/updating_tasks.php:56
+msgid "Your Order from %shop_name% has been dispatched"
+msgstr "Ваш заказ в магазине «%shop_name%» обработан"
+
+#: updates/updating_tasks.php:653
+#: updates/updating_tasks.php:660
+#: wpsc-includes/install_and_update.functions.php:163
+msgid "Thank you for purchasing with %shop_name%, any items to be shipped will be processed as soon as possible, any items that can be downloaded can be downloaded using the links on this page.All prices include tax and postage and packaging where applicable.You ordered these items:%product_list%%total_shipping%%total_price%"
+msgstr "Спасибо за совершение покупки в магазине «%shop_name%». Товары, требующие доставки, будут обработаны как можно скорее. Цифровые товары можно скачать по ссылкам на этой странице. Все цены включают налог, пересылку и упаковку (где это необходимо). Вы заказали следующие товары: %product_list%%total_shipping%%total_price%"
+
+#: updates/updating_tasks.php:654
+#: updates/updating_tasks.php:667
+#: wpsc-includes/install_and_update.functions.php:164
+msgid "%product_list%%total_shipping%%total_price%"
+msgstr "%product_list%%total_shipping%%total_price%"
+
+#: user-downloads.php:41
+msgid "File Names"
+msgstr "Имена файлов"
+
+#: user-downloads.php:42
+msgid "Downloads Left"
+msgstr "Осталось закачек"
+
+#: user-downloads.php:43
+#: user-log.php:56
+msgid "Date"
+msgstr "Дата"
+
+#: user-downloads.php:69
+msgid "You have not purchased any downloadable products yet."
+msgstr "Вы не приобрели никких скачиваемых товаров пока."
+
+#: user-log.php:52
+msgid "Status"
+msgstr "Статус"
+
+#: user-log.php:65
+#: user-log.php:383
+msgid "Payment Method"
+msgstr "Способ оплаты"
+
+#: user-log.php:94
+msgid "Details"
+msgstr "Детально"
+
+#: user-log.php:147
+msgid "Order Status"
+msgstr "Статус заказа"
+
+#: user-log.php:169
+#: wpsc-admin/display-sales-logs.php:188
+#: wpsc-admin/includes/display-items-functions.php:651
+msgid "Shipping Details"
+msgstr "Параметры доставки"
+
+#: user-log.php:188
+msgid "Order Details"
+msgstr "Детали заказа"
+
+#: user-log.php:212
+msgid "GST"
+msgstr "GST"
+
+#: user-log.php:318
+msgid "Final Total"
+msgstr "Итого"
+
+#: user-log.php:360
+#: wpsc-includes/install_and_update.functions.php:652
+#: wpsc-includes/install_and_update.functions.php:660
+msgid "Address"
+msgstr "Адрес"
+
+#: user-log.php:384
+msgid "Purchase No."
+msgstr "Заказ №"
+
+#: user-log.php:387
+msgid "Transaction Id"
+msgstr "Id транзакции"
+
+#: user-log.php:401
+msgid "No transactions for this month."
+msgstr "Нет транзакций за этот месяц."
+
+#: user-log.php:412
+msgid "There have not been any purchases yet."
+msgstr "Пока никаких покупок не было."
+
+#: user-log.php:427
+msgid "You must be logged in to use this page. Please use the form below to login to your account."
+msgstr "Вы должны войти в систему для просмотра этой записис. Пожалуйста воспользуйтесь формой ниже, для входа."
+
+#: widgets/admin_menu_widget.php:8
+#: widgets/admin_menu_widget.php:22
+msgid "Admin Menu"
+msgstr "Администрирование"
+
+#: widgets/category_widget.27.php:19
+#: wpsc-admin/admin.php:104
+#: wpsc-admin/display-groups.page.php:565
+#: wpsc-admin/includes/display-items-functions.php:404
+#: wpsc-includes/category.functions.php:361
+msgid "Categories"
+msgstr "Группы"
+
+#: widgets/category_widget.27.php:134
+#: widgets/category_widget.28.php:69
+#: widgets/donations_widget.php:71
+#: widgets/latest_product_widget.php:74
+#: widgets/price_range_widget.php:71
+#: widgets/product_tag_widget.php:30
+#: widgets/shopping_cart_widget.php:78
+#: widgets/specials_widget.php:103
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: widgets/category_widget.27.php:159
+#: widgets/category_widget.28.php:80
+msgid "Display the :category: Group"
+msgstr "Отображать группу &laquo;:category:&raquo;"
+
+#: widgets/category_widget.27.php:168
+#: widgets/category_widget.28.php:88
+msgid "Display the Group thumbnails in the sidebar"
+msgstr "Отображать миниатюры групп в боковой колонке"
+
+#: widgets/category_widget.27.php:179
+#: widgets/category_widget.28.php:11
+msgid "Product Grouping Widget"
+msgstr "Группы товаров Widget"
+
+#: widgets/category_widget.27.php:181
+#: widgets/category_widget.28.php:12
+#: widgets/category_widget.28.php:19
+msgid "Product Categories"
+msgstr "Категории товаров"
+
+#: widgets/latest_product_widget.php:7
+#: widgets/latest_product_widget.php:88
+#: widgets/latest_product_widget.php:89
+msgid "Latest Products"
+msgstr "Последние товары"
+
+#: widgets/latest_product_widget.php:75
+msgid "Number of products to show:"
+msgstr "Количество отображаемых товаров:"
+
+#: widgets/price_range_widget.php:6
+#: widgets/price_range_widget.php:77
+#: widgets/price_range_widget.php:78
+msgid "Price Range"
+msgstr "Диапазон цен"
+
+#: widgets/price_range_widget.php:54
+msgid "Show All"
+msgstr "Показать все"
+
+#: widgets/product_tag_widget.php:9
+#: widgets/product_tag_widget.php:38
+#: widgets/product_tag_widget.php:39
+#: wpsc-admin/includes/display-items-functions.php:428
+#: wpsc-admin/includes/display-items-functions.php:430
+msgid "Product Tags"
+msgstr "Метки товаров"
+
+#: widgets/shopping_cart_widget.php:43
+#: widgets/shopping_cart_widget.php:48
+msgid "Loading..."
+msgstr "Загрузка..."
+
+#: widgets/shopping_cart_widget.php:79
+msgid "Hide Cart When Empty:"
+msgstr "Скрыть корзину, если она пуста:"
+
+#: widgets/specials_widget.php:10
+#: widgets/specials_widget.php:112
+#: widgets/specials_widget.php:113
+msgid "Product Specials"
+msgstr "Скидки на товар"
+
+#: widgets/specials_widget.php:106
+msgid "Show Description:"
+msgstr "Показывать описание"
+
+#: wp-shopping-cart.php:156
+msgid "Note: if this is blank, the image will not be resized"
+msgstr "Внимание: если оставить поля пустыми, размер изображения не будет изменён"
+
+#: wp-shopping-cart.php:157
+#: wpsc-includes/install_and_update.functions.php:68
+msgid "Order Received"
+msgstr "Заказ получен"
+
+#: wp-shopping-cart.php:159
+#: wpsc-includes/install_and_update.functions.php:71
+msgid "Closed Order"
+msgstr "Заказ закрыт"
+
+#: wp-shopping-cart.php:529
+msgid "Please Note"
+msgstr "Обратите внимание"
+
+#: wp-shopping-cart.php:530
+#, php-format
+msgid "Before upgrading you should check the <a %s>upgrade information</a> and changelog as you may need to make updates to your template files."
+msgstr "Перед обновлением стоит прочитать <a %s>информацию об обновлении</a> и список изменений, поскольку может потребоваться отредактировать файлы шаблонов."
+
+#: wpsc-admin/admin.php:77
+#: wpsc-admin/admin.php:80
+#: wpsc-admin/admin.php:82
+#: wpsc-admin/admin.php:87
+#: wpsc-admin/admin.php:90
+msgid "Store"
+msgstr "Магазин"
+
+#: wpsc-admin/admin.php:95
+#: wpsc-admin/admin.php:449
+#: wpsc-admin/admin.php:479
+#: wpsc-admin/display-sales-logs.php:32
+#: wpsc-admin/includes/purchlogs_upgrade.php:73
+msgid "Sales"
+msgstr "Продажи"
+
+#: wpsc-admin/admin.php:100
+msgid "Products"
+msgstr "Товары"
+
+#: wpsc-admin/admin.php:108
+msgid "Variations"
+msgstr "Вариации"
+
+#: wpsc-admin/admin.php:131
+#: wpsc-admin/admin.php:133
+msgid "Marketing"
+msgstr "Маркетинг"
+
+#: wpsc-admin/admin.php:140
+#: wpsc-admin/display-upgrades.page.php:61
+msgid "Upgrades"
+msgstr "Расширения"
+
+#: wpsc-admin/admin.php:144
+msgid "- Debug"
+msgstr "- Отладка"
+
+#: wpsc-admin/admin.php:181
+msgid "Product Tracking Email"
+msgstr "Отслеживание товара"
+
+#: wpsc-admin/admin.php:182
+msgid ""
+"Track & Trace means you may track the progress of your parcel with our online parcel tracker, just login to our website and enter the following Tracking ID to view the status of your order.\n"
+"\n"
+"Tracking ID: %trackid%\n"
+msgstr ""
+"Вы можете отслеживать статус вашей посылки с помощью нашего онлайн-сервиса. Авторизуйтесь на сайте и введите ID для отслеживания, чтобы посмотреть статус вашего заказа.\n"
+"\n"
+"ID для отслеживания: %trackid%\n"
+
+#: wpsc-admin/admin.php:235
+msgid "Tags used on this post:"
+msgstr "Метки, используемые для записи:"
+
+#: wpsc-admin/admin.php:237
+msgid "Add new tag"
+msgstr "Добавить новую метку"
+
+#: wpsc-admin/admin.php:238
+#: wpsc-admin/includes/display-items-functions.php:432
+msgid "Separate tags with commas"
+msgstr "Метки разделяются запятыми"
+
+#: wpsc-admin/admin.php:348
+msgid "Text"
+msgstr "Текст"
+
+#: wpsc-admin/admin.php:351
+msgid "Textarea"
+msgstr "Поле ввода текста"
+
+#: wpsc-admin/admin.php:352
+msgid "Heading"
+msgstr "Заголовок"
+
+#: wpsc-admin/admin.php:353
+msgid "Coupon"
+msgstr "Купон"
+
+#: wpsc-admin/admin.php:358
+#: wpsc-admin/includes/display-items-functions.php:1079
+msgid "Label"
+msgstr "Метка"
+
+#: wpsc-admin/admin.php:359
+#: wpsc-admin/includes/display-items-functions.php:1083
+msgid "Label Description"
+msgstr "Описание метки"
+
+#: wpsc-admin/admin.php:360
+#: wpsc-admin/includes/display-items-functions.php:1091
+msgid "Item Number"
+msgstr "Количество штук"
+
+#: wpsc-admin/admin.php:361
+#: wpsc-admin/includes/display-items-functions.php:1087
+msgid "Life Number"
+msgstr "Время жизни"
+
+#: wpsc-admin/admin.php:362
+#: wpsc-admin/includes/display-items-functions.php:1095
+msgid "Product Code"
+msgstr "Код продукта"
+
+#: wpsc-admin/admin.php:363
+#: wpsc-admin/includes/display-items-functions.php:1099
+msgid "PDF"
+msgstr "PDF"
+
+#: wpsc-admin/admin.php:436
+#: wpsc-admin/display-sales-logs.php:359
+msgid "Last 30 Days"
+msgstr "Последние 30 дней"
+
+#: wpsc-admin/admin.php:455
+#: wpsc-admin/admin.php:485
+msgid "Orders"
+msgstr "Заказы"
+
+#: wpsc-admin/admin.php:465
+#: wpsc-admin/admin.php:497
+msgid "Avg Orders"
+msgstr "Среднее заказов"
+
+#: wpsc-admin/admin.php:475
+#: wpsc-admin/display-sales-logs.php:372
+msgid "Life Time"
+msgstr "Время жизни"
+
+#: wpsc-admin/admin.php:518
+#: wpsc-admin/admin.php:746
+msgid "e-Commerce"
+msgstr "e-Commerce"
+
+#: wpsc-admin/admin.php:535
+msgid "E-Commerce"
+msgstr "E-Commerce"
+
+#: wpsc-admin/admin.php:652
+msgid "Sales by Quarter"
+msgstr "Продажи по кварталам"
+
+#: wpsc-admin/admin.php:738
+msgid "Sales by"
+msgstr "Продажи за"
+
+#: wpsc-admin/admin.php:781
+msgid "Your \"products page\" is not currently set to display any products. You need to select a product grouping to display by default. <br /> This is set in the Shop Settings page."
+msgstr "На вашей странице товаров сейчас не отображается ни один товар. Нужно выбрать группу товаров для отображения по умолчанию. <br /> Это настраивается на странице &laquo;Параметры&raquo;."
+
+#: wpsc-admin/ajax-and-init.php:767
+#: wpsc-admin/display-variations.page.php:145
+msgid "Edit Variation Set"
+msgstr "Редактировать вариацию"
+
+#: wpsc-admin/ajax-and-init.php:990
+msgid "Your Order"
+msgstr "Ваш заказ"
+
+#: wpsc-admin/ajax-and-init.php:1111
+#: wpsc-admin/ajax-and-init.php:1112
+#: wpsc-admin/includes/display-items-functions.php:1035
+msgid "Click to download"
+msgstr "Нажмите, чтобы скачать"
+
+#: wpsc-admin/ajax-and-init.php:1237
+msgid "The administrator has unlocked your file"
+msgstr "Администратор разблокировал ваш файл"
+
+#: wpsc-admin/ajax-and-init.php:1237
+msgid "Dear CustomerWe are pleased to advise you that your order has been updated and your downloads are now active.Please download your purchase using the links provided below.[download_links]Thank you for your custom."
+msgstr ""
+"Уважаемый покупатель,\n"
+"\n"
+"Мы с радостью сообщаем, что ваш заказ обновлён, и ссылки теперь активны.\n"
+"Пожалуйста, скачайте вашу покупку по приведённым ниже ссылкам.\n"
+"[download_links]\n"
+"\n"
+"Спасибо за покупку!"
+
+#: wpsc-admin/display-groups.page.php:41
+msgid "Select the markets you are selling this category to."
+msgstr "Выберите рынки, которым вы продаёте эту категорию."
+
+#: wpsc-admin/display-groups.page.php:236
+msgid "The item has been added"
+msgstr "Элемент добавлен"
+
+#: wpsc-admin/display-groups.page.php:238
+#: wpsc-admin/display-groups.page.php:244
+msgid "The item has not been added"
+msgstr "Элемент не добавлен"
+
+#: wpsc-admin/display-groups.page.php:469
+msgid "The product group has been edited."
+msgstr "Группа товаров изменена."
+
+#: wpsc-admin/display-groups.page.php:474
+msgid "The group has been added."
+msgstr "Группа добавлена."
+
+#: wpsc-admin/display-groups.page.php:486
+msgid "The group has been edited."
+msgstr "Группа изменена."
+
+#: wpsc-admin/display-groups.page.php:542
+msgid "Are you sure you want to delete this category? If the category has any subcategories, they will be deleted too."
+msgstr "Вы уверены, что хотите удалить эту категорию? Если у неё есть подкатегории, они также будут удалены."
+
+#: wpsc-admin/display-groups.page.php:550
+msgid "Are you sure you want to delete this product group? All categories it contains will be deleted too."
+msgstr "Вы уверены, что хотите удалить эту группу? Все категории, которые она содержит, также будут удалены."
+
+#: wpsc-admin/display-groups.page.php:573
+msgid "Categorizing your products into groups help your customers find them. For instance if you sell hats and trousers you  might want to setup a Group called clothes and add hats and trousers to that group."
+msgstr "Группы помогают вашим клиентам находить товары. Например, если вы продаёте шляпы и брюки &#8212; можно создать группу &laquo;Одежда&raquo; и добавить в неё категории &laquo;Шляпы&raquo; и &laquo;Брюки&raquo;."
+
+#: wpsc-admin/display-groups.page.php:588
+msgid "Select a Group to Manage"
+msgstr "Выберите группу"
+
+#: wpsc-admin/display-groups.page.php:606
+msgid "or"
+msgstr "или"
+
+#: wpsc-admin/display-groups.page.php:608
+#: wpsc-admin/display-groups.page.php:625
+msgid "Add New Group"
+msgstr "Добавить новую группу"
+
+#: wpsc-admin/display-groups.page.php:649
+msgid "Edit Group"
+msgstr "Редактировать группу"
+
+#: wpsc-admin/display-groups.page.php:684
+msgid "&quot;[categorisation]&quot; Group"
+msgstr "Группа &laquo;[categorisation]&raquo;"
+
+#: wpsc-admin/display-groups.page.php:694
+msgid "Image"
+msgstr "Изображение"
+
+#: wpsc-admin/display-groups.page.php:717
+msgid "You are editing the &quot;[categorisation]&quot; Group"
+msgstr "Вы редактируете группу &laquo;[categorisation]&raquo;"
+
+#: wpsc-admin/display-groups.page.php:738
+#: wpsc-admin/display-groups.page.php:742
+msgid "You are editing an item in the &quot;[categorisation]&quot; Group"
+msgstr "Вы редактируете элемент группы &laquo;[categorisation]&raquo;"
+
+#: wpsc-admin/display-groups.page.php:741
+msgid "Edit Details"
+msgstr "Редактировать описание"
+
+#: wpsc-admin/display-groups.page.php:757
+#: wpsc-admin/display-groups.page.php:920
+msgid "Add Category"
+msgstr "Добавить категорию"
+
+#: wpsc-admin/display-groups.page.php:760
+msgid "Adding a new category here will make it available when you add or edit a product."
+msgstr "После создания новой категории её можно выбрать при добавлении или редактировании товара."
+
+#: wpsc-admin/display-groups.page.php:766
+#: wpsc-admin/display-groups.page.php:769
+msgid "You are adding a new item to the &quot;[categorisation]&quot; Group"
+msgstr "Вы добавляете новый элемент в группу &laquo;[categorisation]&raquo;"
+
+#: wpsc-admin/display-groups.page.php:791
+msgid "Group Parent"
+msgstr "Родительская категория"
+
+#: wpsc-admin/display-groups.page.php:799
+msgid "Group&nbsp;Image"
+msgstr "Изображение&nbsp;группы"
+
+#: wpsc-admin/display-items.page.php:29
+msgid "Display Products"
+msgstr "Товары"
+
+#: wpsc-admin/display-items.page.php:49
+#: wpsc-admin/display-items.page.php:54
+#, php-format
+msgid "%s product updated."
+msgid_plural "%s products updated."
+msgstr[0] "%s товар обновлён."
+msgstr[1] "%s товара обновлены."
+msgstr[2] "%s товаров обновлены."
+
+#: wpsc-admin/display-items.page.php:63
+#, php-format
+msgid "Product deleted."
+msgid_plural "%s products deleted."
+msgstr[0] "%s товар удалён."
+msgstr[1] "%s товара удалены."
+msgstr[2] "%s товаров удалены."
+
+#: wpsc-admin/display-items.page.php:68
+#, php-format
+msgid "Product duplicated."
+msgid_plural "%s products duplicated."
+msgstr[0] "%s товар скопирован."
+msgstr[1] "%s товара скопированы."
+msgstr[2] "%s товаров скопированы."
+
+#: wpsc-admin/display-items.page.php:74
+#: wpsc-admin/display-variations.page.php:49
+msgid "Product updated."
+msgstr "Товар обновлён."
+
+#: wpsc-admin/display-items.page.php:114
+msgid "The following directories are not writable: :directory: You won&#39;t be able to upload any images or files here. You will need to change the permissions on these directories to make them writable."
+msgstr "Следующие каталоги недоступны для записи: :directory: Вы не сможете загрузить файлы или изображения. Чтобы разрешить запись в эти каталоги, нужно установить на них соответствующие права."
+
+#: wpsc-admin/display-items.page.php:147
+msgid ""
+"You are about to delete the selected products.\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Вы собираетесь удалить выбранные товары.\n"
+"  «Отмена» — оставить, «ОК — удалить."
+
+#: wpsc-admin/display-items.page.php:232
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: wpsc-admin/display-items.page.php:233
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: wpsc-admin/display-items.page.php:271
+msgid "Search"
+msgstr "Поиск"
+
+#: wpsc-admin/display-items.page.php:276
+#: wpsc-admin/display-sales-logs.php:419
+msgid "Bulk Actions"
+msgstr "Действия"
+
+#: wpsc-admin/display-items.page.php:278
+#: wpsc-admin/display-items.page.php:426
+#: wpsc-admin/includes/display-items-functions.php:823
+msgid "Publish"
+msgstr "Опубликовать"
+
+#: wpsc-admin/display-items.page.php:279
+#: wpsc-admin/display-items.page.php:366
+msgid "Draft"
+msgstr "Черновик"
+
+#: wpsc-admin/display-items.page.php:283
+#: wpsc-admin/display-sales-logs.php:428
+msgid "Apply"
+msgstr "Применить"
+
+#: wpsc-admin/display-items.page.php:319
+msgid "No Name"
+msgstr "Нет имени"
+
+#: wpsc-admin/display-items.page.php:397
+#: wpsc-admin/includes/display-items-functions.php:351
+msgid "Delete this product"
+msgstr "Удалить товар"
+
+#: wpsc-admin/display-items.page.php:399
+#: wpsc-admin/includes/display-items-functions.php:351
+#, php-format
+msgid ""
+"You are about to delete this product '%s'\n"
+" 'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Вы собираетесь удалить товар «%s»\n"
+" «Отмена» — оставить, «ОК» — удалить."
+
+#: wpsc-admin/display-items.page.php:424
+msgid "Unpublish"
+msgstr "Убрать"
+
+#: wpsc-admin/display-items.page.php:453
+msgid "You have no products added."
+msgstr "Вы не добавили товары."
+
+#: wpsc-admin/display-items.page.php:470
+msgid "View All Categories"
+msgstr "Все категории"
+
+#: wpsc-admin/display-options-settings.page.php:18
+msgid "It looks like your wp-e-commerce theme files are out of date, this can cause potential problems with some gateways and the appearances of the front end of your shop. <br /><strong>We recommend you download the latest version of wp-e-commerce unzip it, and copy the new themes folder into your 'uploads/wpsc/themes' folder on your site. Or port your changes across.</strong>"
+msgstr "Похоже, что файлы темы WP e-Commerce устарели. Это может вызвать проблемы с некоторыми шлюзами и лицевой частью вашего магазина. <br /><strong>Рекомендуем вам скачать свежую версию WP e-Commerce, разархивировать её и скопировать новый каталог тем в директорию &laquo;uploads/wpsc/themes&raquo; на вашем сайте. Либо вновь сделать свои изменения.</strong>"
+
+#: wpsc-admin/display-options-settings.page.php:44
+msgid "Thanks, your thumbnail images have been resized."
+msgstr "Спасибо, размеры миниатюр изменены."
+
+#: wpsc-admin/display-options-settings.page.php:99
+msgid "General"
+msgstr "Общие"
+
+#: wpsc-admin/display-options-settings.page.php:100
+msgid "Presentation"
+msgstr "Отображение"
+
+#: wpsc-admin/display-options-settings.page.php:101
+msgid "Admin"
+msgstr "Администрирование"
+
+#: wpsc-admin/display-options-settings.page.php:103
+msgid "Payment Options"
+msgstr "Настройки оплаты"
+
+#: wpsc-admin/display-options-settings.page.php:104
+msgid "Import"
+msgstr "Импорт"
+
+#: wpsc-admin/display-options-settings.page.php:105
+#: wpsc-includes/install_and_update.functions.php:213
+msgid "Checkout"
+msgstr "Заказ"
+
+#: wpsc-admin/display-options-settings.page.php:176
+msgid "To configure a shipping module select one on the left."
+msgstr "Выберите модуль ниже для настройки его."
+
+#: wpsc-admin/display-options-settings.page.php:186
+#, php-format
+msgid " Setting Options Updated. "
+msgid_plural " %s Settings Options Updated. "
+msgstr[0] " %s настройка обновлена."
+msgstr[1] " %s настройки обновлены."
+msgstr[2] " %s настроек обновлены."
+
+#: wpsc-admin/display-options-settings.page.php:191
+#, php-format
+msgid "%s Setting Option deleted. "
+msgid_plural "%s Setting Option deleted. "
+msgstr[0] " %s настройка удалена."
+msgstr[1] " %s настройки удалены."
+msgstr[2] " %s настроек удалены."
+
+#: wpsc-admin/display-options-settings.page.php:195
+msgid " Shipping Option Updated."
+msgid_plural " Shipping Option Updated."
+msgstr[0] "Настройки доставки обновлены."
+msgstr[1] "Настройки доставки обновлены."
+msgstr[2] "Настройки доставки обновлены."
+
+#: wpsc-admin/display-options-settings.page.php:199
+#, php-format
+msgid "%s Checkout Field Added."
+msgid_plural "%s Checkout Fields Added."
+msgstr[0] "%s поле формы заказа добавлено."
+msgstr[1] "%s поля формы заказа добавлены."
+msgstr[2] "%s полей формы заказа добавлены."
+
+#: wpsc-admin/display-sales-logs.php:65
+#, php-format
+msgid "%s Purchase Log updated."
+msgid_plural "%s Purchase Logs updated."
+msgstr[0] "%s журнал покупок обновлён."
+msgstr[1] "%s журнала покупок обновлены."
+msgstr[2] "%s журналов покупок обновлены."
+
+#: wpsc-admin/display-sales-logs.php:73
+#, php-format
+msgid "%s product not updated, somebody is editing it."
+msgid_plural "%s products not updated, somebody is editing them."
+msgstr[0] "%s товар не обновлён, кто-то его редактирует."
+msgstr[1] "%s товара не обновлены, кто-то их редактирует."
+msgstr[2] "%s товаров не обновлены, кто-то их редактирует."
+
+#: wpsc-admin/display-sales-logs.php:78
+#, php-format
+msgid "%s Purchase Log deleted."
+msgid_plural "%s Purchase Logs deleted."
+msgstr[0] "%s журнал покупок удалён."
+msgstr[1] "%s журнала покупок удалены."
+msgstr[2] "%s журналов покупок удалены."
+
+#: wpsc-admin/display-sales-logs.php:88
+msgid "When upgrading the Wp-E-Commerce Plugin from 3.6.* to 3.7 it is required that you associate your checkout form fields with the new Purchase Logs system. To do so please "
+msgstr "При обновлении плагина WP e-Commerce 3.6.* до 3.7 необходимо проассоциировать поля формы заказа с новой системой журналов покупок. Чтобы сделать это, "
+
+#: wpsc-admin/display-sales-logs.php:114
+msgid "GetShopped News"
+msgstr "Новости GetShopped"
+
+#: wpsc-admin/display-sales-logs.php:151
+msgid "Downloads for this log have been released."
+msgid_plural "Downloads for this log have been released."
+msgstr[0] "Ссылки для этого журнала разблокированы."
+msgstr[1] "Ссылки для этого журнала разблокированы."
+msgstr[2] "Ссылки для этого журнала разблокированы."
+
+#: wpsc-admin/display-sales-logs.php:155
+msgid "Receipt has been resent "
+msgid_plural "Receipt has been resent "
+msgstr[0] "Квитанция отправлена повторно"
+msgstr[1] "Квитанция отправлена повторно"
+msgstr[2] "Квитанция отправлена повторно"
+
+#: wpsc-admin/display-sales-logs.php:196
+#: wpsc-admin/includes/settings-pages/shipping.php:46
+msgid "Shipping Options"
+msgstr "Натройки доставки"
+
+#: wpsc-admin/display-sales-logs.php:199
+msgid "Shipping Method:"
+msgstr "Метод доставки:"
+
+#: wpsc-admin/display-sales-logs.php:200
+msgid "Shipping Option:"
+msgstr "Вариант доставки:"
+
+#: wpsc-admin/display-sales-logs.php:202
+msgid "Tracking ID:"
+msgstr "ID для отслеживания:"
+
+#: wpsc-admin/display-sales-logs.php:203
+msgid "Shipping Status:"
+msgstr "Статус доставки:"
+
+#: wpsc-admin/display-sales-logs.php:204
+msgid "Track History:"
+msgstr "История отслеживания:"
+
+#: wpsc-admin/display-sales-logs.php:210
+msgid "Billing Details"
+msgstr "Детали биллинга"
+
+#: wpsc-admin/display-sales-logs.php:211
+msgid "Purchase Log Date:"
+msgstr "Дата журнала покупок:"
+
+#: wpsc-admin/display-sales-logs.php:212
+msgid "Purchase Number:"
+msgstr "Номер покупки:"
+
+#: wpsc-admin/display-sales-logs.php:213
+msgid "Buyers Name:"
+msgstr "Имя клиента:"
+
+#: wpsc-admin/display-sales-logs.php:214
+msgid "Address:"
+msgstr "Адрес:"
+
+#: wpsc-admin/display-sales-logs.php:216
+msgid "Phone:"
+msgstr "Телефон:"
+
+#: wpsc-admin/display-sales-logs.php:217
+msgid "Email:"
+msgstr "E-mail:"
+
+#: wpsc-admin/display-sales-logs.php:218
+msgid "Payment Method:"
+msgstr "Способ оплаты:"
+
+#: wpsc-admin/display-sales-logs.php:220
+msgid "How User Found Us:"
+msgstr "Как клиент нас нашёл:"
+
+#: wpsc-admin/display-sales-logs.php:226
+msgid "Items Ordered"
+msgstr "Заказанные товары"
+
+#: wpsc-admin/display-sales-logs.php:268
+msgid "Order Status:"
+msgstr "Статус заказа:"
+
+#: wpsc-admin/display-sales-logs.php:288
+msgid "Actions"
+msgstr "Действия"
+
+#: wpsc-admin/display-sales-logs.php:293
+msgid "View Packing Slip"
+msgstr "Вид упаковочного купона"
+
+#: wpsc-admin/display-sales-logs.php:295
+msgid "Resend Receipt to Buyer"
+msgstr "Отправить повторно заказ покупателю"
+
+#: wpsc-admin/display-sales-logs.php:297
+#: wpsc-admin/display-sales-logs.php:550
+msgid "Delete this log"
+msgstr "Удалить этот журнал"
+
+#: wpsc-admin/display-sales-logs.php:297
+#: wpsc-admin/display-sales-logs.php:550
+#, php-format
+msgid ""
+"You are about to delete this log '%s'\n"
+" 'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Вы собираетесь удалить журнал «%s»\n"
+" «Отмена» — оставить, «ОК» — удалить."
+
+#: wpsc-admin/display-sales-logs.php:297
+msgid "Remove this record"
+msgstr "Удалить эту запись с лога покупок"
+
+#: wpsc-admin/display-sales-logs.php:299
+msgid "Go Back"
+msgstr "Возврат"
+
+#: wpsc-admin/display-sales-logs.php:314
+msgid "e-Commerce Admin Menu"
+msgstr "Администрирование e-Commerce"
+
+#: wpsc-admin/display-sales-logs.php:333
+msgid "WP e-Commerce News"
+msgstr "Новости e-Commerce"
+
+#: wpsc-admin/display-sales-logs.php:355
+msgid "Order Summary"
+msgstr "Итог заказа"
+
+#: wpsc-admin/display-sales-logs.php:367
+msgid "(accepted payments)"
+msgstr "(полученных оплат)"
+
+#: wpsc-admin/display-sales-logs.php:382
+msgid "Subscribe to your orders"
+msgstr "Подписаться на ваши заказы"
+
+#: wpsc-admin/display-sales-logs.php:384
+msgid "Subscribe to an RSS feed"
+msgstr "Подписаться на RSS feed"
+
+#: wpsc-admin/display-sales-logs.php:384
+msgid "of your orders"
+msgstr "ваших заказов"
+
+#: wpsc-admin/display-sales-logs.php:387
+msgid "Plugin News"
+msgstr "Новости плагина"
+
+#: wpsc-admin/display-sales-logs.php:389
+msgid "The <a href=\"http://instinct.co.nz/blogshop/products-page/\" target=\"_blank\">WP DropShop Module</a> is the latest and most cutting edge shopping cart available online. Coupled with Grid View then your site will be the talk of street! <br/><br/>The <a href=\"http://instinct.co.nz/blogshop/products-page/\" target=\"_blank\">GridView Module</a> is a visual module built to enhance the way your product page looks.<br/><br/><a href=\"http://www.instinct.co.nz/wp-campaign-monitor/100\">WP Campaign Monitor</a> is an email newsletter tool built just for WP users who want to send campaigns, track the results and manage their subscribers. The latest version integrates with e-commerce lite meaning that you will be able to send buyers email newsletters and much more. "
+msgstr "Модуль <a href=\"http://instinct.co.nz/blogshop/products-page/\" target=\"_blank\">WP DropShop</a> &#8212; самая свежая и совеременная из доступных корзин. Объедините её с модулем GridView, и о вашем сайте станут говорить везде! <br/><br/><a href=\"http://instinct.co.nz/blogshop/products-page/\" target=\"_blank\">Модуль GridView</a> &#8212; это визуальный модуль, созданный для улучшения внешнего вида страниц с вашими товарами.<br/><br/><a href=\"http://www.instinct.co.nz/wp-campaign-monitor/100\">WP Campaign Monitor</a> &#8212; это инструмент организации рассылок, созданный для пользователей, которые хотят рассылать кампании, отслеживать результаты и управлять подписчиками. Последняя версия интегрируется в e-commerce lite, что позволяет отправлять рассылки покупателям и многое другое. "
+
+#: wpsc-admin/display-sales-logs.php:390
+msgid "This shop is powered by "
+msgstr "Этот магазин создан с помощью "
+
+#: wpsc-admin/display-sales-logs.php:399
+msgid "Upgrade to Gold"
+msgstr "Установить &laquo;Золотую корзину&raquo;"
+
+#: wpsc-admin/display-sales-logs.php:399
+msgid " and unleash more functionality into your shop."
+msgstr " и добавить вашему магазину функциональности."
+
+#: wpsc-admin/display-sales-logs.php:430
+msgid "View:"
+msgstr "Посмотреть:"
+
+#: wpsc-admin/display-sales-logs.php:468
+msgid "Filter"
+msgstr "Фильтр"
+
+#: wpsc-admin/display-sales-logs.php:471
+msgid "Oops there are no purchase logs for your selection, please try again."
+msgstr "Вы не выбрали журналы покупок. Пожалуйста, попробуйте ещё раз."
+
+#: wpsc-admin/display-sales-logs.php:491
+msgid "Total:"
+msgstr "Всего:"
+
+#: wpsc-admin/display-sales-logs.php:503
+msgid "Download CSV"
+msgstr "Скачать CSV"
+
+#: wpsc-admin/display-sales-logs.php:512
+msgid ""
+"You are about to delete the selected purchase logs.\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Вы собираетесь удалить выбранные журналы покупок.\n"
+"  «Отмена» — оставить, «ОК» — удалить."
+
+#: wpsc-admin/display-sales-logs.php:578
+msgid "Search Logs"
+msgstr "Поиск журналов"
+
+#: wpsc-admin/display-upgrades.page.php:12
+msgid "WP e-Commerce Upgrades"
+msgstr "Обновления e-Commerce"
+
+#: wpsc-admin/display-upgrades.page.php:13
+msgid "Add more functionality to your e-Commerce site. Prices may be subject to change."
+msgstr "Добавьте функциональности вашему магазину. Цены могут меняться без уведомления."
+
+#: wpsc-admin/display-upgrades.page.php:19
+msgid "Pure Gold"
+msgstr "&laquo;Чистое золото&raquo;"
+
+#: wpsc-admin/display-upgrades.page.php:26
+#: wpsc-admin/includes/settings-pages/presentation.php:671
+#: wpsc-admin/includes/settings-pages/presentation.php:675
+msgid "DropShop"
+msgstr "DropShop"
+
+#: wpsc-admin/display-upgrades.page.php:33
+msgid "MP3 Player"
+msgstr "MP3-плеер"
+
+#: wpsc-admin/display-upgrades.page.php:40
+msgid "Members Only Module"
+msgstr "Настройки активации: Модуль для зарегистрированных"
+
+#: wpsc-admin/display-upgrades.page.php:54
+msgid "NextGen Gallery Buy Now Buttons"
+msgstr "Кнопки &laquo;Купить сейчас&raquo; для галереи NextGen"
+
+#: wpsc-admin/display-upgrades.page.php:78
+#: wpsc-admin/display-upgrades.page.php:86
+msgid "API Key Reset"
+msgstr "Сброс API-ключа"
+
+#: wpsc-admin/display-upgrades.page.php:81
+msgid "Enter your API name and key to release it from an old site that you no longer use."
+msgstr "Введите ваш API-логин и ключ, чтобы открепить его от старого сайта, который вы уже не используете."
+
+#: wpsc-admin/display-upgrades.page.php:92
+msgid "API Key"
+msgstr "API-ключ"
+
+#: wpsc-admin/display-upgrades.page.php:97
+msgid "Reset API Key"
+msgstr "Сбросить API-ключ"
+
+#: wpsc-admin/display-upgrades.page.php:106
+msgid "Upgrade Instructions"
+msgstr "Инструкция по расширению"
+
+#: wpsc-admin/display-upgrades.page.php:109
+#, php-format
+msgid "If your gold cart files are called 'gold_cart_files': Copy the gold_cart_files directory into the %s folder."
+msgstr "Если файлы вашей &laquo;Золотой корзины&raquo; находятся в &laquo;gold_cart_files&raquo;, скопируйте директорию &laquo;gold_cart_files&raquo; в каталог %s."
+
+#: wpsc-admin/display-upgrades.page.php:112
+msgid "This folder should be automatically created when the e-commerce plugin is activated, but if it is not, you will have to create it yourself."
+msgstr "Этот каталог должен появиться автоматически при активации плагина e-Commerce. Если этого не произошло, нужно создать его вручную."
+
+#: wpsc-admin/display-upgrades.page.php:115
+#, php-format
+msgid "Otherwise If your gold cart files are called 'gold_cart_files_plugin': Copy the gold_cart_files_plugin directory into the %s folder."
+msgstr "Если же файлы вашей &laquo;Золотой корзины&raquo; находятся в &laquo;gold_cart_files_plugin&raquo;, скопируйте директорию &laquo;gold_cart_files_plugin&raquo; в каталог %s."
+
+#: wpsc-admin/display-upgrades.page.php:118
+msgid "You can find more information on installing Gold Cart in your readme.txt inside the gold cart folder. "
+msgstr "Дополнительную информацию по установке &laquo;Золотой корзины&raquo; можно найти в файле readme.txt в каталоге корзины. "
+
+#: wpsc-admin/display-upgrades.page.php:122
+msgid "Once you have done the above a new panel should appear on the Upgrades page where you must enter your API Username and API Key. "
+msgstr "После выполнения этих шагов на странице &laquo;Расширения&raquo; должна появиться новая панель, в которой нужно ввести API-логин и ключ."
+
+#: wpsc-admin/display-upgrades.page.php:126
+msgid "For more information visit our documentation page."
+msgstr "За дополнительной информацией обратитесь к нашей документации."
+
+#: wpsc-admin/display-upgrades.page.php:170
+msgid "Your API key has been Reset"
+msgstr "Ваш API-ключ сброшен"
+
+#: wpsc-admin/display-variations.page.php:21
+msgid "Are you sure you want to delete this product?"
+msgstr "Вы уверены, что хотите удалить этот товар?"
+
+#: wpsc-admin/display-variations.page.php:37
+#: wpsc-admin/includes/settings-pages/presentation.php:392
+msgid "Display Variations"
+msgstr "Вариации отображения"
+
+#: wpsc-admin/display-variations.page.php:39
+msgid "A variation can be anything \"optional\" about a product. ie: Size, Color, etc <br />For example: if you are selling t-shirts you might setup a variation set called size with the values small, medium, large..."
+msgstr "Вариации &#8212; это изменяемые свойства товара, такие как размер, цвет и т.д. <br />Например, если вы продаёте футболки, можно создать вариацию &laquo;Размер&raquo; со значениями M, L, X, XL..."
+
+#: wpsc-admin/display-variations.page.php:149
+#: wpsc-admin/includes/display-items-functions.php:613
+msgid "Add Variation Set"
+msgstr "Добавить вариацию"
+
+#: wpsc-admin/display-variations.page.php:199
+msgid "Add Value"
+msgstr "Добавить значение"
+
+#: wpsc-admin/display-variations.page.php:212
+msgid "Update Variations"
+msgstr "Обновить вариации"
+
+#: wpsc-admin/includes/display-items-functions.php:137
+msgid "Edit Product"
+msgstr "Редактировать товар"
+
+#: wpsc-admin/includes/display-items-functions.php:148
+msgid "Product Name"
+msgstr "Имя товара"
+
+#: wpsc-admin/includes/display-items-functions.php:157
+msgid "Display Product Shortcode"
+msgstr "Код отображения товара"
+
+#: wpsc-admin/includes/display-items-functions.php:158
+msgid "Buy Now Shortcode"
+msgstr "Код &laquo;Купить сейчас&raquo;"
+
+#: wpsc-admin/includes/display-items-functions.php:159
+msgid "Add to Cart Shortcode"
+msgstr "Код добавления в корзину"
+
+#: wpsc-admin/includes/display-items-functions.php:165
+msgid "Display Product Template Tag"
+msgstr "Тег шаблона для отображения товара"
+
+#: wpsc-admin/includes/display-items-functions.php:166
+msgid "Buy Now PHP"
+msgstr "PHP-код &laquo;Купить сейчас&raquo;"
+
+#: wpsc-admin/includes/display-items-functions.php:167
+msgid "Add to Cart PHP"
+msgstr "PHP-код &laquo;Добавить в корзину&raquo;"
+
+#: wpsc-admin/includes/display-items-functions.php:168
+msgid "Display Product SKU"
+msgstr "Отображать единицу учёта товара"
+
+#: wpsc-admin/includes/display-items-functions.php:185
+msgid "Stock Keeping Unit"
+msgstr "Учётная единица"
+
+#: wpsc-admin/includes/display-items-functions.php:193
+msgid "Sale Price :"
+msgstr "Скидка :"
+
+#: wpsc-admin/includes/display-items-functions.php:216
+msgid "New Currency"
+msgstr "Новая ценa"
+
+#: wpsc-admin/includes/display-items-functions.php:220
+#: wpsc-admin/includes/display-items-functions.php:259
+#: wpsc-admin/includes/settings-pages/general.php:119
+#: wpsc-includes/install_and_update.functions.php:114
+msgid "Currency type"
+msgstr "Тип валюты"
+
+#: wpsc-admin/includes/display-items-functions.php:244
+#: wpsc-admin/includes/display-items-functions.php:283
+msgid "Delete Currency"
+msgstr "Удалить валюту"
+
+#: wpsc-admin/includes/display-items-functions.php:301
+msgid "Additional Description"
+msgstr "Дополнительное описание"
+
+#: wpsc-admin/includes/display-items-functions.php:350
+msgid "Update Product"
+msgstr "Обновить товар"
+
+#: wpsc-admin/includes/display-items-functions.php:374
+msgid "Categories and Tags"
+msgstr "Категории и метки"
+
+#: wpsc-admin/includes/display-items-functions.php:413
+msgid "Select &quot;[categorisation]&quot;"
+msgstr "Выберите &laquo;[categorisation]&raquo;"
+
+#: wpsc-admin/includes/display-items-functions.php:469
+msgid "Price and Stock Control"
+msgstr "Управление ценами и скидками"
+
+#: wpsc-admin/includes/display-items-functions.php:479
+#, php-format
+msgid "Do not include tax (tax is set in <a href=\"%s\"/wp-admin/admin.php?page=wpsc-settings\">shop config</a>)"
+msgstr "Не включать налог (налог устанавливается в <a href=\"%s\"/wp-admin/admin.php?page=wpsc-settings\">настройках магазина</a>)"
+
+#: wpsc-admin/includes/display-items-functions.php:486
+msgid "This is a donation, checking this box populates the donations widget."
+msgstr "Это пожертвование. Галочка включает виджет пожертвований."
+
+#: wpsc-admin/includes/display-items-functions.php:493
+msgid "Table Rate Price"
+msgstr "Таблица Стоимость Цена"
+
+#: wpsc-admin/includes/display-items-functions.php:498
+msgid "Quantity In Cart"
+msgstr "Количество в корзине"
+
+#: wpsc-admin/includes/display-items-functions.php:499
+msgid "Discounted Price"
+msgstr "Цена со скидкой"
+
+#: wpsc-admin/includes/display-items-functions.php:534
+msgid "Custom Tax Rate"
+msgstr "Произвольная налоговая ставка"
+
+#: wpsc-admin/includes/display-items-functions.php:548
+msgid "I have a limited number of this item in stock. If the stock runs out, this product will not be available on the shop unless you untick this box or add more stock."
+msgstr "У меня ограниченное количество этого товара. Если товар закончился, он не будет отображаться в магазине, пока вы не снимете эту галочку или не добавите количество."
+
+#: wpsc-admin/includes/display-items-functions.php:563
+#: wpsc-admin/includes/display-items-functions.php:577
+#: wpsc-admin/includes/display-items-functions.php:584
+msgid "If this product runs out of stock set status to Unpublished & email site owner"
+msgstr "Если продукт на складе закончился, присвоить статус &laquo;Убран&raquo; и уведомить владельца сайта"
+
+#: wpsc-admin/includes/display-items-functions.php:576
+#: wpsc-admin/includes/display-items-functions.php:583
+msgid "Stock Qty"
+msgstr "Количество"
+
+#: wpsc-admin/includes/display-items-functions.php:610
+msgid "Variation Control"
+msgstr "Управление вариациями"
+
+#: wpsc-admin/includes/display-items-functions.php:614
+msgid "+ Add New Variations"
+msgstr "+ Добавить новую вариацию"
+
+#: wpsc-admin/includes/display-items-functions.php:660
+msgid "Weight"
+msgstr "Вес"
+
+#: wpsc-admin/includes/display-items-functions.php:700
+msgid "Length"
+msgstr "Длина"
+
+#: wpsc-admin/includes/display-items-functions.php:724
+msgid "Flat Rate Settings"
+msgstr "Настройки тарифа"
+
+#: wpsc-admin/includes/display-items-functions.php:729
+msgid "Local Shipping Fee"
+msgstr "Комиссия за локальную пересылку"
+
+#: wpsc-admin/includes/display-items-functions.php:738
+msgid "International Shipping Fee"
+msgstr "Комиссия за международную пересылку"
+
+#: wpsc-admin/includes/display-items-functions.php:747
+msgid "Disregard Shipping for this product"
+msgstr "Не учитывать стоимость доставки этого продукта"
+
+#: wpsc-admin/includes/display-items-functions.php:776
+msgid "Advanced Options"
+msgstr "Дополнительно"
+
+#: wpsc-admin/includes/display-items-functions.php:784
+msgid "Custom Meta"
+msgstr "Произвольные поля"
+
+#: wpsc-admin/includes/display-items-functions.php:785
+msgid "Add Custom Meta"
+msgstr "Добавить произвольное поле"
+
+#: wpsc-admin/includes/display-items-functions.php:795
+msgid "Value"
+msgstr "Значение"
+
+#: wpsc-admin/includes/display-items-functions.php:812
+msgid "Merchant Notes"
+msgstr "Заметки"
+
+#: wpsc-admin/includes/display-items-functions.php:815
+msgid "These notes are only available here."
+msgstr "Эти заметки видны только здесь."
+
+#: wpsc-admin/includes/display-items-functions.php:834
+msgid "Personalisation Options"
+msgstr "Настройки персонализации"
+
+#: wpsc-admin/includes/display-items-functions.php:837
+msgid "Users can personalize this product by leaving a message on single product page"
+msgstr "Пользователи могут персонализировать товар, оставив сообщение на его странице"
+
+#: wpsc-admin/includes/display-items-functions.php:846
+msgid "Users can upload images on single product page to purchase logs."
+msgstr "Пользователи могут загружать изображения в процессе заказа этого товара."
+
+#: wpsc-admin/includes/display-items-functions.php:857
+msgid "Prohibited"
+msgstr "Запрещённые"
+
+#: wpsc-admin/includes/display-items-functions.php:871
+msgid "Off Site Product Link"
+msgstr "Внешняя ссылка на товар"
+
+#: wpsc-admin/includes/display-items-functions.php:872
+msgid "If this product is for sale on another website enter the link here. For instance if your product is an MP3 file for sale on itunes you could put the link here. This option over rides the buy now and add to cart links and takes you to the site linked here."
+msgstr "Внимание: Используйте только, если Вы используете внешние ссылки."
+
+#: wpsc-admin/includes/display-items-functions.php:873
+msgid "External Link"
+msgstr "Внешние ссылки"
+
+#: wpsc-admin/includes/display-items-functions.php:881
+msgid "Enable IntenseDebate Comments"
+msgstr "Включить комментирование"
+
+#: wpsc-admin/includes/display-items-functions.php:887
+msgid "Allow users to comment on this product."
+msgstr "Разарешить пользователям комментировать товары."
+
+#: wpsc-admin/includes/display-items-functions.php:914
+msgid "Product Images"
+msgstr "Изображение товара"
+
+#: wpsc-admin/includes/display-items-functions.php:922
+msgid "Select Files"
+msgstr "Выберите файлы"
+
+#: wpsc-admin/includes/display-items-functions.php:976
+msgid "You are using the Flash uploader.  Problems?  Try the <a class=\"wpsc_upload_switcher\" onclick='wpsc_upload_switcher(\"browser\")'>Browser uploader</a> instead."
+msgstr "Вы используете Flash-загрузчик. Проблемы? Попробуйте <a class='wpsc_upload_switcher' onclick='wpsc_upload_switcher(\"browser\")'>загрузчик браузера</a>."
+
+#: wpsc-admin/includes/display-items-functions.php:980
+msgid "To upload multiple product thumbnails you must <a href=\"http://www.instinct.co.nz/shop/\">install the premium upgrade</a>"
+msgstr "Чтобы загружать несколько миниатюр товара, необходимо <a href=\"http://www.instinct.co.nz/shop/\">установить платное расширение</a>"
+
+#: wpsc-admin/includes/display-items-functions.php:989
+msgid "Select an image to upload:"
+msgstr "Выберите изображение для загрузки:"
+
+#: wpsc-admin/includes/display-items-functions.php:999
+msgid "You are using the Browser uploader.  Problems?  Try the <a class=\"wpsc_upload_switcher\" onclick='wpsc_upload_switcher(\"flash\")'>Flash uploader</a> instead."
+msgstr "Вы используете загрузчик браузера. Проблемы? Попробуйте <a class='wpsc_upload_switcher' onclick='wpsc_upload_switcher(\"flash\")'>Flash-загрузчик</a>."
+
+#: wpsc-admin/includes/display-items-functions.php:1003
+msgid "Manage your thumbnails"
+msgstr "Управление миниатюрами"
+
+#: wpsc-admin/includes/display-items-functions.php:1025
+msgid "Product Download"
+msgstr "Скачать товар"
+
+#: wpsc-admin/includes/display-items-functions.php:1028
+msgid "Upload File"
+msgstr "Загрузить файл"
+
+#: wpsc-admin/includes/display-items-functions.php:1029
+msgid "Max Upload Size"
+msgstr "Максимальный размер загружаемого файла"
+
+#: wpsc-admin/includes/display-items-functions.php:1033
+msgid "Preview File"
+msgstr "Просмотреть файл"
+
+#: wpsc-admin/includes/display-items-functions.php:1043
+msgid "Select an MP3 file to upload as a preview"
+msgstr "Выберите MP3-файл для загрузки в качестве демонстрации"
+
+#: wpsc-admin/includes/display-items-functions.php:1064
+msgid "Label Control"
+msgstr "Управдление метками"
+
+#: wpsc-admin/includes/display-items-functions.php:1070
+#: wpsc-admin/includes/display-items-functions.php:1071
+msgid "Add Label"
+msgstr "Добавить метку"
+
+#: wpsc-admin/includes/display-items-functions.php:1128
+#: wpsc-admin/includes/display-items-functions.php:1155
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: wpsc-admin/includes/display-items-functions.php:1199
+#: wpsc-admin/includes/settings-pages/presentation.php:856
+msgid "Thumbnail Settings"
+msgstr "Настройки миниатюр"
+
+#: wpsc-admin/includes/display-items-functions.php:1207
+msgid "use default size"
+msgstr "использовать размер по умолчанию"
+
+#: wpsc-admin/includes/display-items-functions.php:1207
+msgid "This is set on the Settings Page"
+msgstr "Это настраивается на странице &laquo;Параметры&raquo;"
+
+#: wpsc-admin/includes/display-items-functions.php:1213
+msgid "do not resize thumbnail image"
+msgstr "не изменять размер миниатюры."
+
+#: wpsc-admin/includes/display-items-functions.php:1217
+msgid "use specific size"
+msgstr "использовать определённый размер"
+
+#: wpsc-admin/includes/display-items-functions.php:1219
+msgid "px width"
+msgstr "ширина в px"
+
+#: wpsc-admin/includes/display-items-functions.php:1220
+msgid "px height"
+msgstr "высота в px"
+
+#: wpsc-admin/includes/display-items-functions.php:1225
+msgid "use separate thumbnail"
+msgstr "использовать разделённые миниатюры"
+
+#: wpsc-admin/includes/display-items-functions.php:1333
+#: wpsc-admin/includes/display-items-functions.php:1338
+msgid "HTML"
+msgstr "HTML"
+
+#: wpsc-admin/includes/display-items-functions.php:1334
+#: wpsc-admin/includes/display-items-functions.php:1339
+msgid "Visual"
+msgstr "Визуально"
+
+#: wpsc-admin/includes/product-functions.php:41
+#, php-format
+msgid "Please refrain from uploading images larger than <strong>%d x %d</strong> pixels"
+msgstr "Пожалуйста, воздержитесь от загрузки изображений размером больше <strong>%d x %d</strong> пикселей"
+
+#: wpsc-admin/includes/product-functions.php:52
+#: wpsc-includes/category.functions.php:220
+msgid "N/A"
+msgstr "Н/Д"
+
+#: wpsc-admin/includes/product-functions.php:77
+msgid "<strong>ERROR</strong>: Please enter a Product name.<br />"
+msgstr "<strong>ОШИБКА</strong>: Пожалуйста, введите название товара.<br />"
+
+#: wpsc-admin/includes/product-functions.php:80
+msgid "<strong>ERROR</strong>: Please enter a Product Category.<br />"
+msgstr "<strong>ОШИБКА</strong>: Пожалуйста, введите категорию товара.<br />"
+
+#: wpsc-admin/includes/product-functions.php:192
+msgid "Could not update product in the database"
+msgstr "Не удалось обновить товар в базе данных"
+
+#: wpsc-admin/includes/product-functions.php:200
+msgid "Could not insert product into the database"
+msgstr "Не удалось добавить товар в базу данных"
+
+#: wpsc-admin/includes/purchlogs_upgrade.php:67
+msgid "Check Out Form Fields updated."
+msgid_plural "Check Out Form Fields updated."
+msgstr[0] "Поля формы заказа обновлены."
+msgstr[1] "Поля формы заказа обновлены."
+msgstr[2] "Поля формы заказа обновлены."
+
+#: wpsc-admin/includes/purchlogs_upgrade.php:74
+msgid "Upgrading to WP e-Commerce 3.7 and later requires you to run this fix once.The following Boxes corresponds to the form fields in your current checkout page.  All you have to do is select from the drop-down menu box what each of the following fields represent. Sorry for any inconvenience caused, but we're sure you'll agree that the new purchase logs are worth this minor hassle. "
+msgstr "При обновлении WP e-Commerce до версии 3.7 и более поздней требуется один раз запустить это исправление. Следующие блоки соответствуют полям формы на вашей текущей странице заказа. Нужно просто выбрать в выпажающих списках, чему соответствует каждое поле. Извините за неудобства. Мы надеемся, что новые журналы покупок стоят этой небольшой трудности. "
+
+#: wpsc-admin/includes/settings-pages/admin.php:7
+msgid "Admin Settings"
+msgstr "Администрирование"
+
+#: wpsc-admin/includes/settings-pages/admin.php:13
+msgid "Max downloads per file"
+msgstr "Максимальное число скачиваний для файла"
+
+#: wpsc-admin/includes/settings-pages/admin.php:35
+msgid "Lock downloads to IP address"
+msgstr "Заблокировать ссылку для IP-адреса"
+
+#: wpsc-admin/includes/settings-pages/admin.php:61
+msgid "Check MIME types on file uploads"
+msgstr "Проверять MIME-тип загружаемых файлов: "
+
+#: wpsc-admin/includes/settings-pages/admin.php:68
+msgid "Warning: Disabling this exposes your site to greater possibility of malicious files being uploaded, we reccomend installing the Fileinfo extention for PHP rather than disabling this."
+msgstr "Внимание: При отключении этой возможности есть вероятность загрузки на сайт небезопасных файлов. Вместо этого мы рекомендуем установить PHP-расширение Fileinfo. "
+
+#: wpsc-admin/includes/settings-pages/admin.php:76
+msgid "Purchase Log Email"
+msgstr "E-mail для отправки журнала покупок"
+
+#: wpsc-admin/includes/settings-pages/admin.php:80
+msgid "i.e. this is the address where your purchase reports are sent."
+msgstr "Это адрес, на который отправляются отчёты о покупках. "
+
+#: wpsc-admin/includes/settings-pages/admin.php:86
+msgid "Purchase Receipt - Reply Address"
+msgstr "Квитанция о покупке &#8212; Адрес для ответа"
+
+#: wpsc-admin/includes/settings-pages/admin.php:90
+msgid "i.e. this is the reply address contained in the purchase receipt sent to the buyer."
+msgstr "Это адрес для ответа, содержащийся в отчёте, отправляемом покупателю."
+
+#: wpsc-admin/includes/settings-pages/admin.php:96
+msgid "Purchase Receipt - Reply Name"
+msgstr "Квитанция о покупке &#8212; Имя для ответа"
+
+#: wpsc-admin/includes/settings-pages/admin.php:100
+msgid "i.e. this is the \"from name\" buyers will see in their purchase receipt. "
+msgstr "Это имя, которое покупатели увидят в отчёте о покупках "
+
+#: wpsc-admin/includes/settings-pages/admin.php:115
+msgid "Custom Messages"
+msgstr "Настройки почты"
+
+#: wpsc-admin/includes/settings-pages/admin.php:118
+msgid "Tags can be used"
+msgstr "Можно использовать метки"
+
+#: wpsc-admin/includes/settings-pages/admin.php:139
+msgid "Admin Report"
+msgstr "Отчёт администрации"
+
+#: wpsc-admin/includes/settings-pages/admin.php:144
+msgid "Track and Trace settings"
+msgstr "Настройки отслеживания"
+
+#: wpsc-admin/includes/settings-pages/admin.php:154
+msgid "Tracking Email Subject"
+msgstr "Тема автоматических писем пользователям"
+
+#: wpsc-admin/includes/settings-pages/admin.php:158
+msgid "Tracking Email Message"
+msgstr "Текст автоматического письма"
+
+#: wpsc-admin/includes/settings-pages/admin.php:162
+msgid "URL Settings"
+msgstr "Настройки URL"
+
+#: wpsc-admin/includes/settings-pages/admin.php:167
+#: wpsc-includes/install_and_update.functions.php:95
+msgid "The location of the product list"
+msgstr "Адрес списка товаров"
+
+#: wpsc-admin/includes/settings-pages/admin.php:175
+#: wpsc-includes/install_and_update.functions.php:96
+msgid "The location of the shopping cart"
+msgstr "Адрес корзины для покупок"
+
+#: wpsc-admin/includes/settings-pages/admin.php:193
+msgid "Transaction Details URL"
+msgstr "Адрес информации о транзакции"
+
+#: wpsc-admin/includes/settings-pages/admin.php:204
+msgid "User Account URL"
+msgstr "Ссылка на аккаунт пользователя"
+
+#: wpsc-admin/includes/settings-pages/admin.php:215
+msgid "Update Page URLs"
+msgstr "Обновить ссылки страниц"
+
+#: wpsc-admin/includes/settings-pages/admin.php:216
+msgid "Fix Product Group Permalinks"
+msgstr "Исправить ссылки страниц"
+
+#: wpsc-admin/includes/settings-pages/checkout.php:42
+msgid "Checkout Options"
+msgstr "Настройки контроля"
+
+#: wpsc-admin/includes/settings-pages/checkout.php:55
+msgid "Users must register before checking out"
+msgstr "пользователь должен быть зарегистрирован перед выпиской счёта"
+
+#: wpsc-admin/includes/settings-pages/checkout.php:75
+msgid "If yes then you must also turn on the wordpress option \"Any one can register\""
+msgstr "Если &laquo;Да&raquo;, вы должны также выбрать вариант &laquo;Любой может зарегистрироваться&raquo; в настройках WordPress."
+
+#: wpsc-admin/includes/settings-pages/checkout.php:92
+msgid "Lock Tax to Billing Country"
+msgstr "Привязать налог к стране биллинга"
+
+#: wpsc-admin/includes/settings-pages/checkout.php:115
+msgid " Disregard Billing State for Tax Calculations"
+msgstr " Не учитывать штат биллинга при расчёте налога"
+
+#: wpsc-admin/includes/settings-pages/checkout.php:140
+msgid "Enable Shipping Same as Billing Option: "
+msgstr "Использовать тот же адрес доставки, что и для платежа"
+
+#: wpsc-admin/includes/settings-pages/checkout.php:153
+msgid "Here you can customise the forms to be displayed in your checkout page. The checkout page is where you collect important user information that will show up in your purchase logs i.e. the buyers address, and name..."
+msgstr "Здесь можно настроить поля формы для отображения на странице заказа. Страница заказа &#8212; это место, где вы собираете важную информацию о покупателе, которая будет показана в журнале покупок: адрес, имя и т.д."
+
+#: wpsc-admin/includes/settings-pages/checkout.php:170
+msgid "+ Add New Form Set"
+msgstr "+ Добавить новый набор форм"
+
+#: wpsc-admin/includes/settings-pages/checkout.php:174
+msgid "Add new Form Set"
+msgstr "Добавить новый набор форм"
+
+#: wpsc-admin/includes/settings-pages/checkout.php:251
+msgid "This will be the Email address that the Purchase Reciept is sent to."
+msgstr "Это адрес для ответа, содержащийся в отчёте, отправляемом покупателю. "
+
+#: wpsc-admin/includes/settings-pages/checkout.php:269
+msgid "Add New Form Field"
+msgstr "Добавить новую форму к заполнению"
+
+#: wpsc-admin/includes/settings-pages/gateway.php:31
+msgid "Please Select A Payment Gateway"
+msgstr "Пожалуйста, выберите платёжную систему для оплаты"
+
+#: wpsc-admin/includes/settings-pages/gateway.php:55
+msgid "Gateway Options"
+msgstr "Настройки оплаты"
+
+#: wpsc-admin/includes/settings-pages/gateway.php:64
+#: wpsc-admin/includes/settings-pages/general.php:7
+#: wpsc-admin/includes/settings-pages/shipping.php:52
+#: wpsc-admin/includes/settings-pages/shipping.php:58
+msgid "General Settings"
+msgstr "Общие настройки"
+
+#: wpsc-admin/includes/settings-pages/gateway.php:68
+msgid "Payment Gateways"
+msgstr "Платёжные системы"
+
+#: wpsc-admin/includes/settings-pages/gateway.php:72
+msgid "Activate the payment gateways that you want to make available to your customers by selecting them below."
+msgstr "Выберите способы оплаты, которые будут использоваться вашими покупателями."
+
+#: wpsc-admin/includes/settings-pages/gateway.php:98
+msgid "We Recommend"
+msgstr "Мы рекомендуем"
+
+#: wpsc-admin/includes/settings-pages/gateway.php:107
+#: wpsc-admin/includes/settings-pages/gateway.php:114
+msgid " Select a Payment Gateway below to configure it."
+msgstr " Выберите способ оплаты ниже, для редактирования."
+
+#: wpsc-admin/includes/settings-pages/gateway.php:122
+msgid "Payment Gateway"
+msgstr "Платёжная система"
+
+#: wpsc-admin/includes/settings-pages/gateway.php:134
+msgid "Display Name"
+msgstr "Отображаемое название"
+
+#: wpsc-admin/includes/settings-pages/gateway.php:162
+msgid "The text that people see when making a purchase"
+msgstr "Текст, который клиенты увидят при покупке"
+
+#: wpsc-admin/includes/settings-pages/general.php:13
+msgid "Base Country/Region"
+msgstr "Страна"
+
+#: wpsc-admin/includes/settings-pages/general.php:39
+msgid "Select your primary business location."
+msgstr "Выберите основное местонахождение вашего бизнеса"
+
+#: wpsc-admin/includes/settings-pages/general.php:43
+msgid "Tax Settings"
+msgstr "Настройки налогов"
+
+#: wpsc-admin/includes/settings-pages/general.php:60
+msgid "Tax Included in prices"
+msgstr "Налог включён в цены"
+
+#: wpsc-admin/includes/settings-pages/general.php:116
+msgid "Currency Settings"
+msgstr "Настройки валюты"
+
+#: wpsc-admin/includes/settings-pages/general.php:143
+#: wpsc-includes/install_and_update.functions.php:115
+msgid "Currency sign location"
+msgstr "Расположение знака"
+
+#: wpsc-admin/includes/settings-pages/general.php:194
+msgid "Hide Decimals on Products Pages"
+msgstr "Скрывать десятичные цифры на страницах товаров"
+
+#: wpsc-admin/includes/settings-pages/import.php:7
+msgid "Import Products CSV"
+msgstr "Импорт товаров из CSV"
+
+#: wpsc-admin/includes/settings-pages/import.php:8
+msgid "<p>You can import your products from a comma delimited text file.</p><p>An example of a cvs import file would look like this: </p><p>Description, Additional Description, Product Name, Price, SKU, weight, weight unit, stock quantity, is limited quantity</p>"
+msgstr "<p>Можно импортировать товары из текстового файла, разделённого запятымиYou can import your products from a comma delimited text file.</p><p>An example of a cvs import file would look like this: </p><p>Description, Additional Description, Product Name, Price, SKU, weight, weight unit, stock quantity, is limited quantity</p>"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:14
+msgid "Show All Products"
+msgstr "Показать все товары"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:21
+msgid "Show Category List"
+msgstr "Показать список категория"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:28
+msgid "Show All Products + Category List"
+msgstr "Показать все товары + список категорий"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:63
+msgid "Button Settings"
+msgstr "Настройки кнопок"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:67
+msgid "Button Type"
+msgstr "Тип кнопки"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:92
+msgid "Hide \"Add to cart\" button"
+msgstr "Скрыть кнопку &laquo;Добавить в корзину&raquo;"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:117
+msgid "Product Settings"
+msgstr "Настройки товаров"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:122
+#: wpsc-includes/install_and_update.functions.php:162
+msgid "Show Product Ratings"
+msgstr "Показывать рейтинг товаров"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:146
+msgid "Display Fancy Purchase Notifications"
+msgstr "Показывать смешные ообщения о покупках"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:170
+msgid "Show Postage and Packaging"
+msgstr "Показывать стоимость пересылки и упаковки"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:193
+msgid "Disable link in Title"
+msgstr "Скрыть ссылки названия товара"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:217
+msgid "Add quantity field to each product description"
+msgstr "Добавить поле количества к каждому описанию товара"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:242
+msgid "Theme Customisation"
+msgstr "Настройка оформления"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:247
+msgid "Thanks, the themes have been copied."
+msgstr "Спасибо, темы скопированы."
+
+#: wpsc-admin/includes/settings-pages/presentation.php:256
+msgid "Theming your stores appearance is easy."
+msgstr "Оформлять внешний вид магазина достаточно легко."
+
+#: wpsc-admin/includes/settings-pages/presentation.php:258
+msgid "You just need to edit the appropriate files in the following location."
+msgstr "Нужно отредактировать соответствующие файлы в следующем каталоге."
+
+#: wpsc-admin/includes/settings-pages/presentation.php:259
+#: wpsc-admin/includes/settings-pages/presentation.php:271
+msgid "Path:"
+msgstr "Путь:"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:261
+msgid "To create a new theme:"
+msgstr "Чтобы создать новую тему:"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:263
+msgid "Copy the default directory and rename it 'newTheme'"
+msgstr "Скопируйте каталог по умолчанию под именем &laquo;newTheme&raquo;"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:264
+msgid "Rename the default.css file inside the 'newTheme' directory to 'newTheme.css'"
+msgstr "Переименуйте файл default.css в каталоге &laquo;newTheme&raquo; в &laquo;newTheme.css&raquo;"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:269
+msgid "The permissions on your themes directory are incorrect."
+msgstr "На каталог темы установлены некорректные права."
+
+#: wpsc-admin/includes/settings-pages/presentation.php:270
+msgid "Please set the permissions to 775 on the following directory."
+msgstr "Пожалуйста, установите права 775 на следующий каталог."
+
+#: wpsc-admin/includes/settings-pages/presentation.php:275
+msgid "Your theme files have not been moved. Until your theme files have been moved, we have disabled automatic upgrades."
+msgstr "Файлы вашей темы не перемещены. До перемещения файлов автоматические обновления будут отключены."
+
+#: wpsc-admin/includes/settings-pages/presentation.php:276
+#, php-format
+msgid "Click here to <a href='%s'>Move your files</a> to a safe place"
+msgstr "Нажмите сюда, чтобы <a href='%s'>переместить ваши файлы</a> в безопасное место"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:280
+msgid "Read Tutorials"
+msgstr "Прочитать документацию"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:285
+msgid "Product Page Settings"
+msgstr "Настройки страницы товаров"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:372
+msgid "Purchase unavailable options"
+msgstr "Купить недоступные опции"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:377
+msgid "Show quantity form in list view"
+msgstr "показывать форму количества в списке просмотра"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:382
+msgid "Products Per Row"
+msgstr "Количество товаров в строке"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:387
+msgid "Show images only"
+msgstr "Показать только изображения"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:397
+msgid "Display Description"
+msgstr "Отображать описание"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:402
+msgid "Display \"Add To Cart\" Button"
+msgstr "Отображать кнопку &laquo;Добавить в корзину&raquo;"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:406
+msgid "Display \"More Details\" Button"
+msgstr "Отображать кнопку &laquo;Подробнее&raquo;"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:416
+msgid "Theme"
+msgstr "Тема"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:425
+msgid "Product page displays"
+msgstr "На странице товаров отображается"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:453
+msgid "Sort Products By"
+msgstr "Критерий сортировки"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:459
+msgid "Drag &amp; Drop"
+msgstr "Перетаскивание"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:460
+msgid "Time Uploaded"
+msgstr "Время загрузки"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:462
+msgid "If you have used the drag-drop interface on the edit-products page to order your products then you must use the Drag &amp; Drop option."
+msgstr "Если вы перетаскивали товары мышью на странице редактирования для расположения их в правильном порядке, нужно выбрать вариант &laquo;Перетаскивание&raquo;."
+
+#: wpsc-admin/includes/settings-pages/presentation.php:466
+msgid "Show Breadcrumbs"
+msgstr "Показывать &laquo;хлебные крошки&raquo;"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:492
+msgid "Product Groups/Products Display"
+msgstr "Группы товаров / Отображение товаров"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:510
+msgid "Product Groups Only (All products displayed)"
+msgstr "Только группы товаров (Все товары отображаются)"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:511
+msgid "Sliding Product Groups (1 product per page)"
+msgstr "Скользящие группы товаров (1 товар на страницу)"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:518
+msgid "Show Subcategory Products in Parent Category"
+msgstr "Показывать товары из подкатегорий в родительской категории"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:544
+msgid "Show Search"
+msgstr "Показать поиск"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:581
+msgid "Show Advanced Search"
+msgstr "Показывать расширенный поиск"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:584
+msgid "Use Live Search"
+msgstr "Использовать Live Search"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:595
+msgid "Replace Page Title With Product/Category Name"
+msgstr "Заменять название страницы названием товара/категории"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:617
+msgid "Shopping Cart Settings"
+msgstr "Настройки корзины"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:620
+#: wpsc-includes/install_and_update.functions.php:101
+#: wpsc-includes/install_and_update.functions.php:103
+#: wpsc-includes/install_and_update.functions.php:107
+#: wpsc-includes/install_and_update.functions.php:109
+msgid "Cart Location"
+msgstr "Место размещения корзины"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:649
+#: wpsc-admin/includes/settings-pages/presentation.php:653
+msgid "Sidebar"
+msgstr "Боковая колонка"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:657
+msgid "Page"
+msgstr "Страница"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:661
+#: wpsc-admin/includes/settings-pages/presentation.php:665
+msgid "Widget"
+msgstr "Виджет"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:665
+#: wpsc-admin/includes/settings-pages/presentation.php:675
+msgid "You need to enable the widgets plugin to use this"
+msgstr "Чтобы использовать эту функцию, необходимо включить плагин виджетов"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:675
+msgid "You need to install the Gold and DropShop extentions to use this"
+msgstr "Чтобы использовать эту функцию, необходимо установить версию Gold и расширение DropShop"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:679
+msgid "Manual"
+msgstr "Вручную"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:682
+msgid "Show Dropshop on every page"
+msgstr "Показывать Dropshop на каждой странице"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:683
+msgid "Show Dropshop only on product page"
+msgstr "Показывать Dropshop только на странице товаров"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:686
+msgid "Use light Dropshop style"
+msgstr "Использовать светлый стиль Dropshop"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:687
+msgid "Use dark Dropshop style"
+msgstr "Использовать тёмный стиль Dropshop"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:688
+msgid "Crafty"
+msgstr "Crafty"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:698
+msgid "Use Sliding Cart"
+msgstr "Использовать скользящую корзину"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:723
+msgid "Display \"+ Postage & Tax\""
+msgstr "Отображать &laquo;+ пересылка и налог&raquo;"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:749
+msgid "Product Group Settings"
+msgstr "Настройки групп товаров"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:753
+msgid "Show Product Group Description"
+msgstr "Показывать описание групп товаров"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:778
+msgid "Show Product Group Thumbnails"
+msgstr "Показывать миниатюры групп товаров"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:805
+msgid "Show Product Count per Product Group"
+msgstr "Показывать количество товаров на группу"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:831
+msgid "Use Category Grid View"
+msgstr "Отображать в виде таблицы"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:862
+msgid "Default Product Thumbnail Size"
+msgstr "Размеры превью товара по умолчанию"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:866
+msgid "Resize Existing Thumbnails"
+msgstr "Изменить размер миниатюр"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:872
+msgid "Default Product Group Thumbnail Size"
+msgstr "Размеры превью категории по умолчанию"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:881
+msgid "Single Product Image Size"
+msgstr "Размер изображения отдельного товара"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:892
+#: wpsc-includes/install_and_update.functions.php:87
+msgid "Show Thumbnails"
+msgstr "Показывать миниатюры"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:918
+msgid "Show Thumbnail Gallery"
+msgstr "Показывать галерею миниатюр"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:942
+msgid "Gallery Thumbnail Image Size"
+msgstr "Размер миниатюр в галерее"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:956
+msgid "Pagination settings"
+msgstr "Настройки постраничного просмотра"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:960
+msgid "Use Pagination"
+msgstr "Использовать постраничный просмотр"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:982
+msgid "number of products to show per page"
+msgstr "количество товаров на странице"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:992
+msgid "Top"
+msgstr "Сверху"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:993
+msgid "Bottom"
+msgstr "Снизу"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:994
+msgid "Both"
+msgstr "Оба"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:1001
+msgid "Comment Settings"
+msgstr "Настройки комментирования"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:1005
+msgid "Use IntenseDebate Comments"
+msgstr "Использовать систему IntenseDebate для комментариев"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:1029
+msgid "IntenseDebate Account ID"
+msgstr "ID аккаунта IntenseDebate"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:1031
+msgid "Help on finding the Account ID"
+msgstr "Как найти ID аккаунта"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:1040
+msgid "By Default Display Comments on"
+msgstr "По умолчанию отображать комментарии"
+
+#: wpsc-admin/includes/settings-pages/shipping.php:67
+msgid "Use Shipping"
+msgstr "Использовать доставку"
+
+#: wpsc-admin/includes/settings-pages/shipping.php:89
+msgid "If you are only selling digital downloads, you should select no to disable the shipping on your site."
+msgstr "Если вы только продаёте файлы для скачивания, Вы должны отключить опцию доставки."
+
+#: wpsc-admin/includes/settings-pages/shipping.php:94
+msgid "Base Zipcode/Postcode:"
+msgstr "Основной почтовый индекс:"
+
+#: wpsc-admin/includes/settings-pages/shipping.php:97
+msgid "If you are based in America then you need to set your own Zipcode for UPS and USPS to work. This should be the Zipcode for your Base of Operations."
+msgstr "Если вы расположены в Америке, то нужно указать код штата для UPS и USPS."
+
+#: wpsc-admin/includes/settings-pages/shipping.php:119
+msgid "ShipWire Settings"
+msgstr "Настройки ShipWire"
+
+#: wpsc-admin/includes/settings-pages/shipping.php:130
+msgid "ShipWire Email"
+msgstr "ShipWire Email"
+
+#: wpsc-admin/includes/settings-pages/shipping.php:131
+msgid "ShipWire Password"
+msgstr "ShipWire пароль"
+
+#: wpsc-admin/includes/settings-pages/shipping.php:139
+msgid "Enable Free Shipping Discount"
+msgstr "Использовать бесплатную доставку"
+
+#: wpsc-admin/includes/settings-pages/shipping.php:184
+#: wpsc-admin/includes/settings-pages/shipping.php:189
+msgid "Shipping Modules"
+msgstr "Модули доставки"
+
+#: wpsc-admin/includes/settings-pages/shipping.php:195
+msgid "To enable shipping in WP e-Commerce you must select  which shipping methods you want to enable on your site"
+msgstr "Чтобы включить доставку в WP e-Commerce, нужно выбрать, какие способы доставки вы хотите использовать на сайте"
+
+#: wpsc-admin/includes/settings-pages/shipping.php:196
+msgid "<br /><strong>UPS has been deactivated because you are running PHP4, please upgrade to PHP5 to enable UPS.</strong>"
+msgstr "<br /><strong>Служба UPS отключена, потому что вы используете PHP4. Чтобы включить UPS, установите PHP5.</strong>"
+
+#: wpsc-admin/includes/settings-pages/shipping.php:200
+msgid "Internal Shipping Calculators"
+msgstr "Внутренние калькуляторы стоимости доставки"
+
+#: wpsc-admin/includes/settings-pages/shipping.php:233
+msgid "External Shipping Calculators"
+msgstr "Внешние калькуляторы стоимости доставки"
+
+#: wpsc-admin/includes/settings-pages/shipping.php:236
+msgid "The following shipping modules all need cURL which is not installed on this server, you may need to contact your web hosting provider to get it set up. "
+msgstr "Выбранный метод доставки требует cURL который не установлен на этом сервере, вам надо связатся с хостером для установки его. "
+
+#: wpsc-includes/ajax.functions.php:104
+msgid "You just added \"[product_name]\" to your cart."
+msgstr "Вы добавили товар &laquo;[product_name]&raquo; в корзину."
+
+#: wpsc-includes/ajax.functions.php:107
+msgid "Sorry, but you cannot add zero items to your cart"
+msgstr "Извините, но в корзину нельзя добавить нулевое количество товара"
+
+#: wpsc-includes/ajax.functions.php:109
+msgid "Sorry, but there are only [number] of this item in stock."
+msgstr "Извините, но единиц этого товара осталось только [number]."
+
+#: wpsc-includes/ajax.functions.php:111
+msgid "Sorry, but the item \"[product_name]\" is out of stock."
+msgstr "Извините, но товара &laquo;[product_name]&raquo; нет на складе."
+
+#: wpsc-includes/ajax.functions.php:593
+msgid "You must select a shipping method, otherwise we cannot process your order."
+msgstr "Вам нужно выбрать метод доставки, иначе мы не сможем обработать ваш заказ."
+
+#: wpsc-includes/ajax.functions.php:598
+msgid "Please agree to the terms and conditions, otherwise we cannot process your order."
+msgstr "Приймите соглашения и условия работы сервиса. В противном случае мы не сможем обработать ваш заказ."
+
+#: wpsc-includes/ajax.functions.php:618
+#, php-format
+msgid "Oops the product : %s cannot be shipped to %s. To continue with your transaction please remove this product from the list above."
+msgstr "Товар &laquo;%s&raquo; не может быть доставлен в страну %s. Чтобы продолжить транзакцию, удалите этот товар из списка."
+
+#: wpsc-includes/ajax.functions.php:641
+msgid "Please enter a Zipcode and click calculate to proceed"
+msgstr "Пожалуйста, введите индекс и нажмите &laquo;Посчитать&raquo; для продолжения"
+
+#: wpsc-includes/ajax.functions.php:981
+#: wpsc-includes/ajax.functions.php:1039
+msgid "This download is no longer valid, Please contact the site administrator for more information."
+msgstr "Эта ссылка больше не активна."
+
+#: wpsc-includes/category.functions.php:361
+msgid "Brands"
+msgstr "Бренды (производители)"
+
+#: wpsc-includes/checkout.class.php:45
+#, php-format
+msgid "Tax Included (%s%%)"
+msgstr "Налог включён (%s%%)"
+
+#: wpsc-includes/checkout.class.php:47
+msgid "Tax Included"
+msgstr "Налог включён"
+
+#: wpsc-includes/checkout.class.php:50
+msgid "Tax"
+msgstr "Налог"
+
+#: wpsc-includes/display.functions.php:90
+msgid "People who bought this item also bought"
+msgstr "Купившие этот товар так же покупали"
+
+#: wpsc-includes/display.functions.php:138
+msgid "Updating"
+msgstr "Обновление"
+
+#: wpsc-includes/display.functions.php:154
+msgid "Continue Shopping"
+msgstr "Продолжить покупки"
+
+#: wpsc-includes/display.functions.php:255
+msgid "You are using the example product group as your default group and it has no products in it, you should set the default group to something else, you can do so from your Shop Settings page."
+msgstr "В качестве группы по умолчанию вы используете демонстрационную группу, и в ней нет товаров. Нужно назначить группой по умолчанию какую-нибудь другую. Сделать это можно на странице &laquo;Настройки магазина&raquo;."
+
+#: wpsc-includes/display.functions.php:257
+msgid "This group is set as your default product group, you should either add some items to it or switch your default product group to one that does contain items."
+msgstr "Эта группа используется в качестве группы по умолчанию. Нужно либо добавить в неё несколько товаров, либо назначить группой по умолчанию ту, которая содержит товары."
+
+#: wpsc-includes/form-display.functions.php:65
+msgid "Select Parent"
+msgstr "Выберите родительскую категорию"
+
+#: wpsc-includes/form-display.functions.php:137
+msgid "Choose a downloadable file for this product:"
+msgstr "Выберите скачиваемый файл для этого товара:"
+
+#: wpsc-includes/form-display.functions.php:181
+msgid "Choose a downloadable file for this variation"
+msgstr "Выберите скачиваемый файл для этой вариации"
+
+#: wpsc-includes/form-display.functions.php:187
+msgid "No Product"
+msgstr "Нет товаров"
+
+#: wpsc-includes/install_and_update.functions.php:60
+msgid "Example category"
+msgstr "Пример категории"
+
+#: wpsc-includes/install_and_update.functions.php:60
+#: wpsc-includes/install_and_update.functions.php:61
+msgid "Example details"
+msgstr "Пример описания"
+
+#: wpsc-includes/install_and_update.functions.php:61
+msgid "Example Brand"
+msgstr "Пример бренда (производителя)"
+
+#: wpsc-includes/install_and_update.functions.php:69
+msgid "Accepted Payment"
+msgstr "Оплата получена"
+
+#: wpsc-includes/install_and_update.functions.php:70
+msgid "Job Dispatched"
+msgstr "Обработано"
+
+#: wpsc-includes/install_and_update.functions.php:89
+msgid "product image width"
+msgstr "ширина изображения товара"
+
+#: wpsc-includes/install_and_update.functions.php:90
+msgid "product image height"
+msgstr "высота изображения товара"
+
+#: wpsc-includes/install_and_update.functions.php:92
+msgid "product group image width"
+msgstr "ширина изображения категории"
+
+#: wpsc-includes/install_and_update.functions.php:93
+msgid "product group image height"
+msgstr "высота изображения категории"
+
+#: wpsc-includes/install_and_update.functions.php:97
+msgid "The location of the checkout page"
+msgstr "Адрес страницы заказа"
+
+#: wpsc-includes/install_and_update.functions.php:98
+msgid "The location of the transaction detail page"
+msgstr "Позиция в журнале транзакций"
+
+#: wpsc-includes/install_and_update.functions.php:99
+msgid "The payment gateway to use"
+msgstr "Используемый gateway для оплаты"
+
+#: wpsc-includes/install_and_update.functions.php:117
+msgid "the GST rate"
+msgstr "ставка GST"
+
+#: wpsc-includes/install_and_update.functions.php:119
+msgid "the download limit"
+msgstr "Ограничение на скачивание до"
+
+#: wpsc-includes/install_and_update.functions.php:121
+msgid "Display or hide postage and packaging"
+msgstr "Отображать/не отображать отправку почтой и упаковку"
+
+#: wpsc-includes/install_and_update.functions.php:123
+msgid "Display or hide specials on the sidebar"
+msgstr "Отображать/не отображать специальное в боковой колонке"
+
+#: wpsc-includes/install_and_update.functions.php:126
+msgid "Default postage and packaging"
+msgstr "Отправка почтой и упаковка по умолчанию"
+
+#: wpsc-includes/install_and_update.functions.php:128
+msgid "Email address that purchase log is sent to"
+msgstr "E-mail, на который отправляется отчёт о покупке"
+
+#: wpsc-includes/install_and_update.functions.php:129
+msgid "Email address that purchase reports are sent from"
+msgstr "E-mail, с которого отправляются отчёты о покупках"
+
+#: wpsc-includes/install_and_update.functions.php:130
+msgid "Checkout terms and conditions"
+msgstr "Соглашения и условия заказа"
+
+#: wpsc-includes/install_and_update.functions.php:132
+msgid "Google Merchant Key"
+msgstr "Ключ Google Merchant"
+
+#: wpsc-includes/install_and_update.functions.php:133
+msgid "Google Merchant ID"
+msgstr "Google Merchant ID"
+
+#: wpsc-includes/install_and_update.functions.php:135
+msgid "Default Brand"
+msgstr "Бренд (производитель) по умолчанию"
+
+#: wpsc-includes/install_and_update.functions.php:136
+msgid "Select what product group you want to display on the products page"
+msgstr "Выберите, какую группу товаров вы хотите отображать на странице товаров"
+
+#: wpsc-includes/install_and_update.functions.php:149
+#: wpsc-includes/install_and_update.functions.php:155
+msgid "paypal business"
+msgstr "бизнес paypal"
+
+#: wpsc-includes/install_and_update.functions.php:150
+#: wpsc-includes/install_and_update.functions.php:151
+#: wpsc-includes/install_and_update.functions.php:158
+msgid "paypal url"
+msgstr "ссылка paypal"
+
+#: wpsc-includes/install_and_update.functions.php:207
+msgid "Products Page"
+msgstr "Страница товаров"
+
+#: wpsc-includes/install_and_update.functions.php:225
+msgid "Transaction Results"
+msgstr "Результаты транзакции"
+
+#: wpsc-includes/install_and_update.functions.php:231
+msgid "Your Account"
+msgstr "Ваш аккаунт"
+
+#: wpsc-includes/install_and_update.functions.php:649
+msgid "1. Your billing/contact details"
+msgstr "1. Ваши детали счёта/адреса"
+
+#: wpsc-includes/install_and_update.functions.php:655
+#: wpsc-includes/install_and_update.functions.php:664
+msgid "Postal Code"
+msgstr "Индекс"
+
+#: wpsc-includes/install_and_update.functions.php:657
+msgid "2. Shipping details"
+msgstr "2. Детали доставки"
+
+#: wpsc-includes/install_and_update.functions.php:662
+msgid "State"
+msgstr "Штат"
+
+#: wpsc-includes/misc.functions.php:46
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr "<strong>ОШИБКА</strong>: Пожалуйста, введите логин."
+
+#: wpsc-includes/misc.functions.php:48
+msgid "<strong>ERROR</strong>: This username is invalid.  Please enter a valid username."
+msgstr "<strong>ОШИБКА</strong>: Этот логин некорректен. Пожалуйста, введите корректный логин."
+
+#: wpsc-includes/misc.functions.php:51
+msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
+msgstr "<strong>ОШИБКА</strong>: Пользователь с таким логином уже зарегистрирован. Пожалуйста, выберите другой."
+
+#: wpsc-includes/misc.functions.php:56
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr "<strong>ОШИБКА</strong>: Пожалуйста, введите ваш адрес e-mail."
+
+#: wpsc-includes/misc.functions.php:58
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>ОШИБКА</strong>: Некорректный адрес e-mail."
+
+#: wpsc-includes/misc.functions.php:61
+msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
+msgstr "<strong>ОШИБКА</strong>: Этот e-mail уже зарегистрирован. Пожалуйста, введите другой."
+
+#: wpsc-includes/misc.functions.php:69
+#, php-format
+msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
+msgstr "<strong>ОШИБКА</strong>: Регистрация не удалась. Пожалуйста, свяжитесь с <a href=\"mailto:%s\">администратором</a>!"
+
+#: wpsc-includes/processing.functions.php:30
+#: wpsc-includes/processing.functions.php:36
+#: wpsc-includes/processing.functions.php:46
+msgid " is out of stock"
+msgstr " закончился"
+
+#: wpsc-includes/processing.functions.php:30
+#: wpsc-includes/processing.functions.php:36
+#: wpsc-includes/processing.functions.php:46
+msgid "Remaining stock of "
+msgstr "Единиц товара на складе "
+
+#: wpsc-includes/processing.functions.php:30
+msgid " and its variations is 0. Product was unpublished."
+msgstr " и его вариаций осталось 0. Товар убран со страниц сайта."
+
+#: wpsc-includes/processing.functions.php:36
+msgid " is 0. Product variation was set to invisible."
+msgstr " осталось 0. Вариация товара скрыта."
+
+#: wpsc-includes/processing.functions.php:46
+msgid " is 0. Product was unpublished."
+msgstr " осталось 0. Товар убран со страниц сайта."
+
+#: wpsc-includes/processing.functions.php:916
+msgid "This product has no available stock"
+msgstr "Этого товара нет на складе."
+
+#: wpsc-includes/processing.functions.php:964
+msgid "One or more of your shipping modules does not support products without a weight set. Please either disable shipping for this product or give it a weight"
+msgstr "Один или несколько модулей доставки не поддерживают товары, вес которых не указан. Пожалуйста, отключите доставку для этих товаров или укажите их вес."
+
+#: wpsc-includes/purchaselogs.class.php:596
+#, php-format
+msgid "Release downloads locked to this IP address %s"
+msgstr "Разблокировать ссылки, заблокированные для IP-адреса %s"
+
+#: wpsc-includes/purchaselogs.class.php:816
+msgid "Thanks, the purchase log record has been deleted"
+msgstr "Спасибо, журнал покупок удалён"
+
+#: wpsc-includes/rss_template.php:7
+msgid "WP e-Commerce"
+msgstr "WP e-Commerce"
+
+#: wpsc-includes/upgrades.php:122
+msgid "Visit upgrade homepage"
+msgstr "Посетить страницу расширения"
+
+#: wpsc-includes/upgrades.php:127
+msgid "Visit author homepage"
+msgstr "Посетить страницу автора"
+
+#: wpsc-includes/upgrades.php:131
+#, php-format
+msgid "By %s"
+msgstr "Автора %s"
+
+#: wpsc-includes/variations.class.php:216
+msgid "Variation"
+msgstr "Вариации"
+
+#: wpsc-includes/variations.class.php:217
+msgid "Stock"
+msgstr "Склад"
+
+#: wpsc-includes/variations.class.php:220
+msgid "More"
+msgstr "Далее"
+
+#: wpsc-includes/variations.class.php:352
+msgid "Weight Settings"
+msgstr "Настройки веса"
+
+#: wpsc-includes/wpsc_query.php:939
+msgid "Save"
+msgstr "Сохранить"
+

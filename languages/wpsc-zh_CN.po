@@ -1,0 +1,3895 @@
+# Translation of the WordPress plugin   by .
+# Copyright (C) 2010
+# This file is distributed under the same license as the  package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-e-commerce\n"
+"POT-Creation-Date: 2010-06-15 23:21+0000\n"
+"PO-Revision-Date: 2010-06-30 03:31+0830\n"
+"Last-Translator: Anson Ho <gz.anson@gmail.com>\n"
+"Language-Team: Anson Ho <gz.anson@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: admin-form-functions.php:10
+msgid "You are editing the &quot;[categorisation]&quot; Category"
+msgstr "您正在编辑 &quot;[categorisation]&quot; 类别"
+
+#: admin-form-functions.php:11
+#: wpsc-admin/display-groups.page.php:759
+msgid "+ Add new category to the &quot;[categorisation]&quot; Group"
+msgstr "添加新类别到 &quot;[categorisation]&quot; 组别"
+
+#: admin-form-functions.php:25
+#: admin-form-functions.php:279
+#: admin-form-functions.php:867
+#: display-ecommerce-subs.php:9
+#: js/tinymce3/window.php:105
+#: user-log.php:200
+#: user-log.php:359
+#: wpsc-admin/display-groups.page.php:698
+#: wpsc-admin/display-groups.page.php:774
+#: wpsc-admin/display-upgrades.page.php:88
+#: wpsc-admin/display-variations.page.php:13
+#: wpsc-admin/display-variations.page.php:156
+#: wpsc-admin/includes/display-items-functions.php:792
+#: wpsc-admin/includes/display-items-functions.php:804
+#: wpsc-admin/includes/settings-pages/presentation.php:457
+msgid "Name"
+msgstr "名称"
+
+#: admin-form-functions.php:34
+#: js/tinymce3/window.php:109
+#: wpsc-admin/display-groups.page.php:782
+#: wpsc-admin/includes/display-items-functions.php:807
+msgid "Description"
+msgstr "简介"
+
+#: admin-form-functions.php:44
+msgid "Category Parent"
+msgstr "上级分类"
+
+#: admin-form-functions.php:85
+msgid "Category&nbsp;Image"
+msgstr "分类&nbsp;图片"
+
+#: admin-form-functions.php:101
+#: admin-form-functions.php:110
+#: admin-form-functions.php:198
+#: wpsc-admin/display-groups.page.php:812
+#: wpsc-admin/display-groups.page.php:865
+#: wpsc-admin/includes/display-items-functions.php:675
+#: wpsc-admin/includes/settings-pages/presentation.php:864
+#: wpsc-admin/includes/settings-pages/presentation.php:875
+#: wpsc-admin/includes/settings-pages/presentation.php:884
+#: wpsc-admin/includes/settings-pages/presentation.php:945
+msgid "Height"
+msgstr "高度"
+
+#: admin-form-functions.php:101
+#: admin-form-functions.php:110
+#: admin-form-functions.php:199
+#: wpsc-admin/display-groups.page.php:812
+#: wpsc-admin/display-groups.page.php:866
+#: wpsc-admin/includes/display-items-functions.php:687
+#: wpsc-admin/includes/settings-pages/presentation.php:865
+#: wpsc-admin/includes/settings-pages/presentation.php:875
+#: wpsc-admin/includes/settings-pages/presentation.php:884
+#: wpsc-admin/includes/settings-pages/presentation.php:946
+msgid "Width"
+msgstr "宽度"
+
+#: admin-form-functions.php:102
+#: admin-form-functions.php:111
+#: wpsc-admin/display-groups.page.php:813
+msgid "You can upload thumbnail images for each group. To display Group details in your shop you must configure these settings under <a href=\"admin.php?page=wpsc-settings&tab=presentation\">Presentation Settings</a>."
+msgstr "你可以上传每个组别的图片。如果要显示组别介绍，请在<a href=\"admin.php?page=wpsc-settings&tab=presentation\">显示设置</a>下设置。"
+
+#: admin-form-functions.php:119
+msgid "Delete Image"
+msgstr "删除图片"
+
+#: admin-form-functions.php:133
+#: wpsc-admin/display-groups.page.php:16
+#: wpsc-admin/includes/settings-pages/general.php:83
+msgid "Target Markets"
+msgstr "目标市场"
+
+#: admin-form-functions.php:138
+#: wpsc-admin/display-groups.page.php:22
+#: wpsc-admin/includes/settings-pages/general.php:89
+msgid ""
+"The Target Markets feature has been disabled because you have the Suhosin PHP extension installed on this server. If you need to use the Target Markets feature then disable the suhosin extension, if you can not do this, you will need to contact your hosting provider.\r\n"
+"\t\t\t"
+msgstr ""
+"因为你的服务器打开了PHP扩展功能Suhosin，所以目标市场功能已被禁用。如果您需要使用目标市场功能，请关闭Suhosin功能，如果不能做到这一点，请你联系托管服务提供商。\r\n"
+"\t\t\t"
+
+#: admin-form-functions.php:164
+#: wpsc-admin/display-groups.page.php:822
+#: wpsc-admin/includes/settings-pages/presentation.php:57
+msgid "Presentation Settings"
+msgstr "显示设置"
+
+#: admin-form-functions.php:165
+#: wpsc-admin/display-groups.page.php:823
+msgid "To over-ride the presentation settings for this group you can enter in your prefered settings here"
+msgstr "您为这个组别可以输入您喜欢的设置，优先于显示设置的设定。"
+
+#: admin-form-functions.php:171
+#: wpsc-admin/display-groups.page.php:831
+#: wpsc-admin/includes/settings-pages/presentation.php:288
+msgid "Catalog View"
+msgstr "目录视图"
+
+#: admin-form-functions.php:175
+#: wpsc-includes/form-display.functions.php:6
+msgid "Please select"
+msgstr "请选择"
+
+#: admin-form-functions.php:176
+#: wpsc-admin/display-groups.page.php:835
+#: wpsc-admin/includes/settings-pages/presentation.php:346
+msgid "Default View"
+msgstr "默认视图"
+
+#: admin-form-functions.php:178
+#: admin-form-functions.php:180
+#: wpsc-admin/display-groups.page.php:839
+#: wpsc-admin/display-groups.page.php:843
+#: wpsc-admin/includes/settings-pages/presentation.php:350
+#: wpsc-admin/includes/settings-pages/presentation.php:354
+msgid "List View"
+msgstr "列表视图"
+
+#: admin-form-functions.php:183
+#: admin-form-functions.php:185
+#: wpsc-admin/display-groups.page.php:849
+#: wpsc-admin/display-groups.page.php:853
+#: wpsc-admin/includes/settings-pages/presentation.php:361
+#: wpsc-admin/includes/settings-pages/presentation.php:365
+msgid "Grid View"
+msgstr "网格视图"
+
+#: admin-form-functions.php:195
+#: wpsc-admin/display-groups.page.php:863
+msgid "Thumbnail&nbsp;Size"
+msgstr "缩略图&nbsp;尺寸"
+
+#: admin-form-functions.php:208
+#: wpsc-admin/display-groups.page.php:872
+#: wpsc-admin/display-sales-logs.php:317
+#: wpsc-admin/display-sales-logs.php:318
+msgid "Checkout Settings"
+msgstr "结算设置"
+
+#: admin-form-functions.php:217
+#: wpsc-admin/display-groups.page.php:878
+msgid "This category requires additional checkout form fields"
+msgstr "该类别需要在结算表单添加附加字段"
+
+#: admin-form-functions.php:222
+msgid "None"
+msgstr "无"
+
+#: admin-form-functions.php:247
+#: wpsc-admin/display-groups.page.php:906
+msgid "Products in this category use the billing address to calculate shipping"
+msgstr "此类别的商品使用支付地址计算运费"
+
+#: admin-form-functions.php:250
+#: display-coupons.php:502
+#: display-coupons.php:526
+#: merchants/chronopay.php:427
+#: merchants/paypal_multiple.php:478
+#: merchants/paypal_multiple.php:486
+#: merchants/paypal_multiple.php:502
+#: wpsc-admin/display-groups.page.php:908
+#: wpsc-admin/includes/display-items-functions.php:823
+#: wpsc-admin/includes/settings-pages/admin.php:38
+#: wpsc-admin/includes/settings-pages/admin.php:64
+#: wpsc-admin/includes/settings-pages/checkout.php:71
+#: wpsc-admin/includes/settings-pages/checkout.php:95
+#: wpsc-admin/includes/settings-pages/checkout.php:118
+#: wpsc-admin/includes/settings-pages/checkout.php:143
+#: wpsc-admin/includes/settings-pages/general.php:72
+#: wpsc-admin/includes/settings-pages/general.php:197
+#: wpsc-admin/includes/settings-pages/presentation.php:108
+#: wpsc-admin/includes/settings-pages/presentation.php:139
+#: wpsc-admin/includes/settings-pages/presentation.php:163
+#: wpsc-admin/includes/settings-pages/presentation.php:187
+#: wpsc-admin/includes/settings-pages/presentation.php:210
+#: wpsc-admin/includes/settings-pages/presentation.php:232
+#: wpsc-admin/includes/settings-pages/presentation.php:483
+#: wpsc-admin/includes/settings-pages/presentation.php:534
+#: wpsc-admin/includes/settings-pages/presentation.php:575
+#: wpsc-admin/includes/settings-pages/presentation.php:611
+#: wpsc-admin/includes/settings-pages/presentation.php:716
+#: wpsc-admin/includes/settings-pages/presentation.php:740
+#: wpsc-admin/includes/settings-pages/presentation.php:771
+#: wpsc-admin/includes/settings-pages/presentation.php:796
+#: wpsc-admin/includes/settings-pages/presentation.php:823
+#: wpsc-admin/includes/settings-pages/presentation.php:849
+#: wpsc-admin/includes/settings-pages/presentation.php:909
+#: wpsc-admin/includes/settings-pages/presentation.php:935
+#: wpsc-admin/includes/settings-pages/presentation.php:979
+#: wpsc-admin/includes/settings-pages/presentation.php:1026
+#: wpsc-admin/includes/settings-pages/shipping.php:87
+#: wpsc-admin/includes/settings-pages/shipping.php:122
+#: wpsc-admin/includes/settings-pages/shipping.php:152
+msgid "Yes"
+msgstr "是"
+
+#: admin-form-functions.php:251
+#: display-coupons.php:503
+#: display-coupons.php:527
+#: merchants/chronopay.php:428
+#: merchants/paypal_multiple.php:479
+#: merchants/paypal_multiple.php:487
+#: merchants/paypal_multiple.php:503
+#: wpsc-admin/display-groups.page.php:909
+#: wpsc-admin/includes/display-items-functions.php:825
+#: wpsc-admin/includes/settings-pages/admin.php:39
+#: wpsc-admin/includes/settings-pages/admin.php:65
+#: wpsc-admin/includes/settings-pages/checkout.php:72
+#: wpsc-admin/includes/settings-pages/checkout.php:97
+#: wpsc-admin/includes/settings-pages/checkout.php:120
+#: wpsc-admin/includes/settings-pages/checkout.php:145
+#: wpsc-admin/includes/settings-pages/general.php:74
+#: wpsc-admin/includes/settings-pages/general.php:200
+#: wpsc-admin/includes/settings-pages/presentation.php:109
+#: wpsc-admin/includes/settings-pages/presentation.php:140
+#: wpsc-admin/includes/settings-pages/presentation.php:164
+#: wpsc-admin/includes/settings-pages/presentation.php:188
+#: wpsc-admin/includes/settings-pages/presentation.php:212
+#: wpsc-admin/includes/settings-pages/presentation.php:234
+#: wpsc-admin/includes/settings-pages/presentation.php:484
+#: wpsc-admin/includes/settings-pages/presentation.php:535
+#: wpsc-admin/includes/settings-pages/presentation.php:576
+#: wpsc-admin/includes/settings-pages/presentation.php:612
+#: wpsc-admin/includes/settings-pages/presentation.php:717
+#: wpsc-admin/includes/settings-pages/presentation.php:741
+#: wpsc-admin/includes/settings-pages/presentation.php:772
+#: wpsc-admin/includes/settings-pages/presentation.php:797
+#: wpsc-admin/includes/settings-pages/presentation.php:824
+#: wpsc-admin/includes/settings-pages/presentation.php:850
+#: wpsc-admin/includes/settings-pages/presentation.php:910
+#: wpsc-admin/includes/settings-pages/presentation.php:936
+#: wpsc-admin/includes/settings-pages/presentation.php:980
+#: wpsc-admin/includes/settings-pages/presentation.php:1027
+#: wpsc-admin/includes/settings-pages/shipping.php:88
+#: wpsc-admin/includes/settings-pages/shipping.php:123
+#: wpsc-admin/includes/settings-pages/shipping.php:153
+msgid "No"
+msgstr "否"
+
+#: admin-form-functions.php:261
+msgid "Update Category"
+msgstr "更新类别"
+
+#: admin-form-functions.php:262
+#: admin-form-functions.php:300
+#: admin-form-functions.php:319
+#: shipping/tablerate.php:44
+#: shipping/weightrate.php:35
+#: wpsc-admin/admin.php:347
+#: wpsc-admin/ajax-and-init.php:1902
+#: wpsc-admin/display-groups.page.php:669
+#: wpsc-admin/display-items.page.php:277
+#: wpsc-admin/display-items.page.php:401
+#: wpsc-admin/display-sales-logs.php:425
+#: wpsc-admin/display-sales-logs.php:550
+#: wpsc-admin/display-variations.page.php:178
+#: wpsc-admin/display-variations.page.php:191
+#: wpsc-admin/display-variations.page.php:213
+#: wpsc-admin/includes/display-items-functions.php:351
+#: wpsc-admin/includes/display-items-functions.php:797
+#: wpsc-admin/includes/settings-pages/checkout.php:248
+msgid "Delete"
+msgstr "删除"
+
+#: admin-form-functions.php:288
+#: wpsc-admin/display-variations.page.php:164
+msgid "Variation Values"
+msgstr "可变属性值"
+
+#: admin-form-functions.php:307
+#: wpsc-admin/admin.php:236
+#: wpsc-admin/display-variations.page.php:218
+#: wpsc-admin/includes/settings-pages/checkout.php:175
+msgid "Add"
+msgstr "增加"
+
+#: admin-form-functions.php:318
+#: display-coupons.php:389
+#: display-coupons.php:450
+#: wpsc-admin/display-groups.page.php:106
+#: wpsc-admin/display-groups.page.php:706
+#: wpsc-admin/display-groups.page.php:719
+#: wpsc-admin/display-variations.page.php:14
+#: wpsc-admin/display-variations.page.php:111
+#: wpsc-includes/variations.class.php:343
+#: wpsc-includes/wpsc_query.php:226
+msgid "Edit"
+msgstr "编辑"
+
+#: admin-form-functions.php:339
+#: display-coupons.php:174
+#: display-coupons.php:365
+#: wpsc-admin/display-sales-logs.php:247
+msgid "Coupon Code"
+msgstr "优惠券代码"
+
+#: admin-form-functions.php:340
+#: display-coupons.php:177
+#: display-coupons.php:369
+#: themes/default/shopping_cart_page.php:190
+#: themes/iShop/shopping_cart_page.php:163
+#: themes/marketplace/shopping_cart_page.php:161
+#: transaction_result_functions.php:207
+#: transaction_result_functions.php:215
+#: wpsc-admin/ajax-and-init.php:1146
+#: wpsc-admin/ajax-and-init.php:1152
+#: wpsc-admin/display-sales-logs.php:250
+msgid "Discount"
+msgstr "折扣内容"
+
+#: admin-form-functions.php:341
+#: display-coupons.php:180
+#: display-coupons.php:373
+msgid "Start"
+msgstr "开始日期"
+
+#: admin-form-functions.php:342
+#: display-coupons.php:183
+#: display-coupons.php:377
+msgid "Expiry"
+msgstr "终止日期"
+
+#: admin-form-functions.php:343
+#: display-coupons.php:186
+msgid "Use Once"
+msgstr "一次性"
+
+#: admin-form-functions.php:344
+#: display-coupons.php:189
+#: display-coupons.php:381
+msgid "Active"
+msgstr "激活"
+
+#: admin-form-functions.php:345
+#: display-coupons.php:193
+#: display-coupons.php:287
+#: display-coupons.php:385
+msgid "Apply On All Products"
+msgstr "适用于所有商品"
+
+#: admin-form-functions.php:554
+msgid "Update Coupon"
+msgstr "更新优惠券"
+
+#: admin-form-functions.php:555
+msgid "Delete Coupon"
+msgstr "删除优惠券"
+
+#: admin-form-functions.php:566
+#: wpsc-admin/admin.php:137
+msgid "Settings"
+msgstr "设置"
+
+#: admin-form-functions.php:570
+#: wpsc-admin/display-sales-logs.php:316
+msgid "Shop Settings"
+msgstr "商店设置"
+
+#: admin-form-functions.php:571
+msgid "Money and Payment"
+msgstr "货币和支付"
+
+#: admin-form-functions.php:572
+msgid "Checkout Page Settings"
+msgstr "结算页面设置"
+
+#: admin-form-functions.php:590
+#: admin-form-functions.php:591
+msgid "product"
+msgstr "商品"
+
+#: admin-form-functions.php:590
+#: admin-form-functions.php:591
+msgid "products"
+msgstr "商品"
+
+#: admin-form-functions.php:595
+#: admin-form-functions.php:596
+msgid "group"
+msgstr "组别"
+
+#: admin-form-functions.php:595
+#: admin-form-functions.php:596
+msgid "groups"
+msgstr "组别"
+
+#: admin-form-functions.php:600
+#: admin-form-functions.php:601
+msgid "sale"
+msgstr "销售"
+
+#: admin-form-functions.php:600
+#: admin-form-functions.php:601
+msgid "sales"
+msgstr "销售"
+
+#: admin-form-functions.php:607
+msgid "variation"
+msgstr "可变属性"
+
+#: admin-form-functions.php:607
+msgid "variations"
+msgstr "可变属性"
+
+#: admin-form-functions.php:611
+#: admin-form-functions.php:612
+#: admin-form-functions.php:615
+msgid "transaction"
+msgstr "项目"
+
+#: admin-form-functions.php:611
+#: admin-form-functions.php:612
+#: admin-form-functions.php:615
+msgid "transactions"
+msgstr "项目"
+
+#: admin-form-functions.php:624
+msgid "Current Month"
+msgstr "当月"
+
+#: admin-form-functions.php:629
+msgid "At a Glance"
+msgstr "一览"
+
+#: admin-form-functions.php:659
+msgid "Pending"
+msgstr "处理中"
+
+#: admin-form-functions.php:674
+msgid "Closed"
+msgstr "关闭"
+
+#: admin-form-functions.php:682
+#: admin-form-functions.php:690
+#: wpsc-admin/includes/display-items-functions.php:350
+msgid "Add New Product"
+msgstr "添加新商品"
+
+#: admin-form-functions.php:682
+msgid "Here you can add products, groups or variations"
+msgstr "你可以在这里添加商品，组别和可变属性"
+
+#: admin-form-functions.php:691
+msgid "Right Now"
+msgstr "马上"
+
+#: admin-form-functions.php:696
+msgid "You have <a href=\"admin.php?page=wpsc-edit-products\">:productcount:</a>, contained within <a href=\"admin.php?page=wpsc-edit-groups\">:groupcount:</a>. This month you made :salecount: and generated a total of :monthtotal: and your total sales ever is :overaltotal:. You have :pendingcount: awaiting approval."
+msgstr "你有<a href=\"admin.php?page=wpsc-edit-products\">:productcount:</a>个商品，有<a href=\"admin.php?page=wpsc-edit-groups\">:groupcount:</a>个组别。当月销售单数 :salecount: 和总销售额 :monthtotal: 你的总销售额 :overaltotal:。你有 :pendingcount: 张订单等待处理。"
+
+#: admin-form-functions.php:698
+msgid "You are using the :theme: style. This is WP e-Commerce :versionnumber:."
+msgstr "你正在使用:theme: 主题。当前WP e-Commerce版本 :versionnumber:。中文技术支持：<a href=\"http://www.anson-ho.com\">Anson Ho</a>"
+
+#: admin-form-functions.php:729
+msgid "Packing Slip"
+msgstr "装箱单"
+
+#: admin-form-functions.php:730
+msgid "Order"
+msgstr "订单"
+
+#: admin-form-functions.php:865
+#: themes/default/list_view.php:137
+#: themes/default/products_page.php:197
+#: themes/default/shopping_cart_page.php:15
+#: themes/default/single_product.php:131
+#: themes/iShop/list_view.php:138
+#: themes/iShop/products_page.php:196
+#: themes/iShop/shopping_cart_page.php:14
+#: themes/iShop/single_product.php:134
+#: themes/marketplace/list_view.php:139
+#: themes/marketplace/products_page.php:199
+#: themes/marketplace/shopping_cart_page.php:14
+#: themes/marketplace/single_product.php:136
+#: user-log.php:204
+#: wpsc-includes/display.functions.php:47
+msgid "Quantity"
+msgstr "数量"
+
+#: admin-form-functions.php:870
+#: js/tinymce3/window.php:113
+#: themes/default/cart_widget.php:25
+#: themes/default/products_page.php:214
+#: themes/default/products_page.php:216
+#: themes/default/shopping_cart_page.php:19
+#: themes/default/single_product.php:148
+#: themes/default/single_product.php:150
+#: themes/iShop/cart_widget.php:25
+#: themes/iShop/products_page.php:212
+#: themes/iShop/products_page.php:214
+#: themes/iShop/shopping_cart_page.php:18
+#: themes/iShop/single_product.php:151
+#: themes/iShop/single_product.php:153
+#: themes/marketplace/cart_widget.php:25
+#: themes/marketplace/products_page.php:216
+#: themes/marketplace/products_page.php:218
+#: themes/marketplace/shopping_cart_page.php:18
+#: themes/marketplace/single_product.php:153
+#: themes/marketplace/single_product.php:155
+#: user-log.php:60
+#: user-log.php:208
+#: wpsc-admin/includes/display-items-functions.php:189
+#: wpsc-admin/includes/display-items-functions.php:242
+#: wpsc-admin/includes/settings-pages/presentation.php:458
+#: wpsc-includes/variations.class.php:218
+msgid "Price"
+msgstr "价格"
+
+#: admin-form-functions.php:872
+#: themes/default/cart_widget.php:40
+#: themes/default/shopping_cart_page.php:17
+#: themes/iShop/cart_widget.php:40
+#: themes/iShop/shopping_cart_page.php:16
+#: themes/marketplace/cart_widget.php:40
+#: themes/marketplace/shopping_cart_page.php:16
+#: transaction_result_functions.php:176
+#: transaction_result_functions.php:178
+#: wpsc-admin/ajax-and-init.php:1125
+#: wpsc-admin/ajax-and-init.php:1127
+#: wpsc-admin/display-options-settings.page.php:102
+#: wpsc-admin/display-sales-logs.php:256
+msgid "Shipping"
+msgstr "运输"
+
+#: admin-form-functions.php:980
+msgid "This users cart was empty"
+msgstr "用户购物车是空的"
+
+#: display-coupons.php:29
+msgid "Thanks, the coupon has been added."
+msgstr "谢谢，优惠券已添加。"
+
+#: display-coupons.php:155
+msgid "Coupons"
+msgstr "优惠券"
+
+#: display-coupons.php:160
+msgid "Create Coupon"
+msgstr "创建优惠券"
+
+#: display-coupons.php:351
+msgid "Add New Condition"
+msgstr "添加新条件"
+
+#: display-coupons.php:466
+msgid "<strong>Note:</strong> Due to a current limitation of PayPal, if your user makes a purchase and uses a coupon, we can not send a list of items through to paypal for processing. Rather, we must send the total amount of the purchase, so that within PayPal the user who purchases a product will see your shop name and the total amount of their purchase."
+msgstr "<strong>注意：</strong> 由于PayPal的限制，如果你的顾客使用优惠券进行购买，我们不能直接发送清单到PayPal处理。相反，我们必须发送购物的总金额，以便购买了商品的PayPal用户可以你的商店和消费总额。"
+
+#: display-coupons.php:478
+msgid "Marketing Settings"
+msgstr "营销设置"
+
+#: display-coupons.php:485
+msgid "Display Cross Sales"
+msgstr "显示交叉销售"
+
+#: display-coupons.php:509
+msgid "Show Share This (Social Bookmarks)"
+msgstr "显示“分享 (社交书签)”"
+
+#: display-coupons.php:532
+msgid "Display How Customer Found Us Survey"
+msgstr "显示“如何找到我们”客户调查"
+
+#: display-coupons.php:549
+#: wpsc-admin/display-groups.page.php:642
+#: wpsc-admin/display-groups.page.php:667
+msgid "Submit"
+msgstr "提交"
+
+#: display-coupons.php:555
+msgid "RSS Address"
+msgstr "RSS地址"
+
+#: display-coupons.php:559
+msgid "<strong>Note:</strong> Not only can people use this RSS to keep update with your product list but you can also use this link to promote your products in your facebook profile. <br />Just add the <a href=\"http://apps.facebook.com/getshopped\">getshopped! facebook application</a> to your facebook profile and follow the instructions."
+msgstr "<strong>Note:</strong> 该RSS不但可以让别人保持你商品列表的更新，而且你还可以将该链接，将你的商品展示在你的Facebook档案。<br />Just add the <a href=\"http://apps.facebook.com/getshopped\">getshopped! facebook application</a> to your facebook profile and follow the instructions."
+
+#: display-coupons.php:573
+msgid "Google Merchant Centre / Google Product Search"
+msgstr "谷歌商家中心 Google Merchant Centre / 谷歌商品搜索 Google Product Search"
+
+#: display-ecommerce-subs.php:9
+msgid "User ID"
+msgstr "用户ID"
+
+#: display-ecommerce-subs.php:9
+#: edit-profile.php:39
+#: user-log.php:362
+#: wpsc-admin/admin.php:349
+#: wpsc-includes/install_and_update.functions.php:656
+msgid "Email"
+msgstr "Email"
+
+#: display-ecommerce-subs.php:9
+msgid "Registered Date"
+msgstr "注册日期"
+
+#: display-ecommerce-subs.php:9
+msgid "Suspend"
+msgstr "暂停"
+
+#: display-ecommerce-subs.php:9
+msgid "Activate"
+msgstr "激活"
+
+#: edit-profile.php:31
+#: wpsc-includes/install_and_update.functions.php:650
+#: wpsc-includes/install_and_update.functions.php:658
+msgid "First Name"
+msgstr "姓"
+
+#: edit-profile.php:32
+msgid "Please enter a valid name"
+msgstr "请输入一个有效的名称"
+
+#: edit-profile.php:35
+#: wpsc-includes/install_and_update.functions.php:651
+#: wpsc-includes/install_and_update.functions.php:659
+msgid "Last Name"
+msgstr "名"
+
+#: edit-profile.php:36
+msgid "Please enter a valid surname"
+msgstr "请输入一个有效的姓"
+
+#: edit-profile.php:40
+msgid "Please enter a valid email address"
+msgstr "请输入一个有效的Email"
+
+#: edit-profile.php:43
+msgid "Address 1"
+msgstr "地址一"
+
+#: edit-profile.php:44
+msgid "Address 2"
+msgstr "地址二"
+
+#: edit-profile.php:45
+msgid "Please enter a valid address"
+msgstr "请输入一个有效的地址"
+
+#: edit-profile.php:48
+#: wpsc-includes/install_and_update.functions.php:653
+#: wpsc-includes/install_and_update.functions.php:661
+msgid "City"
+msgstr "城市"
+
+#: edit-profile.php:49
+msgid "Please enter your town or city."
+msgstr "请输入你的城市或者村庄"
+
+#: edit-profile.php:52
+#: user-log.php:361
+#: wpsc-includes/install_and_update.functions.php:669
+msgid "Phone"
+msgstr "电话"
+
+#: edit-profile.php:53
+msgid "Please enter a valid phone number"
+msgstr "请输入一个有效的电话"
+
+#: edit-profile.php:56
+#: wpsc-admin/admin.php:350
+#: wpsc-includes/install_and_update.functions.php:654
+#: wpsc-includes/install_and_update.functions.php:663
+msgid "Country"
+msgstr "国家"
+
+#: edit-profile.php:57
+msgid "Please select your country from the list."
+msgstr "请选择你的国家"
+
+#: edit-profile.php:61
+#: wpsc-includes/checkout.class.php:536
+#: wpsc-includes/checkout.class.php:550
+#: wpsc-includes/checkout.class.php:561
+#: wpsc-includes/checkout.class.php:569
+#: wpsc-includes/checkout.class.php:580
+#: wpsc-includes/checkout.class.php:679
+msgid "Please enter a valid"
+msgstr "请输入一个有效值"
+
+#: edit-profile.php:84
+msgid "Thanks, your changes have been saved."
+msgstr "谢谢，你的修改已经保存。"
+
+#: edit-profile.php:188
+msgid "Save Profile"
+msgstr "保存Profile"
+
+#: editor.php:49
+msgid "placeholder for:"
+msgstr "占位符："
+
+#: editor.php:144
+msgid "Your forms:"
+msgstr "您的表单："
+
+#: editor.php:146
+#: insertcate.php:87
+#: js/tinymce3/window.php:144
+msgid "Insert"
+msgstr "插入"
+
+#: editor.php:147
+#: insertcate.php:90
+#: js/tinymce3/window.php:140
+msgid "Cancel"
+msgstr "取消"
+
+#: google_shipping_country.php:7
+msgid "Google Shipping Country"
+msgstr "Google Shipping Country"
+
+#: google_shipping_country.php:43
+#: tax_and_shipping.php:86
+#: wpsc-admin/includes/settings-pages/checkout.php:268
+msgid "Save Changes"
+msgstr "保存修改"
+
+#: homepage_products_functions.php:85
+#: widgets/donations_widget.php:6
+#: widgets/donations_widget.php:77
+#: widgets/donations_widget.php:78
+msgid "Product Donations"
+msgstr "捐赠型商品"
+
+#: homepage_products_functions.php:157
+#: themes/default/products_page.php:126
+#: themes/iShop/products_page.php:127
+#: themes/marketplace/products_page.php:129
+msgid "More Details"
+msgstr "详情"
+
+#: homepage_products_functions.php:189
+#: themes/default/grid_view.php:142
+#: themes/default/list_view.php:154
+#: themes/default/products_page.php:234
+#: themes/default/single_product.php:180
+#: themes/iShop/grid_view.php:144
+#: themes/iShop/list_view.php:157
+#: themes/iShop/products_page.php:232
+#: themes/iShop/single_product.php:181
+#: themes/marketplace/grid_view.php:145
+#: themes/marketplace/list_view.php:156
+#: themes/marketplace/products_page.php:236
+#: themes/marketplace/single_product.php:183
+#: widgets/donations_widget.php:48
+#: widgets/specials_widget.php:69
+#: wpsc-admin/includes/settings-pages/presentation.php:85
+#: wpsc-includes/display.functions.php:326
+msgid "Add To Cart"
+msgstr "加入购物车"
+
+#: homepage_products_functions.php:205
+#: wpsc-includes/wpsc_query.php:875
+msgid "Avg. Customer Rating"
+msgstr "平均客户评级"
+
+#: homepage_products_functions.php:212
+#: wpsc-includes/wpsc_query.php:882
+msgid "Your Rating"
+msgstr "你的评级"
+
+#: homepage_products_functions.php:213
+#: homepage_products_functions.php:217
+#: wpsc-includes/wpsc_query.php:883
+msgid "Saved"
+msgstr "已保存"
+
+#: homepage_products_functions.php:216
+msgid "Rate This item"
+msgstr "点评商品"
+
+#: insertcate.php:67
+msgid "Pick a Category"
+msgstr "选择类别"
+
+#: insertcate.php:74
+msgid "Your Categories:"
+msgstr "你的类别："
+
+#: js/tinymce3/window.php:36
+#: js/tinymce3/window.php:118
+msgid "Category"
+msgstr "类别"
+
+#: js/tinymce3/window.php:37
+#: wpsc-admin/display-upgrades.page.php:47
+msgid "Product Slider"
+msgstr "滑动商品展示"
+
+#: js/tinymce3/window.php:38
+#: wpsc-admin/includes/display-items-functions.php:137
+#: wpsc-admin/includes/display-items-functions.php:139
+msgid "Add Product"
+msgstr "添加商品"
+
+#: js/tinymce3/window.php:48
+#: js/tinymce3/window.php:76
+msgid "Select Category"
+msgstr "选择类别"
+
+#: js/tinymce3/window.php:51
+#: js/tinymce3/window.php:78
+#: js/tinymce3/window.php:122
+msgid "No Category"
+msgstr "没有类别"
+
+#: js/tinymce3/window.php:65
+msgid "Number of items per Page"
+msgstr "每页商品数"
+
+#: js/tinymce3/window.php:91
+msgid "Number of visible items"
+msgstr "每页显示数量"
+
+#: merchants/chronopay.php:440
+#: merchants/paypal_multiple.php:562
+#: wpsc-admin/includes/settings-pages/admin.php:227
+#: wpsc-admin/includes/settings-pages/gateway.php:92
+#: wpsc-admin/includes/settings-pages/gateway.php:172
+#: wpsc-admin/includes/settings-pages/general.php:207
+#: wpsc-admin/includes/settings-pages/presentation.php:1060
+#: wpsc-admin/includes/settings-pages/shipping.php:276
+#: wpsc-admin/includes/settings-pages/shipping.php:298
+msgid "Update &raquo;"
+msgstr "更新 &raquo;"
+
+#: merchants/paypal-standard.merchant.php:137
+msgid "Your Subscription"
+msgstr "你的订阅"
+
+#: merchants/paypal_certified.php:621
+#: merchants/paypal_multiple.php:527
+msgid "Currency Converter"
+msgstr "货币兑换器"
+
+#: merchants/paypal_certified.php:624
+msgid "If your website uses a currency not accepted by Paypal, select an accepted currency using the drop down menu bellow. Buyers on your site will still pay in your local currency however we will send the order through to Paypal using currency you choose below."
+msgstr "如果你的网站使用非Paypal支持货币，请在下面下拉菜单选择一种支持货币。你网站的顾客依然使用你当地的货币支付，我们将通过下面你选择的货币发送订单到Paypal。"
+
+#: merchants/paypal_multiple.php:530
+#, php-format
+msgid "Your website uses <strong>%s</strong>. This currency is not supported by PayPal, please  select a currency using the drop down menu below. Buyers on your site will still pay in your local currency however we will send the order through to Paypal using the currency you choose below."
+msgstr "你网站使用的货币是： <strong>%s</strong>. 这种货币PayPal不支持，请在下面下拉菜单选择一种货币。你网站的顾客仍旧支付你当地的货币，我们将按照下面你选择的货币发送订单到PayPal。"
+
+#: merchants/paypal_pro.php:276
+msgid "There is a problem with your PayPal account configuration, please contact PayPal for further information."
+msgstr "PayPal帐户配置问题出错，请联系PayPal了解进一步信息。"
+
+#: merchants/paypal_pro.php:281
+msgid "Sorry your transaction did not go through to Paypal successfully, please try again."
+msgstr "对不起你的交易不能成功通过到PayPal，请重试。"
+
+#: merchants/paypal_pro.php:370
+msgid "API Username:"
+msgstr "API用户名："
+
+#: merchants/paypal_pro.php:378
+msgid "API Password:"
+msgstr "API密码："
+
+#: merchants/paypal_pro.php:386
+msgid "API Signature:"
+msgstr "API签名："
+
+#: merchants/paypal_pro.php:394
+msgid "Test Mode Enabled:"
+msgstr "开启测试模式："
+
+#: merchants/testmode.php:30
+msgid "Enter the payment instructions that you wish to display to your customers when they make a purchase"
+msgstr "输入顾客支付时显示的付款提示。"
+
+#: merchants/testmode.php:32
+msgid "For example, this is where you the Shop Owner might enter your bank account details or address so that your customer can make their manual payment."
+msgstr "例如，这里可以输入店主的银行帐户资料或地址，以便客户可以常规支付。"
+
+#: share-this.php:435
+msgid "E-mail this, post to del.icio.us, etc."
+msgstr "E-mail this, post to del.icio.us, etc."
+
+#: share-this.php:488
+msgid "Close"
+msgstr "关闭"
+
+#: share-this.php:490
+#: share-this.php:842
+msgid "Social Web"
+msgstr "社交网站"
+
+#: share-this.php:491
+#: share-this.php:867
+#: themes/default/shopping_cart_page.php:242
+#: themes/iShop/shopping_cart_page.php:213
+#: themes/marketplace/shopping_cart_page.php:211
+msgid "E-mail"
+msgstr "E-mail"
+
+#: share-this.php:508
+#: share-this.php:871
+msgid "E-mail It"
+msgstr "发送该封Email"
+
+#: share-this.php:511
+#: share-this.php:874
+msgid "To Address:"
+msgstr "地址："
+
+#: share-this.php:515
+#: share-this.php:878
+msgid "Your Name:"
+msgstr "你的名字："
+
+#: share-this.php:519
+#: share-this.php:882
+msgid "Your Address:"
+msgstr "你的地址："
+
+#: share-this.php:523
+#: share-this.php:886
+msgid "Send It"
+msgstr "发送它"
+
+#: share-this.php:605
+msgid "Click your <strong>back button</strong> and make sure those e-mail addresses are valid then try again."
+msgstr "点击<strong>后退</strong>按钮，请确定那些邮件地址有效再重试。"
+
+#: share-this.php:615
+msgid "Check out this product on "
+msgstr "结算该商品"
+
+#: share-this.php:620
+#: share-this.php:640
+msgid "Greetings--"
+msgstr "问候--"
+
+#: share-this.php:621
+#: share-this.php:641
+msgid " thinks this will be of interest to you:"
+msgstr "你可能感兴趣："
+
+#: share-this.php:634
+#: share-this.php:644
+msgid "Enjoy."
+msgstr "喜欢吖。"
+
+#: share-this.php:702
+msgid "Share This : "
+msgstr "分享："
+
+#: share-this.php:838
+#, php-format
+msgid "<strong>What is this?</strong> From this page you can use the <em>Social Web</em> links to save %s to a social bookmarking site, or the <em>E-mail</em> form to send a link via e-mail."
+msgstr "<strong>这是什么？</strong> From this page you can use the <em>Social Web</em> links to save %s to a social bookmarking site, or the <em>E-mail</em> form to send a link via e-mail."
+
+#: share-this.php:909
+msgid "Posted in: "
+msgstr "发贴："
+
+#: share-this.php:912
+msgid "Return to:"
+msgstr "返回："
+
+#: shipping/australiapost.php:47
+msgid "Australia Post"
+msgstr "澳洲邮政"
+
+#: shipping/australiapost.php:54
+msgid "Standard Parcel Post"
+msgstr "标准邮寄"
+
+#: shipping/australiapost.php:55
+msgid "Express Post"
+msgstr "快递"
+
+#: shipping/australiapost.php:56
+msgid "Air Mail"
+msgstr "空运"
+
+#: shipping/australiapost.php:57
+msgid "Sea Mail"
+msgstr "海运"
+
+#: shipping/australiapost.php:58
+msgid "Economy Air Parcel Post"
+msgstr "经济空运"
+
+#: shipping/australiapost.php:59
+msgid "Express Post International"
+msgstr "国际快递"
+
+#: shipping/australiapost.php:95
+msgid "This shipping module only works if the base country in settings, region is set to Australia."
+msgstr "该运输模块只适合澳大利亚区域使用。"
+
+#: shipping/australiapost.php:100
+msgid "You must set your base postcode above before this shipping module will work."
+msgstr "你必须设置你的主要区域邮政编码才能使用该运输模块。"
+
+#: shipping/australiapost.php:103
+msgid "Select the Australia Post services that you want to offer during checkout:"
+msgstr "选择澳洲邮政服务，你需要在结算前确定："
+
+#: shipping/australiapost.php:110
+msgid "Notes:"
+msgstr "注意："
+
+#: shipping/australiapost.php:111
+msgid "1. The actual services quoted to the customer during checkout will depend on the destination country. Not all methods are available to all destinations."
+msgstr "1. 顾客结算时选择的实际服务取决于目的地国家。不是所有的方法都提供给所有的目的地。"
+
+#: shipping/australiapost.php:112
+msgid "2. Each product must have a valid weight configured. When editing a product, use the weight field.)."
+msgstr "2. 当编辑一个商品使用重量字段的时候每个商品都必须有一个有效的重量配置。"
+
+#: shipping/australiapost.php:113
+msgid "3. To ensure accurate quotes, each product must valid dimensions configured. When editing a product, use the height, width and length fields."
+msgstr "3. 当编辑一个商品使用的高度，宽度和长度字段的时候，为了确保准确的报价，每个商品必须有效尺寸配置。"
+
+#: shipping/australiapost.php:114
+msgid "4. The combined dimensions are estimated by calculating the volume of each item, and then calculating the cubed root of the overall order volume which becomes width, length and height."
+msgstr "4. 如需要预计组合包装后的尺寸，通过计算每件商品的量值，再通过计算总订单量，推算组合包装的长、宽、高。"
+
+#: shipping/australiapost.php:115
+msgid "5. If no product volumes are defined, then default package dimensions of 100mm x 100mm x 100mm will be used."
+msgstr "5. 如果没有定义商品的包装尺寸，那么使用的默认包装尺寸为100x100x100mm"
+
+#: shipping/australiapost.php:257
+#, php-format
+msgid "%1$s (estimated delivery time: %2$d business day)"
+msgid_plural "%1$s (estimated delivery time: %2$d business days)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: shipping/flatrate.php:31
+msgid "If you do not wish to ship to a particular region, leave the field blank. To offer free shipping to a region, enter 0."
+msgstr "如果你不希望发送到特定地区，请把字段留空。如果为一个地区提供免费送货，输入0。"
+
+#: shipping/tablerate.php:30
+#: themes/default/shopping_cart_page.php:202
+#: themes/iShop/shopping_cart_page.php:175
+#: themes/marketplace/shopping_cart_page.php:173
+msgid "Total Price"
+msgstr "总价"
+
+#: shipping/tablerate.php:30
+#: shipping/weightrate.php:30
+msgid "Shipping Price"
+msgstr "运费"
+
+#: shipping/tablerate.php:37
+#: wpsc-admin/admin.php:366
+msgid "If price is "
+msgstr "如果价格是"
+
+#: shipping/tablerate.php:39
+#: shipping/weightrate.php:35
+#: wpsc-admin/admin.php:365
+msgid " and above"
+msgstr "以上"
+
+#: shipping/ups.php:76
+msgid "UPS Letter"
+msgstr "UPS Letter"
+
+#: shipping/ups.php:77
+msgid "Your Packaging"
+msgstr "您的包装"
+
+#: shipping/ups.php:78
+msgid "UPS Tube"
+msgstr "UPS Tube"
+
+#: shipping/ups.php:79
+msgid "UPS Pak"
+msgstr "UPS Pak"
+
+#: shipping/ups.php:80
+msgid "UPS Express Box"
+msgstr "UPS Express Box"
+
+#: shipping/ups.php:81
+msgid "UPS Express Box - Small"
+msgstr "UPS Express Box - Small"
+
+#: shipping/ups.php:82
+msgid "UPS Express Box - Medium"
+msgstr "UPS Express Box - Medium"
+
+#: shipping/ups.php:83
+msgid "UPS Express Box - Large"
+msgstr "UPS Express Box - Large"
+
+#: shipping/ups.php:86
+msgid "Destination Type"
+msgstr "目标类型"
+
+#: shipping/ups.php:97
+msgid "Residential Address"
+msgstr "住址"
+
+#: shipping/ups.php:98
+msgid "Commercial Address"
+msgstr "商业地址"
+
+#: shipping/ups.php:104
+msgid "Packaging"
+msgstr "包装"
+
+#: shipping/ups.php:124
+msgid "Use Testing Environment"
+msgstr "使用测试环境"
+
+#: shipping/ups.php:133
+msgid "UPS Preferred Services"
+msgstr "UPS Preferred Services（UPS首选服务）"
+
+#: shipping/ups.php:154
+msgid "All services used if no services selected"
+msgstr "如果没有选择某个服务，即为全选"
+
+#: shipping/ups.php:158
+msgid "UPS Username"
+msgstr "UPS用户名"
+
+#: shipping/ups.php:164
+msgid "UPS Password"
+msgstr "UPS密码"
+
+#: shipping/ups.php:170
+msgid "UPS XML API Key"
+msgstr "UPS XML API Key"
+
+#: shipping/ups.php:174
+msgid "Don't have an API login/ID ?"
+msgstr "未登录API或者没有API ID ?"
+
+#: shipping/ups.php:175
+msgid "Click Here"
+msgstr "点击这里"
+
+#: shipping/usps.php:37
+msgid "USPS ID"
+msgstr "USPS ID"
+
+#: shipping/usps.php:45
+msgid "USPS Password"
+msgstr "USPS 密码"
+
+#: shipping/usps.php:53
+msgid "Use Test Server:"
+msgstr "使用测试服务器："
+
+#: shipping/weightrate.php:30
+msgid "Total weight <br />(<abbr alt=\"You must enter the weight here in pounds, regardless of what you used on your products\" title=\"You must enter the weight here in pounds, regardless of what you used on your products\">in Pounds</abbr>)"
+msgstr "总重量 <br />(<abbr alt=\"你必须输入重量（磅）在这里，无论任何商品\" title=\"你必须输入重量（磅）在这里，无论任何商品\">in Pounds</abbr>)"
+
+#: shipping/weightrate.php:35
+#: wpsc-admin/admin.php:367
+msgid "If weight is "
+msgstr "如果重量是"
+
+#: shopping_cart_functions.php:36
+#: shopping_cart_functions.php:44
+#: shopping_cart_functions.php:54
+#: widgets/shopping_cart_widget.php:27
+msgid "Shopping Cart"
+msgstr "购物车"
+
+#: tagging_functions.php:79
+#, php-format
+msgid "%d topics"
+msgstr "%d 标题"
+
+#: tax_and_shipping.php:34
+msgid "GST/Tax Rate"
+msgstr "GST/税费"
+
+#: themes/default/cart_widget.php:15
+#: themes/iShop/cart_widget.php:15
+#: themes/marketplace/cart_widget.php:15
+msgid "Number of items"
+msgstr "件数"
+
+#: themes/default/cart_widget.php:23
+#: themes/default/shopping_cart_page.php:14
+#: themes/iShop/cart_widget.php:23
+#: themes/iShop/shopping_cart_page.php:13
+#: themes/marketplace/cart_widget.php:23
+#: themes/marketplace/shopping_cart_page.php:13
+msgid "Product"
+msgstr "商品"
+
+#: themes/default/cart_widget.php:24
+#: themes/iShop/cart_widget.php:24
+#: themes/marketplace/cart_widget.php:24
+msgid "Qty"
+msgstr "数量"
+
+#: themes/default/cart_widget.php:59
+#: themes/iShop/cart_widget.php:60
+#: themes/marketplace/cart_widget.php:59
+msgid "Postage &amp; Tax "
+msgstr "包装 &amp; 税金 "
+
+#: themes/default/cart_widget.php:63
+#: themes/iShop/cart_widget.php:64
+#: themes/marketplace/cart_widget.php:63
+#: transaction_result_functions.php:211
+#: transaction_result_functions.php:218
+#: user-log.php:220
+#: wpsc-admin/ajax-and-init.php:1149
+#: wpsc-admin/ajax-and-init.php:1155
+#: wpsc-admin/display-sales-logs.php:261
+msgid "Total"
+msgstr "总数"
+
+#: themes/default/cart_widget.php:72
+#: themes/iShop/cart_widget.php:73
+#: themes/marketplace/cart_widget.php:72
+msgid "Empty your cart"
+msgstr "清空购物车"
+
+#: themes/default/cart_widget.php:76
+#: themes/iShop/cart_widget.php:77
+#: themes/marketplace/cart_widget.php:76
+#: wpsc-includes/display.functions.php:153
+msgid "Go to Checkout"
+msgstr "去结算"
+
+#: themes/default/cart_widget.php:78
+#: themes/iShop/cart_widget.php:79
+#: themes/marketplace/cart_widget.php:78
+msgid "Your shopping cart is empty"
+msgstr "你的购物车为空"
+
+#: themes/default/cart_widget.php:80
+#: themes/iShop/cart_widget.php:81
+#: themes/marketplace/cart_widget.php:80
+msgid "Visit the shop"
+msgstr "访问商店"
+
+#: themes/default/functions.php:15
+#: themes/iShop/functions.php:15
+#: themes/marketplace/functions.php:15
+#: wpsc-admin/includes/settings-pages/presentation.php:989
+msgid "Page Number position"
+msgstr "页码位置"
+
+#: themes/default/grid_view.php:144
+#: themes/default/list_view.php:162
+#: themes/default/products_page.php:242
+#: themes/default/single_product.php:189
+#: themes/iShop/grid_view.php:146
+#: themes/iShop/list_view.php:167
+#: themes/iShop/products_page.php:240
+#: themes/iShop/single_product.php:190
+#: themes/marketplace/grid_view.php:147
+#: themes/marketplace/list_view.php:163
+#: themes/marketplace/products_page.php:245
+#: themes/marketplace/single_product.php:192
+#: widgets/specials_widget.php:66
+msgid "This product has sold out."
+msgstr "商品已售空。"
+
+#: themes/default/grid_view.php:168
+#: themes/default/list_view.php:184
+#: themes/default/products_page.php:266
+#: themes/iShop/grid_view.php:170
+#: themes/iShop/list_view.php:189
+#: themes/iShop/products_page.php:265
+#: themes/marketplace/grid_view.php:171
+#: themes/marketplace/list_view.php:185
+#: themes/marketplace/products_page.php:270
+msgid "There are no products in this group."
+msgstr "该组别没有商品。"
+
+#: themes/default/list_view.php:152
+#: themes/default/products_page.php:232
+#: themes/default/single_product.php:178
+#: themes/iShop/list_view.php:155
+#: themes/iShop/products_page.php:230
+#: themes/iShop/single_product.php:179
+#: themes/marketplace/list_view.php:154
+#: themes/marketplace/products_page.php:234
+#: themes/marketplace/single_product.php:181
+#: wpsc-admin/includes/settings-pages/presentation.php:87
+#: wpsc-includes/display.functions.php:242
+msgid "Buy Now"
+msgstr "立刻买"
+
+#: themes/default/list_view.php:158
+#: themes/default/products_page.php:238
+#: themes/default/single_product.php:185
+#: themes/iShop/list_view.php:163
+#: themes/iShop/products_page.php:236
+#: themes/iShop/single_product.php:186
+#: themes/marketplace/list_view.php:159
+#: themes/marketplace/products_page.php:241
+#: themes/marketplace/single_product.php:188
+msgid "Updating cart..."
+msgstr "更新购物车..."
+
+#: themes/default/products_page.php:207
+#: themes/default/single_product.php:141
+#: themes/iShop/products_page.php:205
+#: themes/iShop/single_product.php:144
+#: themes/marketplace/products_page.php:209
+#: themes/marketplace/single_product.php:146
+#: widgets/donations_widget.php:47
+msgid "Donation"
+msgstr "捐献"
+
+#: themes/default/products_page.php:218
+#: themes/default/single_product.php:157
+#: themes/iShop/products_page.php:216
+#: themes/iShop/single_product.php:158
+#: themes/marketplace/products_page.php:220
+#: themes/marketplace/single_product.php:160
+#: user-log.php:216
+msgid "P&amp;P"
+msgstr "P&amp;P"
+
+#: themes/default/shopping_cart_page.php:10
+#: themes/iShop/shopping_cart_page.php:9
+#: themes/marketplace/shopping_cart_page.php:9
+msgid "Please review your order"
+msgstr "请检查你的订单"
+
+#: themes/default/shopping_cart_page.php:37
+#: themes/default/shopping_cart_page.php:66
+#: themes/iShop/shopping_cart_page.php:35
+#: themes/iShop/shopping_cart_page.php:66
+#: themes/marketplace/shopping_cart_page.php:35
+#: themes/marketplace/shopping_cart_page.php:65
+msgid "Update"
+msgstr "更新"
+
+#: themes/default/shopping_cart_page.php:50
+#: themes/iShop/shopping_cart_page.php:49
+#: themes/marketplace/shopping_cart_page.php:48
+msgid "Remove"
+msgstr "移动"
+
+#: themes/default/shopping_cart_page.php:59
+#: themes/iShop/shopping_cart_page.php:59
+#: themes/marketplace/shopping_cart_page.php:58
+msgid "Coupon is not valid."
+msgstr "优惠券已失效。"
+
+#: themes/default/shopping_cart_page.php:62
+#: themes/iShop/shopping_cart_page.php:62
+#: themes/marketplace/shopping_cart_page.php:61
+msgid "Enter your coupon number"
+msgstr "输入你的优惠券代码"
+
+#: themes/default/shopping_cart_page.php:92
+#: themes/iShop/shopping_cart_page.php:91
+#: themes/marketplace/shopping_cart_page.php:90
+msgid "Calculate Shipping Price"
+msgstr "计算运费"
+
+#: themes/default/shopping_cart_page.php:96
+#: themes/iShop/shopping_cart_page.php:95
+#: themes/marketplace/shopping_cart_page.php:94
+msgid "Please choose a country below to calculate your shipping costs"
+msgstr "请选择国家以计算你的运费"
+
+#: themes/default/shopping_cart_page.php:105
+msgid "Please provide a Zipcode and click Calculate in order to continue."
+msgstr "请提供邮政编码，然后点击计算，以继续。"
+
+#: themes/default/shopping_cart_page.php:112
+#: themes/iShop/shopping_cart_page.php:139
+#: themes/marketplace/shopping_cart_page.php:138
+msgid "Sorry, online ordering is unavailable to this destination and/or weight. Please double check your destination details."
+msgstr "对不起，网上订购不能到达该目的地和/或重量。请仔细检查你的目的地详细资料。"
+
+#: themes/default/shopping_cart_page.php:130
+#: themes/iShop/shopping_cart_page.php:115
+#: themes/marketplace/shopping_cart_page.php:114
+#: wpsc-includes/ajax.functions.php:405
+msgid "- Choose a Shipping Rate"
+msgstr "- 选择运输费率"
+
+#: themes/default/shopping_cart_page.php:179
+#: transaction_result_functions.php:210
+#: transaction_result_functions.php:217
+#: user-log.php:317
+#: wpsc-admin/ajax-and-init.php:1148
+#: wpsc-admin/ajax-and-init.php:1154
+msgid "Total Shipping"
+msgstr "总运费"
+
+#: themes/default/shopping_cart_page.php:225
+#: themes/iShop/shopping_cart_page.php:196
+#: themes/marketplace/shopping_cart_page.php:194
+msgid "Not yet a member?"
+msgstr "不是会员？"
+
+#: themes/default/shopping_cart_page.php:226
+#: themes/iShop/shopping_cart_page.php:197
+#: themes/marketplace/shopping_cart_page.php:195
+msgid "In order to buy from us, you'll need an account. Joining is free and easy. All you need is a username, password and valid email address."
+msgstr "你需要一个账户用于购物。免费加入而且非常容易。你只需要提供一个用户名，密码和有效的邮箱。"
+
+#: themes/default/shopping_cart_page.php:240
+#: themes/iShop/shopping_cart_page.php:211
+#: themes/marketplace/shopping_cart_page.php:209
+msgid "Username"
+msgstr "用户名"
+
+#: themes/default/shopping_cart_page.php:241
+#: themes/iShop/shopping_cart_page.php:212
+#: themes/marketplace/shopping_cart_page.php:210
+msgid "Password"
+msgstr "密码"
+
+#: themes/default/shopping_cart_page.php:246
+#: themes/iShop/shopping_cart_page.php:217
+#: themes/marketplace/shopping_cart_page.php:215
+msgid "Please enter your contact details:"
+msgstr "请输入你的联系资料："
+
+#: themes/default/shopping_cart_page.php:248
+#: themes/iShop/shopping_cart_page.php:219
+#: themes/marketplace/shopping_cart_page.php:217
+msgid "Fields marked with an asterisk must be filled in."
+msgstr "标注区域为必填字段。"
+
+#: themes/default/shopping_cart_page.php:323
+#: themes/iShop/shopping_cart_page.php:294
+#: themes/marketplace/shopping_cart_page.php:292
+msgid "Select a payment gateway"
+msgstr "选择支付网关"
+
+#: themes/default/shopping_cart_page.php:357
+#: themes/iShop/shopping_cart_page.php:328
+#: themes/marketplace/shopping_cart_page.php:326
+msgid "I agree to The "
+msgstr "我同意"
+
+#: themes/default/shopping_cart_page.php:358
+#: themes/iShop/shopping_cart_page.php:329
+#: themes/marketplace/shopping_cart_page.php:327
+#: wpsc-admin/includes/settings-pages/admin.php:107
+msgid "Terms and Conditions"
+msgstr "条款和条件"
+
+#: themes/default/shopping_cart_page.php:370
+#: themes/iShop/shopping_cart_page.php:341
+#: themes/marketplace/shopping_cart_page.php:339
+msgid "Make Purchase"
+msgstr "请购买"
+
+#: themes/default/shopping_cart_page.php:384
+#: themes/iShop/shopping_cart_page.php:355
+#: themes/marketplace/shopping_cart_page.php:353
+#: transaction_result_functions.php:375
+msgid "Oops, there is nothing in your cart."
+msgstr "哦，购物车没东西哦。"
+
+#: themes/default/shopping_cart_page.php:384
+#: themes/iShop/shopping_cart_page.php:355
+#: themes/marketplace/shopping_cart_page.php:353
+#: transaction_result_functions.php:375
+msgid "Please visit our shop"
+msgstr "请访问我们的商店"
+
+#: themes/default/single_product.php:96
+#: themes/iShop/single_product.php:99
+#: themes/marketplace/single_product.php:101
+msgid "Personalize your product"
+msgstr "个性化你的商品"
+
+#: themes/default/single_product.php:97
+#: themes/iShop/single_product.php:100
+#: themes/marketplace/single_product.php:102
+msgid "Complete this form to include a personalized message with your purchase."
+msgstr "填写此表，完成您的个人信息。"
+
+#: themes/default/single_product.php:104
+#: themes/iShop/single_product.php:107
+#: themes/marketplace/single_product.php:109
+msgid "Upload a File"
+msgstr "上传文件"
+
+#: themes/default/single_product.php:105
+#: themes/iShop/single_product.php:108
+#: themes/marketplace/single_product.php:110
+msgid "Select a file from your computer to include with this purchase.  "
+msgstr "从你的电脑选择一个文件插入到本订单。"
+
+#: transaction_result_functions.php:35
+msgid "We&#39;re Sorry, your order has not been accepted, the most likely reason is that you have insufficient funds."
+msgstr "我们很抱歉，您的订单没有被接受，最可能的原因是你没有足够的资金。"
+
+#: transaction_result_functions.php:37
+msgid "New pending order"
+msgstr "新的处理订单"
+
+#: transaction_result_functions.php:37
+msgid "There is a new order awaiting processing:"
+msgstr "有一个新的订单等待处理："
+
+#: transaction_result_functions.php:41
+#: transaction_result_functions.php:257
+#: wpsc-admin/ajax-and-init.php:1189
+msgid "Thank you, your purchase is pending, you will be sent an email once the order clears."
+msgstr "谢谢您，您订单正在处理，当订单处理完毕您将收到一封电子邮件。"
+
+#: transaction_result_functions.php:220
+#: transaction_result_functions.php:221
+#: wpsc-admin/ajax-and-init.php:1157
+#: wpsc-admin/ajax-and-init.php:1158
+msgid "Your Transaction ID"
+msgstr "你的交易单号"
+
+#: transaction_result_functions.php:222
+#: wpsc-admin/ajax-and-init.php:1159
+msgid "Transaction ID"
+msgstr "交易单号"
+
+#: transaction_result_functions.php:258
+#: wpsc-admin/ajax-and-init.php:1190
+msgid "Order Pending: Payment Required"
+msgstr "订单处理：等待支付"
+
+#: transaction_result_functions.php:260
+#: wpsc-admin/ajax-and-init.php:1193
+#: wpsc-admin/includes/settings-pages/admin.php:128
+msgid "Purchase Receipt"
+msgstr "消费收据"
+
+#: transaction_result_functions.php:265
+#: user-log.php:336
+msgid "Customer Details"
+msgstr "客户详细信息"
+
+#: transaction_result_functions.php:351
+msgid "Purchase Report"
+msgstr "消费报告"
+
+#: transaction_result_functions.php:367
+msgid "The Transaction was successful"
+msgstr "交易成功"
+
+#: transaction_results.php:40
+#: transaction_results.php:49
+msgid "Sorry your transaction was not accepted.<br /><a href="
+msgstr "对不起你的交易不被接受。<br /><a href="
+
+#: updates/updating_tasks.php:53
+msgid ""
+"Your purchase from %shop_name% has just been dispatched. It should arrive soon. To keep track of your products status a tracking id has been attached. \\r\\n"
+" your tracking id is: %trackid%"
+msgstr ""
+"你从 %shop_name% 商店的货物刚刚发出。它将会很快送抵。请留意你的商品状态和跟踪ID。 \\r\\n"
+" 你的跟踪ID： %trackid%"
+
+#: updates/updating_tasks.php:56
+msgid "Your Order from %shop_name% has been dispatched"
+msgstr "您从％shop_name％的订单已被发出"
+
+#: updates/updating_tasks.php:653
+#: updates/updating_tasks.php:660
+#: wpsc-includes/install_and_update.functions.php:163
+msgid "Thank you for purchasing with %shop_name%, any items to be shipped will be processed as soon as possible, any items that can be downloaded can be downloaded using the links on this page.All prices include tax and postage and packaging where applicable.You ordered these items:%product_list%%total_shipping%%total_price%"
+msgstr "感谢您在 %shop_name%购买，任何发送的商品都将被认真地处理。任何下载型商品都可在本页内的链接下载。所有价格都包含了正确的税费、包装和运费。你订购了这些商品：%product_list%%total_shipping%%total_price%"
+
+#: updates/updating_tasks.php:654
+#: updates/updating_tasks.php:667
+#: wpsc-includes/install_and_update.functions.php:164
+msgid "%product_list%%total_shipping%%total_price%"
+msgstr "%product_list%%total_shipping%%total_price%"
+
+#: user-downloads.php:41
+msgid "File Names"
+msgstr "文件名称"
+
+#: user-downloads.php:42
+msgid "Downloads Left"
+msgstr "已下载"
+
+#: user-downloads.php:43
+#: user-log.php:56
+msgid "Date"
+msgstr "日期"
+
+#: user-downloads.php:69
+msgid "You have not purchased any downloadable products yet."
+msgstr "您还没有购买任何可下载的产品。"
+
+#: user-log.php:52
+msgid "Status"
+msgstr "状态"
+
+#: user-log.php:65
+#: user-log.php:383
+msgid "Payment Method"
+msgstr "支付方式"
+
+#: user-log.php:94
+msgid "Details"
+msgstr "详情"
+
+#: user-log.php:147
+msgid "Order Status"
+msgstr "订单状态"
+
+#: user-log.php:169
+#: wpsc-admin/display-sales-logs.php:188
+#: wpsc-admin/includes/display-items-functions.php:651
+msgid "Shipping Details"
+msgstr "运输详情"
+
+#: user-log.php:188
+msgid "Order Details"
+msgstr "订单详情"
+
+#: user-log.php:212
+msgid "GST"
+msgstr "GST"
+
+#: user-log.php:318
+msgid "Final Total"
+msgstr "最终价"
+
+#: user-log.php:360
+#: wpsc-includes/install_and_update.functions.php:652
+#: wpsc-includes/install_and_update.functions.php:660
+msgid "Address"
+msgstr "地址"
+
+#: user-log.php:384
+msgid "Purchase No."
+msgstr "销售单号"
+
+#: user-log.php:387
+msgid "Transaction Id"
+msgstr "交易单ID"
+
+#: user-log.php:401
+msgid "No transactions for this month."
+msgstr "这个月还没有交易。"
+
+#: user-log.php:412
+msgid "There have not been any purchases yet."
+msgstr "尚未有任何消费。"
+
+#: user-log.php:427
+msgid "You must be logged in to use this page. Please use the form below to login to your account."
+msgstr "您必须先登录才能使用此页。请使用下面的表单登录您的帐户。"
+
+#: widgets/admin_menu_widget.php:8
+#: widgets/admin_menu_widget.php:22
+msgid "Admin Menu"
+msgstr "管理员菜单"
+
+#: widgets/category_widget.27.php:19
+#: wpsc-admin/admin.php:104
+#: wpsc-admin/display-groups.page.php:565
+#: wpsc-admin/includes/display-items-functions.php:404
+#: wpsc-includes/category.functions.php:361
+msgid "Categories"
+msgstr "类别"
+
+#: widgets/category_widget.27.php:134
+#: widgets/category_widget.28.php:69
+#: widgets/donations_widget.php:71
+#: widgets/latest_product_widget.php:74
+#: widgets/price_range_widget.php:71
+#: widgets/product_tag_widget.php:30
+#: widgets/shopping_cart_widget.php:78
+#: widgets/specials_widget.php:103
+msgid "Title:"
+msgstr "标题："
+
+#: widgets/category_widget.27.php:159
+#: widgets/category_widget.28.php:80
+msgid "Display the :category: Group"
+msgstr "显示 :category: 的组别"
+
+#: widgets/category_widget.27.php:168
+#: widgets/category_widget.28.php:88
+msgid "Display the Group thumbnails in the sidebar"
+msgstr "显示组别缩略图在侧边栏"
+
+#: widgets/category_widget.27.php:179
+#: widgets/category_widget.28.php:11
+msgid "Product Grouping Widget"
+msgstr "商品组别Widget"
+
+#: widgets/category_widget.27.php:181
+#: widgets/category_widget.28.php:12
+#: widgets/category_widget.28.php:19
+msgid "Product Categories"
+msgstr "商品类别"
+
+#: widgets/latest_product_widget.php:7
+#: widgets/latest_product_widget.php:88
+#: widgets/latest_product_widget.php:89
+msgid "Latest Products"
+msgstr "最新商品"
+
+#: widgets/latest_product_widget.php:75
+msgid "Number of products to show:"
+msgstr "显示商品数量："
+
+#: widgets/price_range_widget.php:6
+#: widgets/price_range_widget.php:77
+#: widgets/price_range_widget.php:78
+msgid "Price Range"
+msgstr "价格范围"
+
+#: widgets/price_range_widget.php:54
+msgid "Show All"
+msgstr "显示全部"
+
+#: widgets/product_tag_widget.php:9
+#: widgets/product_tag_widget.php:38
+#: widgets/product_tag_widget.php:39
+#: wpsc-admin/includes/display-items-functions.php:428
+#: wpsc-admin/includes/display-items-functions.php:430
+msgid "Product Tags"
+msgstr "商品标签"
+
+#: widgets/shopping_cart_widget.php:43
+#: widgets/shopping_cart_widget.php:48
+msgid "Loading..."
+msgstr "Loading..."
+
+#: widgets/shopping_cart_widget.php:79
+msgid "Hide Cart When Empty:"
+msgstr "隐藏空购物车："
+
+#: widgets/specials_widget.php:10
+#: widgets/specials_widget.php:112
+#: widgets/specials_widget.php:113
+msgid "Product Specials"
+msgstr "特价商品"
+
+#: widgets/specials_widget.php:106
+msgid "Show Description:"
+msgstr "显示简介："
+
+#: wp-shopping-cart.php:156
+msgid "Note: if this is blank, the image will not be resized"
+msgstr "注意：如果这是空白，图片将不会改变大小"
+
+#: wp-shopping-cart.php:157
+#: wpsc-includes/install_and_update.functions.php:68
+msgid "Order Received"
+msgstr "收到订单"
+
+#: wp-shopping-cart.php:159
+#: wpsc-includes/install_and_update.functions.php:71
+msgid "Closed Order"
+msgstr "关闭订单"
+
+#: wp-shopping-cart.php:529
+msgid "Please Note"
+msgstr "请注意"
+
+#: wp-shopping-cart.php:530
+#, php-format
+msgid "Before upgrading you should check the <a %s>upgrade information</a> and changelog as you may need to make updates to your template files."
+msgstr "升级之前你应该检查<a %s>升级信息</a>和更新日志，另外你可能需要更新您的模板。"
+
+#: wpsc-admin/admin.php:77
+#: wpsc-admin/admin.php:80
+#: wpsc-admin/admin.php:82
+#: wpsc-admin/admin.php:87
+#: wpsc-admin/admin.php:90
+msgid "Store"
+msgstr "商店"
+
+#: wpsc-admin/admin.php:95
+#: wpsc-admin/admin.php:449
+#: wpsc-admin/admin.php:479
+#: wpsc-admin/display-sales-logs.php:32
+#: wpsc-admin/includes/purchlogs_upgrade.php:73
+msgid "Sales"
+msgstr "销售"
+
+#: wpsc-admin/admin.php:100
+msgid "Products"
+msgstr "商品"
+
+#: wpsc-admin/admin.php:108
+msgid "Variations"
+msgstr "可变属性"
+
+#: wpsc-admin/admin.php:131
+#: wpsc-admin/admin.php:133
+msgid "Marketing"
+msgstr "市场营销"
+
+#: wpsc-admin/admin.php:140
+#: wpsc-admin/display-upgrades.page.php:61
+msgid "Upgrades"
+msgstr "升级服务"
+
+#: wpsc-admin/admin.php:144
+msgid "- Debug"
+msgstr "- 调试"
+
+#: wpsc-admin/admin.php:181
+msgid "Product Tracking Email"
+msgstr "商品跟踪邮件"
+
+#: wpsc-admin/admin.php:182
+msgid ""
+"Track & Trace means you may track the progress of your parcel with our online parcel tracker, just login to our website and enter the following Tracking ID to view the status of your order.\n"
+"\n"
+"Tracking ID: %trackid%\n"
+msgstr ""
+"货物跟踪意味着你可以使用在线包裹跟踪查询您的包裹与进展情况，只需登录我们的网站，输入下面的跟踪ID，以查看您的订单的状态。\n"
+"\n"
+"跟踪ID: %trackid%\n"
+
+#: wpsc-admin/admin.php:235
+msgid "Tags used on this post:"
+msgstr "该贴使用标签："
+
+#: wpsc-admin/admin.php:237
+msgid "Add new tag"
+msgstr "添加新的标签"
+
+#: wpsc-admin/admin.php:238
+#: wpsc-admin/includes/display-items-functions.php:432
+msgid "Separate tags with commas"
+msgstr "用英文逗号分隔标签"
+
+#: wpsc-admin/admin.php:348
+msgid "Text"
+msgstr "文本"
+
+#: wpsc-admin/admin.php:351
+msgid "Textarea"
+msgstr "多行文本"
+
+#: wpsc-admin/admin.php:352
+msgid "Heading"
+msgstr "标题"
+
+#: wpsc-admin/admin.php:353
+msgid "Coupon"
+msgstr "优惠券"
+
+#: wpsc-admin/admin.php:358
+#: wpsc-admin/includes/display-items-functions.php:1079
+msgid "Label"
+msgstr "Label"
+
+#: wpsc-admin/admin.php:359
+#: wpsc-admin/includes/display-items-functions.php:1083
+msgid "Label Description"
+msgstr "Label Description"
+
+#: wpsc-admin/admin.php:360
+#: wpsc-admin/includes/display-items-functions.php:1091
+msgid "Item Number"
+msgstr "项目编号"
+
+#: wpsc-admin/admin.php:361
+#: wpsc-admin/includes/display-items-functions.php:1087
+msgid "Life Number"
+msgstr "Life Number"
+
+#: wpsc-admin/admin.php:362
+#: wpsc-admin/includes/display-items-functions.php:1095
+msgid "Product Code"
+msgstr "Product Code"
+
+#: wpsc-admin/admin.php:363
+#: wpsc-admin/includes/display-items-functions.php:1099
+msgid "PDF"
+msgstr "PDF"
+
+#: wpsc-admin/admin.php:436
+#: wpsc-admin/display-sales-logs.php:359
+msgid "Last 30 Days"
+msgstr "最近30天"
+
+#: wpsc-admin/admin.php:455
+#: wpsc-admin/admin.php:485
+msgid "Orders"
+msgstr "订单数"
+
+#: wpsc-admin/admin.php:465
+#: wpsc-admin/admin.php:497
+msgid "Avg Orders"
+msgstr "平均订单数"
+
+#: wpsc-admin/admin.php:475
+#: wpsc-admin/display-sales-logs.php:372
+msgid "Life Time"
+msgstr "Life Time"
+
+#: wpsc-admin/admin.php:518
+#: wpsc-admin/admin.php:746
+msgid "e-Commerce"
+msgstr "e-Commerce"
+
+#: wpsc-admin/admin.php:535
+msgid "E-Commerce"
+msgstr "E-Commerce"
+
+#: wpsc-admin/admin.php:652
+msgid "Sales by Quarter"
+msgstr "季度销售"
+
+#: wpsc-admin/admin.php:738
+msgid "Sales by"
+msgstr "Sales by"
+
+#: wpsc-admin/admin.php:781
+msgid "Your \"products page\" is not currently set to display any products. You need to select a product grouping to display by default. <br /> This is set in the Shop Settings page."
+msgstr "你的 \"products page\" 目前没有设置显示任何商品。您需要选择一个商品组别，作为默认显示。 <br />请在商店设置页中设置。"
+
+#: wpsc-admin/ajax-and-init.php:767
+#: wpsc-admin/display-variations.page.php:145
+msgid "Edit Variation Set"
+msgstr "编辑可变属性"
+
+#: wpsc-admin/ajax-and-init.php:990
+msgid "Your Order"
+msgstr "你的订单"
+
+#: wpsc-admin/ajax-and-init.php:1111
+#: wpsc-admin/ajax-and-init.php:1112
+#: wpsc-admin/includes/display-items-functions.php:1035
+msgid "Click to download"
+msgstr "点击下载"
+
+#: wpsc-admin/ajax-and-init.php:1237
+msgid "The administrator has unlocked your file"
+msgstr "管理员已解锁您的文件"
+
+#: wpsc-admin/ajax-and-init.php:1237
+msgid "Dear CustomerWe are pleased to advise you that your order has been updated and your downloads are now active.Please download your purchase using the links provided below.[download_links]Thank you for your custom."
+msgstr "尊敬的客户，我们很高兴地通知您，您的订单已被更新，现在你可以下载了。你购买的下载请使用下列链接。[download_links] 感谢你的惠顾。"
+
+#: wpsc-admin/display-groups.page.php:41
+msgid "Select the markets you are selling this category to."
+msgstr "选择你销售该类别的目标市场。"
+
+#: wpsc-admin/display-groups.page.php:236
+msgid "The item has been added"
+msgstr "该项目已经被添加"
+
+#: wpsc-admin/display-groups.page.php:238
+#: wpsc-admin/display-groups.page.php:244
+msgid "The item has not been added"
+msgstr "该项目未被添加"
+
+#: wpsc-admin/display-groups.page.php:469
+msgid "The product group has been edited."
+msgstr "该商品组别已经编辑。"
+
+#: wpsc-admin/display-groups.page.php:474
+msgid "The group has been added."
+msgstr "该组别已添加。"
+
+#: wpsc-admin/display-groups.page.php:486
+msgid "The group has been edited."
+msgstr "该组别已编辑。"
+
+#: wpsc-admin/display-groups.page.php:542
+msgid "Are you sure you want to delete this category? If the category has any subcategories, they will be deleted too."
+msgstr "你确定要删除这个类别？如果该类别有任何子类，他们也将被删除。"
+
+#: wpsc-admin/display-groups.page.php:550
+msgid "Are you sure you want to delete this product group? All categories it contains will be deleted too."
+msgstr "你确定要删除这个产品组别？它包含所有类别也将被删除。"
+
+#: wpsc-admin/display-groups.page.php:573
+msgid "Categorizing your products into groups help your customers find them. For instance if you sell hats and trousers you  might want to setup a Group called clothes and add hats and trousers to that group."
+msgstr "将商品分类成不同的组别可以帮助你的顾客更好的寻找需要的商品。例如，如果你销售的是帽子和裤子，你可以建立一个名为衣物的组别，然后将帽子和裤子都添加进去。"
+
+#: wpsc-admin/display-groups.page.php:588
+msgid "Select a Group to Manage"
+msgstr "选择一个组别进行整理"
+
+#: wpsc-admin/display-groups.page.php:606
+msgid "or"
+msgstr "或"
+
+#: wpsc-admin/display-groups.page.php:608
+#: wpsc-admin/display-groups.page.php:625
+msgid "Add New Group"
+msgstr "添加新组别"
+
+#: wpsc-admin/display-groups.page.php:649
+msgid "Edit Group"
+msgstr "编辑组别"
+
+#: wpsc-admin/display-groups.page.php:684
+msgid "&quot;[categorisation]&quot; Group"
+msgstr "&quot;[categorisation]&quot; 组别"
+
+#: wpsc-admin/display-groups.page.php:694
+msgid "Image"
+msgstr "图片"
+
+#: wpsc-admin/display-groups.page.php:717
+msgid "You are editing the &quot;[categorisation]&quot; Group"
+msgstr "你正在编辑 &quot;[categorisation]&quot; 组别"
+
+#: wpsc-admin/display-groups.page.php:738
+#: wpsc-admin/display-groups.page.php:742
+msgid "You are editing an item in the &quot;[categorisation]&quot; Group"
+msgstr "你正在编辑 &quot;[categorisation]&quot; 组别下的商品"
+
+#: wpsc-admin/display-groups.page.php:741
+msgid "Edit Details"
+msgstr "编辑详情"
+
+#: wpsc-admin/display-groups.page.php:757
+#: wpsc-admin/display-groups.page.php:920
+msgid "Add Category"
+msgstr "添加类别"
+
+#: wpsc-admin/display-groups.page.php:760
+msgid "Adding a new category here will make it available when you add or edit a product."
+msgstr "当你添加或编辑一个商品可在这里添加新的类别。"
+
+#: wpsc-admin/display-groups.page.php:766
+#: wpsc-admin/display-groups.page.php:769
+msgid "You are adding a new item to the &quot;[categorisation]&quot; Group"
+msgstr "你添加了一个新的项目到 &quot;[categorisation]&quot; 组别"
+
+#: wpsc-admin/display-groups.page.php:791
+msgid "Group Parent"
+msgstr "上级组别"
+
+#: wpsc-admin/display-groups.page.php:799
+msgid "Group&nbsp;Image"
+msgstr "组别&nbsp;图片"
+
+#: wpsc-admin/display-items.page.php:29
+msgid "Display Products"
+msgstr "显示商品"
+
+#: wpsc-admin/display-items.page.php:49
+#: wpsc-admin/display-items.page.php:54
+#: wpsc-admin/display-items.page.php:63
+#: wpsc-admin/display-items.page.php:68
+#, php-format
+msgid "Product duplicated."
+msgid_plural "%s products duplicated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wpsc-admin/display-items.page.php:74
+#: wpsc-admin/display-variations.page.php:49
+msgid "Product updated."
+msgstr "商品已更新。"
+
+#: wpsc-admin/display-items.page.php:114
+msgid "The following directories are not writable: :directory: You won&#39;t be able to upload any images or files here. You will need to change the permissions on these directories to make them writable."
+msgstr "下列目录权限为不能写 :directory: 你不能上传图片或者文件到这里。你需要把这些目录权限改为可写属性。"
+
+#: wpsc-admin/display-items.page.php:147
+msgid ""
+"You are about to delete the selected products.\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"你确定要删除这些已选定商品？\n"
+"  点击 'Cancel' 取消， 'OK' 删除。"
+
+#: wpsc-admin/display-items.page.php:232
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: wpsc-admin/display-items.page.php:233
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: wpsc-admin/display-items.page.php:271
+msgid "Search"
+msgstr "搜索"
+
+#: wpsc-admin/display-items.page.php:276
+#: wpsc-admin/display-sales-logs.php:419
+msgid "Bulk Actions"
+msgstr "批量操作"
+
+#: wpsc-admin/display-items.page.php:278
+#: wpsc-admin/display-items.page.php:426
+#: wpsc-admin/includes/display-items-functions.php:823
+msgid "Publish"
+msgstr "发布"
+
+#: wpsc-admin/display-items.page.php:279
+#: wpsc-admin/display-items.page.php:366
+msgid "Draft"
+msgstr "草稿"
+
+#: wpsc-admin/display-items.page.php:283
+#: wpsc-admin/display-sales-logs.php:428
+msgid "Apply"
+msgstr "应用"
+
+#: wpsc-admin/display-items.page.php:319
+msgid "No Name"
+msgstr "没有名称"
+
+#: wpsc-admin/display-items.page.php:397
+#: wpsc-admin/includes/display-items-functions.php:351
+msgid "Delete this product"
+msgstr "删除该商品"
+
+#: wpsc-admin/display-items.page.php:399
+#: wpsc-admin/includes/display-items-functions.php:351
+#, php-format
+msgid ""
+"You are about to delete this product '%s'\n"
+" 'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"你确定要删除该商品 '%s'\n"
+" 点击 'Cancel' 取消， 'OK' 删除。"
+
+#: wpsc-admin/display-items.page.php:424
+msgid "Unpublish"
+msgstr "不发布"
+
+#: wpsc-admin/display-items.page.php:453
+msgid "You have no products added."
+msgstr "你没有商品添加。"
+
+#: wpsc-admin/display-items.page.php:470
+msgid "View All Categories"
+msgstr "显示所有类别"
+
+#: wpsc-admin/display-options-settings.page.php:18
+msgid "It looks like your wp-e-commerce theme files are out of date, this can cause potential problems with some gateways and the appearances of the front end of your shop. <br /><strong>We recommend you download the latest version of wp-e-commerce unzip it, and copy the new themes folder into your 'uploads/wpsc/themes' folder on your site. Or port your changes across.</strong>"
+msgstr "你的wp-e-commerce主题文件可能已过时，这将导致你商店的一些网关和前端显示有潜在出错的可能。<br /><strong>我们建议您下载wp-e-commerce并且打开压缩文件，拷贝新的主题文件夹到 'uploads/wpsc/themes' 目录。或者改变你的端口。</strong>"
+
+#: wpsc-admin/display-options-settings.page.php:44
+msgid "Thanks, your thumbnail images have been resized."
+msgstr "谢谢，你的缩略图已调整大小了。"
+
+#: wpsc-admin/display-options-settings.page.php:99
+msgid "General"
+msgstr "常规"
+
+#: wpsc-admin/display-options-settings.page.php:100
+msgid "Presentation"
+msgstr "显示"
+
+#: wpsc-admin/display-options-settings.page.php:101
+msgid "Admin"
+msgstr "管理员"
+
+#: wpsc-admin/display-options-settings.page.php:103
+msgid "Payment Options"
+msgstr "支付选项"
+
+#: wpsc-admin/display-options-settings.page.php:104
+msgid "Import"
+msgstr "导入"
+
+#: wpsc-admin/display-options-settings.page.php:105
+#: wpsc-includes/install_and_update.functions.php:213
+msgid "Checkout"
+msgstr "结算"
+
+#: wpsc-admin/display-options-settings.page.php:176
+msgid "To configure a shipping module select one on the left."
+msgstr "要配置运输模块，从左侧选择其中之一。"
+
+#: wpsc-admin/display-options-settings.page.php:186
+#, php-format
+msgid " Setting Options Updated. "
+msgid_plural " %s Settings Options Updated. "
+msgstr[0] ""
+msgstr[1] ""
+
+#: wpsc-admin/display-options-settings.page.php:191
+#, php-format
+msgid "%s Setting Option deleted. "
+msgid_plural "%s Setting Option deleted. "
+msgstr[0] ""
+msgstr[1] ""
+
+#: wpsc-admin/display-options-settings.page.php:195
+msgid " Shipping Option Updated."
+msgid_plural " Shipping Option Updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wpsc-admin/display-options-settings.page.php:199
+#, php-format
+msgid "%s Checkout Field Added."
+msgid_plural "%s Checkout Fields Added."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wpsc-admin/display-sales-logs.php:65
+#, php-format
+msgid "%s Purchase Log updated."
+msgid_plural "%s Purchase Logs updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wpsc-admin/display-sales-logs.php:73
+#, php-format
+msgid "%s product not updated, somebody is editing it."
+msgid_plural "%s products not updated, somebody is editing them."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wpsc-admin/display-sales-logs.php:78
+#, php-format
+msgid "%s Purchase Log deleted."
+msgid_plural "%s Purchase Logs deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wpsc-admin/display-sales-logs.php:88
+msgid "When upgrading the Wp-E-Commerce Plugin from 3.6.* to 3.7 it is required that you associate your checkout form fields with the new Purchase Logs system. To do so please "
+msgstr "当从wp-e-commerce插件 3.6升级到3.7，由于重建了新的销售记录系统，因此需要你重新设计结算页面的表单栏目。"
+
+#: wpsc-admin/display-sales-logs.php:114
+msgid "GetShopped News"
+msgstr "GetShopped新闻"
+
+#: wpsc-admin/display-sales-logs.php:151
+msgid "Downloads for this log have been released."
+msgid_plural "Downloads for this log have been released."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wpsc-admin/display-sales-logs.php:155
+msgid "Receipt has been resent "
+msgid_plural "Receipt has been resent "
+msgstr[0] ""
+msgstr[1] ""
+
+#: wpsc-admin/display-sales-logs.php:196
+#: wpsc-admin/includes/settings-pages/shipping.php:46
+msgid "Shipping Options"
+msgstr "运输选项"
+
+#: wpsc-admin/display-sales-logs.php:199
+msgid "Shipping Method:"
+msgstr "运输方法："
+
+#: wpsc-admin/display-sales-logs.php:200
+msgid "Shipping Option:"
+msgstr "运输选项："
+
+#: wpsc-admin/display-sales-logs.php:202
+msgid "Tracking ID:"
+msgstr "跟踪号码："
+
+#: wpsc-admin/display-sales-logs.php:203
+msgid "Shipping Status:"
+msgstr "运输状态："
+
+#: wpsc-admin/display-sales-logs.php:204
+msgid "Track History:"
+msgstr "跟踪历史记录："
+
+#: wpsc-admin/display-sales-logs.php:210
+msgid "Billing Details"
+msgstr "支付详细资料"
+
+#: wpsc-admin/display-sales-logs.php:211
+msgid "Purchase Log Date:"
+msgstr "购买日期："
+
+#: wpsc-admin/display-sales-logs.php:212
+msgid "Purchase Number:"
+msgstr "消费单号："
+
+#: wpsc-admin/display-sales-logs.php:213
+msgid "Buyers Name:"
+msgstr "顾客姓名："
+
+#: wpsc-admin/display-sales-logs.php:214
+msgid "Address:"
+msgstr "地址："
+
+#: wpsc-admin/display-sales-logs.php:216
+msgid "Phone:"
+msgstr "电话："
+
+#: wpsc-admin/display-sales-logs.php:217
+msgid "Email:"
+msgstr "Email:"
+
+#: wpsc-admin/display-sales-logs.php:218
+msgid "Payment Method:"
+msgstr "支付方式："
+
+#: wpsc-admin/display-sales-logs.php:220
+msgid "How User Found Us:"
+msgstr "如何知道我们："
+
+#: wpsc-admin/display-sales-logs.php:226
+msgid "Items Ordered"
+msgstr "商品已订购"
+
+#: wpsc-admin/display-sales-logs.php:268
+msgid "Order Status:"
+msgstr "订单状态："
+
+#: wpsc-admin/display-sales-logs.php:288
+msgid "Actions"
+msgstr "行动"
+
+#: wpsc-admin/display-sales-logs.php:293
+msgid "View Packing Slip"
+msgstr "查看装箱单"
+
+#: wpsc-admin/display-sales-logs.php:295
+msgid "Resend Receipt to Buyer"
+msgstr "重发收据给顾客"
+
+#: wpsc-admin/display-sales-logs.php:297
+#: wpsc-admin/display-sales-logs.php:550
+msgid "Delete this log"
+msgstr "删除该记录"
+
+#: wpsc-admin/display-sales-logs.php:297
+#: wpsc-admin/display-sales-logs.php:550
+#, php-format
+msgid ""
+"You are about to delete this log '%s'\n"
+" 'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"你确定要删除该购买记录 '%s'\n"
+" 点击 'Cancel' 取消，'OK' 删除。"
+
+#: wpsc-admin/display-sales-logs.php:297
+msgid "Remove this record"
+msgstr "移动该记录"
+
+#: wpsc-admin/display-sales-logs.php:299
+msgid "Go Back"
+msgstr "后退"
+
+#: wpsc-admin/display-sales-logs.php:314
+msgid "e-Commerce Admin Menu"
+msgstr "e-Commerce管理员菜单"
+
+#: wpsc-admin/display-sales-logs.php:333
+msgid "WP e-Commerce News"
+msgstr "WP e-Commerce新闻"
+
+#: wpsc-admin/display-sales-logs.php:355
+msgid "Order Summary"
+msgstr "订单一览"
+
+#: wpsc-admin/display-sales-logs.php:367
+msgid "(accepted payments)"
+msgstr "（接受付款）"
+
+#: wpsc-admin/display-sales-logs.php:382
+msgid "Subscribe to your orders"
+msgstr "订阅你的订单"
+
+#: wpsc-admin/display-sales-logs.php:384
+msgid "Subscribe to an RSS feed"
+msgstr "订阅一个RSS源"
+
+#: wpsc-admin/display-sales-logs.php:384
+msgid "of your orders"
+msgstr "到你的订单"
+
+#: wpsc-admin/display-sales-logs.php:387
+msgid "Plugin News"
+msgstr "插件新闻"
+
+#: wpsc-admin/display-sales-logs.php:389
+msgid "The <a href=\"http://instinct.co.nz/blogshop/products-page/\" target=\"_blank\">WP DropShop Module</a> is the latest and most cutting edge shopping cart available online. Coupled with Grid View then your site will be the talk of street! <br/><br/>The <a href=\"http://instinct.co.nz/blogshop/products-page/\" target=\"_blank\">GridView Module</a> is a visual module built to enhance the way your product page looks.<br/><br/><a href=\"http://www.instinct.co.nz/wp-campaign-monitor/100\">WP Campaign Monitor</a> is an email newsletter tool built just for WP users who want to send campaigns, track the results and manage their subscribers. The latest version integrates with e-commerce lite meaning that you will be able to send buyers email newsletters and much more. "
+msgstr "The <a href=\"http://instinct.co.nz/blogshop/products-page/\" target=\"_blank\">WP DropShop Module</a> is the latest and most cutting edge shopping cart available online. Coupled with Grid View then your site will be the talk of street! <br/><br/>The <a href=\"http://instinct.co.nz/blogshop/products-page/\" target=\"_blank\">GridView Module</a> is a visual module built to enhance the way your product page looks.<br/><br/><a href=\"http://www.instinct.co.nz/wp-campaign-monitor/100\">WP Campaign Monitor</a> is an email newsletter tool built just for WP users who want to send campaigns, track the results and manage their subscribers. The latest version integrates with e-commerce lite meaning that you will be able to send buyers email newsletters and much more. "
+
+#: wpsc-admin/display-sales-logs.php:390
+msgid "This shop is powered by "
+msgstr "该商店技术支持："
+
+#: wpsc-admin/display-sales-logs.php:399
+msgid "Upgrade to Gold"
+msgstr "升级Gold版"
+
+#: wpsc-admin/display-sales-logs.php:399
+msgid " and unleash more functionality into your shop."
+msgstr " 并释放更多功能到贵店。"
+
+#: wpsc-admin/display-sales-logs.php:430
+msgid "View:"
+msgstr "显示："
+
+#: wpsc-admin/display-sales-logs.php:468
+msgid "Filter"
+msgstr "筛选"
+
+#: wpsc-admin/display-sales-logs.php:471
+msgid "Oops there are no purchase logs for your selection, please try again."
+msgstr "噢，没有消费记录，请重试。"
+
+#: wpsc-admin/display-sales-logs.php:491
+msgid "Total:"
+msgstr "总数："
+
+#: wpsc-admin/display-sales-logs.php:503
+msgid "Download CSV"
+msgstr "下载CSV文件"
+
+#: wpsc-admin/display-sales-logs.php:512
+msgid ""
+"You are about to delete the selected purchase logs.\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"你确定删除已选择的购买记录？\n"
+" 点击 'Cancel' 取消， 'OK' 删除。"
+
+#: wpsc-admin/display-sales-logs.php:578
+msgid "Search Logs"
+msgstr "搜索记录"
+
+#: wpsc-admin/display-upgrades.page.php:12
+msgid "WP e-Commerce Upgrades"
+msgstr "WP e-Commerce升级"
+
+#: wpsc-admin/display-upgrades.page.php:13
+msgid "Add more functionality to your e-Commerce site. Prices may be subject to change."
+msgstr "添加更多的功能到您的电子商务网站。价格可能会有所变动。"
+
+#: wpsc-admin/display-upgrades.page.php:19
+msgid "Pure Gold"
+msgstr "Pure Gold"
+
+#: wpsc-admin/display-upgrades.page.php:26
+#: wpsc-admin/includes/settings-pages/presentation.php:671
+#: wpsc-admin/includes/settings-pages/presentation.php:675
+msgid "DropShop"
+msgstr "DropShop"
+
+#: wpsc-admin/display-upgrades.page.php:33
+msgid "MP3 Player"
+msgstr "MP3 Player"
+
+#: wpsc-admin/display-upgrades.page.php:40
+msgid "Members Only Module"
+msgstr "Members Only Module"
+
+#: wpsc-admin/display-upgrades.page.php:54
+msgid "NextGen Gallery Buy Now Buttons"
+msgstr "NextGen Gallery Buy Now Buttons"
+
+#: wpsc-admin/display-upgrades.page.php:78
+#: wpsc-admin/display-upgrades.page.php:86
+msgid "API Key Reset"
+msgstr "API密钥复位"
+
+#: wpsc-admin/display-upgrades.page.php:81
+msgid "Enter your API name and key to release it from an old site that you no longer use."
+msgstr "输入您旧站点的API名称和密钥，你不需要再使用它了。"
+
+#: wpsc-admin/display-upgrades.page.php:92
+msgid "API Key"
+msgstr "API密钥"
+
+#: wpsc-admin/display-upgrades.page.php:97
+msgid "Reset API Key"
+msgstr "复位API密钥"
+
+#: wpsc-admin/display-upgrades.page.php:106
+msgid "Upgrade Instructions"
+msgstr "升级介绍"
+
+#: wpsc-admin/display-upgrades.page.php:109
+#, php-format
+msgid "If your gold cart files are called 'gold_cart_files': Copy the gold_cart_files directory into the %s folder."
+msgstr "如果你的gold cart文件名是 'gold_cart_files'： 拷贝该gold_cart_files 目录到 %s 文件夹。"
+
+#: wpsc-admin/display-upgrades.page.php:112
+msgid "This folder should be automatically created when the e-commerce plugin is activated, but if it is not, you will have to create it yourself."
+msgstr "wp-e=commerce插件被激活的时候，自动创建文件夹。如果没有，你需要自己创建它。"
+
+#: wpsc-admin/display-upgrades.page.php:115
+#, php-format
+msgid "Otherwise If your gold cart files are called 'gold_cart_files_plugin': Copy the gold_cart_files_plugin directory into the %s folder."
+msgstr "否则如果你的gold cart 文件名称为 'gold_cart_files_plugin'： 复制gold_cart_files_plugin 目录到 %s 的文件夹。"
+
+#: wpsc-admin/display-upgrades.page.php:118
+msgid "You can find more information on installing Gold Cart in your readme.txt inside the gold cart folder. "
+msgstr "更多资料你可在安装Gold Cart的gold cart文件夹里面readme.txt文件。"
+
+#: wpsc-admin/display-upgrades.page.php:122
+msgid "Once you have done the above a new panel should appear on the Upgrades page where you must enter your API Username and API Key. "
+msgstr "一旦你完成上述操作，将在升级页面会出现一个新面板，你需要输入API用户名和API密钥"
+
+#: wpsc-admin/display-upgrades.page.php:126
+msgid "For more information visit our documentation page."
+msgstr "更多信息，请访问我们的文档页。"
+
+#: wpsc-admin/display-upgrades.page.php:170
+msgid "Your API key has been Reset"
+msgstr "您的API密钥已经被复位"
+
+#: wpsc-admin/display-variations.page.php:21
+msgid "Are you sure you want to delete this product?"
+msgstr "你确定要删除该商品？"
+
+#: wpsc-admin/display-variations.page.php:37
+#: wpsc-admin/includes/settings-pages/presentation.php:392
+msgid "Display Variations"
+msgstr "显示可变属性"
+
+#: wpsc-admin/display-variations.page.php:39
+msgid "A variation can be anything \"optional\" about a product. ie: Size, Color, etc <br />For example: if you are selling t-shirts you might setup a variation set called size with the values small, medium, large..."
+msgstr "可变属性是一个商品的任何 \"属性\" 。例如：大小，颜色等等。 <br />例如：你正在销售T恤，你可以创建一个可变属性叫做 Size，Size的属性值为小码，中码，大码..."
+
+#: wpsc-admin/display-variations.page.php:149
+#: wpsc-admin/includes/display-items-functions.php:613
+msgid "Add Variation Set"
+msgstr "添加可变属性"
+
+#: wpsc-admin/display-variations.page.php:199
+msgid "Add Value"
+msgstr "添加值"
+
+#: wpsc-admin/display-variations.page.php:212
+msgid "Update Variations"
+msgstr "更新可变属性"
+
+#: wpsc-admin/includes/display-items-functions.php:137
+msgid "Edit Product"
+msgstr "编辑商品"
+
+#: wpsc-admin/includes/display-items-functions.php:148
+msgid "Product Name"
+msgstr "商品名称"
+
+#: wpsc-admin/includes/display-items-functions.php:157
+msgid "Display Product Shortcode"
+msgstr "显示商品 Shortcode"
+
+#: wpsc-admin/includes/display-items-functions.php:158
+msgid "Buy Now Shortcode"
+msgstr "立刻买 Shortcode"
+
+#: wpsc-admin/includes/display-items-functions.php:159
+msgid "Add to Cart Shortcode"
+msgstr "加入购物车 Shortcode"
+
+#: wpsc-admin/includes/display-items-functions.php:165
+msgid "Display Product Template Tag"
+msgstr "显示商品模版标签"
+
+#: wpsc-admin/includes/display-items-functions.php:166
+msgid "Buy Now PHP"
+msgstr "立刻买的PHP"
+
+#: wpsc-admin/includes/display-items-functions.php:167
+msgid "Add to Cart PHP"
+msgstr "加入购物车的PHP"
+
+#: wpsc-admin/includes/display-items-functions.php:168
+msgid "Display Product SKU"
+msgstr "显示商品SKU"
+
+#: wpsc-admin/includes/display-items-functions.php:185
+msgid "Stock Keeping Unit"
+msgstr "单位库存"
+
+#: wpsc-admin/includes/display-items-functions.php:193
+msgid "Sale Price :"
+msgstr "售价："
+
+#: wpsc-admin/includes/display-items-functions.php:216
+msgid "New Currency"
+msgstr "新货币"
+
+#: wpsc-admin/includes/display-items-functions.php:220
+#: wpsc-admin/includes/display-items-functions.php:259
+#: wpsc-admin/includes/settings-pages/general.php:119
+#: wpsc-includes/install_and_update.functions.php:114
+msgid "Currency type"
+msgstr "货币类型"
+
+#: wpsc-admin/includes/display-items-functions.php:244
+#: wpsc-admin/includes/display-items-functions.php:283
+msgid "Delete Currency"
+msgstr "删除货币"
+
+#: wpsc-admin/includes/display-items-functions.php:301
+msgid "Additional Description"
+msgstr "附加简介"
+
+#: wpsc-admin/includes/display-items-functions.php:350
+msgid "Update Product"
+msgstr "更新商品"
+
+#: wpsc-admin/includes/display-items-functions.php:374
+msgid "Categories and Tags"
+msgstr "类别和标签"
+
+#: wpsc-admin/includes/display-items-functions.php:413
+msgid "Select &quot;[categorisation]&quot;"
+msgstr "选择 &quot;[categorisation]&quot;"
+
+#: wpsc-admin/includes/display-items-functions.php:469
+msgid "Price and Stock Control"
+msgstr "价格和库存控制"
+
+#: wpsc-admin/includes/display-items-functions.php:479
+#, php-format
+msgid "Do not include tax (tax is set in <a href=\"%s\"/wp-admin/admin.php?page=wpsc-settings\">shop config</a>)"
+msgstr "不含税 （税费设置在 <a href=\"%s\"/wp-admin/admin.php?page=wpsc-settings\">商店设置</a>）"
+
+#: wpsc-admin/includes/display-items-functions.php:486
+msgid "This is a donation, checking this box populates the donations widget."
+msgstr "这是一个捐赠型商品，点击该选项就会发布在捐献widget上。"
+
+#: wpsc-admin/includes/display-items-functions.php:493
+msgid "Table Rate Price"
+msgstr "数量费率价格"
+
+#: wpsc-admin/includes/display-items-functions.php:498
+msgid "Quantity In Cart"
+msgstr "购物车件数"
+
+#: wpsc-admin/includes/display-items-functions.php:499
+msgid "Discounted Price"
+msgstr "折后价格"
+
+#: wpsc-admin/includes/display-items-functions.php:534
+msgid "Custom Tax Rate"
+msgstr "自定义税率"
+
+#: wpsc-admin/includes/display-items-functions.php:548
+msgid "I have a limited number of this item in stock. If the stock runs out, this product will not be available on the shop unless you untick this box or add more stock."
+msgstr "该商品有库存限制。如果库存不足，该商品将不会上架。除非你取消这个选项或者添加更多库存。"
+
+#: wpsc-admin/includes/display-items-functions.php:563
+#: wpsc-admin/includes/display-items-functions.php:577
+#: wpsc-admin/includes/display-items-functions.php:584
+msgid "If this product runs out of stock set status to Unpublished & email site owner"
+msgstr "如果该商品低于库存设置，商品将不会发布而且会发送email给网站管理员"
+
+#: wpsc-admin/includes/display-items-functions.php:576
+#: wpsc-admin/includes/display-items-functions.php:583
+msgid "Stock Qty"
+msgstr "库存数量"
+
+#: wpsc-admin/includes/display-items-functions.php:610
+msgid "Variation Control"
+msgstr "可变属性控制"
+
+#: wpsc-admin/includes/display-items-functions.php:614
+msgid "+ Add New Variations"
+msgstr "+ 添加新的可变属性"
+
+#: wpsc-admin/includes/display-items-functions.php:660
+msgid "Weight"
+msgstr "重量"
+
+#: wpsc-admin/includes/display-items-functions.php:700
+msgid "Length"
+msgstr "长度"
+
+#: wpsc-admin/includes/display-items-functions.php:724
+msgid "Flat Rate Settings"
+msgstr "统一费率设置"
+
+#: wpsc-admin/includes/display-items-functions.php:729
+msgid "Local Shipping Fee"
+msgstr "本地运输计费"
+
+#: wpsc-admin/includes/display-items-functions.php:738
+msgid "International Shipping Fee"
+msgstr "国际运输计费"
+
+#: wpsc-admin/includes/display-items-functions.php:747
+msgid "Disregard Shipping for this product"
+msgstr "该商品忽略运输"
+
+#: wpsc-admin/includes/display-items-functions.php:776
+msgid "Advanced Options"
+msgstr "高级选项"
+
+#: wpsc-admin/includes/display-items-functions.php:784
+msgid "Custom Meta"
+msgstr "自定义Meta"
+
+#: wpsc-admin/includes/display-items-functions.php:785
+msgid "Add Custom Meta"
+msgstr "添加自定义Meta"
+
+#: wpsc-admin/includes/display-items-functions.php:795
+msgid "Value"
+msgstr "值"
+
+#: wpsc-admin/includes/display-items-functions.php:812
+msgid "Merchant Notes"
+msgstr "商店备注"
+
+#: wpsc-admin/includes/display-items-functions.php:815
+msgid "These notes are only available here."
+msgstr "这些备注只显示在这里。"
+
+#: wpsc-admin/includes/display-items-functions.php:834
+msgid "Personalisation Options"
+msgstr "个性化选项"
+
+#: wpsc-admin/includes/display-items-functions.php:837
+msgid "Users can personalize this product by leaving a message on single product page"
+msgstr "顾客可以在独立商品页留言评论该商品"
+
+#: wpsc-admin/includes/display-items-functions.php:846
+msgid "Users can upload images on single product page to purchase logs."
+msgstr "顾客可以在独立商品页的购买记录上传图片。"
+
+#: wpsc-admin/includes/display-items-functions.php:857
+msgid "Prohibited"
+msgstr "被禁止"
+
+#: wpsc-admin/includes/display-items-functions.php:871
+msgid "Off Site Product Link"
+msgstr "关闭站点商品链接"
+
+#: wpsc-admin/includes/display-items-functions.php:872
+msgid "If this product is for sale on another website enter the link here. For instance if your product is an MP3 file for sale on itunes you could put the link here. This option over rides the buy now and add to cart links and takes you to the site linked here."
+msgstr "如果该商品还有在别的网站销售，在此处输入外部链接。例如，如果你的商品是MP3并且在itunes销售，你可以输入该链接在此处。This option over rides the buy now and add to cart links and takes you to the site linked here."
+
+#: wpsc-admin/includes/display-items-functions.php:873
+msgid "External Link"
+msgstr "外部链接"
+
+#: wpsc-admin/includes/display-items-functions.php:881
+msgid "Enable IntenseDebate Comments"
+msgstr "允许IntenseDebate 评论"
+
+#: wpsc-admin/includes/display-items-functions.php:887
+msgid "Allow users to comment on this product."
+msgstr "允许顾客对该商品评论。"
+
+#: wpsc-admin/includes/display-items-functions.php:914
+msgid "Product Images"
+msgstr "商品图片"
+
+#: wpsc-admin/includes/display-items-functions.php:922
+msgid "Select Files"
+msgstr "选择文件"
+
+#: wpsc-admin/includes/display-items-functions.php:976
+msgid "You are using the Flash uploader.  Problems?  Try the <a class=\"wpsc_upload_switcher\" onclick='wpsc_upload_switcher(\"browser\")'>Browser uploader</a> instead."
+msgstr "你正在使用Flash上传器。有问题？请尝试使用 <a class=\"wpsc_upload_switcher\" onclick='wpsc_upload_switcher(\"browser\")'>浏览器上传器</a> 替代。"
+
+#: wpsc-admin/includes/display-items-functions.php:980
+msgid "To upload multiple product thumbnails you must <a href=\"http://www.instinct.co.nz/shop/\">install the premium upgrade</a>"
+msgstr "如果需要上传多个商品缩略图 ，你必须<a href=\"http://www.instinct.co.nz/shop/\">安装 the premium upgrade版本</a>"
+
+#: wpsc-admin/includes/display-items-functions.php:989
+msgid "Select an image to upload:"
+msgstr "选择图片上传："
+
+#: wpsc-admin/includes/display-items-functions.php:999
+msgid "You are using the Browser uploader.  Problems?  Try the <a class=\"wpsc_upload_switcher\" onclick='wpsc_upload_switcher(\"flash\")'>Flash uploader</a> instead."
+msgstr "你正在使用浏览器上传器。有问题？请尝试使用 <a class=\"wpsc_upload_switcher\" onclick='wpsc_upload_switcher(\"flash\")'>Flash上传器</a> 替代。"
+
+#: wpsc-admin/includes/display-items-functions.php:1003
+msgid "Manage your thumbnails"
+msgstr "管理你的缩略图"
+
+#: wpsc-admin/includes/display-items-functions.php:1025
+msgid "Product Download"
+msgstr "商品下载"
+
+#: wpsc-admin/includes/display-items-functions.php:1028
+msgid "Upload File"
+msgstr "上传文件"
+
+#: wpsc-admin/includes/display-items-functions.php:1029
+msgid "Max Upload Size"
+msgstr "最大上传容量"
+
+#: wpsc-admin/includes/display-items-functions.php:1033
+msgid "Preview File"
+msgstr "预览文件"
+
+#: wpsc-admin/includes/display-items-functions.php:1043
+msgid "Select an MP3 file to upload as a preview"
+msgstr "选择一个MP3文件上传作为预览"
+
+#: wpsc-admin/includes/display-items-functions.php:1064
+msgid "Label Control"
+msgstr "标签控制"
+
+#: wpsc-admin/includes/display-items-functions.php:1070
+#: wpsc-admin/includes/display-items-functions.php:1071
+msgid "Add Label"
+msgstr "添加标签"
+
+#: wpsc-admin/includes/display-items-functions.php:1128
+#: wpsc-admin/includes/display-items-functions.php:1155
+msgid "Preview"
+msgstr "预览"
+
+#: wpsc-admin/includes/display-items-functions.php:1199
+#: wpsc-admin/includes/settings-pages/presentation.php:856
+msgid "Thumbnail Settings"
+msgstr "缩略图设置"
+
+#: wpsc-admin/includes/display-items-functions.php:1207
+msgid "use default size"
+msgstr "使用默认尺寸"
+
+#: wpsc-admin/includes/display-items-functions.php:1207
+msgid "This is set on the Settings Page"
+msgstr "设置页面的设置"
+
+#: wpsc-admin/includes/display-items-functions.php:1213
+msgid "do not resize thumbnail image"
+msgstr "不调整缩略图大小"
+
+#: wpsc-admin/includes/display-items-functions.php:1217
+msgid "use specific size"
+msgstr "使用特殊尺寸"
+
+#: wpsc-admin/includes/display-items-functions.php:1219
+msgid "px width"
+msgstr "px宽度"
+
+#: wpsc-admin/includes/display-items-functions.php:1220
+msgid "px height"
+msgstr "px高度"
+
+#: wpsc-admin/includes/display-items-functions.php:1225
+msgid "use separate thumbnail"
+msgstr "使用分隔缩略图"
+
+#: wpsc-admin/includes/display-items-functions.php:1333
+#: wpsc-admin/includes/display-items-functions.php:1338
+msgid "HTML"
+msgstr "HTML"
+
+#: wpsc-admin/includes/display-items-functions.php:1334
+#: wpsc-admin/includes/display-items-functions.php:1339
+msgid "Visual"
+msgstr "Visual"
+
+#: wpsc-admin/includes/product-functions.php:41
+#, php-format
+msgid "Please refrain from uploading images larger than <strong>%d x %d</strong> pixels"
+msgstr "请上传图片不要大于<strong>％dx％d</strong>像素"
+
+#: wpsc-admin/includes/product-functions.php:52
+#: wpsc-includes/category.functions.php:220
+msgid "N/A"
+msgstr "N/A"
+
+#: wpsc-admin/includes/product-functions.php:77
+msgid "<strong>ERROR</strong>: Please enter a Product name.<br />"
+msgstr "<strong>错误</strong>：请输入一个商品名称。<br />"
+
+#: wpsc-admin/includes/product-functions.php:80
+msgid "<strong>ERROR</strong>: Please enter a Product Category.<br />"
+msgstr "<strong>错误</strong>：请输入一个商品类别。<br />"
+
+#: wpsc-admin/includes/product-functions.php:192
+msgid "Could not update product in the database"
+msgstr "数据库不能更新商品"
+
+#: wpsc-admin/includes/product-functions.php:200
+msgid "Could not insert product into the database"
+msgstr "数据库不能插入商品"
+
+#: wpsc-admin/includes/purchlogs_upgrade.php:67
+msgid "Check Out Form Fields updated."
+msgid_plural "Check Out Form Fields updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wpsc-admin/includes/purchlogs_upgrade.php:74
+#, fuzzy
+msgid "Upgrading to WP e-Commerce 3.7 and later requires you to run this fix once.The following Boxes corresponds to the form fields in your current checkout page.  All you have to do is select from the drop-down menu box what each of the following fields represent. Sorry for any inconvenience caused, but we're sure you'll agree that the new purchase logs are worth this minor hassle. "
+msgstr "Upgrading to WP e-Commerce 3.7 and later requires you to run this fix once.The following Boxes corresponds to the form fields in your current checkout page.  All you have to do is select from the drop-down menu box what each of the following fields represent. Sorry for any inconvenience caused, but we're sure you'll agree that the new purchase logs are worth this minor hassle. "
+
+#: wpsc-admin/includes/settings-pages/admin.php:7
+msgid "Admin Settings"
+msgstr "Admin Settings"
+
+#: wpsc-admin/includes/settings-pages/admin.php:13
+msgid "Max downloads per file"
+msgstr "文件最大下载数量"
+
+#: wpsc-admin/includes/settings-pages/admin.php:35
+msgid "Lock downloads to IP address"
+msgstr "锁定下载文件的IP地址"
+
+#: wpsc-admin/includes/settings-pages/admin.php:61
+msgid "Check MIME types on file uploads"
+msgstr "检查上传文件的MIME类型"
+
+#: wpsc-admin/includes/settings-pages/admin.php:68
+#, fuzzy
+msgid "Warning: Disabling this exposes your site to greater possibility of malicious files being uploaded, we reccomend installing the Fileinfo extention for PHP rather than disabling this."
+msgstr "Warning: Disabling this exposes your site to greater possibility of malicious files being uploaded, we reccomend installing the Fileinfo extention for PHP rather than disabling this."
+
+#: wpsc-admin/includes/settings-pages/admin.php:76
+msgid "Purchase Log Email"
+msgstr "消费记录Email"
+
+#: wpsc-admin/includes/settings-pages/admin.php:80
+msgid "i.e. this is the address where your purchase reports are sent."
+msgstr "即该地址是你消费收据的收件地址。"
+
+#: wpsc-admin/includes/settings-pages/admin.php:86
+msgid "Purchase Receipt - Reply Address"
+msgstr "消费收据回复地址"
+
+#: wpsc-admin/includes/settings-pages/admin.php:90
+msgid "i.e. this is the reply address contained in the purchase receipt sent to the buyer."
+msgstr "该回复地址将包含在发送给顾客的消费收据里面。"
+
+#: wpsc-admin/includes/settings-pages/admin.php:96
+msgid "Purchase Receipt - Reply Name"
+msgstr "消费收据回复名称"
+
+#: wpsc-admin/includes/settings-pages/admin.php:100
+msgid "i.e. this is the \"from name\" buyers will see in their purchase receipt. "
+msgstr "顾客将会在他们的消费收据上面看到 \"发送人\""
+
+#: wpsc-admin/includes/settings-pages/admin.php:115
+msgid "Custom Messages"
+msgstr "自定义信息"
+
+#: wpsc-admin/includes/settings-pages/admin.php:118
+msgid "Tags can be used"
+msgstr "可使用标签"
+
+#: wpsc-admin/includes/settings-pages/admin.php:139
+msgid "Admin Report"
+msgstr "管理员报告"
+
+#: wpsc-admin/includes/settings-pages/admin.php:144
+msgid "Track and Trace settings"
+msgstr "跟踪设置"
+
+#: wpsc-admin/includes/settings-pages/admin.php:154
+msgid "Tracking Email Subject"
+msgstr "跟踪Email的标题"
+
+#: wpsc-admin/includes/settings-pages/admin.php:158
+msgid "Tracking Email Message"
+msgstr "跟踪Email的内容"
+
+#: wpsc-admin/includes/settings-pages/admin.php:162
+msgid "URL Settings"
+msgstr "URL设置"
+
+#: wpsc-admin/includes/settings-pages/admin.php:167
+#: wpsc-includes/install_and_update.functions.php:95
+msgid "The location of the product list"
+msgstr "商品列表位置"
+
+#: wpsc-admin/includes/settings-pages/admin.php:175
+#: wpsc-includes/install_and_update.functions.php:96
+msgid "The location of the shopping cart"
+msgstr "购物车位置"
+
+#: wpsc-admin/includes/settings-pages/admin.php:193
+msgid "Transaction Details URL"
+msgstr "交易明细URL"
+
+#: wpsc-admin/includes/settings-pages/admin.php:204
+msgid "User Account URL"
+msgstr "用户账户URL"
+
+#: wpsc-admin/includes/settings-pages/admin.php:215
+msgid "Update Page URLs"
+msgstr "更新页面URLs"
+
+#: wpsc-admin/includes/settings-pages/admin.php:216
+msgid "Fix Product Group Permalinks"
+msgstr "修正商品组别永久链接"
+
+#: wpsc-admin/includes/settings-pages/checkout.php:42
+msgid "Checkout Options"
+msgstr "结算选项"
+
+#: wpsc-admin/includes/settings-pages/checkout.php:55
+msgid "Users must register before checking out"
+msgstr "注册用户才能结算"
+
+#: wpsc-admin/includes/settings-pages/checkout.php:75
+msgid "If yes then you must also turn on the wordpress option \"Any one can register\""
+msgstr "如果你选择是，那么你需要打开wordpress的选项 \"Any one can register 允许任何人注册\""
+
+#: wpsc-admin/includes/settings-pages/checkout.php:92
+msgid "Lock Tax to Billing Country"
+msgstr "税率锁定结算国家"
+
+#: wpsc-admin/includes/settings-pages/checkout.php:115
+msgid " Disregard Billing State for Tax Calculations"
+msgstr "忽略该州消费税计算"
+
+#: wpsc-admin/includes/settings-pages/checkout.php:140
+msgid "Enable Shipping Same as Billing Option: "
+msgstr "允许支付与运输一样的选项："
+
+#: wpsc-admin/includes/settings-pages/checkout.php:153
+msgid "Here you can customise the forms to be displayed in your checkout page. The checkout page is where you collect important user information that will show up in your purchase logs i.e. the buyers address, and name..."
+msgstr "你可以在这里自定义结算页显示的结算表单。该结算页面是你收集顾客重要信息的购买记录，例如，顾客姓名和地址等等..."
+
+#: wpsc-admin/includes/settings-pages/checkout.php:170
+msgid "+ Add New Form Set"
+msgstr "+ 添加新的表单"
+
+#: wpsc-admin/includes/settings-pages/checkout.php:174
+msgid "Add new Form Set"
+msgstr "添加新的表单"
+
+#: wpsc-admin/includes/settings-pages/checkout.php:251
+msgid "This will be the Email address that the Purchase Reciept is sent to."
+msgstr "发送购买收据到的Email地址。"
+
+#: wpsc-admin/includes/settings-pages/checkout.php:269
+msgid "Add New Form Field"
+msgstr "添加新的字段"
+
+#: wpsc-admin/includes/settings-pages/gateway.php:31
+msgid "Please Select A Payment Gateway"
+msgstr "请选择一个支付网关"
+
+#: wpsc-admin/includes/settings-pages/gateway.php:55
+msgid "Gateway Options"
+msgstr "网关选项"
+
+#: wpsc-admin/includes/settings-pages/gateway.php:64
+#: wpsc-admin/includes/settings-pages/general.php:7
+#: wpsc-admin/includes/settings-pages/shipping.php:52
+#: wpsc-admin/includes/settings-pages/shipping.php:58
+msgid "General Settings"
+msgstr "常规设置"
+
+#: wpsc-admin/includes/settings-pages/gateway.php:68
+msgid "Payment Gateways"
+msgstr "支付网关"
+
+#: wpsc-admin/includes/settings-pages/gateway.php:72
+msgid "Activate the payment gateways that you want to make available to your customers by selecting them below."
+msgstr "选择下列供你客户使用的支付网关并激活。"
+
+#: wpsc-admin/includes/settings-pages/gateway.php:98
+msgid "We Recommend"
+msgstr "我们建议"
+
+#: wpsc-admin/includes/settings-pages/gateway.php:107
+#: wpsc-admin/includes/settings-pages/gateway.php:114
+msgid " Select a Payment Gateway below to configure it."
+msgstr "选择下列支付网关进行配置。"
+
+#: wpsc-admin/includes/settings-pages/gateway.php:122
+msgid "Payment Gateway"
+msgstr "支付网关"
+
+#: wpsc-admin/includes/settings-pages/gateway.php:134
+msgid "Display Name"
+msgstr "显示名称"
+
+#: wpsc-admin/includes/settings-pages/gateway.php:162
+msgid "The text that people see when making a purchase"
+msgstr "顾客确定购买时显示的文字"
+
+#: wpsc-admin/includes/settings-pages/general.php:13
+msgid "Base Country/Region"
+msgstr "国家/地区"
+
+#: wpsc-admin/includes/settings-pages/general.php:39
+msgid "Select your primary business location."
+msgstr "请选择你的主要商业地区。"
+
+#: wpsc-admin/includes/settings-pages/general.php:43
+msgid "Tax Settings"
+msgstr "税务设置"
+
+#: wpsc-admin/includes/settings-pages/general.php:60
+msgid "Tax Included in prices"
+msgstr "含税价"
+
+#: wpsc-admin/includes/settings-pages/general.php:116
+msgid "Currency Settings"
+msgstr "货币设置"
+
+#: wpsc-admin/includes/settings-pages/general.php:143
+#: wpsc-includes/install_and_update.functions.php:115
+msgid "Currency sign location"
+msgstr "货币符号位置"
+
+#: wpsc-admin/includes/settings-pages/general.php:194
+msgid "Hide Decimals on Products Pages"
+msgstr "商品页隐藏小数"
+
+#: wpsc-admin/includes/settings-pages/import.php:7
+msgid "Import Products CSV"
+msgstr "导入商品CSV文件"
+
+#: wpsc-admin/includes/settings-pages/import.php:8
+msgid "<p>You can import your products from a comma delimited text file.</p><p>An example of a cvs import file would look like this: </p><p>Description, Additional Description, Product Name, Price, SKU, weight, weight unit, stock quantity, is limited quantity</p>"
+msgstr "<p>你可以从一个用逗号分隔的文本文件导入到商品。</p><p>一个CVS导入例子：</p><p>描述，附加说明，商品名称，价格，型号，重量，重量单位，限制数量</p>"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:14
+msgid "Show All Products"
+msgstr "显示所有商品"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:21
+msgid "Show Category List"
+msgstr "显示类别列表"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:28
+msgid "Show All Products + Category List"
+msgstr "显示所有商品＋类别列表"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:63
+msgid "Button Settings"
+msgstr "按钮设置"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:67
+msgid "Button Type"
+msgstr "按钮类型"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:92
+msgid "Hide \"Add to cart\" button"
+msgstr "隐藏 \"加入购物车\" 按钮"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:117
+msgid "Product Settings"
+msgstr "商品设置"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:122
+#: wpsc-includes/install_and_update.functions.php:162
+msgid "Show Product Ratings"
+msgstr "显示商品评级"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:146
+msgid "Display Fancy Purchase Notifications"
+msgstr "显示花俏式的购物通知"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:170
+msgid "Show Postage and Packaging"
+msgstr "显示包装和邮费"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:193
+msgid "Disable link in Title"
+msgstr "禁止标题链接"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:217
+msgid "Add quantity field to each product description"
+msgstr "添加数量字段到每商品的介绍"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:242
+msgid "Theme Customisation"
+msgstr "主题定制"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:247
+msgid "Thanks, the themes have been copied."
+msgstr "谢谢，该主题已拷贝。"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:256
+msgid "Theming your stores appearance is easy."
+msgstr "定制你商店的主题是容易的。"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:258
+msgid "You just need to edit the appropriate files in the following location."
+msgstr "你只需要编辑下列目录的相关文件。"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:259
+#: wpsc-admin/includes/settings-pages/presentation.php:271
+msgid "Path:"
+msgstr "路径："
+
+#: wpsc-admin/includes/settings-pages/presentation.php:261
+msgid "To create a new theme:"
+msgstr "创建一个新主题："
+
+#: wpsc-admin/includes/settings-pages/presentation.php:263
+msgid "Copy the default directory and rename it 'newTheme'"
+msgstr "拷贝到默认目录并改名为'newTheme'"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:264
+msgid "Rename the default.css file inside the 'newTheme' directory to 'newTheme.css'"
+msgstr "把default.css改名为'newTheme'目录里面的'newTheme.css'"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:269
+msgid "The permissions on your themes directory are incorrect."
+msgstr "你的主题目录权限出错。"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:270
+msgid "Please set the permissions to 775 on the following directory."
+msgstr "请把下列目录权限设置为775。"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:275
+msgid "Your theme files have not been moved. Until your theme files have been moved, we have disabled automatic upgrades."
+msgstr "你的主题文件没有移动。直到你的主题文件被移动了。我们将关闭自动升级功能。"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:276
+#, php-format
+msgid "Click here to <a href='%s'>Move your files</a> to a safe place"
+msgstr "点击 <a href='%s'>移动你的文件</a> 到一个安全的地方"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:280
+msgid "Read Tutorials"
+msgstr "阅读教程"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:285
+msgid "Product Page Settings"
+msgstr "商品页设置"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:372
+msgid "Purchase unavailable options"
+msgstr "购买选项不可用"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:377
+msgid "Show quantity form in list view"
+msgstr "列表视窗显示数量"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:382
+msgid "Products Per Row"
+msgstr "每行商品数"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:387
+msgid "Show images only"
+msgstr "只显示图片"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:397
+msgid "Display Description"
+msgstr "显示简介"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:402
+msgid "Display \"Add To Cart\" Button"
+msgstr "显示 \"加入购物车\" 按钮"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:406
+msgid "Display \"More Details\" Button"
+msgstr "显示 \"详情\" 按钮"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:416
+msgid "Theme"
+msgstr "主题"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:425
+msgid "Product page displays"
+msgstr "商品页显示"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:453
+msgid "Sort Products By"
+msgstr "商品排序"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:459
+msgid "Drag &amp; Drop"
+msgstr "Drag &amp; Drop"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:460
+msgid "Time Uploaded"
+msgstr "最近上传"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:462
+msgid "If you have used the drag-drop interface on the edit-products page to order your products then you must use the Drag &amp; Drop option."
+msgstr "如果你在编辑商品页面使用drag-drop界面，为了你的商品，必须使用Drag &amp; Drop选项。"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:466
+msgid "Show Breadcrumbs"
+msgstr "显示小提示"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:492
+msgid "Product Groups/Products Display"
+msgstr "商品组别/商品展示"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:510
+msgid "Product Groups Only (All products displayed)"
+msgstr "只显示商品组别（所有商品显示）"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:511
+msgid "Sliding Product Groups (1 product per page)"
+msgstr "浮动商品组别（每页一个商品）"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:518
+msgid "Show Subcategory Products in Parent Category"
+msgstr "显示子级类别的商品"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:544
+msgid "Show Search"
+msgstr "显示搜索"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:581
+msgid "Show Advanced Search"
+msgstr "显示高级搜索"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:584
+msgid "Use Live Search"
+msgstr "使用Live搜索"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:595
+msgid "Replace Page Title With Product/Category Name"
+msgstr "用商品/类别名称替代页面标题"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:617
+msgid "Shopping Cart Settings"
+msgstr "购物车设置"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:620
+#: wpsc-includes/install_and_update.functions.php:101
+#: wpsc-includes/install_and_update.functions.php:103
+#: wpsc-includes/install_and_update.functions.php:107
+#: wpsc-includes/install_and_update.functions.php:109
+msgid "Cart Location"
+msgstr "购物车位置"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:649
+#: wpsc-admin/includes/settings-pages/presentation.php:653
+msgid "Sidebar"
+msgstr "侧边栏"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:657
+msgid "Page"
+msgstr "页面"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:661
+#: wpsc-admin/includes/settings-pages/presentation.php:665
+msgid "Widget"
+msgstr "Widget"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:665
+#: wpsc-admin/includes/settings-pages/presentation.php:675
+msgid "You need to enable the widgets plugin to use this"
+msgstr "你需要启动widgets插件才能运行"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:675
+msgid "You need to install the Gold and DropShop extentions to use this"
+msgstr "使用该功能需要安装 Gold 和 DropShop 插件"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:679
+msgid "Manual"
+msgstr "手动"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:682
+msgid "Show Dropshop on every page"
+msgstr "每页显示Dropshop"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:683
+msgid "Show Dropshop only on product page"
+msgstr "只在商品页面显示Dropshop"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:686
+msgid "Use light Dropshop style"
+msgstr "Dropshop使用轻快的风格"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:687
+msgid "Use dark Dropshop style"
+msgstr "Dropshop使用稳重的风格"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:688
+msgid "Crafty"
+msgstr "Crafty"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:698
+msgid "Use Sliding Cart"
+msgstr "使用悬浮购物车"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:723
+msgid "Display \"+ Postage & Tax\""
+msgstr "显示 \"+ 包装和税费\""
+
+#: wpsc-admin/includes/settings-pages/presentation.php:749
+msgid "Product Group Settings"
+msgstr "商品组别设置"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:753
+msgid "Show Product Group Description"
+msgstr "显示商品组别简介"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:778
+msgid "Show Product Group Thumbnails"
+msgstr "显示商品组别缩略图"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:805
+msgid "Show Product Count per Product Group"
+msgstr "显示每个组别商品数量"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:831
+msgid "Use Category Grid View"
+msgstr "使用列表网格视图"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:862
+msgid "Default Product Thumbnail Size"
+msgstr "默认商品缩略图尺寸"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:866
+msgid "Resize Existing Thumbnails"
+msgstr "调整现有缩略图尺寸"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:872
+msgid "Default Product Group Thumbnail Size"
+msgstr "默认商品组别缩略图尺寸"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:881
+msgid "Single Product Image Size"
+msgstr "单个商品图片尺寸"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:892
+#: wpsc-includes/install_and_update.functions.php:87
+msgid "Show Thumbnails"
+msgstr "显示缩略图"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:918
+msgid "Show Thumbnail Gallery"
+msgstr "显示缩略图画册"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:942
+msgid "Gallery Thumbnail Image Size"
+msgstr "画册缩略图尺寸"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:956
+msgid "Pagination settings"
+msgstr "页码设置"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:960
+msgid "Use Pagination"
+msgstr "使用页码"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:982
+msgid "number of products to show per page"
+msgstr "每页显示商品数量"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:992
+msgid "Top"
+msgstr "顶端"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:993
+msgid "Bottom"
+msgstr "底部"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:994
+msgid "Both"
+msgstr "顶端＋底部"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:1001
+msgid "Comment Settings"
+msgstr "评论设置"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:1005
+msgid "Use IntenseDebate Comments"
+msgstr "使用IntenseDebate评论"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:1029
+msgid "IntenseDebate Account ID"
+msgstr "IntenseDebate帐户ID"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:1031
+msgid "Help on finding the Account ID"
+msgstr "帮助寻找帐户ID"
+
+#: wpsc-admin/includes/settings-pages/presentation.php:1040
+msgid "By Default Display Comments on"
+msgstr "默认显示商品评价"
+
+#: wpsc-admin/includes/settings-pages/shipping.php:67
+msgid "Use Shipping"
+msgstr "使用运输模块"
+
+#: wpsc-admin/includes/settings-pages/shipping.php:89
+msgid "If you are only selling digital downloads, you should select no to disable the shipping on your site."
+msgstr "如果你只销售数字下载型商品，你可以选择关闭运输模块。"
+
+#: wpsc-admin/includes/settings-pages/shipping.php:94
+msgid "Base Zipcode/Postcode:"
+msgstr "主邮政编码："
+
+#: wpsc-admin/includes/settings-pages/shipping.php:97
+msgid "If you are based in America then you need to set your own Zipcode for UPS and USPS to work. This should be the Zipcode for your Base of Operations."
+msgstr "如果你总部设在美国，那么你需要设置你自己的UPS和USPS邮编。这应该是您总部的邮政编码。"
+
+#: wpsc-admin/includes/settings-pages/shipping.php:119
+msgid "ShipWire Settings"
+msgstr "ShipWire 设置"
+
+#: wpsc-admin/includes/settings-pages/shipping.php:130
+msgid "ShipWire Email"
+msgstr "ShipWire Email地址"
+
+#: wpsc-admin/includes/settings-pages/shipping.php:131
+msgid "ShipWire Password"
+msgstr "ShipWire 密码"
+
+#: wpsc-admin/includes/settings-pages/shipping.php:139
+msgid "Enable Free Shipping Discount"
+msgstr "允许免运费优惠"
+
+#: wpsc-admin/includes/settings-pages/shipping.php:184
+#: wpsc-admin/includes/settings-pages/shipping.php:189
+msgid "Shipping Modules"
+msgstr "运输模块"
+
+#: wpsc-admin/includes/settings-pages/shipping.php:195
+msgid "To enable shipping in WP e-Commerce you must select  which shipping methods you want to enable on your site"
+msgstr "你必须选择一种运输方式，才能激活该网站的WP e-Commerce 的运输模块"
+
+#: wpsc-admin/includes/settings-pages/shipping.php:196
+msgid "<br /><strong>UPS has been deactivated because you are running PHP4, please upgrade to PHP5 to enable UPS.</strong>"
+msgstr "<br /><strong>UPS模块无法运行，因为你的服务器运行的是PHP4，请升级到PHP5才能运行。</strong>"
+
+#: wpsc-admin/includes/settings-pages/shipping.php:200
+msgid "Internal Shipping Calculators"
+msgstr "国内运输计算器"
+
+#: wpsc-admin/includes/settings-pages/shipping.php:233
+msgid "External Shipping Calculators"
+msgstr "对外运输计算器"
+
+#: wpsc-admin/includes/settings-pages/shipping.php:236
+msgid "The following shipping modules all need cURL which is not installed on this server, you may need to contact your web hosting provider to get it set up. "
+msgstr "下列运输模块需要这台服务器没有安装的cURL，你可能需要联系你的网络托管服务供应商设置它。"
+
+#: wpsc-includes/ajax.functions.php:104
+msgid "You just added \"[product_name]\" to your cart."
+msgstr "你刚添加了 \"[product_name]\" 到你的购物车里。"
+
+#: wpsc-includes/ajax.functions.php:107
+msgid "Sorry, but you cannot add zero items to your cart"
+msgstr "对不起，你不能添加数量为0的商品到购物车。"
+
+#: wpsc-includes/ajax.functions.php:109
+msgid "Sorry, but there are only [number] of this item in stock."
+msgstr "对不起，该商品库存只剩 [number] 件。"
+
+#: wpsc-includes/ajax.functions.php:111
+msgid "Sorry, but the item \"[product_name]\" is out of stock."
+msgstr "对不起， \"[product_name]\" 缺货。"
+
+#: wpsc-includes/ajax.functions.php:593
+msgid "You must select a shipping method, otherwise we cannot process your order."
+msgstr "你必须选择一种运输方式，否则我们将不能处理你的订单。"
+
+#: wpsc-includes/ajax.functions.php:598
+msgid "Please agree to the terms and conditions, otherwise we cannot process your order."
+msgstr "请同意条款和条件，否则我们将不能处理你的订单。"
+
+#: wpsc-includes/ajax.functions.php:618
+#, php-format
+msgid "Oops the product : %s cannot be shipped to %s. To continue with your transaction please remove this product from the list above."
+msgstr "噢，商品： %s 不能运送到 %s。继续你的交易，请从上述列表中删除该商品。"
+
+#: wpsc-includes/ajax.functions.php:641
+msgid "Please enter a Zipcode and click calculate to proceed"
+msgstr "请输入邮政编码和点击计算处理"
+
+#: wpsc-includes/ajax.functions.php:981
+#: wpsc-includes/ajax.functions.php:1039
+msgid "This download is no longer valid, Please contact the site administrator for more information."
+msgstr "该下载已失效，详细信息请联系网站管理员。"
+
+#: wpsc-includes/category.functions.php:361
+msgid "Brands"
+msgstr "品牌"
+
+#: wpsc-includes/checkout.class.php:45
+#, php-format
+msgid "Tax Included (%s%%)"
+msgstr "含税 (%s%%)"
+
+#: wpsc-includes/checkout.class.php:47
+msgid "Tax Included"
+msgstr "含税"
+
+#: wpsc-includes/checkout.class.php:50
+msgid "Tax"
+msgstr "税务"
+
+#: wpsc-includes/display.functions.php:90
+msgid "People who bought this item also bought"
+msgstr "该商品已经购买过"
+
+#: wpsc-includes/display.functions.php:138
+msgid "Updating"
+msgstr "更新中"
+
+#: wpsc-includes/display.functions.php:154
+msgid "Continue Shopping"
+msgstr "继续购物"
+
+#: wpsc-includes/display.functions.php:255
+msgid "You are using the example product group as your default group and it has no products in it, you should set the default group to something else, you can do so from your Shop Settings page."
+msgstr "你正使用示范商品组别作为你的默认组别，而且没有商品在里面。你应该在商店设置页那里设置你的默认组别。"
+
+#: wpsc-includes/display.functions.php:257
+msgid "This group is set as your default product group, you should either add some items to it or switch your default product group to one that does contain items."
+msgstr "该组别设置为默认商品组别，你应该添加一些商品进去或者选择一个含有商品的组别作为默认商品组别。"
+
+#: wpsc-includes/form-display.functions.php:65
+msgid "Select Parent"
+msgstr "选择上级类别"
+
+#: wpsc-includes/form-display.functions.php:137
+msgid "Choose a downloadable file for this product:"
+msgstr "选择一个下载文件到该商品："
+
+#: wpsc-includes/form-display.functions.php:181
+msgid "Choose a downloadable file for this variation"
+msgstr "选择一个下载文件到该可变属性"
+
+#: wpsc-includes/form-display.functions.php:187
+msgid "No Product"
+msgstr "没有商品"
+
+#: wpsc-includes/install_and_update.functions.php:60
+msgid "Example category"
+msgstr "示例类别"
+
+#: wpsc-includes/install_and_update.functions.php:60
+#: wpsc-includes/install_and_update.functions.php:61
+msgid "Example details"
+msgstr "示例明细"
+
+#: wpsc-includes/install_and_update.functions.php:61
+msgid "Example Brand"
+msgstr "示例品牌"
+
+#: wpsc-includes/install_and_update.functions.php:69
+msgid "Accepted Payment"
+msgstr "付款成功"
+
+#: wpsc-includes/install_and_update.functions.php:70
+msgid "Job Dispatched"
+msgstr "作业调度"
+
+#: wpsc-includes/install_and_update.functions.php:89
+msgid "product image width"
+msgstr "商品图片宽度"
+
+#: wpsc-includes/install_and_update.functions.php:90
+msgid "product image height"
+msgstr "商品图片高度"
+
+#: wpsc-includes/install_and_update.functions.php:92
+msgid "product group image width"
+msgstr "商品组别图片宽带"
+
+#: wpsc-includes/install_and_update.functions.php:93
+msgid "product group image height"
+msgstr "商品组别图片高度"
+
+#: wpsc-includes/install_and_update.functions.php:97
+msgid "The location of the checkout page"
+msgstr "结算页位置"
+
+#: wpsc-includes/install_and_update.functions.php:98
+msgid "The location of the transaction detail page"
+msgstr "交易明细页位置"
+
+#: wpsc-includes/install_and_update.functions.php:99
+msgid "The payment gateway to use"
+msgstr "使用的支付网关"
+
+#: wpsc-includes/install_and_update.functions.php:117
+msgid "the GST rate"
+msgstr "消费税税率"
+
+#: wpsc-includes/install_and_update.functions.php:119
+msgid "the download limit"
+msgstr "下载限制"
+
+#: wpsc-includes/install_and_update.functions.php:121
+msgid "Display or hide postage and packaging"
+msgstr "显示或隐藏包装和邮费"
+
+#: wpsc-includes/install_and_update.functions.php:123
+msgid "Display or hide specials on the sidebar"
+msgstr "在侧边栏显示或者隐藏特价商品"
+
+#: wpsc-includes/install_and_update.functions.php:126
+msgid "Default postage and packaging"
+msgstr "默认包装和邮费"
+
+#: wpsc-includes/install_and_update.functions.php:128
+msgid "Email address that purchase log is sent to"
+msgstr "发送购买记录到Email"
+
+#: wpsc-includes/install_and_update.functions.php:129
+msgid "Email address that purchase reports are sent from"
+msgstr "发送消费报告的电子邮件"
+
+#: wpsc-includes/install_and_update.functions.php:130
+msgid "Checkout terms and conditions"
+msgstr "结算条款和条件"
+
+#: wpsc-includes/install_and_update.functions.php:132
+msgid "Google Merchant Key"
+msgstr "Google Merchant Key"
+
+#: wpsc-includes/install_and_update.functions.php:133
+msgid "Google Merchant ID"
+msgstr "Google Merchant ID"
+
+#: wpsc-includes/install_and_update.functions.php:135
+msgid "Default Brand"
+msgstr "默认品牌"
+
+#: wpsc-includes/install_and_update.functions.php:136
+msgid "Select what product group you want to display on the products page"
+msgstr "请选择商品页你想显示的商品组别"
+
+#: wpsc-includes/install_and_update.functions.php:149
+#: wpsc-includes/install_and_update.functions.php:155
+msgid "paypal business"
+msgstr "paypal business"
+
+#: wpsc-includes/install_and_update.functions.php:150
+#: wpsc-includes/install_and_update.functions.php:151
+#: wpsc-includes/install_and_update.functions.php:158
+msgid "paypal url"
+msgstr "paypal url"
+
+#: wpsc-includes/install_and_update.functions.php:207
+msgid "Products Page"
+msgstr "商品页面"
+
+#: wpsc-includes/install_and_update.functions.php:225
+msgid "Transaction Results"
+msgstr "交易结果"
+
+#: wpsc-includes/install_and_update.functions.php:231
+msgid "Your Account"
+msgstr "你的账户"
+
+#: wpsc-includes/install_and_update.functions.php:649
+msgid "1. Your billing/contact details"
+msgstr "1. 支付/联系的明细"
+
+#: wpsc-includes/install_and_update.functions.php:655
+#: wpsc-includes/install_and_update.functions.php:664
+msgid "Postal Code"
+msgstr "邮政编码"
+
+#: wpsc-includes/install_and_update.functions.php:657
+msgid "2. Shipping details"
+msgstr "2.运输细节"
+
+#: wpsc-includes/install_and_update.functions.php:662
+msgid "State"
+msgstr "状态"
+
+#: wpsc-includes/misc.functions.php:46
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr "<strong>错误</strong>请输入一个用户名。"
+
+#: wpsc-includes/misc.functions.php:48
+msgid "<strong>ERROR</strong>: This username is invalid.  Please enter a valid username."
+msgstr "<strong>错误</strong>：该用户名无效。请输入一个有效的用户名。"
+
+#: wpsc-includes/misc.functions.php:51
+msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
+msgstr "<strong>错误</strong>：该用户名已注册，请选择另外一个用户名。"
+
+#: wpsc-includes/misc.functions.php:56
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr "<strong>错误</strong>：请输入你的E-mail地址。"
+
+#: wpsc-includes/misc.functions.php:58
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>错误</strong>：该Email地址不正确。"
+
+#: wpsc-includes/misc.functions.php:61
+msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
+msgstr "<strong>错误</strong>：该Email已注册，请选择另外一个。"
+
+#: wpsc-includes/misc.functions.php:69
+#, php-format
+msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
+msgstr "<strong>错误</strong>：对不起，注册出错...请联系 <a href=\"mailto:%s\">网站管理员</a> ！"
+
+#: wpsc-includes/processing.functions.php:30
+#: wpsc-includes/processing.functions.php:36
+#: wpsc-includes/processing.functions.php:46
+msgid " is out of stock"
+msgstr "库存缺货"
+
+#: wpsc-includes/processing.functions.php:30
+#: wpsc-includes/processing.functions.php:36
+#: wpsc-includes/processing.functions.php:46
+msgid "Remaining stock of "
+msgstr "建议库存"
+
+#: wpsc-includes/processing.functions.php:30
+msgid " and its variations is 0. Product was unpublished."
+msgstr "和它的可变属性为0。商品未发布。"
+
+#: wpsc-includes/processing.functions.php:36
+msgid " is 0. Product variation was set to invisible."
+msgstr " 为0。商品可变属性被设置为不可见。"
+
+#: wpsc-includes/processing.functions.php:46
+msgid " is 0. Product was unpublished."
+msgstr " 为0。商品是未公布。"
+
+#: wpsc-includes/processing.functions.php:916
+msgid "This product has no available stock"
+msgstr "该商品没有库存"
+
+#: wpsc-includes/processing.functions.php:964
+msgid "One or more of your shipping modules does not support products without a weight set. Please either disable shipping for this product or give it a weight"
+msgstr "你的运输模块不支持商品没有重量。请关闭该商品的运输模块或者输入它的重量"
+
+#: wpsc-includes/purchaselogs.class.php:596
+#, php-format
+msgid "Release downloads locked to this IP address %s"
+msgstr "发布下载锁定IP地址 %s"
+
+#: wpsc-includes/purchaselogs.class.php:816
+msgid "Thanks, the purchase log record has been deleted"
+msgstr "谢谢，该消费记录已经删除"
+
+#: wpsc-includes/rss_template.php:7
+msgid "WP e-Commerce"
+msgstr "WP e-Commerce"
+
+#: wpsc-includes/upgrades.php:122
+msgid "Visit upgrade homepage"
+msgstr "访问升级主页"
+
+#: wpsc-includes/upgrades.php:127
+msgid "Visit author homepage"
+msgstr "访问作者主页"
+
+#: wpsc-includes/upgrades.php:131
+#, php-format
+msgid "By %s"
+msgstr "By %s"
+
+#: wpsc-includes/variations.class.php:216
+msgid "Variation"
+msgstr "可变属性"
+
+#: wpsc-includes/variations.class.php:217
+msgid "Stock"
+msgstr "库存"
+
+#: wpsc-includes/variations.class.php:220
+msgid "More"
+msgstr "更多"
+
+#: wpsc-includes/variations.class.php:352
+msgid "Weight Settings"
+msgstr "重量设置"
+
+#: wpsc-includes/wpsc_query.php:939
+msgid "Save"
+msgstr "保存"
+

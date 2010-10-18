@@ -1,0 +1,3603 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-11-27 20:21+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: wp-e-commerce/admin-form-functions.php:10
+#, fuzzy
+msgid "You are editing the &quot;[categorisation]&quot; Group"
+msgstr "L&auml;gg till ny kategori"
+
+#: wp-e-commerce/admin-form-functions.php:11
+msgid "+ Add new category to the &quot;[categorisation]&quot; Group"
+msgstr "L&auml;gg till ny kategori"
+
+#: wp-e-commerce/admin-form-functions.php:25
+#: wp-e-commerce/admin-form-functions.php:239
+#: wp-e-commerce/admin-form-functions.php:720
+#: wp-e-commerce/admin-form-functions.php:759
+#: wp-e-commerce/display-ecommerce-subs.php:9
+msgid "Name"
+msgstr "Namn"
+
+#: wp-e-commerce/admin-form-functions.php:34
+msgid "Description"
+msgstr "Beskrivning"
+
+#: wp-e-commerce/admin-form-functions.php:44
+msgid "Group Parent"
+msgstr "Kategorigrupp"
+
+#: wp-e-commerce/admin-form-functions.php:85
+msgid "Group&nbsp;Image"
+msgstr ""
+
+#: wp-e-commerce/admin-form-functions.php:101
+#: wp-e-commerce/admin-form-functions.php:110
+#: wp-e-commerce/admin-form-functions.php:198
+msgid "Height"
+msgstr "H&ouml;jd"
+
+#: wp-e-commerce/admin-form-functions.php:101
+#: wp-e-commerce/admin-form-functions.php:110
+#: wp-e-commerce/admin-form-functions.php:199
+msgid "Width"
+msgstr "Bredd"
+
+#: wp-e-commerce/admin-form-functions.php:102
+#: wp-e-commerce/admin-form-functions.php:111
+msgid "You can upload thumbnail images for each group. To display Group details in your shop you must configure these settings under <a href=\"admin.php?page=wpsc-settings&tab=presentation\">Presentation Settings</a>."
+msgstr ""
+
+#: wp-e-commerce/admin-form-functions.php:119
+#, fuzzy
+msgid "Delete Image"
+msgstr "Ers&auml;tt bilden"
+
+#: wp-e-commerce/admin-form-functions.php:133
+msgid "Target Markets"
+msgstr ""
+
+#: wp-e-commerce/admin-form-functions.php:138
+msgid ""
+"The Target Markets feature has been disabled because you have the Suhosin PHP extension installed on this server. If you need to use the Target Markets feature then disable the suhosin extension, if you can not do this, you will need to contact your hosting provider.\n"
+"\t\t\t"
+msgstr ""
+
+#: wp-e-commerce/admin-form-functions.php:164
+#, fuzzy
+msgid "Presentation Settings"
+msgstr "Administrationsinst&auml;llningar"
+
+#: wp-e-commerce/admin-form-functions.php:165
+msgid "To over-ride the presentation settings for this group you can enter in your prefered settings here"
+msgstr ""
+
+#: wp-e-commerce/admin-form-functions.php:171
+msgid "Catalog View"
+msgstr ""
+
+#: wp-e-commerce/admin-form-functions.php:175
+#, fuzzy
+msgid "Please select"
+msgstr "Var god valj"
+
+#: wp-e-commerce/admin-form-functions.php:176
+msgid "Default View"
+msgstr "Default"
+
+#: wp-e-commerce/admin-form-functions.php:178
+#: wp-e-commerce/admin-form-functions.php:180
+msgid "List View"
+msgstr "Lista"
+
+#: wp-e-commerce/admin-form-functions.php:183
+#: wp-e-commerce/admin-form-functions.php:185
+#, fuzzy
+msgid "Grid View"
+msgstr "Lista"
+
+#: wp-e-commerce/admin-form-functions.php:195
+msgid "Thumbnail&nbsp;Size"
+msgstr ""
+
+#: wp-e-commerce/admin-form-functions.php:207
+msgid "This category requires additional checkout form fields"
+msgstr ""
+
+#: wp-e-commerce/admin-form-functions.php:210
+#: wp-e-commerce/display-coupons.php:433
+#: wp-e-commerce/display-coupons.php:457
+msgid "Yes"
+msgstr "Ja"
+
+#: wp-e-commerce/admin-form-functions.php:211
+#: wp-e-commerce/display-coupons.php:434
+#: wp-e-commerce/display-coupons.php:458
+msgid "No"
+msgstr "Nej"
+
+#: wp-e-commerce/admin-form-functions.php:221
+#, fuzzy
+msgid "Edit Group"
+msgstr "&Auml;ndra kategori"
+
+#: wp-e-commerce/admin-form-functions.php:222
+#: wp-e-commerce/admin-form-functions.php:260
+#: wp-e-commerce/admin-form-functions.php:279
+#: wp-e-commerce/admin-form-functions.php:387
+msgid "Delete"
+msgstr "Radera"
+
+#: wp-e-commerce/admin-form-functions.php:248
+msgid "Variation Values"
+msgstr "Variationer"
+
+#: wp-e-commerce/admin-form-functions.php:267
+#: wp-e-commerce/display-coupons.php:126
+msgid "Add"
+msgstr "L&auml;gg till"
+
+#: wp-e-commerce/admin-form-functions.php:278
+#: wp-e-commerce/display-coupons.php:321
+#: wp-e-commerce/display-coupons.php:381
+msgid "Edit"
+msgstr "&Auml;ndra"
+
+#: wp-e-commerce/admin-form-functions.php:300
+#: wp-e-commerce/display-coupons.php:141
+#: wp-e-commerce/display-coupons.php:297
+msgid "Coupon Code"
+msgstr ""
+
+#: wp-e-commerce/admin-form-functions.php:301
+#: wp-e-commerce/display-coupons.php:144
+#: wp-e-commerce/display-coupons.php:301
+msgid "Discount"
+msgstr ""
+
+#: wp-e-commerce/admin-form-functions.php:302
+#: wp-e-commerce/display-coupons.php:147
+#: wp-e-commerce/display-coupons.php:305
+#, fuzzy
+msgid "Start"
+msgstr "Status"
+
+#: wp-e-commerce/admin-form-functions.php:303
+#: wp-e-commerce/display-coupons.php:150
+#: wp-e-commerce/display-coupons.php:309
+msgid "Expiry"
+msgstr ""
+
+#: wp-e-commerce/admin-form-functions.php:304
+#: wp-e-commerce/display-coupons.php:153
+msgid "Use Once"
+msgstr ""
+
+#: wp-e-commerce/admin-form-functions.php:305
+#: wp-e-commerce/display-coupons.php:156
+#: wp-e-commerce/display-coupons.php:313
+msgid "Active"
+msgstr ""
+
+#: wp-e-commerce/admin-form-functions.php:306
+#: wp-e-commerce/display-coupons.php:160
+#: wp-e-commerce/display-coupons.php:253
+#: wp-e-commerce/display-coupons.php:317
+#, fuzzy
+msgid "Apply On All Products"
+msgstr "Visa f&ouml;rs&auml;ljningsprodukt"
+
+#: wp-e-commerce/admin-form-functions.php:386
+#: wp-e-commerce/display-coupons.php:480
+msgid "Submit"
+msgstr "Spara"
+
+#: wp-e-commerce/admin-form-functions.php:520
+#, fuzzy
+msgid "Settings"
+msgstr "URL-inst&auml;llningar"
+
+#: wp-e-commerce/admin-form-functions.php:524
+#, fuzzy
+msgid "Shop Settings"
+msgstr "URL-inst&auml;llningar"
+
+#: wp-e-commerce/admin-form-functions.php:525
+#, fuzzy
+msgid "Money and Payment"
+msgstr "Best&auml;ll"
+
+#: wp-e-commerce/admin-form-functions.php:526
+#, fuzzy
+msgid "Checkout Page Settings"
+msgstr "Kassainst&auml;llningar"
+
+#: wp-e-commerce/admin-form-functions.php:545
+#: wp-e-commerce/admin-form-functions.php:546
+#, fuzzy
+msgid "product"
+msgstr "Produkt"
+
+#: wp-e-commerce/admin-form-functions.php:545
+#: wp-e-commerce/admin-form-functions.php:546
+#, fuzzy
+msgid "products"
+msgstr "Produkt"
+
+#: wp-e-commerce/admin-form-functions.php:550
+#: wp-e-commerce/admin-form-functions.php:551
+msgid "group"
+msgstr ""
+
+#: wp-e-commerce/admin-form-functions.php:550
+#: wp-e-commerce/admin-form-functions.php:551
+msgid "groups"
+msgstr ""
+
+#: wp-e-commerce/admin-form-functions.php:555
+#: wp-e-commerce/admin-form-functions.php:556
+#, fuzzy
+msgid "sale"
+msgstr "Misslyckades"
+
+#: wp-e-commerce/admin-form-functions.php:555
+#: wp-e-commerce/admin-form-functions.php:556
+#, fuzzy
+msgid "sales"
+msgstr "Sidor"
+
+#: wp-e-commerce/admin-form-functions.php:562
+#, fuzzy
+msgid "variation"
+msgstr "Varianter"
+
+#: wp-e-commerce/admin-form-functions.php:562
+#, fuzzy
+msgid "variations"
+msgstr "Varianter"
+
+#: wp-e-commerce/admin-form-functions.php:566
+#: wp-e-commerce/admin-form-functions.php:567
+#: wp-e-commerce/admin-form-functions.php:570
+#, fuzzy
+msgid "transaction"
+msgstr "&ouml;verf&ouml;ringsID"
+
+#: wp-e-commerce/admin-form-functions.php:566
+#: wp-e-commerce/admin-form-functions.php:567
+#: wp-e-commerce/admin-form-functions.php:570
+#, fuzzy
+msgid "transactions"
+msgstr "&ouml;verf&ouml;ringsID"
+
+#: wp-e-commerce/admin-form-functions.php:580
+#, fuzzy
+msgid "Current Month"
+msgstr "Valuta"
+
+#: wp-e-commerce/admin-form-functions.php:585
+msgid "At a Glance"
+msgstr ""
+
+#: wp-e-commerce/admin-form-functions.php:615
+#, fuzzy
+msgid "Pending"
+msgstr "Rubrik"
+
+#: wp-e-commerce/admin-form-functions.php:630
+#, fuzzy
+msgid "Closed"
+msgstr "St&auml;ng order"
+
+#: wp-e-commerce/admin-form-functions.php:638
+#: wp-e-commerce/admin-form-functions.php:646
+#, fuzzy
+msgid "Add New Product"
+msgstr "L&auml;gg till Kategori"
+
+#: wp-e-commerce/admin-form-functions.php:638
+msgid "Here you can add products, groups or variations"
+msgstr ""
+
+#: wp-e-commerce/admin-form-functions.php:647
+msgid "Right Now"
+msgstr ""
+
+#: wp-e-commerce/admin-form-functions.php:652
+msgid "You have <a href=\"admin.php?page=wpsc-edit-products\">:productcount:</a>, contained within <a href=\"admin.php?page=wpsc-edit-groups\">:groupcount:</a>. This month you made :salecount: and generated a total of :monthtotal: and your total sales ever is :overaltotal:. You have :pendingcount: awaiting approval."
+msgstr ""
+
+#: wp-e-commerce/admin-form-functions.php:654
+msgid "You are using the :theme: style. This is WP e-Commerce :versionnumber:."
+msgstr ""
+
+#: wp-e-commerce/admin-form-functions.php:681
+msgid "Packing Slip"
+msgstr ""
+
+#: wp-e-commerce/admin-form-functions.php:682
+msgid "Order"
+msgstr "Order"
+
+#: wp-e-commerce/admin-form-functions.php:701
+#: wp-e-commerce/install_and_update.php:660
+#, fuzzy
+msgid "State"
+msgstr "Status"
+
+#: wp-e-commerce/admin-form-functions.php:721
+#: wp-e-commerce/install_and_update.php:650
+#: wp-e-commerce/install_and_update.php:658
+msgid "Address"
+msgstr "Adress"
+
+#: wp-e-commerce/admin-form-functions.php:722
+#: wp-e-commerce/edit-profile.php:52
+#: wp-e-commerce/install_and_update.php:667
+msgid "Phone"
+msgstr "Telefon"
+
+#: wp-e-commerce/admin-form-functions.php:723
+#: wp-e-commerce/display-ecommerce-subs.php:9
+#: wp-e-commerce/edit-profile.php:39
+#: wp-e-commerce/install_and_update.php:654
+msgid "Email"
+msgstr "Epost"
+
+#: wp-e-commerce/admin-form-functions.php:757
+msgid "Quantity"
+msgstr "Antal"
+
+#: wp-e-commerce/admin-form-functions.php:762
+msgid "Price"
+msgstr "Pris"
+
+#: wp-e-commerce/admin-form-functions.php:764
+#, fuzzy
+msgid "Shipping"
+msgstr "Fraktkostnad som tillkommer"
+
+#: wp-e-commerce/admin-form-functions.php:859
+msgid "This users cart was empty"
+msgstr "Anv&auml;ndarens kundkorg var tom"
+
+#: wp-e-commerce/display-coupons.php:27
+#, fuzzy
+msgid "Thanks, the coupon has been added."
+msgstr "F&ouml;rem&aring;let har lagts till"
+
+#: wp-e-commerce/display-coupons.php:122
+#, fuzzy
+msgid "Coupons"
+msgstr "Kassainst&auml;llningar"
+
+#: wp-e-commerce/display-coupons.php:126
+msgid "Add Coupon"
+msgstr ""
+
+#: wp-e-commerce/display-coupons.php:397
+msgid "<strong>Note:</strong> Due to a current limitation of PayPal, if your user makes a purchase and uses a coupon, we can not send a list of items through to paypal for processing. Rather, we must send the total amount of the purchase, so that within PayPal the user who purchases a product will see your shop name and the total amount of their purchase."
+msgstr ""
+
+#: wp-e-commerce/display-coupons.php:409
+#, fuzzy
+msgid "Marketing Settings"
+msgstr "Valutainst&auml;llningar"
+
+#: wp-e-commerce/display-coupons.php:416
+#, fuzzy
+msgid "Display Cross Sales"
+msgstr "Visa m&auml;rken"
+
+#: wp-e-commerce/display-coupons.php:440
+msgid "Show Share This (Social Bookmarks)"
+msgstr ""
+
+#: wp-e-commerce/display-coupons.php:463
+msgid "Display How Customer Found Us Survey"
+msgstr ""
+
+#: wp-e-commerce/display-coupons.php:486
+#, fuzzy
+msgid "RSS Address"
+msgstr "Adress"
+
+#: wp-e-commerce/display-coupons.php:490
+msgid "<strong>Note:</strong> Not only can people use this RSS to keep update with your product list but you can also use this link to promote your products in your facebook profile. <br />Just add the <a href=\"http://apps.facebook.com/getshopped\">getshopped! facebook application</a> to your facebook profile and follow the instructions."
+msgstr ""
+
+#: wp-e-commerce/display-coupons.php:504
+msgid "Google Base"
+msgstr ""
+
+#: wp-e-commerce/display-coupons.php:507
+msgid "Your site has been granted access to google base.<br /> All future products will be submitted to google base.<br />"
+msgstr ""
+
+#: wp-e-commerce/display-coupons.php:508
+#, fuzzy
+msgid "Click here to remove access"
+msgstr "Klicka p&aring; stj&auml;rnor f&ouml;r att ge omd&ouml;me"
+
+#: wp-e-commerce/display-coupons.php:513
+msgid "Grant Access"
+msgstr ""
+
+#: wp-e-commerce/display-ecommerce-subs.php:9
+msgid "User ID"
+msgstr ""
+
+#: wp-e-commerce/display-ecommerce-subs.php:9
+msgid "Registered Date"
+msgstr ""
+
+#: wp-e-commerce/display-ecommerce-subs.php:9
+#, fuzzy
+msgid "Suspend"
+msgstr "anv&auml;nd"
+
+#: wp-e-commerce/display-ecommerce-subs.php:9
+msgid "Activate"
+msgstr ""
+
+#: wp-e-commerce/edit-profile.php:31
+#: wp-e-commerce/install_and_update.php:648
+#: wp-e-commerce/install_and_update.php:656
+#, fuzzy
+msgid "First Name"
+msgstr "Produktnamn"
+
+#: wp-e-commerce/edit-profile.php:32
+msgid "Please enter a valid name"
+msgstr "Var sn&auml;ll och fyll i namn"
+
+#: wp-e-commerce/edit-profile.php:35
+#: wp-e-commerce/install_and_update.php:649
+#: wp-e-commerce/install_and_update.php:657
+#, fuzzy
+msgid "Last Name"
+msgstr "Namn"
+
+#: wp-e-commerce/edit-profile.php:36
+msgid "Please enter a valid surname"
+msgstr "Var sn&auml;ll och fyll i ett giltigt f&ouml;rnamn"
+
+#: wp-e-commerce/edit-profile.php:40
+msgid "Please enter a valid email address"
+msgstr "Var sn&auml;ll och fyll i en giltig epostadress"
+
+#: wp-e-commerce/edit-profile.php:43
+msgid "Address 1"
+msgstr "Adress 1"
+
+#: wp-e-commerce/edit-profile.php:44
+msgid "Address 2"
+msgstr "Adress 2"
+
+#: wp-e-commerce/edit-profile.php:45
+msgid "Please enter a valid address"
+msgstr "Var sn&auml;ll och fyll i en giltig adress"
+
+#: wp-e-commerce/edit-profile.php:48
+#: wp-e-commerce/install_and_update.php:651
+#: wp-e-commerce/install_and_update.php:659
+msgid "City"
+msgstr ""
+
+#: wp-e-commerce/edit-profile.php:49
+#, fuzzy
+msgid "Please enter your town or city."
+msgstr "Var sn&auml;ll och fyll i dina uppgifter:"
+
+#: wp-e-commerce/edit-profile.php:53
+msgid "Please enter a valid phone number"
+msgstr "Var sn&auml;ll och fyll i ett giltig telefonnummer"
+
+#: wp-e-commerce/edit-profile.php:56
+#: wp-e-commerce/install_and_update.php:652
+#: wp-e-commerce/install_and_update.php:661
+#, fuzzy
+msgid "Country"
+msgstr "Land"
+
+#: wp-e-commerce/edit-profile.php:57
+#, fuzzy
+msgid "Please select your country from the list."
+msgstr "Var sn&auml;ll och fyll i dina uppgifter:"
+
+#: wp-e-commerce/edit-profile.php:61
+msgid "Please enter a valid"
+msgstr "Var sn&auml;ll och fyll i"
+
+#: wp-e-commerce/edit-profile.php:84
+#, fuzzy
+msgid "Thanks, your changes have been saved."
+msgstr "Tack, dina &auml;ndringar &auml;r gjorda."
+
+#: wp-e-commerce/edit-profile.php:188
+#, fuzzy
+msgid "Save Profile"
+msgstr "Extrapris / Utf&ouml;rs&auml;ljning"
+
+#: wp-e-commerce/editor.php:49
+msgid "placeholder for:"
+msgstr ""
+
+#: wp-e-commerce/editor.php:144
+#, fuzzy
+msgid "Your forms:"
+msgstr "Din r&ouml;st"
+
+#: wp-e-commerce/editor.php:146
+#: wp-e-commerce/insertcate.php:87
+msgid "Insert"
+msgstr ""
+
+#: wp-e-commerce/editor.php:147
+#: wp-e-commerce/insertcate.php:90
+msgid "Cancel"
+msgstr ""
+
+#: wp-e-commerce/google_shipping_country.php:7
+msgid "Google Shipping Country"
+msgstr ""
+
+#: wp-e-commerce/google_shipping_country.php:43
+msgid "Save Changes"
+msgstr "Spara &auml;ndringar"
+
+#: wp-e-commerce/homepage_products_functions.php:85
+#, fuzzy
+msgid "Product Donations"
+msgstr "Produktvarianter"
+
+#: wp-e-commerce/homepage_products_functions.php:157
+msgid "More Details"
+msgstr "Mer..."
+
+#: wp-e-commerce/homepage_products_functions.php:189
+msgid "Add To Cart"
+msgstr "L&auml;gg i varukorg"
+
+#: wp-e-commerce/homepage_products_functions.php:205
+msgid "Avg. Customer Rating"
+msgstr "Genomsnittsomd&ouml;mme"
+
+#: wp-e-commerce/homepage_products_functions.php:212
+msgid "Your Rating"
+msgstr "Din bed&ouml;mning"
+
+#: wp-e-commerce/homepage_products_functions.php:213
+#: wp-e-commerce/homepage_products_functions.php:217
+msgid "Saved"
+msgstr "Sparat"
+
+#: wp-e-commerce/homepage_products_functions.php:216
+msgid "Rate This item"
+msgstr "Vad tyckte du?"
+
+#: wp-e-commerce/insertcate.php:67
+#, fuzzy
+msgid "Pick a Category"
+msgstr "Kategori"
+
+#: wp-e-commerce/insertcate.php:74
+#, fuzzy
+msgid "Your Categories:"
+msgstr "Visa Kategorier/M&auml;rkes"
+
+#: wp-e-commerce/install_and_update.php:60
+msgid "Example category"
+msgstr "Exempelkategori"
+
+#: wp-e-commerce/install_and_update.php:60
+#: wp-e-commerce/install_and_update.php:61
+msgid "Example details"
+msgstr "Exempeldetaljer"
+
+#: wp-e-commerce/install_and_update.php:61
+msgid "Example Brand"
+msgstr "Exempelm&auml;rke"
+
+#: wp-e-commerce/install_and_update.php:68
+msgid "Order Received"
+msgstr "Mottagen order"
+
+#: wp-e-commerce/install_and_update.php:69
+msgid "Accepted Payment"
+msgstr "Betalning godk&auml;nd"
+
+#: wp-e-commerce/install_and_update.php:70
+msgid "Job Dispatched"
+msgstr "Avbest&auml;ld"
+
+#: wp-e-commerce/install_and_update.php:71
+msgid "Closed Order"
+msgstr "St&auml;ng order"
+
+#: wp-e-commerce/install_and_update.php:87
+msgid "Show Thumbnails"
+msgstr "Visa miniatyrer"
+
+#: wp-e-commerce/install_and_update.php:89
+msgid "product image width"
+msgstr "produktbildens bredd"
+
+#: wp-e-commerce/install_and_update.php:90
+msgid "product image height"
+msgstr "produktbildens h&ouml;jd"
+
+#: wp-e-commerce/install_and_update.php:92
+msgid "product group image width"
+msgstr "kategoribildens bredd"
+
+#: wp-e-commerce/install_and_update.php:93
+msgid "product group image height"
+msgstr "katergorbildens h&ouml;jd"
+
+#: wp-e-commerce/install_and_update.php:95
+msgid "The location of the product list"
+msgstr "Produktlistans plats"
+
+#: wp-e-commerce/install_and_update.php:96
+#, fuzzy
+msgid "The location of the shopping cart"
+msgstr "Kontrollsidans plats"
+
+#: wp-e-commerce/install_and_update.php:97
+msgid "The location of the checkout page"
+msgstr "Kontrollsidans plats"
+
+#: wp-e-commerce/install_and_update.php:98
+msgid "The location of the transaction detail page"
+msgstr "Inhandlingssidans plats"
+
+#: wp-e-commerce/install_and_update.php:99
+msgid "The payment gateway to use"
+msgstr ""
+
+#: wp-e-commerce/install_and_update.php:101
+#: wp-e-commerce/install_and_update.php:103
+#: wp-e-commerce/install_and_update.php:107
+#: wp-e-commerce/install_and_update.php:109
+msgid "Cart Location"
+msgstr "Varukorgens plats"
+
+#: wp-e-commerce/install_and_update.php:114
+msgid "Currency type"
+msgstr "Valuta"
+
+#: wp-e-commerce/install_and_update.php:115
+msgid "Currency sign location"
+msgstr "Valutaplacering"
+
+#: wp-e-commerce/install_and_update.php:117
+msgid "the GST rate"
+msgstr "the GST rate"
+
+#: wp-e-commerce/install_and_update.php:119
+msgid "the download limit"
+msgstr "nerladdningsbegr&auml;nsning"
+
+#: wp-e-commerce/install_and_update.php:121
+msgid "Display or hide postage and packaging"
+msgstr "Visa eller g&ouml;m frakten"
+
+#: wp-e-commerce/install_and_update.php:123
+msgid "Display or hide specials on the sidebar"
+msgstr "Visa eller g&ouml;r Extraerbjudande i sidomenyn"
+
+#: wp-e-commerce/install_and_update.php:126
+msgid "Default postage and packaging"
+msgstr "F&ouml;rinst&auml;llning f&ouml;r packning och Frakt"
+
+#: wp-e-commerce/install_and_update.php:128
+msgid "Email address that purchase log is sent to"
+msgstr "Epostadress dit ink&ouml;psloggen ska skickas"
+
+#: wp-e-commerce/install_and_update.php:129
+msgid "Email address that purchase reports are sent from"
+msgstr "Epostadress som ink&ouml;psrapporter ska skickas fr&aring;n"
+
+#: wp-e-commerce/install_and_update.php:130
+msgid "Checkout terms and conditions"
+msgstr "Best&auml;llningsvillkor "
+
+#: wp-e-commerce/install_and_update.php:132
+msgid "Google Merchant Key"
+msgstr ""
+
+#: wp-e-commerce/install_and_update.php:133
+msgid "Google Merchant ID"
+msgstr ""
+
+#: wp-e-commerce/install_and_update.php:135
+msgid "Default Brand"
+msgstr "Default M&auml;rke"
+
+#: wp-e-commerce/install_and_update.php:136
+msgid "Select what product group you want to display on the products page"
+msgstr "Default Kategori"
+
+#: wp-e-commerce/install_and_update.php:149
+#: wp-e-commerce/install_and_update.php:155
+msgid "paypal business"
+msgstr "paypal business"
+
+#: wp-e-commerce/install_and_update.php:150
+#: wp-e-commerce/install_and_update.php:151
+#: wp-e-commerce/install_and_update.php:158
+msgid "paypal url"
+msgstr "paypal url"
+
+#: wp-e-commerce/install_and_update.php:162
+msgid "Show Product Ratings"
+msgstr "Visa produktbed&ouml;mning"
+
+#: wp-e-commerce/install_and_update.php:163
+#, fuzzy
+msgid "Thank you for purchasing with %shop_name%, any items to be shipped will be processed as soon as possible, any items that can be downloaded can be downloaded using the links on this page.All prices include tax and postage and packaging where applicable.You ordered these items:%product_list%%total_shipping%%total_price%"
+msgstr "Tack s&aring; mycket f&ouml;r att du handlar hos oss! Varorna kommer att skickas snarast, om du inte valt att du vill h&auml;mta dem sj&auml;lv"
+
+#: wp-e-commerce/install_and_update.php:164
+msgid "%product_list%%total_shipping%%total_price%"
+msgstr ""
+
+#: wp-e-commerce/install_and_update.php:207
+msgid "Products Page"
+msgstr "Produktsida"
+
+#: wp-e-commerce/install_and_update.php:213
+msgid "Checkout"
+msgstr "Kassa"
+
+#: wp-e-commerce/install_and_update.php:225
+msgid "Transaction Results"
+msgstr "Betalningar"
+
+#: wp-e-commerce/install_and_update.php:231
+#, fuzzy
+msgid "Your Account"
+msgstr "Din r&ouml;st"
+
+#: wp-e-commerce/install_and_update.php:647
+#, fuzzy
+msgid "1. Your billing/contact details"
+msgstr "Var sn&auml;ll och fyll i dina uppgifter:"
+
+#: wp-e-commerce/install_and_update.php:653
+#: wp-e-commerce/install_and_update.php:662
+msgid "Postal Code"
+msgstr ""
+
+#: wp-e-commerce/install_and_update.php:655
+#, fuzzy
+msgid "2. Shipping details"
+msgstr "Fraktkostnad som tillkommer"
+
+#: wp-e-commerce/share-this.php:430
+msgid "E-mail this, post to del.icio.us, etc."
+msgstr ""
+
+#: wp-e-commerce/share-this.php:483
+msgid "Close"
+msgstr ""
+
+#: wp-e-commerce/share-this.php:485
+#: wp-e-commerce/share-this.php:836
+#, fuzzy
+msgid "Social Web"
+msgstr "Extrapris"
+
+#: wp-e-commerce/share-this.php:486
+#: wp-e-commerce/share-this.php:861
+#, fuzzy
+msgid "E-mail"
+msgstr "Epost"
+
+#: wp-e-commerce/share-this.php:502
+#: wp-e-commerce/share-this.php:865
+#, fuzzy
+msgid "E-mail It"
+msgstr "Epost"
+
+#: wp-e-commerce/share-this.php:505
+#: wp-e-commerce/share-this.php:868
+#, fuzzy
+msgid "To Address:"
+msgstr "Adress"
+
+#: wp-e-commerce/share-this.php:509
+#: wp-e-commerce/share-this.php:872
+#, fuzzy
+msgid "Your Name:"
+msgstr "Produktnamn"
+
+#: wp-e-commerce/share-this.php:513
+#: wp-e-commerce/share-this.php:876
+#, fuzzy
+msgid "Your Address:"
+msgstr "Adress"
+
+#: wp-e-commerce/share-this.php:517
+#: wp-e-commerce/share-this.php:880
+#, fuzzy
+msgid "Send It"
+msgstr "S&auml;nd SMS"
+
+#: wp-e-commerce/share-this.php:599
+msgid "Click your <strong>back button</strong> and make sure those e-mail addresses are valid then try again."
+msgstr ""
+
+#: wp-e-commerce/share-this.php:609
+#, fuzzy
+msgid "Check out this product on "
+msgstr "Kassainst&auml;llningar"
+
+#: wp-e-commerce/share-this.php:614
+#: wp-e-commerce/share-this.php:634
+msgid "Greetings--"
+msgstr ""
+
+#: wp-e-commerce/share-this.php:615
+#: wp-e-commerce/share-this.php:635
+msgid " thinks this will be of interest to you:"
+msgstr ""
+
+#: wp-e-commerce/share-this.php:628
+#: wp-e-commerce/share-this.php:638
+msgid "Enjoy."
+msgstr ""
+
+#: wp-e-commerce/share-this.php:696
+msgid "Share This : "
+msgstr ""
+
+#: wp-e-commerce/share-this.php:832
+#, php-format
+msgid "<strong>What is this?</strong> From this page you can use the <em>Social Web</em> links to save %s to a social bookmarking site, or the <em>E-mail</em> form to send a link via e-mail."
+msgstr ""
+
+#: wp-e-commerce/share-this.php:903
+msgid "Posted in: "
+msgstr ""
+
+#: wp-e-commerce/share-this.php:906
+msgid "Return to:"
+msgstr ""
+
+#: wp-e-commerce/share-this.php:911
+msgid "Powered by <a href=\"http://alexking.org/projects/wordpress\">Share This</a>"
+msgstr ""
+
+#: wp-e-commerce/shopping_cart_functions.php:36
+#: wp-e-commerce/shopping_cart_functions.php:44
+#: wp-e-commerce/shopping_cart_functions.php:54
+#, fuzzy
+msgid "Shopping Cart"
+msgstr "Tom varukorg"
+
+#: wp-e-commerce/tagging_functions.php:79
+#, php-format
+msgid "%d topics"
+msgstr ""
+
+#: wp-e-commerce/tax_and_shipping.php:34
+msgid "GST/Tax Rate"
+msgstr "Moms i %"
+
+#: wp-e-commerce/transaction_results.php:39
+msgid "Sorry your transaction was not accepted.<br /><a href="
+msgstr ""
+
+#: wp-e-commerce/transaction_result_functions.php:34
+msgid "We&#39;re Sorry, your order has not been accepted, the most likely reason is that you have insufficient funds."
+msgstr ""
+
+#: wp-e-commerce/transaction_result_functions.php:36
+msgid "New pending order"
+msgstr ""
+
+#: wp-e-commerce/transaction_result_functions.php:36
+msgid "There is a new order awaiting processing:"
+msgstr ""
+
+#: wp-e-commerce/transaction_result_functions.php:40
+#: wp-e-commerce/transaction_result_functions.php:249
+msgid "Thank you, your purchase is pending, you will be sent an email once the order clears."
+msgstr ""
+
+#: wp-e-commerce/transaction_result_functions.php:158
+#: wp-e-commerce/transaction_result_functions.php:159
+msgid "Click to download"
+msgstr "Klicka h&auml;r f&ouml;r nedladdning"
+
+#: wp-e-commerce/transaction_result_functions.php:205
+#: wp-e-commerce/transaction_result_functions.php:212
+#: wp-e-commerce/user-log.php:317
+#, fuzzy
+msgid "Total Shipping"
+msgstr "Inrikes"
+
+#: wp-e-commerce/transaction_result_functions.php:206
+#: wp-e-commerce/transaction_result_functions.php:213
+#: wp-e-commerce/user-log.php:220
+msgid "Total"
+msgstr "Summa"
+
+#: wp-e-commerce/transaction_result_functions.php:215
+#: wp-e-commerce/transaction_result_functions.php:216
+msgid "Your Transaction ID"
+msgstr "Ditt &ouml;verf&ouml;ringsID"
+
+#: wp-e-commerce/transaction_result_functions.php:217
+msgid "Transaction ID"
+msgstr "&ouml;verf&ouml;ringsID"
+
+#: wp-e-commerce/transaction_result_functions.php:250
+msgid "Order Pending: Payment Required"
+msgstr ""
+
+#: wp-e-commerce/transaction_result_functions.php:252
+msgid "Purchase Receipt"
+msgstr "Ink&ouml;pskvitto"
+
+#: wp-e-commerce/transaction_result_functions.php:257
+#: wp-e-commerce/user-log.php:336
+msgid "Customer Details"
+msgstr "Kunddetaljer"
+
+#: wp-e-commerce/transaction_result_functions.php:273
+#, fuzzy
+msgid "Delivery State"
+msgstr "Stad"
+
+#: wp-e-commerce/transaction_result_functions.php:292
+msgid "Purchase Report"
+msgstr "Ink&ouml;psrapport"
+
+#: wp-e-commerce/transaction_result_functions.php:308
+msgid "The Transaction was successful"
+msgstr "Best&auml;llningen lyckades"
+
+#: wp-e-commerce/transaction_result_functions.php:316
+#, fuzzy
+msgid "Oops, there is nothing in your cart."
+msgstr "Det finns inget i din varukorg"
+
+#: wp-e-commerce/transaction_result_functions.php:316
+msgid "Please visit our shop"
+msgstr ""
+
+#: wp-e-commerce/user-downloads.php:41
+msgid "File Names"
+msgstr ""
+
+#: wp-e-commerce/user-downloads.php:42
+#, fuzzy
+msgid "Downloads Left"
+msgstr "Ladda ner"
+
+#: wp-e-commerce/user-downloads.php:43
+#: wp-e-commerce/user-log.php:56
+msgid "Date"
+msgstr "Datum"
+
+#: wp-e-commerce/user-downloads.php:69
+msgid "You have not purchased any downloadable products yet."
+msgstr ""
+
+#: wp-e-commerce/user-log.php:52
+msgid "Status"
+msgstr "Status"
+
+#: wp-e-commerce/user-log.php:65
+#: wp-e-commerce/user-log.php:383
+msgid "Payment Method"
+msgstr "Betalningsmetod"
+
+#: wp-e-commerce/user-log.php:94
+msgid "Details"
+msgstr "Detaljer"
+
+#: wp-e-commerce/user-log.php:147
+msgid "Order Status"
+msgstr "Orderstatus"
+
+#: wp-e-commerce/user-log.php:169
+msgid "Shipping Details"
+msgstr "Fraktkostnad som tillkommer"
+
+#: wp-e-commerce/user-log.php:188
+#, fuzzy
+msgid "Order Details"
+msgstr "Mer..."
+
+#: wp-e-commerce/user-log.php:212
+msgid "GST"
+msgstr "GST"
+
+#: wp-e-commerce/user-log.php:216
+msgid "P&amp;P"
+msgstr ""
+
+#: wp-e-commerce/user-log.php:318
+msgid "Final Total"
+msgstr "Totalsumma"
+
+#: wp-e-commerce/user-log.php:384
+#, fuzzy
+msgid "Purchase No."
+msgstr "K&ouml;plogg"
+
+#: wp-e-commerce/user-log.php:387
+#, fuzzy
+msgid "Transaction Id"
+msgstr "&ouml;verf&ouml;ringsID"
+
+#: wp-e-commerce/user-log.php:402
+msgid "No transactions for this month."
+msgstr ""
+
+#: wp-e-commerce/user-log.php:413
+msgid "There have not been any purchases yet."
+msgstr "Ingen har handlat n&aring;t &auml;n."
+
+#: wp-e-commerce/user-log.php:426
+msgid "You must be logged in to use this page. Please use the form below to login to your account."
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:57
+msgid "Note: if this is blank, the image will not be resized"
+msgstr "Om du l&auml;mnar dessa tomma kommer bilden inte att storleksf&ouml;r&auml;ndras"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:377
+#: wp-e-commerce/wp-shopping-cart.old.php:1660
+#: wp-e-commerce/wp-shopping-cart.old.php:1666
+msgid "Text"
+msgstr "Text"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:380
+#: wp-e-commerce/wp-shopping-cart.old.php:1663
+#: wp-e-commerce/wp-shopping-cart.old.php:1674
+msgid "Textarea"
+msgstr "Textarea"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:381
+#: wp-e-commerce/wp-shopping-cart.old.php:1664
+#: wp-e-commerce/wp-shopping-cart.old.php:1675
+msgid "Heading"
+msgstr "Rubrik"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:382
+#: wp-e-commerce/wp-shopping-cart.old.php:1665
+#: wp-e-commerce/wp-shopping-cart.old.php:1676
+msgid "Coupon"
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:387
+#: wp-e-commerce/wp-shopping-cart.old.php:469
+msgid "Label"
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:388
+#, fuzzy
+msgid "Label Description"
+msgstr "Beskrivning"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:389
+msgid "Item Number"
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:390
+#, fuzzy
+msgid "Life Number"
+msgstr "Total inkomst"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:391
+#, fuzzy
+msgid "Product Code"
+msgstr "Produktnamn"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:392
+msgid "PDF"
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:394
+msgid " and above"
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:395
+msgid "If price is "
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:396
+msgid "If weight is "
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:465
+msgid "Date requested"
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:467
+msgid "Comment"
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1016
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1020
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1022
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1027
+msgid "<strong>ERROR</strong>: This username is invalid.  Please enter a valid username."
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1032
+msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1037
+msgid "<strong>ERROR</strong>: This email address is already registered, please supply another."
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1047
+#, php-format
+msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1052
+msgid "Registration Complete"
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1053
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1054
+#, php-format
+msgid "Password: %s"
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1054
+msgid "emailed to you"
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1055
+#, fuzzy, php-format
+msgid "E-mail: %s"
+msgstr "Epost"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1071
+msgid "Register"
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1212
+#: wp-e-commerce/wp-shopping-cart.old.php:1273
+msgid "This download is no longer valid, Please contact the site administrator for more information."
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1401
+msgid "Click stars to rate"
+msgstr "Klicka p&aring; stj&auml;rnor f&ouml;r att ge omd&ouml;me"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1406
+msgid "No Votes"
+msgstr "Inga r&ouml;ster"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1410
+msgid "1 Vote"
+msgstr "1 R&ouml;st"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1414
+msgid "Votes"
+msgstr "R&ouml;ster"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1429
+msgid "person has given this image"
+msgstr "person gav denna bild"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1433
+msgid "people have given this image"
+msgstr "personer gav denna bild"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1433
+msgid "stars."
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1546
+msgid "Your \"products page\" is not currently set to display any products. You need to select a product grouping to display by default. <br /> This is set in the Shop Settings page."
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1671
+msgid "Delivery Address"
+msgstr "Leveransadress"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1672
+msgid "Delivery City"
+msgstr "Stad"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1673
+msgid "Delivery Country"
+msgstr "Land"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1720
+msgid "The item has been added"
+msgstr "F&ouml;rem&aring;let har lagts till"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1722
+msgid "The item has not been added"
+msgstr "F&ouml;rem&aring;let har inte lagts till"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1732
+#, fuzzy
+msgid "Edit Variation Set"
+msgstr "&Auml;ndra variationsset"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1743
+msgid "Add Variation Set"
+msgstr "&Auml;ndra variationsset"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1792
+msgid "Add Value"
+msgstr ""
+
+#: wp-e-commerce/js/tinymce3/window.php:36
+#: wp-e-commerce/js/tinymce3/window.php:118
+msgid "Category"
+msgstr "Kategori"
+
+#: wp-e-commerce/js/tinymce3/window.php:37
+#, fuzzy
+msgid "Product Slider"
+msgstr "Produktpris"
+
+#: wp-e-commerce/js/tinymce3/window.php:38
+#, fuzzy
+msgid "Add Product"
+msgstr "L&auml;gg till Kategori"
+
+#: wp-e-commerce/js/tinymce3/window.php:48
+#: wp-e-commerce/js/tinymce3/window.php:76
+#, fuzzy
+msgid "Select Category"
+msgstr "Kategori"
+
+#: wp-e-commerce/js/tinymce3/window.php:51
+#: wp-e-commerce/js/tinymce3/window.php:78
+#: wp-e-commerce/js/tinymce3/window.php:122
+#, fuzzy
+msgid "No Category"
+msgstr "Kategori"
+
+#: wp-e-commerce/js/tinymce3/window.php:65
+#, fuzzy
+msgid "Number of items per Page"
+msgstr "Antal varor"
+
+#: wp-e-commerce/js/tinymce3/window.php:91
+#, fuzzy
+msgid "Number of visible items"
+msgstr "Antal varor"
+
+#: wp-e-commerce/merchants/authorize.merchant.php:278
+msgid "There was an error contacting the payment gateway, please try again later."
+msgstr ""
+
+#: wp-e-commerce/merchants/chronopay.php:440
+#: wp-e-commerce/merchants/paypal_multiple.php:554
+#, fuzzy
+msgid "Update &raquo;"
+msgstr "Uppdatera"
+
+#: wp-e-commerce/merchants/paypal-standard.merchant.php:134
+#, fuzzy
+msgid "Your Subscription"
+msgstr "Produktbeskrivning"
+
+#: wp-e-commerce/merchants/paypal_certified.php:585
+#: wp-e-commerce/merchants/paypal_multiple.php:519
+#, fuzzy
+msgid "Currency Converter"
+msgstr "Valuta"
+
+#: wp-e-commerce/merchants/paypal_certified.php:588
+msgid "If your website uses a currency not accepted by Paypal, select an accepted currency using the drop down menu bellow. Buyers on your site will still pay in your local currency however we will send the order through to Paypal using currency you choose below."
+msgstr ""
+
+#: wp-e-commerce/merchants/paypal_multiple.php:522
+#, php-format
+msgid "Your website uses <strong>%s</strong>. This currency is not supported by PayPal, please  select a currency using the drop down menu below. Buyers on your site will still pay in your local currency however we will send the order through to Paypal using the currency you choose below."
+msgstr ""
+
+#: wp-e-commerce/merchants/paypal_pro.php:196
+msgid "Sorry your transaction did not go through to Paypal successfully, please try again."
+msgstr ""
+
+#: wp-e-commerce/merchants/paypal_pro.php:283
+msgid "API Username:"
+msgstr ""
+
+#: wp-e-commerce/merchants/paypal_pro.php:291
+msgid "API Password:"
+msgstr ""
+
+#: wp-e-commerce/merchants/paypal_pro.php:299
+msgid "API Signature:"
+msgstr ""
+
+#: wp-e-commerce/merchants/paypal_pro.php:307
+msgid "Test Mode Enabled:"
+msgstr ""
+
+#: wp-e-commerce/merchants/testmode.php:30
+msgid "Enter the payment instructions that you wish to display to your customers when they make a purchase"
+msgstr ""
+
+#: wp-e-commerce/merchants/testmode.php:32
+msgid "For example, this is where you the Shop Owner might enter your bank account details or address so that your customer can make their manual payment."
+msgstr ""
+
+#: wp-e-commerce/shipping/flatrate.php:31
+msgid "If you do not wish to ship to a particular region, leave the field blank. To offer free shipping to a region, enter 0."
+msgstr ""
+
+#: wp-e-commerce/shipping/tablerate.php:30
+#: wp-e-commerce/themes/default/shopping_cart_page.php:189
+msgid "Total Price"
+msgstr "Totalpris"
+
+#: wp-e-commerce/shipping/tablerate.php:30
+#: wp-e-commerce/shipping/weightrate.php:30
+#, fuzzy
+msgid "Shipping Price"
+msgstr "Ska skickas till:"
+
+#: wp-e-commerce/shipping/ups.php:34
+#, fuzzy
+msgid "Your Packaging"
+msgstr "Din bed&ouml;mning"
+
+#: wp-e-commerce/shipping/ups.php:35
+msgid "UPS Letter"
+msgstr ""
+
+#: wp-e-commerce/shipping/ups.php:36
+msgid "UPS Express Box - Small"
+msgstr ""
+
+#: wp-e-commerce/shipping/ups.php:37
+msgid "UPS Express Box - Medium"
+msgstr ""
+
+#: wp-e-commerce/shipping/ups.php:38
+msgid "UPS Express Box - Large"
+msgstr ""
+
+#: wp-e-commerce/shipping/ups.php:39
+msgid "UPS Tube"
+msgstr ""
+
+#: wp-e-commerce/shipping/ups.php:40
+msgid "UPS Pak"
+msgstr ""
+
+#: wp-e-commerce/shipping/ups.php:45
+msgid "Destination Type"
+msgstr ""
+
+#: wp-e-commerce/shipping/ups.php:59
+#, fuzzy
+msgid "Residential Address"
+msgstr "Leveransadress"
+
+#: wp-e-commerce/shipping/ups.php:60
+msgid "Commercial Address"
+msgstr ""
+
+#: wp-e-commerce/shipping/ups.php:66
+msgid "Packaging"
+msgstr ""
+
+#: wp-e-commerce/shipping/ups.php:158
+msgid "Because your order is over 150lbs, the SIte Owner will contact you directly about shipping rates."
+msgstr ""
+
+#: wp-e-commerce/shipping/usps.php:33
+msgid "USPS ID"
+msgstr ""
+
+#: wp-e-commerce/shipping/usps.php:41
+msgid "USPS Password"
+msgstr ""
+
+#: wp-e-commerce/shipping/weightrate.php:30
+msgid "Total weight <br />(<abbr alt=\"You must enter the weight here in pounds, regardless of what you used on your products\" title=\"You must enter the weight here in pounds, regardless of what you used on your products\">in Pounds</abbr>)"
+msgstr ""
+
+#: wp-e-commerce/themes/default/cart_widget.php:15
+msgid "Number of items"
+msgstr "Antal varor"
+
+#: wp-e-commerce/themes/default/cart_widget.php:23
+#: wp-e-commerce/themes/default/shopping_cart_page.php:13
+msgid "Product"
+msgstr "Produkt"
+
+#: wp-e-commerce/themes/default/cart_widget.php:24
+msgid "Qty"
+msgstr "Ex"
+
+#: wp-e-commerce/themes/default/cart_widget.php:59
+#, fuzzy
+msgid "Postage &amp; Tax "
+msgstr "F&ouml;rinst&auml;llning f&ouml;r frakt och packning"
+
+#: wp-e-commerce/themes/default/cart_widget.php:72
+msgid "Empty your cart"
+msgstr "T&ouml;m din varukorg"
+
+#: wp-e-commerce/themes/default/cart_widget.php:76
+msgid "Go to Checkout"
+msgstr "G&aring; till kassan"
+
+#: wp-e-commerce/themes/default/cart_widget.php:78
+msgid "Your shopping cart is empty"
+msgstr "Din varukorg &auml;r tom"
+
+#: wp-e-commerce/themes/default/cart_widget.php:80
+msgid "Visit the shop"
+msgstr "Bes&ouml;k butiken"
+
+#: wp-e-commerce/themes/default/functions.php:15
+msgid "Page Number position"
+msgstr ""
+
+#: wp-e-commerce/themes/default/grid_view.php:149
+#: wp-e-commerce/themes/default/list_view.php:163
+#: wp-e-commerce/themes/default/products_page.php:232
+msgid "This product has sold out."
+msgstr "Produkten &auml;r sluts&aring;ld."
+
+#: wp-e-commerce/themes/default/grid_view.php:173
+#: wp-e-commerce/themes/default/list_view.php:185
+#: wp-e-commerce/themes/default/products_page.php:256
+#, fuzzy
+msgid "There are no products in this group."
+msgstr "Det finns inga varor i denna"
+
+#: wp-e-commerce/themes/default/list_view.php:153
+#: wp-e-commerce/themes/default/products_page.php:222
+#, fuzzy
+msgid "Buy Now"
+msgstr "K&ouml;pa"
+
+#: wp-e-commerce/themes/default/list_view.php:159
+#: wp-e-commerce/themes/default/products_page.php:228
+msgid "Updating cart..."
+msgstr ""
+
+#: wp-e-commerce/themes/default/products_page.php:197
+msgid "Donation"
+msgstr ""
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:9
+#, fuzzy
+msgid "Please review your order"
+msgstr "Prenumerera pa dina ordrar"
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:32
+#: wp-e-commerce/themes/default/shopping_cart_page.php:57
+msgid "Update"
+msgstr "Uppdatera"
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:41
+msgid "Remove"
+msgstr "T&ouml;m"
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:50
+msgid "Coupon is not valid."
+msgstr ""
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:53
+msgid "Enter your coupon number"
+msgstr ""
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:82
+msgid "Calculate Shipping Price"
+msgstr "Ska skickas till:"
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:86
+msgid "Please choose a country below to calculate your shipping costs"
+msgstr ""
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:95
+msgid "Please provide a Zipcode and click Calculate in order to continue."
+msgstr ""
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:102
+msgid "Sorry, online ordering is unavailable to this destination and/or weight. Please double check your destination details."
+msgstr ""
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:120
+#, fuzzy
+msgid "- Choose a Shipping Rate"
+msgstr "Inrikes"
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:210
+msgid "Not yet a member?"
+msgstr ""
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:211
+msgid "In order to buy from us, you'll need an account. Joining is free and easy. All you need is a username, password and valid email address."
+msgstr ""
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:225
+msgid "Username"
+msgstr ""
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:226
+msgid "Password"
+msgstr ""
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:231
+msgid "Please enter your contact details:"
+msgstr "Var sn&auml;ll och fyll i dina uppgifter:"
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:233
+msgid "Fields marked with an asterisk must be filled in."
+msgstr "F&auml;lt m&auml;rkta med * m&aring;ste fyllas i."
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:308
+#, fuzzy
+msgid "Select a payment gateway"
+msgstr "Var sn&auml;ll och v&auml;lj en betalningsmetod"
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:342
+msgid "I agree to The "
+msgstr "Jag godk&auml;nner"
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:343
+msgid "Terms and Conditions"
+msgstr "Allm&auml;nna villkor"
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:355
+msgid "Make Purchase"
+msgstr "Slutf&ouml;r ink&ouml;p"
+
+#: wp-e-commerce/themes/default/single_product.php:93
+#: wp-e-commerce/themes/iShop/single_product.php:94
+msgid "Personalize your product"
+msgstr ""
+
+#: wp-e-commerce/themes/default/single_product.php:94
+#: wp-e-commerce/themes/iShop/single_product.php:95
+msgid "Complete this form to include a personalized message with your purchase."
+msgstr ""
+
+#: wp-e-commerce/themes/default/single_product.php:101
+#: wp-e-commerce/themes/iShop/single_product.php:102
+#, fuzzy
+msgid "Upload a File"
+msgstr "Nerladdningsbar produkt"
+
+#: wp-e-commerce/themes/default/single_product.php:102
+#: wp-e-commerce/themes/iShop/single_product.php:103
+msgid "Select a file from your computer to include with this purchase.  "
+msgstr ""
+
+#: wp-e-commerce/updates/updating_tasks.php:53
+msgid ""
+"Your purchase from %shop_name% has just been dispatched. It should arrive soon. To keep track of your products status a tracking id has been attached. \\r\\n"
+" your tracking id is: %trackid%"
+msgstr ""
+
+#: wp-e-commerce/updates/updating_tasks.php:56
+msgid "Your Order from %shop_name% has been dispatched"
+msgstr ""
+
+#: wp-e-commerce/widgets/admin_menu_widget.php:8
+#: wp-e-commerce/widgets/admin_menu_widget.php:22
+msgid "Admin Menu"
+msgstr ""
+
+#: wp-e-commerce/widgets/category_widget.27.php:19
+#: wp-e-commerce/wpsc-admin/admin.php:101
+#, fuzzy
+msgid "Categories"
+msgstr "Kategori"
+
+#: wp-e-commerce/widgets/category_widget.27.php:134
+#: wp-e-commerce/widgets/category_widget.28.php:69
+#: wp-e-commerce/widgets/donations_widget.php:71
+#: wp-e-commerce/widgets/latest_product_widget.php:73
+#: wp-e-commerce/widgets/price_range_widget.php:71
+#: wp-e-commerce/widgets/product_tag_widget.php:30
+#: wp-e-commerce/widgets/shopping_cart_widget.php:66
+#: wp-e-commerce/widgets/specials_widget.php:103
+msgid "Title:"
+msgstr ""
+
+#: wp-e-commerce/widgets/category_widget.27.php:159
+#: wp-e-commerce/widgets/category_widget.28.php:80
+#, fuzzy
+msgid "Display the :category: Group"
+msgstr "Visa kategorier"
+
+#: wp-e-commerce/widgets/category_widget.27.php:168
+#: wp-e-commerce/widgets/category_widget.28.php:88
+#, fuzzy
+msgid "Display the Group thumbnails in the sidebar"
+msgstr "Visa eller g&ouml;r Extraerbjudande i sidomenyn"
+
+#: wp-e-commerce/widgets/category_widget.27.php:179
+#: wp-e-commerce/widgets/category_widget.28.php:11
+#, fuzzy
+msgid "Product Grouping Widget"
+msgstr "kategoribildens bredd"
+
+#: wp-e-commerce/widgets/category_widget.27.php:181
+#: wp-e-commerce/widgets/category_widget.28.php:12
+#: wp-e-commerce/widgets/category_widget.28.php:19
+#, fuzzy
+msgid "Product Categories"
+msgstr "Produktbilder"
+
+#: wp-e-commerce/widgets/latest_product_widget.php:7
+#: wp-e-commerce/widgets/latest_product_widget.php:87
+#: wp-e-commerce/widgets/latest_product_widget.php:88
+#, fuzzy
+msgid "Latest Products"
+msgstr "Radera produkt"
+
+#: wp-e-commerce/widgets/latest_product_widget.php:74
+msgid "Number of products to show:"
+msgstr ""
+
+#: wp-e-commerce/widgets/price_range_widget.php:6
+#: wp-e-commerce/widgets/price_range_widget.php:77
+#: wp-e-commerce/widgets/price_range_widget.php:78
+#, fuzzy
+msgid "Price Range"
+msgstr "Pris"
+
+#: wp-e-commerce/widgets/price_range_widget.php:54
+msgid "Show All"
+msgstr ""
+
+#: wp-e-commerce/widgets/product_tag_widget.php:9
+#: wp-e-commerce/widgets/product_tag_widget.php:38
+#: wp-e-commerce/widgets/product_tag_widget.php:39
+#, fuzzy
+msgid "Product Tags"
+msgstr "Produktbilder"
+
+#: wp-e-commerce/widgets/shopping_cart_widget.php:37
+#: wp-e-commerce/widgets/shopping_cart_widget.php:42
+msgid "Loading..."
+msgstr ""
+
+#: wp-e-commerce/widgets/specials_widget.php:10
+#: wp-e-commerce/widgets/specials_widget.php:112
+#: wp-e-commerce/widgets/specials_widget.php:113
+#, fuzzy
+msgid "Product Specials"
+msgstr "Produktdetaljer"
+
+#: wp-e-commerce/widgets/specials_widget.php:106
+#, fuzzy
+msgid "Show Description:"
+msgstr "Beskrivning"
+
+#: wp-e-commerce/wpsc-admin/admin.php:75
+#: wp-e-commerce/wpsc-admin/admin.php:78
+#: wp-e-commerce/wpsc-admin/admin.php:80
+#: wp-e-commerce/wpsc-admin/admin.php:85
+#: wp-e-commerce/wpsc-admin/admin.php:88
+#: wp-e-commerce/wpsc-admin/admin.php:98
+#, fuzzy
+msgid "Products"
+msgstr "Produkt"
+
+#: wp-e-commerce/wpsc-admin/admin.php:93
+#: wp-e-commerce/wpsc-admin/admin.php:421
+#: wp-e-commerce/wpsc-admin/admin.php:451
+#, fuzzy
+msgid "Sales"
+msgstr "Erbjudande"
+
+#: wp-e-commerce/wpsc-admin/admin.php:105
+msgid "Variations"
+msgstr "Varianter"
+
+#: wp-e-commerce/wpsc-admin/admin.php:126
+msgid "Marketing"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/admin.php:132
+#, fuzzy
+msgid "Upgrades"
+msgstr "Gold Cart Options"
+
+#: wp-e-commerce/wpsc-admin/admin.php:136
+msgid "- Debug"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/admin.php:202
+msgid "Tags used on this post:"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/admin.php:204
+msgid "Add new tag"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/admin.php:205
+msgid "Separate tags with commas"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/admin.php:408
+msgid "Last 30 Days"
+msgstr "Den h&auml;r m&aring;naden totalf&ouml;rtj&auml;nst"
+
+#: wp-e-commerce/wpsc-admin/admin.php:427
+#: wp-e-commerce/wpsc-admin/admin.php:457
+#, fuzzy
+msgid "Orders"
+msgstr "Order"
+
+#: wp-e-commerce/wpsc-admin/admin.php:437
+#: wp-e-commerce/wpsc-admin/admin.php:469
+#, fuzzy
+msgid "Avg Orders"
+msgstr "Order"
+
+#: wp-e-commerce/wpsc-admin/admin.php:447
+msgid "Life Time"
+msgstr "Total inkomst"
+
+#: wp-e-commerce/wpsc-admin/admin.php:486
+#: wp-e-commerce/wpsc-admin/admin.php:714
+msgid "e-Commerce"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/admin.php:503
+msgid "E-Commerce"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/admin.php:620
+msgid "Sales by Quarter"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/admin.php:706
+msgid "Sales by"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/ajax-and-init.php:966
+#, fuzzy
+msgid "Your Order"
+msgstr "Order"
+
+#: wp-e-commerce/wpsc-admin/ajax-and-init.php:1213
+msgid "The administrator has unlocked your file"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/ajax-and-init.php:1213
+msgid "Dear CustomerWe are pleased to advise you that your order has been updated and your downloads are now active.Please download your purchase using the links provided below.[download_links]Thank you for your custom."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:41
+msgid "Select the markets you are selling this category to."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:456
+msgid "The product group has been edited."
+msgstr "Kategori has &auml;ndrats."
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:461
+#, fuzzy
+msgid "The group has been added."
+msgstr "Produkten &auml;r nu tillagd."
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:473
+#, fuzzy
+msgid "The group has been edited."
+msgstr "Produkten &auml;r nu tillagd."
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:529
+msgid "Are you sure you want to delete this category? If the category has any subcategories, they will be deleted too."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:537
+#, fuzzy
+msgid "Are you sure you want to delete this product group? All categories it contains will be deleted too."
+msgstr "&auml;r du s&auml;ker p&aring; att du vill radera produkten?"
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:560
+msgid "Categorizing your products into groups help your customers find them. For instance if you sell hats and trousers you  might want to setup a Group called clothes and add hats and trousers to that group."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:575
+#, fuzzy
+msgid "Select a Group to Manage"
+msgstr "V&auml;lj M&auml;rke"
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:593
+msgid "or"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:595
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:612
+#, fuzzy
+msgid "Add New Group"
+msgstr "L&auml;gg till Kategori"
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:602
+#, fuzzy
+msgid "About This Page"
+msgstr "Produktsida"
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:671
+#, fuzzy
+msgid "&quot;[categorisation]&quot; Group"
+msgstr "L&auml;gg till ny kategori"
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:681
+msgid "Image"
+msgstr "Bild"
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:725
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:729
+#, fuzzy
+msgid "You are editing an item in the &quot;[categorisation]&quot; Group"
+msgstr "L&auml;gg till ny kategori"
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:728
+#, fuzzy
+msgid "Edit Details"
+msgstr "Produktdetaljer"
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:744
+#, fuzzy
+msgid "Add Category"
+msgstr "Kategori"
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:747
+msgid "Adding a new category here will make it available when you add or edit a product."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:753
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:756
+#, fuzzy
+msgid "You are adding a new item to the &quot;[categorisation]&quot; Group"
+msgstr "L&auml;gg till ny kategori"
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:874
+#, fuzzy
+msgid "Add Group"
+msgstr "L&auml;gg till Kategori"
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:29
+msgid "Display Products"
+msgstr "Visa f&ouml;rs&auml;ljningsprodukt"
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:74
+#: wp-e-commerce/wpsc-admin/display-variations.page.php:49
+#, fuzzy
+msgid "Product updated."
+msgstr "Produktnamn"
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:114
+msgid "The following directories are not writable: :directory: You won&#39;t be able to upload any images or files here. You will need to change the permissions on these directories to make them writable."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:147
+msgid ""
+"You are about to delete the selected products.\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:222
+msgid "&laquo;"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:223
+msgid "&raquo;"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:260
+#, fuzzy
+msgid "Search"
+msgstr "Kantmeny"
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:265
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:380
+msgid "Bulk Actions"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:267
+#: wp-e-commerce/wpsc-admin/display-items.page.php:396
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:816
+msgid "Publish"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:268
+#: wp-e-commerce/wpsc-admin/display-items.page.php:343
+#, fuzzy
+msgid "Draft"
+msgstr "Datum"
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:272
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:389
+msgid "Apply"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:308
+#, fuzzy
+msgid "No Name"
+msgstr "Namn"
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:367
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:341
+#, fuzzy
+msgid "Delete this product"
+msgstr "Radera produkt"
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:369
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:341
+#, php-format
+msgid ""
+"You are about to delete this product '%s'\n"
+" 'Cancel' to stop, 'OK' to delete."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:394
+msgid "Unpublish"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:423
+#, fuzzy
+msgid "You have no products added."
+msgstr "Du r&ouml;stade"
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:440
+msgid "View All Categories"
+msgstr "Alla kategorier"
+
+#: wp-e-commerce/wpsc-admin/display-options-settings.page.php:37
+#, fuzzy
+msgid "Thanks, your thumbnail images have been resized."
+msgstr "Tack, dina &auml;ndringar &auml;r gjorda."
+
+#: wp-e-commerce/wpsc-admin/display-options-settings.page.php:92
+msgid "General"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-options-settings.page.php:93
+msgid "Presentation"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-options-settings.page.php:94
+msgid "Admin"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-options-settings.page.php:96
+#, fuzzy
+msgid "Payment Options"
+msgstr "Betalningsmetod"
+
+#: wp-e-commerce/wpsc-admin/display-options-settings.page.php:97
+msgid "Import"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-options-settings.page.php:169
+msgid "To configure a shipping module select one on the left."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:76
+msgid "When upgrading the Wp-E-Commerce Plugin from 3.6.* to 3.7 it is required that you associate your checkout form fields with the new Purchase Logs system. To do so please "
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:158
+#, fuzzy
+msgid "Shipping Options"
+msgstr "Fraktkostnad som tillkommer"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:161
+#, fuzzy
+msgid "Shipping Method:"
+msgstr "Fraktkostnad som tillkommer"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:162
+#, fuzzy
+msgid "Shipping Option:"
+msgstr "Fraktkostnad som tillkommer"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:164
+#, fuzzy
+msgid "Tracking ID:"
+msgstr "&ouml;verf&ouml;ringsID"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:165
+#, fuzzy
+msgid "Shipping Status:"
+msgstr "Fraktkostnad som tillkommer"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:166
+msgid "Track History:"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:172
+#, fuzzy
+msgid "Billing Details"
+msgstr "Fraktkostnad som tillkommer"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:173
+#, fuzzy
+msgid "Purchase Log Date:"
+msgstr "K&ouml;plogg"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:174
+#, fuzzy
+msgid "Purchase Number:"
+msgstr "Ink&ouml;psrapport"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:175
+msgid "Buyers Name:"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:176
+#, fuzzy
+msgid "Address:"
+msgstr "Adress"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:178
+#, fuzzy
+msgid "Phone:"
+msgstr "Telefon"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:179
+#, fuzzy
+msgid "Email:"
+msgstr "Epost"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:180
+#, fuzzy
+msgid "Payment Method:"
+msgstr "Betalningsmetod"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:182
+msgid "How User Found Us:"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:188
+msgid "Items Ordered"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:230
+#, fuzzy
+msgid "Order Status:"
+msgstr "Orderstatus"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:250
+msgid "Actions"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:254
+msgid "View Packing Slip"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:256
+msgid "Resend Receipt to Buyer"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:258
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:509
+msgid "Delete this log"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:258
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:509
+#, php-format
+msgid ""
+"You are about to delete this log '%s'\n"
+" 'Cancel' to stop, 'OK' to delete."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:258
+#, fuzzy
+msgid "Remove this record"
+msgstr "Radera set"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:260
+msgid "Go Back"
+msgstr "Backa"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:275
+msgid "e-Commerce Admin Menu"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:278
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:279
+#, fuzzy
+msgid "Checkout Settings"
+msgstr "Kassainst&auml;llningar"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:294
+msgid "WP e-Commerce News"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:316
+msgid "Order Summary"
+msgstr "Ordersumma"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:328
+msgid "(accepted payments)"
+msgstr " ( godk&auml;nda betalningar)"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:343
+msgid "Subscribe to your orders"
+msgstr "Prenumerera pa dina ordrar"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:345
+msgid "Subscribe to an RSS feed"
+msgstr "Prenumerera via RSS"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:345
+msgid "of your orders"
+msgstr "p&aring; dina ordrar"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:348
+msgid "Plugin News"
+msgstr "Plugin Nyheter"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:350
+msgid "The <a href=\"http://instinct.co.nz/blogshop/products-page/\" target=\"_blank\">WP DropShop Module</a> is the latest and most cutting edge shopping cart available online. Coupled with Grid View then your site will be the talk of street! <br/><br/>The <a href=\"http://instinct.co.nz/blogshop/products-page/\" target=\"_blank\">GridView Module</a> is a visual module built to enhance the way your product page looks.<br/><br/><a href=\"http://www.instinct.co.nz/wp-campaign-monitor/100\">WP Campaign Monitor</a> is an email newsletter tool built just for WP users who want to send campaigns, track the results and manage their subscribers. The latest version integrates with e-commerce lite meaning that you will be able to send buyers email newsletters and much more. "
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:351
+msgid "This shop is powered by "
+msgstr "Den h&auml;r e-handeln baseras p&aring; "
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:360
+#, fuzzy
+msgid "Upgrade to Gold"
+msgstr "Gold Cart Options"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:360
+msgid " and unleash more functionality into your shop."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:391
+msgid "View:"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:430
+#, fuzzy
+msgid "Filter"
+msgstr "Misslyckades"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:433
+msgid "Oops there are no purchase logs for your selection, please try again."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:453
+#, fuzzy
+msgid "Total:"
+msgstr "Summa"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:465
+msgid "Download CSV"
+msgstr "Ladda ner CSV"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:474
+msgid ""
+"You are about to delete the selected purchase logs.\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:537
+#, fuzzy
+msgid "Search Logs"
+msgstr "K&ouml;plogg"
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:12
+msgid "WP e-Commerce Upgrades"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:13
+msgid "Add more functionality to your e-Commerce site. Prices may be subject to change."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:18
+msgid "Pure Gold"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:24
+msgid "DropShop"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:30
+msgid "MP3 Player"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:36
+msgid "Members Only Module"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:48
+msgid "NextGen Gallery Buy Now Buttons"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:71
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:79
+#, fuzzy
+msgid "API Key Reset"
+msgstr "Aktiveringsnyckel"
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:74
+msgid "Enter your API name and key to release it from an old site that you no longer use."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:85
+msgid "API Key"
+msgstr "Aktiveringsnyckel"
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:90
+#, fuzzy
+msgid "Reset API Key"
+msgstr "Aktiveringsnyckel"
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:99
+msgid "Upgrade Instructions"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:101
+#, php-format
+msgid "Copy the gold_cart_files directory into the %s folder."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:104
+msgid "This folder should be automatically created when the e-commerce plugin is activated, but if it is not, you will have to create it yourself."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:107
+msgid "Now a new panel should appear in the Upgrades page where you must enter your API Username and API Key. "
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:110
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:113
+msgid "For more information visit our documentation page."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:157
+msgid "Your API key has been Reset"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-variations.page.php:21
+msgid "Are you sure you want to delete this product?"
+msgstr "&auml;r du s&auml;ker p&aring; att du vill radera produkten?"
+
+#: wp-e-commerce/wpsc-admin/display-variations.page.php:37
+#, fuzzy
+msgid "Display Variations"
+msgstr "Visa m&auml;rken"
+
+#: wp-e-commerce/wpsc-admin/display-variations.page.php:39
+msgid "A variation can be anything \"optional\" about a product. ie: Size, Color, etc <br />For example: if you are selling t-shirts you might setup a variation set called size with the values small, medium, large..."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:133
+#, fuzzy
+msgid "Edit Product"
+msgstr "&Auml;ndra kategori"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:144
+msgid "Product Name"
+msgstr "Produktnamn"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:153
+#, fuzzy
+msgid "Display Product Shortcode"
+msgstr "Visa kategorier"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:154
+msgid "Buy Now Shortcode"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:155
+#, fuzzy
+msgid "Add to Cart Shortcode"
+msgstr "L&auml;gg i varukorg"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:161
+#, fuzzy
+msgid "Display Product Template Tag"
+msgstr "Visa f&ouml;rs&auml;ljningsprodukt"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:162
+msgid "Buy Now PHP"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:163
+#, fuzzy
+msgid "Add to Cart PHP"
+msgstr "L&auml;gg i varukorg"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:164
+#, fuzzy
+msgid "Display Product SKU"
+msgstr "Visa f&ouml;rs&auml;ljningsprodukt"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:180
+msgid "Stock Keeping Unit"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:188
+msgid "Sale Price :"
+msgstr "Extrapris / Utf&ouml;rs&auml;ljning"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:205
+#, fuzzy
+msgid "New Currency"
+msgstr "Valuta"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:233
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:272
+#, fuzzy
+msgid "Delete Currency"
+msgstr "Radera produkt"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:290
+msgid "Additional Description"
+msgstr "Ytterligare beskrivning"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:340
+#, fuzzy
+msgid "Update Product"
+msgstr "Ers&auml;tt produkt"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:364
+#, fuzzy
+msgid "Categories and Tags"
+msgstr "Visa Kategorier/M&auml;rkes"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:403
+#, fuzzy
+msgid "Select &quot;[categorisation]&quot;"
+msgstr "L&auml;gg till ny kategori"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:459
+msgid "Price and Stock Control"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:469
+#, fuzzy, php-format
+msgid "Do not include tax (tax is set in <a href=\"%s\"/wp-admin/admin.php?page=wpsc-settings\">shop config</a>)"
+msgstr "Moms &auml;r redan inkluderat (procentsats st&auml;lls in i  Butiksinst&auml;llningar)"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:476
+msgid "This is a donation, checking this box populates the donations widget."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:486
+#, fuzzy
+msgid "Table Rate Price"
+msgstr "Totalpris"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:527
+msgid "Custom Tax Rate"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:541
+msgid "I have a limited number of this item in stock. If the stock runs out, this product will not be available on the shop unless you untick this box or add more stock."
+msgstr "Klicka i denna om vi har begr&auml;nsat lager av denna vara. Fyll i &aring;terst&aring;ende antal h&auml;r nedan. Om lagret tar slut kommer inte varan att vara tillg&auml;nlig f&ouml;r f&ouml;rs&auml;ljning f&ouml;rr&auml;n du fyller p&aring; h&auml;r eller klickar ur rutan."
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:556
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:570
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:577
+msgid "If this product runs out of stock set status to Unpublished & email site owner"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:569
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:576
+#, fuzzy
+msgid "Stock Qty"
+msgstr "Lager"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:603
+#, fuzzy
+msgid "Variation Control"
+msgstr "Varianter"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:607
+#, fuzzy
+msgid "+ Add New Variations"
+msgstr "&Auml;ndra variationsset"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:653
+#, fuzzy
+msgid "Weight"
+msgstr "H&ouml;jd"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:717
+#, fuzzy
+msgid "Flat Rate Settings"
+msgstr "URL-inst&auml;llningar"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:722
+msgid "Local Shipping Fee"
+msgstr "Inrikes"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:731
+msgid "International Shipping Fee"
+msgstr "Internationellt"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:740
+msgid "Disregard Shipping for this product"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:769
+#, fuzzy
+msgid "Advanced Options"
+msgstr "Betalningsmetoder"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:777
+#, fuzzy
+msgid "Custom Meta"
+msgstr "Kunddetaljer"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:778
+#, fuzzy
+msgid "Add Custom Meta"
+msgstr "Kunddetaljer"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:788
+msgid "Value"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:805
+msgid "Merchant Notes"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:808
+msgid "These notes are only available here."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:827
+msgid "Personalisation Options"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:830
+msgid "Users can personalize this product by leaving a message on single product page"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:839
+msgid "Users can upload images on single product page to purchase logs."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:850
+msgid "Prohibited"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:864
+msgid "Off Site Product Link"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:865
+msgid "If this product is for sale on another website enter the link here. For instance if your product is an MP3 file for sale on itunes you could put the link here. This option over rides the buy now and add to cart links and takes you to the site linked here."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:866
+msgid "External Link"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:874
+msgid "Enable IntenseDebate Comments"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:880
+msgid "Allow users to comment on this product."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:907
+msgid "Product Images"
+msgstr "Produktbilder"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:915
+#, fuzzy
+msgid "Select Files"
+msgstr "V&auml;lj kategorigrupp"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:969
+msgid "You are using the Flash uploader.  Problems?  Try the <a class=\"wpsc_upload_switcher\" onclick='wpsc_upload_switcher(\"browser\")'>Browser uploader</a> instead."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:973
+msgid "To upload multiple product thumbnails you must <a href=\"http://www.instinct.co.nz/shop/\">install the premium upgrade</a>"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:982
+msgid "Select an image to upload:"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:992
+msgid "You are using the Browser uploader.  Problems?  Try the <a class=\"wpsc_upload_switcher\" onclick='wpsc_upload_switcher(\"flash\")'>Flash uploader</a> instead."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:996
+#, fuzzy
+msgid "Manage your thumbnails"
+msgstr "Fyll i dina uppgifter"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1018
+msgid "Product Download"
+msgstr "Produktnerladdning"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1021
+msgid "Upload File"
+msgstr "Nerladdningsbar produkt"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1022
+#, fuzzy
+msgid "Max Upload Size"
+msgstr "Nerladdningsbar produkt"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1026
+msgid "Preview File"
+msgstr "F&ouml;rhandsvisa filen"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1036
+msgid "Select an MP3 file to upload as a preview"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1057
+msgid "Label Control"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1063
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1064
+msgid "Add Label"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1121
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1148
+msgid "Preview"
+msgstr "F&ouml;rhandsvisa"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1192
+#, fuzzy
+msgid "Thumbnail Settings"
+msgstr "Administrationsinst&auml;llningar"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1200
+#, fuzzy
+msgid "use default size"
+msgstr "Default"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1200
+msgid "This is set on the Settings Page"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1206
+msgid "do not resize thumbnail image"
+msgstr "&auml;ndra inte miniatyrer."
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1210
+msgid "use specific size"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1212
+msgid "px width"
+msgstr "px i bredd"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1213
+#, fuzzy
+msgid "px height"
+msgstr "H&ouml;jd"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1218
+#, fuzzy
+msgid "use separate thumbnail"
+msgstr "Storleks&auml;ndra miniatyrer"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1323
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1328
+msgid "HTML"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1324
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1329
+#, fuzzy
+msgid "Visual"
+msgstr "Synlig"
+
+#: wp-e-commerce/wpsc-admin/includes/product-functions.php:41
+#, php-format
+msgid "Please refrain from uploading images larger than <strong>%d x %d</strong> pixels"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/product-functions.php:52
+msgid "N/A"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/product-functions.php:77
+msgid "<strong>ERROR</strong>: Please enter a Product name.<br />"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/product-functions.php:80
+msgid "<strong>ERROR</strong>: Please enter a Product Category.<br />"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/product-functions.php:196
+msgid "Could not update product in the database"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/product-functions.php:204
+msgid "Could not insert product into the database"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/purchlogs_upgrade.php:74
+msgid "Upgrading to WP e-Commerce 3.7 and later requires you to run this fix once.The following Boxes corresponds to the form fields in your current checkout page.  All you have to do is select from the drop-down menu box what each of the following fields represent. Sorry for any inconvenience caused, but we're sure you'll agree that the new purchase logs are worth this minor hassle. "
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:7
+#, fuzzy
+msgid "Admin Settings"
+msgstr "Administrationsinst&auml;llningar"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:13
+msgid "Max downloads per file"
+msgstr "Max nerladdningar per fil"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:35
+msgid "Lock downloads to IP address"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:61
+msgid "Check MIME types on file uploads"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:68
+msgid "Warning: Disabling this exposes your site to greater possibility of malicious files being uploaded, we reccomend installing the Fileinfo extention for PHP rather than disabling this."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:76
+msgid "Purchase Log Email"
+msgstr "Ink&ouml;pslogg per epost"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:84
+#, fuzzy
+msgid "Purchase Receipt - Reply Address"
+msgstr "Ink&ouml;pskvitto"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:93
+#, fuzzy
+msgid "Purchase Receipt - Reply Name"
+msgstr "Ink&ouml;pskvitto"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:110
+#, fuzzy
+msgid "Custom Messages"
+msgstr "Kunddetaljer"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:113
+msgid "Tags can be used"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:134
+#, fuzzy
+msgid "Admin Report"
+msgstr "Halv&aring;rsrapport"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:145
+msgid "Tracking Email Subject"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:149
+msgid "Tracking Email Message"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:153
+msgid "URL Settings"
+msgstr "URL-inst&auml;llningar"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:184
+msgid "Transaction Details URL"
+msgstr "&ouml;verf&ouml;ringar URL"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:195
+msgid "User Account URL"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:205
+msgid "Update Page URLs"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:206
+#, fuzzy
+msgid "Fix Product Group Permalinks"
+msgstr "&Auml;ndra kategori"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/checkout.php:27
+msgid "Checkout Options"
+msgstr "Kassainst&auml;llningar"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/checkout.php:40
+msgid "Users must register before checking out"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/checkout.php:60
+msgid "If yes then you must also turn on the wordpress option \"Any one can register\""
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/checkout.php:77
+msgid "Lock Tax to Billing Country"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/checkout.php:102
+msgid "Enable Shipping Same as Billing Option: "
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/checkout.php:115
+msgid "Here you can customise the forms to be displayed in your checkout page. The checkout page is where you collect important user information that will show up in your purchase logs i.e. the buyers address, and name..."
+msgstr "H&auml;r st&auml;ller du in formul&auml;ren kunden f&aring;r upp p&aring; best&auml;llningssidan. Kunduppgifterna du valt lagras sedan i K&ouml;ploggen, t ex kundens namn, adress osv."
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/checkout.php:208
+#, fuzzy
+msgid "This will be the Email address that the Purchase Reciept is sent to."
+msgstr "Epostadress dit ink&ouml;psloggen ska skickas"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/checkout.php:311
+msgid "Add New Form Field"
+msgstr "L&auml;gg till nytt f&auml;lt"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/gateway.php:31
+msgid "Please Select A Payment Gateway"
+msgstr "Var sn&auml;ll och v&auml;lj en betalningsmetod"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/gateway.php:55
+msgid "Gateway Options"
+msgstr "Betalningsmetoder"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/gateway.php:64
+#, fuzzy
+msgid "General Settings"
+msgstr "Valutainst&auml;llningar"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/gateway.php:68
+#, fuzzy
+msgid "Payment Gateways"
+msgstr "Var sn&auml;ll och v&auml;lj en betalningsmetod"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/gateway.php:72
+msgid "Activate the payment gateways that you want to make available to your customers by selecting them below."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/gateway.php:98
+msgid "We Recommend"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/gateway.php:107
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/gateway.php:114
+#, fuzzy
+msgid " Select a Payment Gateway below to configure it."
+msgstr "Var sn&auml;ll och v&auml;lj en betalningsmetod"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/gateway.php:122
+#, fuzzy
+msgid "Payment Gateway"
+msgstr "Var sn&auml;ll och v&auml;lj en betalningsmetod"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/gateway.php:134
+#, fuzzy
+msgid "Display Name"
+msgstr "Visa m&auml;rken"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/gateway.php:162
+msgid "The text that people see when making a purchase"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/general.php:13
+msgid "Base Country/Region"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/general.php:39
+msgid "Select your primary business location."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/general.php:43
+#, fuzzy
+msgid "Tax Settings"
+msgstr "URL-inst&auml;llningar"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/general.php:60
+msgid "Tax Included in prices"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/general.php:115
+msgid "Language"
+msgstr "Spr&aring;k"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/general.php:224
+msgid "Currency Settings"
+msgstr "Valutainst&auml;llningar"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/import.php:7
+msgid "Import Products CSV"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/import.php:8
+msgid "<p>You can import your products from a comma delimited text file.</p><p>An example of a cvs import file would look like this: </p><p>Description, Additional Description, Product Name, Price, SKU, weight, weight unit, stock quantity, is limited quantity</p>"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:14
+#, fuzzy
+msgid "Show All Products"
+msgstr "Visa produktbed&ouml;mning"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:21
+#, fuzzy
+msgid "Show list of product groups"
+msgstr "V&auml;lj Kategori"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:28
+#, fuzzy
+msgid "Show all products + list"
+msgstr "Visa produktbed&ouml;mning"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:63
+#, fuzzy
+msgid "Button Settings"
+msgstr "Valutainst&auml;llningar"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:67
+msgid "Button Type"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:92
+msgid "Hide \"Add to cart\" button"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:117
+#, fuzzy
+msgid "Product Settings"
+msgstr "Produktdetaljer"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:146
+msgid "Display Fancy Purchase Notifications"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:170
+msgid "Show Postage and Packaging"
+msgstr "Visa fraktkostnad"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:193
+msgid "Disable link in Title"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:217
+#, fuzzy
+msgid "Add quantity field to each product description"
+msgstr "Ut&ouml;kad produktinformation"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:242
+msgid "Theme Customisation"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:247
+#, fuzzy
+msgid "Thanks, the themes have been copied."
+msgstr "Tack, dina &auml;ndringar &auml;r gjorda."
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:256
+msgid "Theming your stores appearance is easy."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:258
+msgid "You just need to edit the appropriate files in the following location."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:259
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:271
+#, fuzzy
+msgid "Path:"
+msgstr "Plats f&ouml;r SoX"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:261
+msgid "To create a new theme:"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:263
+msgid "Copy the default directory and rename it 'newTheme'"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:264
+msgid "Rename the default.css file inside the 'newTheme' directory to 'newTheme.css'"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:269
+msgid "The permissions on your themes directory are incorrect."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:270
+msgid "Please set the permissions to 775 on the following directory."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:275
+msgid "Your theme files have not been moved. Until your theme files have been moved, we have disabled automatic upgrades."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:276
+#, php-format
+msgid "Click here to <a href='%s'>Move your files</a> to a safe place"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:280
+msgid "Read Tutorials"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:285
+#, fuzzy
+msgid "Product Page Settings"
+msgstr "Produktsida"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:288
+msgid "Product Display"
+msgstr "Visa vara"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:372
+msgid "Purchase unavailable options"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:377
+msgid "Show quantity form in list view"
+msgstr "Show quantity form in list view"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:382
+#, fuzzy
+msgid "Products Per Row"
+msgstr "Produktsida"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:387
+msgid "Show images only"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:397
+#, fuzzy
+msgid "Display Description"
+msgstr "Beskrivning"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:402
+msgid "Display \"Add To Cart\" Button"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:406
+msgid "Display \"More Details\" Button"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:416
+#, fuzzy
+msgid "Select Theme"
+msgstr "V&auml;lj kategorigrupp"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:449
+#, fuzzy
+msgid "Sort Product By"
+msgstr "Produkt"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:455
+msgid "Time Uploaded"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:461
+msgid "Show Breadcrumbs"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:487
+#, fuzzy
+msgid "Product Groups/Products Display"
+msgstr "Visa vara"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:505
+msgid "Product Groups Only (All products displayed)"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:506
+msgid "Sliding Product Groups (1 product per page)"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:514
+msgid "Show Search"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:551
+msgid "Show Advanced Search"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:554
+msgid "Use Live Search"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:565
+msgid "Replace Page Title With Product/Category Name"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:587
+#, fuzzy
+msgid "Shopping Cart Settings"
+msgstr "Fraktkostnad som tillkommer"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:619
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:623
+msgid "Sidebar"
+msgstr "Kantmeny"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:627
+msgid "Page"
+msgstr "Sida"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:631
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:635
+msgid "Widget"
+msgstr "Widget"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:635
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:645
+msgid "You need to enable the widgets plugin to use this"
+msgstr "Aktivera Widgetspluggen f&ouml;r att kunna anv&auml;nda denna"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:645
+#, fuzzy
+msgid "You need to install the Gold and DropShop extentions to use this"
+msgstr "Aktivera Widgetspluggen f&ouml;r att kunna anv&auml;nda denna"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:649
+msgid "Manual"
+msgstr "Manual"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:652
+msgid "Show Dropshop on every page"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:653
+msgid "Show Dropshop only on product page"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:656
+msgid "Use light Dropshop style"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:657
+msgid "Use dark Dropshop style"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:658
+msgid "Crafty"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:668
+msgid "Use Sliding Cart"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:693
+msgid "Display \"+ Postage & Tax\""
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:719
+#, fuzzy
+msgid "Product Group Settings"
+msgstr "L&auml;gg till Kategori"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:723
+#, fuzzy
+msgid "Show Product Group Description"
+msgstr "Produktbeskrivning"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:748
+#, fuzzy
+msgid "Show Product Group Thumbnails"
+msgstr "Kategoriernas miniatyrstorlek Default"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:775
+#, fuzzy
+msgid "Show Product Count per Product Group"
+msgstr "V&auml;lj Kategori"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:801
+msgid "Use Category Grid View"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:832
+msgid "Default Product Thumbnail Size"
+msgstr "Produkternas miniatyrstorlek Default"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:836
+#, fuzzy
+msgid "Resize Existing Thumbnails"
+msgstr "Storleks&auml;ndra miniatyrer"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:842
+msgid "Default Product Group Thumbnail Size"
+msgstr "Kategoriernas miniatyrstorlek Default"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:851
+#, fuzzy
+msgid "Single Product Image Size"
+msgstr "Produktbild"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:888
+#, fuzzy
+msgid "Show Thumbnail Gallery"
+msgstr "Visa miniatyrer"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:912
+#, fuzzy
+msgid "Gallery Thumbnail Image Size"
+msgstr "Produkternas miniatyrstorlek Default"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:926
+#, fuzzy
+msgid "Pagination settings"
+msgstr "Administrationsinst&auml;llningar"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:930
+msgid "Use Pagination"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:952
+msgid "number of products to show per page"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:962
+msgid "Top"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:963
+msgid "Bottom"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:964
+msgid "Both"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:971
+#, fuzzy
+msgid "Comment Settings"
+msgstr "Valutainst&auml;llningar"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:975
+msgid "Use IntenseDebate Comments"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:999
+msgid "IntenseDebate Account ID"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:1001
+msgid "Help on finding the Account ID"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:1010
+msgid "By Default Display Comments on"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/shipping.php:67
+#, fuzzy
+msgid "Use Shipping"
+msgstr "Inrikes"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/shipping.php:89
+msgid "If you are only selling digital downloads, you should select no to disable the shipping on your site."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/shipping.php:94
+msgid "Base Zipcode/Postcode:"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/shipping.php:97
+msgid "If you are based in America then you need to set your own Zipcode for UPS and USPS to work. This should be the Zipcode for your Base of Operations."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/shipping.php:119
+#, fuzzy
+msgid "ShipWire Settings"
+msgstr "Valutainst&auml;llningar"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/shipping.php:130
+#, fuzzy
+msgid "ShipWire Email"
+msgstr "Fraktkostnad som tillkommer"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/shipping.php:131
+msgid "ShipWire Password"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/shipping.php:139
+msgid "Enable Free Shipping Discount"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/shipping.php:183
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/shipping.php:188
+#, fuzzy
+msgid "Shipping Modules"
+msgstr "Fraktkostnad som tillkommer"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/shipping.php:194
+msgid "To enable shipping in WP e-Commerce you must select  which shipping methods you want to enable on your site"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/shipping.php:198
+#, fuzzy
+msgid "Internal Shipping Calculators"
+msgstr "Internationellt"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/shipping.php:231
+msgid "External Shipping Calculators"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/shipping.php:234
+msgid "The following shipping modules all need cURL which is not installed on this server, you may need to contact your web hosting provider to get it set up. "
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/ajax.functions.php:88
+msgid "You just added \"[product_name]\" to your cart."
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/ajax.functions.php:91
+msgid "Sorry, but you cannot add zero items to your cart"
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/ajax.functions.php:93
+msgid "Sorry, but there are only [number] of this item in stock."
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/ajax.functions.php:95
+#, fuzzy
+msgid "Sorry, but the item \"[product_name]\" is out of stock."
+msgstr "Varan &auml;r slut i v&aring;rt lager."
+
+#: wp-e-commerce/wpsc-includes/ajax.functions.php:475
+msgid "You must select a shipping method, otherwise we cannot process your order."
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/ajax.functions.php:480
+msgid "Please agree to the terms and conditions, otherwise we cannot process your order."
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/ajax.functions.php:503
+#, php-format
+msgid "Oops the product : %s cannot be shipped to %s. To continue with your transaction please remove this product from the list above."
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/ajax.functions.php:526
+msgid "Please enter a Zipcode and click calculate to proceed"
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/category.functions.php:354
+msgid "Brands"
+msgstr "M&auml;rken"
+
+#: wp-e-commerce/wpsc-includes/checkout.class.php:49
+msgid "Tax"
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/display.functions.php:83
+msgid "People who bought this item also bought"
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/display.functions.php:131
+#, fuzzy
+msgid "Updating"
+msgstr "Uppdatera"
+
+#: wp-e-commerce/wpsc-includes/display.functions.php:147
+#, fuzzy
+msgid "Continue Shopping"
+msgstr "Forts&auml;tt handla"
+
+#: wp-e-commerce/wpsc-includes/display.functions.php:248
+msgid "You are using the example product group as your default group and it has no products in it, you should set the default group to something else, you can do so from your Shop Settings page."
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/display.functions.php:250
+msgid "This group is set as your default product group, you should either add some items to it or switch your default product group to one that does contain items."
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/form-display.functions.php:65
+msgid "Select Parent"
+msgstr "V&auml;lj kategorigrupp"
+
+#: wp-e-commerce/wpsc-includes/form-display.functions.php:133
+msgid "Choose a downloadable file for this product:"
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/form-display.functions.php:180
+msgid "Choose a downloadable file for this variation"
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/form-display.functions.php:186
+#, fuzzy
+msgid "No Product"
+msgstr "Produkt"
+
+#: wp-e-commerce/wpsc-includes/misc.functions.php:61
+msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/processing.functions.php:30
+#: wp-e-commerce/wpsc-includes/processing.functions.php:36
+#: wp-e-commerce/wpsc-includes/processing.functions.php:46
+#, fuzzy
+msgid " is out of stock"
+msgstr "Varan &auml;r slut i v&aring;rt lager."
+
+#: wp-e-commerce/wpsc-includes/processing.functions.php:30
+#: wp-e-commerce/wpsc-includes/processing.functions.php:36
+#: wp-e-commerce/wpsc-includes/processing.functions.php:46
+msgid "Remaining stock of "
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/processing.functions.php:30
+msgid " and its variations is 0. Product was unpublished."
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/processing.functions.php:36
+msgid " is 0. Product variation was set to invisible."
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/processing.functions.php:46
+msgid " is 0. Product was unpublished."
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/processing.functions.php:916
+#, fuzzy
+msgid "This product has no available stock"
+msgstr "Produkten &auml;r sluts&aring;ld."
+
+#: wp-e-commerce/wpsc-includes/processing.functions.php:961
+msgid "UPS does not support products without a weight set. Please either disable shipping for this product or give it a weight"
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/purchaselogs.class.php:539
+#, php-format
+msgid "Release downloads locked to this IP address %s"
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/purchaselogs.class.php:759
+#, fuzzy
+msgid "Thanks, the purchase log record has been deleted"
+msgstr "Thanks, the gold shopping cart has been activated."
+
+#: wp-e-commerce/wpsc-includes/upgrades.php:122
+#, fuzzy
+msgid "Visit upgrade homepage"
+msgstr "Bes&ouml;k butiken"
+
+#: wp-e-commerce/wpsc-includes/upgrades.php:127
+#, fuzzy
+msgid "Visit author homepage"
+msgstr "Bes&ouml;k butiken"
+
+#: wp-e-commerce/wpsc-includes/upgrades.php:131
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/variations.class.php:217
+#, fuzzy
+msgid "Variation"
+msgstr "Varianter"
+
+#: wp-e-commerce/wpsc-includes/variations.class.php:218
+msgid "Stock"
+msgstr "Lager"
+
+#: wp-e-commerce/wpsc-includes/variations.class.php:221
+msgid "More"
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/variations.class.php:349
+#, fuzzy
+msgid "Weight Settings"
+msgstr "URL-inst&auml;llningar"
+
+#~ msgid "Older Orders"
+#~ msgstr "&auml;ldre ordrar"
+#~ msgid "Help/Upgrade"
+#~ msgstr "Hj&auml;lp/Uppdatering"
+#~ msgid "Display categories or brands or both"
+#~ msgstr "Visa Ketegori eller M&auml;rke eller b&aring;da"
+#~ msgid "Product Stock"
+#~ msgstr "Produktlager"
+#~ msgid "Limited Stock"
+#~ msgstr "Begr&auml;nsad upplaga"
+#~ msgid "Brand"
+#~ msgstr "M&auml;rke"
+#~ msgid "Create a new Variation"
+#~ msgstr "Skapa ny variant"
+#~ msgid "Product Attachments"
+#~ msgstr "Produkttillbeh&ouml;r"
+#~ msgid ""
+#~ "Note: if this is filled in, the file uploaded will be the product to be "
+#~ "purchased."
+#~ msgstr ""
+#~ "Notera: Om du fyller i h&auml;r kommer filen du laddar upp att bli "
+#~ "produkten man k&ouml;per."
+#~ msgid "Type"
+#~ msgstr "Typ"
+#~ msgid "Mandatory"
+#~ msgstr "Obligatoriskt"
+#~ msgid "Display<br /> in Log"
+#~ msgstr "Display<br /> in Log"
+#~ msgid "Out of"
+#~ msgstr "Saknar"
+#~ msgid "votes."
+#~ msgstr "omd&ouml;men."
+#~ msgid "Average rating of"
+#~ msgstr "Genomsnittligt omd&ouml;me av"
+#~ msgid "Average vote"
+#~ msgstr "Genomsnittligt omd&ouml;me"
+#~ msgid "Please select a valid Product Group"
+#~ msgstr "Var sn&auml;ll och v&auml;lj en giltig kategori"
+#~ msgid "Productquantity"
+#~ msgstr "Produktantal"
+#~ msgid "No tax"
+#~ msgstr "Ingen Moms"
+#~ msgid "About"
+#~ msgstr "Om"
+#~ msgid ""
+#~ "Welcome to the e-commerce panel. <br /><br /><strong>Note:</strong> on "
+#~ "some setups, the shopping cart may empty on every page load, if this "
+#~ "happens, you will have to add this line:<br /><br />session_start();<br /"
+#~ "><br />to the index.php file in the base wordpress directory.<br />"
+#~ msgstr ""
+#~ "V&auml;lkommen till e-handelspanelen. <br /><br /><strong>Notera:</strong"
+#~ msgid ""
+#~ "Note, Once you press submit, you will need to have your Credit card handy."
+#~ msgstr ""
+#~ "Notera: N&auml;r du klickar p&aring; skicka, kommer du att beh&ouml;va ha "
+#~ "ditt kreditkort tillg&auml;ngligt"
+#~ msgid ""
+#~ "Oops, there is nothing in your cart. <a href=\"get_option"
+#~ "(\"product_list_url\")\">Please visit our shop</a>"
+#~ msgstr ""
+#~ "Du m&aring;ste g&ouml;ra n&aring;got ink&ouml;p f&ouml;r att kunna "
+#~ "anv&auml;nda denna sida."
+#~ msgid "The brand has been edited."
+#~ msgstr "M&auml;rket har &auml;ndrats."
+#~ msgid "Add Brand"
+#~ msgstr "L&auml;gg till M&auml;rke"
+#~ msgid "Edit Brand"
+#~ msgstr "&Auml;ndra m&auml;rken"
+#~ msgid "The variation has been edited."
+#~ msgstr "Variationen har &auml;ndrats."
+#~ msgid "Please Select a Product Group"
+#~ msgstr "Var god och v&auml;lj kategori"
+#~ msgid "Edit Item"
+#~ msgstr "&auml;ndra f&ouml;rem&aring;l"
+#~ msgid "Select an Existing Product"
+#~ msgstr "V&auml;lj en befintlig produkt"
+#~ msgid "(enter in your product details here)"
+#~ msgstr "(skriv in produktdetaljer h&auml;r)"
+#~ msgid "Add Item"
+#~ msgstr "L&auml;gg till f&ouml;rem&aring;l"
+#~ msgid "Choose a Product Group"
+#~ msgstr "V&auml;lj en Kategori"
+#~ msgid "Choose a Brand"
+#~ msgstr "V&auml;lj ett M&auml;rke"
+#~ msgid "use the actual image. No resize."
+#~ msgstr ""
+#~ "anv&auml;nd den ursprungliga bilden. Ingen storleksf&ouml;r&auml;ndring."
+#~ msgid "ID"
+#~ msgstr "ID"
+#~ msgid "Transaction Status"
+#~ msgstr "Betalningsstatus"
+#~ msgid "Successful"
+#~ msgstr "Lyckades"
+#~ msgid ""
+#~ "<strong>Note:</strong> This lite version of the e-Commerce plugin only "
+#~ "allows you to interface with PayPal.<br /><br />If you are looking for a "
+#~ "more profesional \"non paypal solution\" then we have a <a href=\"http://"
+#~ "www.instinct.co.nz/blogshop\">gold version of e-Commerce</a> available "
+#~ "that interfaces seamlessly with authorize.net,  DPS (www.dps.co.nz), and "
+#~ "paystation (www.paystation.co.nz)."
+#~ msgstr ""
+#~ "<strong>Notera:</strong> Den h&auml;r versionen av e-Commerse-pluggen kan "
+#~ "endast till&aring;ta &ouml;verf&ouml;ringar via PayPal. <br /><br />Letar "
+#~ "du efter en mer sofistikerad l&ouml;sning som integrerar sm&auml;rtfritt "
+#~ "med authorize.net,  DPS (www.dps.co.nz), och paystation (www.paystation."
+#~ "co.nz) s&aring; erbjuder vi <a href=\"http://www.instinct.co.nz/blogshop"
+#~ "\">guldversionen av e-Commerce</a>."
+#~ msgid "Show Specials in the Sidebar"
+#~ msgstr "Visa extraerbjudande (i kanten)"
+#~ msgid "Reply Email"
+#~ msgstr "Svarsepost"
+#~ msgid "brand"
+#~ msgstr "m&auml;rke"
+#~ msgid "category"
+#~ msgstr "kategori"
+#~ msgid "Category or Brand"
+#~ msgstr "Kategori or M&auml;rke"
+#~ msgid "There are no items in the shopping cart"
+#~ msgstr "Det finns inga varor i din varukorg"
+#~ msgid "The Transaction was not successful"
+#~ msgstr "Best&auml;llningen misslyckades"
+#~ msgid "Go back to the checkout"
+#~ msgstr "Tillbaks till kassan"
+#~ msgid "Note: charged only once per product regardless of quantity ordered."
+#~ msgstr ""
+#~ "Notering: Summa som tas en g&aring;ng per order, oavsett hur mycket eller "
+#~ "lita man best&auml;ller."
+#~ msgid ""
+#~ "(select which form field on the checkout page you want to use for "
+#~ "specifying the country)"
+#~ msgstr ""
+#~ "(select which form field on the checkout page you want to use for "
+#~ "specifying the country)"
+#~ msgid "Email Form Field"
+#~ msgstr "Epostforul&auml;rets f&auml;lt"
+#~ msgid ""
+#~ "(select which form field on the checkout page you want to use for "
+#~ "specifying the email address)"
+#~ msgstr ""
+#~ "(V&auml;lj vilket f&auml;lt du vill anv&auml;nda f&ouml;r e-postadressen "
+#~ "p&aring; kassasidan.)"
+#~ msgid "Add Additional Image"
+#~ msgstr "L&auml;gg till ytterligare bild"
+#~ msgid "Gold Cart Activation"
+#~ msgstr "Activation Settings"
+#~ msgid "Sorry, the API key was incorrect."
+#~ msgstr "Ledsen, API-nyckeln var inte korrekt."
+#~ msgid "Additional Image"
+#~ msgstr "Ytterligare bild"
+#~ msgid "Confirm your totals before making the payment:"
+#~ msgstr "Bekr&auml;fta summan innan du klickar dig vidare:"
+#~ msgid ""
+#~ "Choose what payment options you want to make available in the checkout "
+#~ "page. By default purchasers can only pay for items using a credit card "
+#~ "however you may wish to also let them pay manually in which case you "
+#~ "should select the credit card + manual payment option."
+#~ msgstr ""
+#~ "V&auml;lj vilka betalningsinsm&ouml;jligheter du vill m&ouml;jligg&ouml;"
+#~ "ra f&ouml;r kunden i kassan. F&ouml;rinst&auml;llningen &auml;r att "
+#~ "kunder endast kan handla varor med kreditkort. Du kanske &auml;ven vill "
+#~ "l&aring;ta dem betala manuellt. Is&aring;fall v&auml;ljer du inst&auml;"
+#~ "llningen Kreditkort plus manuell betalning."
+#~ msgid " only"
+#~ msgstr " endast"
+#~ msgid " plus manual payment option"
+#~ msgstr " plus manuell betalning"
+#~ msgid "Pay using"
+#~ msgstr "Betalning:"
+#~ msgid "Pay by Cheque/Bank Deposit"
+#~ msgstr "Betala med Check/ Bank&ouml;verf&ouml;ring"
+#~ msgid "Credit Card"
+#~ msgstr "Kreditkort"
+#~ msgid "Created default options."
+#~ msgstr "Created default options."
+#~ msgid "MP3 Settings"
+#~ msgstr "MP3 inst&auml;&auml;llning"
+#~ msgid ""
+#~ "To create the 30 second MP3 file clips, this plugin needs <a href="
+#~ "\"http://sox.sourceforge.net/\">SoX</a> compiled with MP3 support, enter "
+#~ "the path to SoX here."
+#~ msgstr ""
+#~ "F&ouml;r att kunna skapa 30sekundersklipp beh&ouml;vs f&ouml;ljande "
+#~ "MP3kompilerade plugin <a href=\"http://sox.sourceforge.net/\">SoX</a>. "
+#~ "Skriv in v&auml;gen till SoX h&auml;r."
+

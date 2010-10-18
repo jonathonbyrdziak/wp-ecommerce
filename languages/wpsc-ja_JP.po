@@ -1,0 +1,3850 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-11-27 20:21+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: wp-e-commerce/admin-form-functions.php:10
+msgid "You are editing the &quot;[categorisation]&quot; Group"
+msgstr "[categorisation]グループを編集"
+
+#: wp-e-commerce/admin-form-functions.php:11
+msgid "+ Add new category to the &quot;[categorisation]&quot; Group"
+msgstr "新しいグループを追加"
+
+#: wp-e-commerce/admin-form-functions.php:25
+#: wp-e-commerce/admin-form-functions.php:239
+#: wp-e-commerce/admin-form-functions.php:720
+#: wp-e-commerce/admin-form-functions.php:759
+#: wp-e-commerce/display-ecommerce-subs.php:9
+msgid "Name"
+msgstr "名前"
+
+#: wp-e-commerce/admin-form-functions.php:34
+msgid "Description"
+msgstr "説明"
+
+#: wp-e-commerce/admin-form-functions.php:44
+msgid "Group Parent"
+msgstr "親グループ"
+
+#: wp-e-commerce/admin-form-functions.php:85
+msgid "Group&nbsp;Image"
+msgstr "グループイメージ"
+
+#: wp-e-commerce/admin-form-functions.php:101
+#: wp-e-commerce/admin-form-functions.php:110
+#: wp-e-commerce/admin-form-functions.php:198
+msgid "Height"
+msgstr "高さ"
+
+#: wp-e-commerce/admin-form-functions.php:101
+#: wp-e-commerce/admin-form-functions.php:110
+#: wp-e-commerce/admin-form-functions.php:199
+msgid "Width"
+msgstr "幅"
+
+#: wp-e-commerce/admin-form-functions.php:102
+#: wp-e-commerce/admin-form-functions.php:111
+msgid "You can upload thumbnail images for each group. To display Group details in your shop you must configure these settings under <a href=\"admin.php?page=wpsc-settings&tab=presentation\">Presentation Settings</a>."
+msgstr "グループ毎にサムネールをアップロードできます。<br>グループの詳細を表示するには <a href=\"admin.php?page=WPSC_DIR_NAME/options.php#options_presentation\">画面表示設定</a> を使います"
+
+#: wp-e-commerce/admin-form-functions.php:119
+#, fuzzy
+msgid "Delete Image"
+msgstr "イメージを置換"
+
+#: wp-e-commerce/admin-form-functions.php:133
+msgid "Target Markets"
+msgstr "ターゲットマーケット"
+
+#: wp-e-commerce/admin-form-functions.php:138
+msgid ""
+"The Target Markets feature has been disabled because you have the Suhosin PHP extension installed on this server. If you need to use the Target Markets feature then disable the suhosin extension, if you can not do this, you will need to contact your hosting provider.\n"
+"\t\t\t"
+msgstr ""
+
+#: wp-e-commerce/admin-form-functions.php:164
+#, fuzzy
+msgid "Presentation Settings"
+msgstr "ページネーション設定"
+
+#: wp-e-commerce/admin-form-functions.php:165
+msgid "To over-ride the presentation settings for this group you can enter in your prefered settings here"
+msgstr "以下のパラメータを指定してこのグループの画面上の表示方法を変更できます"
+
+#: wp-e-commerce/admin-form-functions.php:171
+msgid "Catalog View"
+msgstr "カタログの表示形式"
+
+#: wp-e-commerce/admin-form-functions.php:175
+#, fuzzy
+msgid "Please select"
+msgstr "選択してください"
+
+#: wp-e-commerce/admin-form-functions.php:176
+msgid "Default View"
+msgstr "既定のビュー"
+
+#: wp-e-commerce/admin-form-functions.php:178
+#: wp-e-commerce/admin-form-functions.php:180
+msgid "List View"
+msgstr "リストビュー"
+
+#: wp-e-commerce/admin-form-functions.php:183
+#: wp-e-commerce/admin-form-functions.php:185
+msgid "Grid View"
+msgstr "グリッド形式"
+
+#: wp-e-commerce/admin-form-functions.php:195
+msgid "Thumbnail&nbsp;Size"
+msgstr "表示サイズ"
+
+#: wp-e-commerce/admin-form-functions.php:207
+msgid "This category requires additional checkout form fields"
+msgstr ""
+
+#: wp-e-commerce/admin-form-functions.php:210
+#: wp-e-commerce/display-coupons.php:433
+#: wp-e-commerce/display-coupons.php:457
+msgid "Yes"
+msgstr "はい"
+
+#: wp-e-commerce/admin-form-functions.php:211
+#: wp-e-commerce/display-coupons.php:434
+#: wp-e-commerce/display-coupons.php:458
+msgid "No"
+msgstr "いいえ"
+
+#: wp-e-commerce/admin-form-functions.php:221
+#, fuzzy
+msgid "Edit Group"
+msgstr "このグループを編集"
+
+#: wp-e-commerce/admin-form-functions.php:222
+#: wp-e-commerce/admin-form-functions.php:260
+#: wp-e-commerce/admin-form-functions.php:279
+#: wp-e-commerce/admin-form-functions.php:387
+#, fuzzy
+msgid "Delete"
+msgstr "日付"
+
+#: wp-e-commerce/admin-form-functions.php:248
+msgid "Variation Values"
+msgstr "バリエーション値"
+
+#: wp-e-commerce/admin-form-functions.php:267
+#: wp-e-commerce/display-coupons.php:126
+msgid "Add"
+msgstr "追加"
+
+#: wp-e-commerce/admin-form-functions.php:278
+#: wp-e-commerce/display-coupons.php:321
+#: wp-e-commerce/display-coupons.php:381
+msgid "Edit"
+msgstr "編集"
+
+#: wp-e-commerce/admin-form-functions.php:300
+#: wp-e-commerce/display-coupons.php:141
+#: wp-e-commerce/display-coupons.php:297
+msgid "Coupon Code"
+msgstr "クーポンコード"
+
+#: wp-e-commerce/admin-form-functions.php:301
+#: wp-e-commerce/display-coupons.php:144
+#: wp-e-commerce/display-coupons.php:301
+msgid "Discount"
+msgstr ""
+
+#: wp-e-commerce/admin-form-functions.php:302
+#: wp-e-commerce/display-coupons.php:147
+#: wp-e-commerce/display-coupons.php:305
+msgid "Start"
+msgstr "開始"
+
+#: wp-e-commerce/admin-form-functions.php:303
+#: wp-e-commerce/display-coupons.php:150
+#: wp-e-commerce/display-coupons.php:309
+msgid "Expiry"
+msgstr "終了"
+
+#: wp-e-commerce/admin-form-functions.php:304
+#: wp-e-commerce/display-coupons.php:153
+msgid "Use Once"
+msgstr "Use Once"
+
+#: wp-e-commerce/admin-form-functions.php:305
+#: wp-e-commerce/display-coupons.php:156
+#: wp-e-commerce/display-coupons.php:313
+msgid "Active"
+msgstr "有効"
+
+#: wp-e-commerce/admin-form-functions.php:306
+#: wp-e-commerce/display-coupons.php:160
+#: wp-e-commerce/display-coupons.php:253
+#: wp-e-commerce/display-coupons.php:317
+msgid "Apply On All Products"
+msgstr "すべての商品に適用"
+
+#: wp-e-commerce/admin-form-functions.php:386
+#: wp-e-commerce/display-coupons.php:480
+msgid "Submit"
+msgstr "送信"
+
+#: wp-e-commerce/admin-form-functions.php:520
+#, fuzzy
+msgid "Settings"
+msgstr "URL設定"
+
+#: wp-e-commerce/admin-form-functions.php:524
+#, fuzzy
+msgid "Shop Settings"
+msgstr "ShipWire設定"
+
+#: wp-e-commerce/admin-form-functions.php:525
+msgid "Money and Payment"
+msgstr "Money and Payment"
+
+#: wp-e-commerce/admin-form-functions.php:526
+msgid "Checkout Page Settings"
+msgstr "チェックアウトページの設定"
+
+#: wp-e-commerce/admin-form-functions.php:545
+#: wp-e-commerce/admin-form-functions.php:546
+#, fuzzy
+msgid "product"
+msgstr "商品"
+
+#: wp-e-commerce/admin-form-functions.php:545
+#: wp-e-commerce/admin-form-functions.php:546
+#, fuzzy
+msgid "products"
+msgstr "商品"
+
+#: wp-e-commerce/admin-form-functions.php:550
+#: wp-e-commerce/admin-form-functions.php:551
+msgid "group"
+msgstr ""
+
+#: wp-e-commerce/admin-form-functions.php:550
+#: wp-e-commerce/admin-form-functions.php:551
+msgid "groups"
+msgstr ""
+
+#: wp-e-commerce/admin-form-functions.php:555
+#: wp-e-commerce/admin-form-functions.php:556
+#, fuzzy
+msgid "sale"
+msgstr "販売"
+
+#: wp-e-commerce/admin-form-functions.php:555
+#: wp-e-commerce/admin-form-functions.php:556
+msgid "sales"
+msgstr "販売"
+
+#: wp-e-commerce/admin-form-functions.php:562
+#, fuzzy
+msgid "variation"
+msgstr "バリエーション"
+
+#: wp-e-commerce/admin-form-functions.php:562
+#, fuzzy
+msgid "variations"
+msgstr "バリエーション"
+
+#: wp-e-commerce/admin-form-functions.php:566
+#: wp-e-commerce/admin-form-functions.php:567
+#: wp-e-commerce/admin-form-functions.php:570
+#, fuzzy
+msgid "transaction"
+msgstr "トランザクション"
+
+#: wp-e-commerce/admin-form-functions.php:566
+#: wp-e-commerce/admin-form-functions.php:567
+#: wp-e-commerce/admin-form-functions.php:570
+msgid "transactions"
+msgstr "トランザクション"
+
+#: wp-e-commerce/admin-form-functions.php:580
+msgid "Current Month"
+msgstr "今月"
+
+#: wp-e-commerce/admin-form-functions.php:585
+msgid "At a Glance"
+msgstr ""
+
+#: wp-e-commerce/admin-form-functions.php:615
+msgid "Pending"
+msgstr "仕掛"
+
+#: wp-e-commerce/admin-form-functions.php:630
+msgid "Closed"
+msgstr "完了"
+
+#: wp-e-commerce/admin-form-functions.php:638
+#: wp-e-commerce/admin-form-functions.php:646
+msgid "Add New Product"
+msgstr "新商品を追加"
+
+#: wp-e-commerce/admin-form-functions.php:638
+msgid "Here you can add products, groups or variations"
+msgstr "ここで新商品・グループ・バリエーションを追加します"
+
+#: wp-e-commerce/admin-form-functions.php:647
+msgid "Right Now"
+msgstr ""
+
+#: wp-e-commerce/admin-form-functions.php:652
+msgid "You have <a href=\"admin.php?page=wpsc-edit-products\">:productcount:</a>, contained within <a href=\"admin.php?page=wpsc-edit-groups\">:groupcount:</a>. This month you made :salecount: and generated a total of :monthtotal: and your total sales ever is :overaltotal:. You have :pendingcount: awaiting approval."
+msgstr "You have <a href=\"admin.php?page=WPSC_DIR_NAME/display-items.php\">:productcount:</a>, contained within <a href=\"admin.php?page=WPSC_DIR_NAME/display-category.php\">:groupcount:</a>. This month you made :salecount: and generated a total of :monthtotal: and your total sales ever is :overaltotal:. You have :pendingcount: awaiting approval."
+
+#: wp-e-commerce/admin-form-functions.php:654
+msgid "You are using the :theme: style. This is WP e-Commerce :versionnumber:."
+msgstr "You are using the :theme: style. This is WP e-Commerce :versionnumber:."
+
+#: wp-e-commerce/admin-form-functions.php:681
+msgid "Packing Slip"
+msgstr "出荷伝票"
+
+#: wp-e-commerce/admin-form-functions.php:682
+msgid "Order"
+msgstr "表示順"
+
+#: wp-e-commerce/admin-form-functions.php:701
+#: wp-e-commerce/install_and_update.php:660
+msgid "State"
+msgstr "都道府県"
+
+#: wp-e-commerce/admin-form-functions.php:721
+#: wp-e-commerce/install_and_update.php:650
+#: wp-e-commerce/install_and_update.php:658
+msgid "Address"
+msgstr "住所"
+
+#: wp-e-commerce/admin-form-functions.php:722
+#: wp-e-commerce/edit-profile.php:52
+#: wp-e-commerce/install_and_update.php:667
+msgid "Phone"
+msgstr "電話"
+
+#: wp-e-commerce/admin-form-functions.php:723
+#: wp-e-commerce/display-ecommerce-subs.php:9
+#: wp-e-commerce/edit-profile.php:39
+#: wp-e-commerce/install_and_update.php:654
+msgid "Email"
+msgstr "メール"
+
+#: wp-e-commerce/admin-form-functions.php:757
+#, fuzzy
+msgid "Quantity"
+msgstr "商品の数量"
+
+#: wp-e-commerce/admin-form-functions.php:762
+msgid "Price"
+msgstr "価格"
+
+#: wp-e-commerce/admin-form-functions.php:764
+#, fuzzy
+msgid "Shipping"
+msgstr "配送業者を利用"
+
+#: wp-e-commerce/admin-form-functions.php:859
+msgid "This users cart was empty"
+msgstr "このユーザーのカートは空です"
+
+#: wp-e-commerce/display-coupons.php:27
+msgid "Thanks, the coupon has been added."
+msgstr "クーポンが追加されました"
+
+#: wp-e-commerce/display-coupons.php:122
+#, fuzzy
+msgid "Coupons"
+msgstr "クーポン"
+
+#: wp-e-commerce/display-coupons.php:126
+#, fuzzy
+msgid "Add Coupon"
+msgstr "クーポン"
+
+#: wp-e-commerce/display-coupons.php:397
+msgid "<strong>Note:</strong> Due to a current limitation of PayPal, if your user makes a purchase and uses a coupon, we can not send a list of items through to paypal for processing. Rather, we must send the total amount of the purchase, so that within PayPal the user who purchases a product will see your shop name and the total amount of their purchase."
+msgstr "<strong>注意:</strong> PayPalの制限により、クーポンを利用した場合は明細情報を送付できません。そのため、合計金額のみの表示となることをご承知置きください。"
+
+#: wp-e-commerce/display-coupons.php:409
+#, fuzzy
+msgid "Marketing Settings"
+msgstr "重量の設定"
+
+#: wp-e-commerce/display-coupons.php:416
+msgid "Display Cross Sales"
+msgstr "クロスセルを表示"
+
+#: wp-e-commerce/display-coupons.php:440
+msgid "Show Share This (Social Bookmarks)"
+msgstr "Share Thisを表示 (ソーシャルブックマーク)"
+
+#: wp-e-commerce/display-coupons.php:463
+msgid "Display How Customer Found Us Survey"
+msgstr "当店をどこでお知りになりましたか?－を表示"
+
+#: wp-e-commerce/display-coupons.php:486
+msgid "RSS Address"
+msgstr "RSSアドレス"
+
+#: wp-e-commerce/display-coupons.php:490
+msgid "<strong>Note:</strong> Not only can people use this RSS to keep update with your product list but you can also use this link to promote your products in your facebook profile. <br />Just add the <a href=\"http://apps.facebook.com/getshopped\">getshopped! facebook application</a> to your facebook profile and follow the instructions."
+msgstr "<strong>注意:</strong>このRSSを利用すれば、商品リストの更新を通知できるだけでなく、facebookのプロファイルで商品のプロモートも可能です。<br>facebookのプロファイルに <a href=\"http://apps.facebook.com/getshopped\">getshopped! facebook application</a> を追加して、指示に従ってください。"
+
+#: wp-e-commerce/display-coupons.php:504
+msgid "Google Base"
+msgstr "Googleアカウント"
+
+#: wp-e-commerce/display-coupons.php:507
+msgid "Your site has been granted access to google base.<br /> All future products will be submitted to google base.<br />"
+msgstr ""
+
+#: wp-e-commerce/display-coupons.php:508
+#, fuzzy
+msgid "Click here to remove access"
+msgstr "評価するにはスターをクリックしてください"
+
+#: wp-e-commerce/display-coupons.php:513
+msgid "Grant Access"
+msgstr "アクセスを許可"
+
+#: wp-e-commerce/display-ecommerce-subs.php:9
+msgid "User ID"
+msgstr "ユーザーID"
+
+#: wp-e-commerce/display-ecommerce-subs.php:9
+msgid "Registered Date"
+msgstr "登録日"
+
+#: wp-e-commerce/display-ecommerce-subs.php:9
+msgid "Suspend"
+msgstr "保留"
+
+#: wp-e-commerce/display-ecommerce-subs.php:9
+msgid "Activate"
+msgstr "有効化"
+
+#: wp-e-commerce/edit-profile.php:31
+#: wp-e-commerce/install_and_update.php:648
+#: wp-e-commerce/install_and_update.php:656
+#, fuzzy
+msgid "First Name"
+msgstr "ファイル名"
+
+#: wp-e-commerce/edit-profile.php:32
+msgid "Please enter a valid name"
+msgstr "正しい名を入力してください"
+
+#: wp-e-commerce/edit-profile.php:35
+#: wp-e-commerce/install_and_update.php:649
+#: wp-e-commerce/install_and_update.php:657
+#, fuzzy
+msgid "Last Name"
+msgstr "配送先－姓"
+
+#: wp-e-commerce/edit-profile.php:36
+msgid "Please enter a valid surname"
+msgstr "正しい姓を入力してください"
+
+#: wp-e-commerce/edit-profile.php:40
+msgid "Please enter a valid email address"
+msgstr "正しいメールアドレスを入力してください"
+
+#: wp-e-commerce/edit-profile.php:43
+msgid "Address 1"
+msgstr "住所1"
+
+#: wp-e-commerce/edit-profile.php:44
+msgid "Address 2"
+msgstr "住所2"
+
+#: wp-e-commerce/edit-profile.php:45
+msgid "Please enter a valid address"
+msgstr "正しい住所を入力してください"
+
+#: wp-e-commerce/edit-profile.php:48
+#: wp-e-commerce/install_and_update.php:651
+#: wp-e-commerce/install_and_update.php:659
+msgid "City"
+msgstr "市町村"
+
+#: wp-e-commerce/edit-profile.php:49
+msgid "Please enter your town or city."
+msgstr "市町村を入力してください"
+
+#: wp-e-commerce/edit-profile.php:53
+msgid "Please enter a valid phone number"
+msgstr "正しい電話番号を入力してください"
+
+#: wp-e-commerce/edit-profile.php:56
+#: wp-e-commerce/install_and_update.php:652
+#: wp-e-commerce/install_and_update.php:661
+msgid "Country"
+msgstr "国"
+
+#: wp-e-commerce/edit-profile.php:57
+msgid "Please select your country from the list."
+msgstr "国を選択してください"
+
+#: wp-e-commerce/edit-profile.php:61
+msgid "Please enter a valid"
+msgstr "Please enter a valid"
+
+#: wp-e-commerce/edit-profile.php:84
+msgid "Thanks, your changes have been saved."
+msgstr "変更が保存されました"
+
+#: wp-e-commerce/edit-profile.php:188
+msgid "Save Profile"
+msgstr "プロファイルを保存"
+
+#: wp-e-commerce/editor.php:49
+msgid "placeholder for:"
+msgstr ""
+
+#: wp-e-commerce/editor.php:144
+#, fuzzy
+msgid "Your forms:"
+msgstr "検索条件"
+
+#: wp-e-commerce/editor.php:146
+#: wp-e-commerce/insertcate.php:87
+msgid "Insert"
+msgstr ""
+
+#: wp-e-commerce/editor.php:147
+#: wp-e-commerce/insertcate.php:90
+msgid "Cancel"
+msgstr ""
+
+#: wp-e-commerce/google_shipping_country.php:7
+msgid "Google Shipping Country"
+msgstr "Google Shipping Country"
+
+#: wp-e-commerce/google_shipping_country.php:43
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: wp-e-commerce/homepage_products_functions.php:85
+msgid "Product Donations"
+msgstr "寄付"
+
+#: wp-e-commerce/homepage_products_functions.php:157
+msgid "More Details"
+msgstr "さらに詳しく"
+
+#: wp-e-commerce/homepage_products_functions.php:189
+msgid "Add To Cart"
+msgstr "カートに追加"
+
+#: wp-e-commerce/homepage_products_functions.php:205
+msgid "Avg. Customer Rating"
+msgstr "顧客の評価平均"
+
+#: wp-e-commerce/homepage_products_functions.php:212
+msgid "Your Rating"
+msgstr "あなたの評価"
+
+#: wp-e-commerce/homepage_products_functions.php:213
+#: wp-e-commerce/homepage_products_functions.php:217
+msgid "Saved"
+msgstr "保存されました"
+
+#: wp-e-commerce/homepage_products_functions.php:216
+msgid "Rate This item"
+msgstr "このアイテムを評価"
+
+#: wp-e-commerce/insertcate.php:67
+#, fuzzy
+msgid "Pick a Category"
+msgstr "カテゴリー"
+
+#: wp-e-commerce/insertcate.php:74
+#, fuzzy
+msgid "Your Categories:"
+msgstr "カテゴリー/ブランドを表示"
+
+#: wp-e-commerce/install_and_update.php:60
+msgid "Example category"
+msgstr "サンプルカテゴリー"
+
+#: wp-e-commerce/install_and_update.php:60
+#: wp-e-commerce/install_and_update.php:61
+msgid "Example details"
+msgstr "サンプル詳細"
+
+#: wp-e-commerce/install_and_update.php:61
+msgid "Example Brand"
+msgstr "サンプルブランド"
+
+#: wp-e-commerce/install_and_update.php:68
+msgid "Order Received"
+msgstr "受信"
+
+#: wp-e-commerce/install_and_update.php:69
+msgid "Accepted Payment"
+msgstr "受諾済み支払"
+
+#: wp-e-commerce/install_and_update.php:70
+msgid "Job Dispatched"
+msgstr "送信ジョブ"
+
+#: wp-e-commerce/install_and_update.php:71
+msgid "Closed Order"
+msgstr "完了オーダー"
+
+#: wp-e-commerce/install_and_update.php:87
+msgid "Show Thumbnails"
+msgstr "サムネールを表示"
+
+#: wp-e-commerce/install_and_update.php:89
+msgid "product image width"
+msgstr "商品イメージ(w)"
+
+#: wp-e-commerce/install_and_update.php:90
+msgid "product image height"
+msgstr "商品イメージ(h)"
+
+#: wp-e-commerce/install_and_update.php:92
+msgid "product group image width"
+msgstr "グループイメージ(w)"
+
+#: wp-e-commerce/install_and_update.php:93
+msgid "product group image height"
+msgstr "グループイメージ(h)"
+
+#: wp-e-commerce/install_and_update.php:95
+msgid "The location of the product list"
+msgstr "商品リストURL"
+
+#: wp-e-commerce/install_and_update.php:96
+msgid "The location of the shopping cart"
+msgstr "ショッピングカートURL"
+
+#: wp-e-commerce/install_and_update.php:97
+msgid "The location of the checkout page"
+msgstr "チェックアウトURL"
+
+#: wp-e-commerce/install_and_update.php:98
+#, fuzzy
+msgid "The location of the transaction detail page"
+msgstr "チェックアウトURL"
+
+#: wp-e-commerce/install_and_update.php:99
+msgid "The payment gateway to use"
+msgstr "利用ペイペントゲートウェイ"
+
+#: wp-e-commerce/install_and_update.php:101
+#: wp-e-commerce/install_and_update.php:103
+#: wp-e-commerce/install_and_update.php:107
+#: wp-e-commerce/install_and_update.php:109
+msgid "Cart Location"
+msgstr "カートの表示位置"
+
+#: wp-e-commerce/install_and_update.php:114
+msgid "Currency type"
+msgstr "通貨タイプ"
+
+#: wp-e-commerce/install_and_update.php:115
+msgid "Currency sign location"
+msgstr "通貨シンボルの位置"
+
+#: wp-e-commerce/install_and_update.php:117
+msgid "the GST rate"
+msgstr "GSTレート"
+
+#: wp-e-commerce/install_and_update.php:119
+msgid "the download limit"
+msgstr "ダウンロード制限値"
+
+#: wp-e-commerce/install_and_update.php:121
+msgid "Display or hide postage and packaging"
+msgstr "Display or hide postage and packaging"
+
+#: wp-e-commerce/install_and_update.php:123
+msgid "Display or hide specials on the sidebar"
+msgstr "Display or hide specials on the sidebar"
+
+#: wp-e-commerce/install_and_update.php:126
+msgid "Default postage and packaging"
+msgstr "Default postage and packaging"
+
+#: wp-e-commerce/install_and_update.php:128
+msgid "Email address that purchase log is sent to"
+msgstr "購入ログの送信先メールアドレス"
+
+#: wp-e-commerce/install_and_update.php:129
+msgid "Email address that purchase reports are sent from"
+msgstr "購入ログの送信元メールアドレス"
+
+#: wp-e-commerce/install_and_update.php:130
+msgid "Checkout terms and conditions"
+msgstr "利用条件をチェックアウト"
+
+#: wp-e-commerce/install_and_update.php:132
+msgid "Google Merchant Key"
+msgstr "Google Merchant Key"
+
+#: wp-e-commerce/install_and_update.php:133
+msgid "Google Merchant ID"
+msgstr "Google Merchant ID"
+
+#: wp-e-commerce/install_and_update.php:135
+msgid "Default Brand"
+msgstr "既定のブランド"
+
+#: wp-e-commerce/install_and_update.php:136
+msgid "Select what product group you want to display on the products page"
+msgstr "既定のカテゴリー"
+
+#: wp-e-commerce/install_and_update.php:149
+#: wp-e-commerce/install_and_update.php:155
+msgid "paypal business"
+msgstr "Paypal Business"
+
+#: wp-e-commerce/install_and_update.php:150
+#: wp-e-commerce/install_and_update.php:151
+#: wp-e-commerce/install_and_update.php:158
+msgid "paypal url"
+msgstr "Paypal URL"
+
+#: wp-e-commerce/install_and_update.php:162
+msgid "Show Product Ratings"
+msgstr "商品の評価を表示"
+
+#: wp-e-commerce/install_and_update.php:163
+#, fuzzy
+msgid "Thank you for purchasing with %shop_name%, any items to be shipped will be processed as soon as possible, any items that can be downloaded can be downloaded using the links on this page.All prices include tax and postage and packaging where applicable.You ordered these items:%product_list%%total_shipping%%total_price%"
+msgstr "%shop_name%をご利用いただきありがとうございました"
+
+#: wp-e-commerce/install_and_update.php:164
+msgid "%product_list%%total_shipping%%total_price%"
+msgstr ""
+
+#: wp-e-commerce/install_and_update.php:207
+msgid "Products Page"
+msgstr "商品ページ"
+
+#: wp-e-commerce/install_and_update.php:213
+msgid "Checkout"
+msgstr "チェックアウト"
+
+#: wp-e-commerce/install_and_update.php:225
+msgid "Transaction Results"
+msgstr "取引結果"
+
+#: wp-e-commerce/install_and_update.php:231
+msgid "Your Account"
+msgstr "あなたのアカウント"
+
+#: wp-e-commerce/install_and_update.php:647
+msgid "1. Your billing/contact details"
+msgstr "1. お客様の連絡先･請求先"
+
+#: wp-e-commerce/install_and_update.php:653
+#: wp-e-commerce/install_and_update.php:662
+msgid "Postal Code"
+msgstr "郵便番号"
+
+#: wp-e-commerce/install_and_update.php:655
+msgid "2. Shipping details"
+msgstr "2. 送付先が異なる場合"
+
+#: wp-e-commerce/share-this.php:430
+msgid "E-mail this, post to del.icio.us, etc."
+msgstr ""
+
+#: wp-e-commerce/share-this.php:483
+#, fuzzy
+msgid "Close"
+msgstr "完了"
+
+#: wp-e-commerce/share-this.php:485
+#: wp-e-commerce/share-this.php:836
+#, fuzzy
+msgid "Social Web"
+msgstr "特別価格"
+
+#: wp-e-commerce/share-this.php:486
+#: wp-e-commerce/share-this.php:861
+#, fuzzy
+msgid "E-mail"
+msgstr "メール"
+
+#: wp-e-commerce/share-this.php:502
+#: wp-e-commerce/share-this.php:865
+#, fuzzy
+msgid "E-mail It"
+msgstr "Email Sent"
+
+#: wp-e-commerce/share-this.php:505
+#: wp-e-commerce/share-this.php:868
+#, fuzzy
+msgid "To Address:"
+msgstr "住所"
+
+#: wp-e-commerce/share-this.php:509
+#: wp-e-commerce/share-this.php:872
+#, fuzzy
+msgid "Your Name:"
+msgstr "名前がありません"
+
+#: wp-e-commerce/share-this.php:513
+#: wp-e-commerce/share-this.php:876
+#, fuzzy
+msgid "Your Address:"
+msgstr "住所"
+
+#: wp-e-commerce/share-this.php:517
+#: wp-e-commerce/share-this.php:880
+#, fuzzy
+msgid "Send It"
+msgstr "SMS送信"
+
+#: wp-e-commerce/share-this.php:599
+msgid "Click your <strong>back button</strong> and make sure those e-mail addresses are valid then try again."
+msgstr ""
+
+#: wp-e-commerce/share-this.php:609
+#, fuzzy
+msgid "Check out this product on "
+msgstr "チェックアウトオプション"
+
+#: wp-e-commerce/share-this.php:614
+#: wp-e-commerce/share-this.php:634
+msgid "Greetings--"
+msgstr ""
+
+#: wp-e-commerce/share-this.php:615
+#: wp-e-commerce/share-this.php:635
+msgid " thinks this will be of interest to you:"
+msgstr ""
+
+#: wp-e-commerce/share-this.php:628
+#: wp-e-commerce/share-this.php:638
+msgid "Enjoy."
+msgstr ""
+
+#: wp-e-commerce/share-this.php:696
+msgid "Share This : "
+msgstr ""
+
+#: wp-e-commerce/share-this.php:832
+#, php-format
+msgid "<strong>What is this?</strong> From this page you can use the <em>Social Web</em> links to save %s to a social bookmarking site, or the <em>E-mail</em> form to send a link via e-mail."
+msgstr ""
+
+#: wp-e-commerce/share-this.php:903
+#, fuzzy
+msgid "Posted in: "
+msgstr "位置"
+
+#: wp-e-commerce/share-this.php:906
+msgid "Return to:"
+msgstr ""
+
+#: wp-e-commerce/share-this.php:911
+msgid "Powered by <a href=\"http://alexking.org/projects/wordpress\">Share This</a>"
+msgstr ""
+
+#: wp-e-commerce/shopping_cart_functions.php:36
+#: wp-e-commerce/shopping_cart_functions.php:44
+#: wp-e-commerce/shopping_cart_functions.php:54
+#, fuzzy
+msgid "Shopping Cart"
+msgstr "ショッピングカート設定"
+
+#: wp-e-commerce/tagging_functions.php:79
+#, php-format
+msgid "%d topics"
+msgstr ""
+
+#: wp-e-commerce/tax_and_shipping.php:34
+msgid "GST/Tax Rate"
+msgstr "GST/消費税率"
+
+#: wp-e-commerce/transaction_results.php:39
+msgid "Sorry your transaction was not accepted.<br /><a href="
+msgstr ""
+
+#: wp-e-commerce/transaction_result_functions.php:34
+#, fuzzy
+msgid "We&#39;re Sorry, your order has not been accepted, the most likely reason is that you have insufficient funds."
+msgstr "申し訳ございません。ご注文を処理できませんでした。クレジットカードの与信枠をご確認いただけますようお願いいたします。"
+
+#: wp-e-commerce/transaction_result_functions.php:36
+msgid "New pending order"
+msgstr "新規ペンディングオーダー"
+
+#: wp-e-commerce/transaction_result_functions.php:36
+#, fuzzy
+msgid "There is a new order awaiting processing:"
+msgstr "処理待ちの新しい注文があります"
+
+#: wp-e-commerce/transaction_result_functions.php:40
+#: wp-e-commerce/transaction_result_functions.php:249
+msgid "Thank you, your purchase is pending, you will be sent an email once the order clears."
+msgstr "ご注文ありがとうございました。あなたのオーダーは現在処理中です。ご注文が確定次第、メールを差し上げます。"
+
+#: wp-e-commerce/transaction_result_functions.php:158
+#: wp-e-commerce/transaction_result_functions.php:159
+msgid "Click to download"
+msgstr "クリックしてダウンロード"
+
+#: wp-e-commerce/transaction_result_functions.php:205
+#: wp-e-commerce/transaction_result_functions.php:212
+#: wp-e-commerce/user-log.php:317
+msgid "Total Shipping"
+msgstr "配送料計"
+
+#: wp-e-commerce/transaction_result_functions.php:206
+#: wp-e-commerce/transaction_result_functions.php:213
+#: wp-e-commerce/user-log.php:220
+msgid "Total"
+msgstr "合計"
+
+#: wp-e-commerce/transaction_result_functions.php:215
+#: wp-e-commerce/transaction_result_functions.php:216
+msgid "Your Transaction ID"
+msgstr "あなたのトランザクションID"
+
+#: wp-e-commerce/transaction_result_functions.php:217
+msgid "Transaction ID"
+msgstr "トランザクションID"
+
+#: wp-e-commerce/transaction_result_functions.php:250
+msgid "Order Pending: Payment Required"
+msgstr "ペンディング: 支払いが必要"
+
+#: wp-e-commerce/transaction_result_functions.php:252
+msgid "Purchase Receipt"
+msgstr "レシート"
+
+#: wp-e-commerce/transaction_result_functions.php:257
+#: wp-e-commerce/user-log.php:336
+msgid "Customer Details"
+msgstr "顧客の詳細"
+
+#: wp-e-commerce/transaction_result_functions.php:273
+msgid "Delivery State"
+msgstr "配送先－都道府県"
+
+#: wp-e-commerce/transaction_result_functions.php:292
+msgid "Purchase Report"
+msgstr "購入レポート"
+
+#: wp-e-commerce/transaction_result_functions.php:308
+msgid "The Transaction was successful"
+msgstr "トランザクションは成功しました"
+
+#: wp-e-commerce/transaction_result_functions.php:316
+msgid "Oops, there is nothing in your cart."
+msgstr ""
+
+#: wp-e-commerce/transaction_result_functions.php:316
+msgid "Please visit our shop"
+msgstr ""
+
+#: wp-e-commerce/user-downloads.php:41
+msgid "File Names"
+msgstr "ファイル名"
+
+#: wp-e-commerce/user-downloads.php:42
+msgid "Downloads Left"
+msgstr "残りダウンロード回数"
+
+#: wp-e-commerce/user-downloads.php:43
+#: wp-e-commerce/user-log.php:56
+msgid "Date"
+msgstr "日付"
+
+#: wp-e-commerce/user-downloads.php:69
+msgid "You have not purchased any downloadable products yet."
+msgstr "ダウンロード商品を購入していません."
+
+#: wp-e-commerce/user-log.php:52
+msgid "Status"
+msgstr "ステータス"
+
+#: wp-e-commerce/user-log.php:65
+#: wp-e-commerce/user-log.php:383
+msgid "Payment Method"
+msgstr "支払い手段"
+
+#: wp-e-commerce/user-log.php:94
+msgid "Details"
+msgstr "詳細"
+
+#: wp-e-commerce/user-log.php:147
+msgid "Order Status"
+msgstr "注文ステータス"
+
+#: wp-e-commerce/user-log.php:169
+msgid "Shipping Details"
+msgstr "追加配送料"
+
+#: wp-e-commerce/user-log.php:188
+msgid "Order Details"
+msgstr "注文の詳細"
+
+#: wp-e-commerce/user-log.php:212
+msgid "GST"
+msgstr "GST"
+
+#: wp-e-commerce/user-log.php:216
+msgid "P&amp;P"
+msgstr ""
+
+#: wp-e-commerce/user-log.php:318
+msgid "Final Total"
+msgstr "総合計"
+
+#: wp-e-commerce/user-log.php:384
+msgid "Purchase No."
+msgstr "購入No."
+
+#: wp-e-commerce/user-log.php:387
+msgid "Transaction Id"
+msgstr "トランザクションId"
+
+#: wp-e-commerce/user-log.php:402
+msgid "No transactions for this month."
+msgstr ""
+
+#: wp-e-commerce/user-log.php:413
+msgid "There have not been any purchases yet."
+msgstr "データがありません"
+
+#: wp-e-commerce/user-log.php:426
+msgid "You must be logged in to use this page. Please use the form below to login to your account."
+msgstr "このページの利用にはログインが必要です。以下のフォームからログインしてください。"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:57
+msgid "Note: if this is blank, the image will not be resized"
+msgstr "注意:ブランクにするとイメージはリサイズされません"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:377
+#: wp-e-commerce/wp-shopping-cart.old.php:1660
+#: wp-e-commerce/wp-shopping-cart.old.php:1666
+msgid "Text"
+msgstr "テキスト"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:380
+#: wp-e-commerce/wp-shopping-cart.old.php:1663
+#: wp-e-commerce/wp-shopping-cart.old.php:1674
+msgid "Textarea"
+msgstr "テキスト領域"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:381
+#: wp-e-commerce/wp-shopping-cart.old.php:1664
+#: wp-e-commerce/wp-shopping-cart.old.php:1675
+msgid "Heading"
+msgstr "見出し"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:382
+#: wp-e-commerce/wp-shopping-cart.old.php:1665
+#: wp-e-commerce/wp-shopping-cart.old.php:1676
+msgid "Coupon"
+msgstr "クーポン"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:387
+#: wp-e-commerce/wp-shopping-cart.old.php:469
+msgid "Label"
+msgstr "ラベル"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:388
+msgid "Label Description"
+msgstr "ラベル説明"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:389
+msgid "Item Number"
+msgstr "アイテム番号"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:390
+msgid "Life Number"
+msgstr "Life Number"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:391
+msgid "Product Code"
+msgstr "商品コード"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:392
+msgid "PDF"
+msgstr "PDFファイル"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:394
+msgid " and above"
+msgstr " and above"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:395
+msgid "If price is "
+msgstr "If price is "
+
+#: wp-e-commerce/wp-shopping-cart.old.php:396
+msgid "If weight is "
+msgstr "If weight is "
+
+#: wp-e-commerce/wp-shopping-cart.old.php:465
+msgid "Date requested"
+msgstr "リクエスト日"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:467
+msgid "Comment"
+msgstr "コメント"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1016
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1020
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1022
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1027
+msgid "<strong>ERROR</strong>: This username is invalid.  Please enter a valid username."
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1032
+msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1037
+msgid "<strong>ERROR</strong>: This email address is already registered, please supply another."
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1047
+#, php-format
+msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1052
+msgid "Registration Complete"
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1053
+#, fuzzy, php-format
+msgid "Username: %s"
+msgstr "Username"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1054
+#, fuzzy, php-format
+msgid "Password: %s"
+msgstr "USPS Password"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1054
+msgid "emailed to you"
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1055
+#, fuzzy, php-format
+msgid "E-mail: %s"
+msgstr "メール"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1071
+msgid "Register"
+msgstr "登録"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1212
+#: wp-e-commerce/wp-shopping-cart.old.php:1273
+msgid "This download is no longer valid, Please contact the site administrator for more information."
+msgstr "このダウンロードは無効です"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1401
+msgid "Click stars to rate"
+msgstr "評価するにはスターをクリックしてください"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1406
+msgid "No Votes"
+msgstr "投票なし"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1410
+msgid "1 Vote"
+msgstr "1件"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1414
+msgid "Votes"
+msgstr "件"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1429
+msgid "person has given this image"
+msgstr "person has given this image"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1433
+msgid "people have given this image"
+msgstr "people have given this image"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1433
+msgid "stars."
+msgstr ""
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1546
+msgid "Your \"products page\" is not currently set to display any products. You need to select a product grouping to display by default. <br /> This is set in the Shop Settings page."
+msgstr "商品ページで表示可能になっている商品がありません。既定で表示するグループを選択する必要があります。<br /> 商品ページで設定することができます。"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1671
+msgid "Delivery Address"
+msgstr "配送先－住所"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1672
+msgid "Delivery City"
+msgstr "配送先－市町村"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1673
+msgid "Delivery Country"
+msgstr "配送先－国"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1720
+msgid "The item has been added"
+msgstr "アイテムが追加されました"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1722
+msgid "The item has not been added"
+msgstr "アイテムが追加されませんでした"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1732
+#, fuzzy
+msgid "Edit Variation Set"
+msgstr "バリエーション"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1743
+#, fuzzy
+msgid "Add Variation Set"
+msgstr "バリエーションを追加"
+
+#: wp-e-commerce/wp-shopping-cart.old.php:1792
+#, fuzzy
+msgid "Add Value"
+msgstr "値"
+
+#: wp-e-commerce/js/tinymce3/window.php:36
+#: wp-e-commerce/js/tinymce3/window.php:118
+#, fuzzy
+msgid "Category"
+msgstr "カテゴリー"
+
+#: wp-e-commerce/js/tinymce3/window.php:37
+#, fuzzy
+msgid "Product Slider"
+msgstr "商品コード"
+
+#: wp-e-commerce/js/tinymce3/window.php:38
+msgid "Add Product"
+msgstr "表示"
+
+#: wp-e-commerce/js/tinymce3/window.php:48
+#: wp-e-commerce/js/tinymce3/window.php:76
+#, fuzzy
+msgid "Select Category"
+msgstr "カテゴリー"
+
+#: wp-e-commerce/js/tinymce3/window.php:51
+#: wp-e-commerce/js/tinymce3/window.php:78
+#: wp-e-commerce/js/tinymce3/window.php:122
+#, fuzzy
+msgid "No Category"
+msgstr "カテゴリータイトルを追加"
+
+#: wp-e-commerce/js/tinymce3/window.php:65
+#, fuzzy
+msgid "Number of items per Page"
+msgstr "ページあたりの表示商品数"
+
+#: wp-e-commerce/js/tinymce3/window.php:91
+msgid "Number of visible items"
+msgstr ""
+
+#: wp-e-commerce/merchants/authorize.merchant.php:278
+msgid "There was an error contacting the payment gateway, please try again later."
+msgstr ""
+
+#: wp-e-commerce/merchants/chronopay.php:440
+#: wp-e-commerce/merchants/paypal_multiple.php:554
+msgid "Update &raquo;"
+msgstr "更新"
+
+#: wp-e-commerce/merchants/paypal-standard.merchant.php:134
+#, fuzzy
+msgid "Your Subscription"
+msgstr "購読期間が終了しました"
+
+#: wp-e-commerce/merchants/paypal_certified.php:585
+#: wp-e-commerce/merchants/paypal_multiple.php:519
+#, fuzzy
+msgid "Currency Converter"
+msgstr "通貨タイプ"
+
+#: wp-e-commerce/merchants/paypal_certified.php:588
+msgid "If your website uses a currency not accepted by Paypal, select an accepted currency using the drop down menu bellow. Buyers on your site will still pay in your local currency however we will send the order through to Paypal using currency you choose below."
+msgstr ""
+
+#: wp-e-commerce/merchants/paypal_multiple.php:522
+#, php-format
+msgid "Your website uses <strong>%s</strong>. This currency is not supported by PayPal, please  select a currency using the drop down menu below. Buyers on your site will still pay in your local currency however we will send the order through to Paypal using the currency you choose below."
+msgstr ""
+
+#: wp-e-commerce/merchants/paypal_pro.php:196
+msgid "Sorry your transaction did not go through to Paypal successfully, please try again."
+msgstr ""
+
+#: wp-e-commerce/merchants/paypal_pro.php:283
+#, fuzzy
+msgid "API Username:"
+msgstr "Username"
+
+#: wp-e-commerce/merchants/paypal_pro.php:291
+#, fuzzy
+msgid "API Password:"
+msgstr "USPS Password"
+
+#: wp-e-commerce/merchants/paypal_pro.php:299
+msgid "API Signature:"
+msgstr ""
+
+#: wp-e-commerce/merchants/paypal_pro.php:307
+msgid "Test Mode Enabled:"
+msgstr ""
+
+#: wp-e-commerce/merchants/testmode.php:30
+msgid "Enter the payment instructions that you wish to display to your customers when they make a purchase"
+msgstr "支払方法に関して顧客に表示したいメッセージがあれば入力してください"
+
+#: wp-e-commerce/merchants/testmode.php:32
+msgid "For example, this is where you the Shop Owner might enter your bank account details or address so that your customer can make their manual payment."
+msgstr "ショップオーナーが顧客に提示したい送金先の口座情報や住所などを入力します"
+
+#: wp-e-commerce/shipping/flatrate.php:31
+msgid "If you do not wish to ship to a particular region, leave the field blank. To offer free shipping to a region, enter 0."
+msgstr ""
+
+#: wp-e-commerce/shipping/tablerate.php:30
+#: wp-e-commerce/themes/default/shopping_cart_page.php:189
+msgid "Total Price"
+msgstr "合計価格"
+
+#: wp-e-commerce/shipping/tablerate.php:30
+#: wp-e-commerce/shipping/weightrate.php:30
+msgid "Shipping Price"
+msgstr "送料"
+
+#: wp-e-commerce/shipping/ups.php:34
+msgid "Your Packaging"
+msgstr "Your Packaging"
+
+#: wp-e-commerce/shipping/ups.php:35
+msgid "UPS Letter"
+msgstr "UPS Letter"
+
+#: wp-e-commerce/shipping/ups.php:36
+msgid "UPS Express Box - Small"
+msgstr "UPS Express Box - Small"
+
+#: wp-e-commerce/shipping/ups.php:37
+msgid "UPS Express Box - Medium"
+msgstr "UPS Express Box - Medium"
+
+#: wp-e-commerce/shipping/ups.php:38
+msgid "UPS Express Box - Large"
+msgstr "UPS Express Box - Large"
+
+#: wp-e-commerce/shipping/ups.php:39
+msgid "UPS Tube"
+msgstr "UPS Tube"
+
+#: wp-e-commerce/shipping/ups.php:40
+msgid "UPS Pak"
+msgstr "UPS Pak"
+
+#: wp-e-commerce/shipping/ups.php:45
+msgid "Destination Type"
+msgstr "Destination Type"
+
+#: wp-e-commerce/shipping/ups.php:59
+msgid "Residential Address"
+msgstr "Residential Address"
+
+#: wp-e-commerce/shipping/ups.php:60
+msgid "Commercial Address"
+msgstr "Commercial Address"
+
+#: wp-e-commerce/shipping/ups.php:66
+msgid "Packaging"
+msgstr "Packaging"
+
+#: wp-e-commerce/shipping/ups.php:158
+msgid "Because your order is over 150lbs, the SIte Owner will contact you directly about shipping rates."
+msgstr "Because your order is over 150lbs, the SIte Owner will contact you directly about shipping rates."
+
+#: wp-e-commerce/shipping/usps.php:33
+msgid "USPS ID"
+msgstr "USPS ID"
+
+#: wp-e-commerce/shipping/usps.php:41
+msgid "USPS Password"
+msgstr "USPS Password"
+
+#: wp-e-commerce/shipping/weightrate.php:30
+msgid "Total weight <br />(<abbr alt=\"You must enter the weight here in pounds, regardless of what you used on your products\" title=\"You must enter the weight here in pounds, regardless of what you used on your products\">in Pounds</abbr>)"
+msgstr "Total weight (<abbr alt=\"You must enter the weight here in pounds, regardless of what you used on your products\" title=\"You must enter the weight here in pounds, regardless of what you used on your products\">in Pounds</abbr>)"
+
+#: wp-e-commerce/themes/default/cart_widget.php:15
+msgid "Number of items"
+msgstr ""
+
+#: wp-e-commerce/themes/default/cart_widget.php:23
+#: wp-e-commerce/themes/default/shopping_cart_page.php:13
+msgid "Product"
+msgstr "商品"
+
+#: wp-e-commerce/themes/default/cart_widget.php:24
+msgid "Qty"
+msgstr "数量"
+
+#: wp-e-commerce/themes/default/cart_widget.php:59
+msgid "Postage &amp; Tax "
+msgstr "郵便料金&amp;消費税"
+
+#: wp-e-commerce/themes/default/cart_widget.php:72
+#, fuzzy
+msgid "Empty your cart"
+msgstr "カートを空にする"
+
+#: wp-e-commerce/themes/default/cart_widget.php:76
+msgid "Go to Checkout"
+msgstr "チェックアウトする"
+
+#: wp-e-commerce/themes/default/cart_widget.php:78
+#, fuzzy
+msgid "Your shopping cart is empty"
+msgstr "このユーザーのカートは空です"
+
+#: wp-e-commerce/themes/default/cart_widget.php:80
+msgid "Visit the shop"
+msgstr "ショップを訪問する"
+
+#: wp-e-commerce/themes/default/functions.php:15
+msgid "Page Number position"
+msgstr "ページ番号の位置"
+
+#: wp-e-commerce/themes/default/grid_view.php:149
+#: wp-e-commerce/themes/default/list_view.php:163
+#: wp-e-commerce/themes/default/products_page.php:232
+msgid "This product has sold out."
+msgstr "この商品は売り切れです"
+
+#: wp-e-commerce/themes/default/grid_view.php:173
+#: wp-e-commerce/themes/default/list_view.php:185
+#: wp-e-commerce/themes/default/products_page.php:256
+msgid "There are no products in this group."
+msgstr "このグループには商品がありません"
+
+#: wp-e-commerce/themes/default/list_view.php:153
+#: wp-e-commerce/themes/default/products_page.php:222
+msgid "Buy Now"
+msgstr "今すぐオーダー"
+
+#: wp-e-commerce/themes/default/list_view.php:159
+#: wp-e-commerce/themes/default/products_page.php:228
+msgid "Updating cart..."
+msgstr ""
+
+#: wp-e-commerce/themes/default/products_page.php:197
+#, fuzzy
+msgid "Donation"
+msgstr "寄付"
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:9
+#, fuzzy
+msgid "Please review your order"
+msgstr "注文状況をRSSで購読"
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:32
+#: wp-e-commerce/themes/default/shopping_cart_page.php:57
+msgid "Update"
+msgstr "再計算"
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:41
+msgid "Remove"
+msgstr "削除"
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:50
+msgid "Coupon is not valid."
+msgstr ""
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:53
+msgid "Enter your coupon number"
+msgstr ""
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:82
+msgid "Calculate Shipping Price"
+msgstr "配送料を計算"
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:86
+msgid "Please choose a country below to calculate your shipping costs"
+msgstr "送料を計算するため国を選択します"
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:95
+msgid "Please provide a Zipcode and click Calculate in order to continue."
+msgstr ""
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:102
+msgid "Sorry, online ordering is unavailable to this destination and/or weight. Please double check your destination details."
+msgstr ""
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:120
+msgid "- Choose a Shipping Rate"
+msgstr "- 配送料（全国一律）"
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:210
+msgid "Not yet a member?"
+msgstr ""
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:211
+msgid "In order to buy from us, you'll need an account. Joining is free and easy. All you need is a username, password and valid email address."
+msgstr ""
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:225
+msgid "Username"
+msgstr "Username"
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:226
+#, fuzzy
+msgid "Password"
+msgstr "USPS Password"
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:231
+msgid "Please enter your contact details:"
+msgstr "連絡先を入力してください"
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:233
+msgid "Fields marked with an asterisk must be filled in."
+msgstr "*が追加項目は必須です"
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:308
+msgid "Select a payment gateway"
+msgstr "支払ゲートウェイを選択"
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:342
+msgid "I agree to The "
+msgstr "利用条件に合意します"
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:343
+#, fuzzy
+msgid "Terms and Conditions"
+msgstr "利用条件をチェックアウト"
+
+#: wp-e-commerce/themes/default/shopping_cart_page.php:355
+msgid "Make Purchase"
+msgstr "購入する"
+
+#: wp-e-commerce/themes/default/single_product.php:93
+#: wp-e-commerce/themes/iShop/single_product.php:94
+msgid "Personalize your product"
+msgstr ""
+
+#: wp-e-commerce/themes/default/single_product.php:94
+#: wp-e-commerce/themes/iShop/single_product.php:95
+msgid "Complete this form to include a personalized message with your purchase."
+msgstr ""
+
+#: wp-e-commerce/themes/default/single_product.php:101
+#: wp-e-commerce/themes/iShop/single_product.php:102
+#, fuzzy
+msgid "Upload a File"
+msgstr "ファイルのアップロード"
+
+#: wp-e-commerce/themes/default/single_product.php:102
+#: wp-e-commerce/themes/iShop/single_product.php:103
+msgid "Select a file from your computer to include with this purchase.  "
+msgstr ""
+
+#: wp-e-commerce/updates/updating_tasks.php:53
+msgid ""
+"Your purchase from %shop_name% has just been dispatched. It should arrive soon. To keep track of your products status a tracking id has been attached. \\r\\n"
+" your tracking id is: %trackid%"
+msgstr ""
+
+#: wp-e-commerce/updates/updating_tasks.php:56
+msgid "Your Order from %shop_name% has been dispatched"
+msgstr ""
+
+#: wp-e-commerce/widgets/admin_menu_widget.php:8
+#: wp-e-commerce/widgets/admin_menu_widget.php:22
+msgid "Admin Menu"
+msgstr "管理メニュー"
+
+#: wp-e-commerce/widgets/category_widget.27.php:19
+#: wp-e-commerce/wpsc-admin/admin.php:101
+#, fuzzy
+msgid "Categories"
+msgstr "カテゴリーとタグ"
+
+#: wp-e-commerce/widgets/category_widget.27.php:134
+#: wp-e-commerce/widgets/category_widget.28.php:69
+#: wp-e-commerce/widgets/donations_widget.php:71
+#: wp-e-commerce/widgets/latest_product_widget.php:73
+#: wp-e-commerce/widgets/price_range_widget.php:71
+#: wp-e-commerce/widgets/product_tag_widget.php:30
+#: wp-e-commerce/widgets/shopping_cart_widget.php:66
+#: wp-e-commerce/widgets/specials_widget.php:103
+msgid "Title:"
+msgstr ""
+
+#: wp-e-commerce/widgets/category_widget.27.php:159
+#: wp-e-commerce/widgets/category_widget.28.php:80
+msgid "Display the :category: Group"
+msgstr "Display the :category: Group"
+
+#: wp-e-commerce/widgets/category_widget.27.php:168
+#: wp-e-commerce/widgets/category_widget.28.php:88
+msgid "Display the Group thumbnails in the sidebar"
+msgstr "グループのサムネールをサイドバーに表示"
+
+#: wp-e-commerce/widgets/category_widget.27.php:179
+#: wp-e-commerce/widgets/category_widget.28.php:11
+msgid "Product Grouping Widget"
+msgstr "商品グルーピングウィジェット"
+
+#: wp-e-commerce/widgets/category_widget.27.php:181
+#: wp-e-commerce/widgets/category_widget.28.php:12
+#: wp-e-commerce/widgets/category_widget.28.php:19
+#, fuzzy
+msgid "Product Categories"
+msgstr "商品コード"
+
+#: wp-e-commerce/widgets/latest_product_widget.php:7
+#: wp-e-commerce/widgets/latest_product_widget.php:87
+#: wp-e-commerce/widgets/latest_product_widget.php:88
+msgid "Latest Products"
+msgstr "最新の商品"
+
+#: wp-e-commerce/widgets/latest_product_widget.php:74
+#, fuzzy
+msgid "Number of products to show:"
+msgstr "ページあたりの表示商品数"
+
+#: wp-e-commerce/widgets/price_range_widget.php:6
+#: wp-e-commerce/widgets/price_range_widget.php:77
+#: wp-e-commerce/widgets/price_range_widget.php:78
+msgid "Price Range"
+msgstr "価格レンジ"
+
+#: wp-e-commerce/widgets/price_range_widget.php:54
+msgid "Show All"
+msgstr "すべてを表示"
+
+#: wp-e-commerce/widgets/product_tag_widget.php:9
+#: wp-e-commerce/widgets/product_tag_widget.php:38
+#: wp-e-commerce/widgets/product_tag_widget.php:39
+msgid "Product Tags"
+msgstr "商品タグ"
+
+#: wp-e-commerce/widgets/shopping_cart_widget.php:37
+#: wp-e-commerce/widgets/shopping_cart_widget.php:42
+msgid "Loading..."
+msgstr ""
+
+#: wp-e-commerce/widgets/specials_widget.php:10
+#: wp-e-commerce/widgets/specials_widget.php:112
+#: wp-e-commerce/widgets/specials_widget.php:113
+msgid "Product Specials"
+msgstr "スペシャルオファー"
+
+#: wp-e-commerce/widgets/specials_widget.php:106
+#, fuzzy
+msgid "Show Description:"
+msgstr "説明"
+
+#: wp-e-commerce/wpsc-admin/admin.php:75
+#: wp-e-commerce/wpsc-admin/admin.php:78
+#: wp-e-commerce/wpsc-admin/admin.php:80
+#: wp-e-commerce/wpsc-admin/admin.php:85
+#: wp-e-commerce/wpsc-admin/admin.php:88
+#: wp-e-commerce/wpsc-admin/admin.php:98
+#, fuzzy
+msgid "Products"
+msgstr "商品"
+
+#: wp-e-commerce/wpsc-admin/admin.php:93
+#: wp-e-commerce/wpsc-admin/admin.php:421
+#: wp-e-commerce/wpsc-admin/admin.php:451
+#, fuzzy
+msgid "Sales"
+msgstr "販売"
+
+#: wp-e-commerce/wpsc-admin/admin.php:105
+#, fuzzy
+msgid "Variations"
+msgstr "バリエーション"
+
+#: wp-e-commerce/wpsc-admin/admin.php:126
+msgid "Marketing"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/admin.php:132
+msgid "Upgrades"
+msgstr "アップグレードページ"
+
+#: wp-e-commerce/wpsc-admin/admin.php:136
+msgid "- Debug"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/admin.php:202
+msgid "Tags used on this post:"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/admin.php:204
+#, fuzzy
+msgid "Add new tag"
+msgstr "詳細を追加"
+
+#: wp-e-commerce/wpsc-admin/admin.php:205
+msgid "Separate tags with commas"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/admin.php:408
+msgid "Last 30 Days"
+msgstr "今月の売上"
+
+#: wp-e-commerce/wpsc-admin/admin.php:427
+#: wp-e-commerce/wpsc-admin/admin.php:457
+#, fuzzy
+msgid "Orders"
+msgstr "表示順"
+
+#: wp-e-commerce/wpsc-admin/admin.php:437
+#: wp-e-commerce/wpsc-admin/admin.php:469
+msgid "Avg Orders"
+msgstr "平均注文数"
+
+#: wp-e-commerce/wpsc-admin/admin.php:447
+msgid "Life Time"
+msgstr "売上の累計"
+
+#: wp-e-commerce/wpsc-admin/admin.php:486
+#: wp-e-commerce/wpsc-admin/admin.php:714
+msgid "e-Commerce"
+msgstr "ショッピングカート"
+
+#: wp-e-commerce/wpsc-admin/admin.php:503
+#, fuzzy
+msgid "E-Commerce"
+msgstr "ショッピングカート"
+
+#: wp-e-commerce/wpsc-admin/admin.php:620
+msgid "Sales by Quarter"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/admin.php:706
+#, fuzzy
+msgid "Sales by"
+msgstr "販売"
+
+#: wp-e-commerce/wpsc-admin/ajax-and-init.php:966
+#, fuzzy
+msgid "Your Order"
+msgstr "表示順"
+
+#: wp-e-commerce/wpsc-admin/ajax-and-init.php:1213
+msgid "The administrator has unlocked your file"
+msgstr "ファイルのロックが管理者によって解除されました"
+
+#: wp-e-commerce/wpsc-admin/ajax-and-init.php:1213
+msgid "Dear CustomerWe are pleased to advise you that your order has been updated and your downloads are now active.Please download your purchase using the links provided below.[download_links]Thank you for your custom."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:41
+msgid "Select the markets you are selling this category to."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:456
+msgid "The product group has been edited."
+msgstr "このグループは編集されました"
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:461
+msgid "The group has been added."
+msgstr "グループが追加されました"
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:473
+msgid "The group has been edited."
+msgstr "グループが編集されました"
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:529
+msgid "Are you sure you want to delete this category? If the category has any subcategories, they will be deleted too."
+msgstr "このカテゴリーを削除しますか?サブカテゴリーがある場合、ともに削除されます"
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:537
+msgid "Are you sure you want to delete this product group? All categories it contains will be deleted too."
+msgstr "このグループを削除しますか?グループ内のアイテムもすべて削除されます"
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:560
+msgid "Categorizing your products into groups help your customers find them. For instance if you sell hats and trousers you  might want to setup a Group called clothes and add hats and trousers to that group."
+msgstr "グループを利用すると訪問客が商品が見つけやすくなります。Ｔシャツや帽子やパンツなどを販売しているなら、衣類というグループを作り、その中にＴシャツ、帽子、パンツなどのカテゴリーを作ります。その後、個々の商品を追加・編集する際に、グループ中の特定カテゴリーに商品を関連付けます"
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:575
+msgid "Select a Group to Manage"
+msgstr "管理するグループを選択"
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:593
+#, fuzzy
+msgid "or"
+msgstr "続ける"
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:595
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:612
+#, fuzzy
+msgid "Add New Group"
+msgstr "グループを追加"
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:602
+msgid "About This Page"
+msgstr "このページについて"
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:671
+msgid "&quot;[categorisation]&quot; Group"
+msgstr "選択されているグループ"
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:681
+msgid "Image"
+msgstr "イメージ"
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:725
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:729
+msgid "You are editing an item in the &quot;[categorisation]&quot; Group"
+msgstr "[categorisation]グループのアイテムを編集"
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:728
+msgid "Edit Details"
+msgstr "詳細を編集"
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:744
+msgid "Add Category"
+msgstr "カテゴリータイトルを追加"
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:747
+msgid "Adding a new category here will make it available when you add or edit a product."
+msgstr "カテゴリーのタイトルを追加します..."
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:753
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:756
+msgid "You are adding a new item to the &quot;[categorisation]&quot; Group"
+msgstr "[categorisation]グループにアイテムを追加"
+
+#: wp-e-commerce/wpsc-admin/display-groups.page.php:874
+msgid "Add Group"
+msgstr "グループを追加"
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:29
+msgid "Display Products"
+msgstr "商品を表示"
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:74
+#: wp-e-commerce/wpsc-admin/display-variations.page.php:49
+#, fuzzy
+msgid "Product updated."
+msgstr "商品コード"
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:114
+#, fuzzy
+msgid "The following directories are not writable: :directory: You won&#39;t be able to upload any images or files here. You will need to change the permissions on these directories to make them writable."
+msgstr "イメージをアップロードできません。以下のフォルダに書き込み権限がありません。: :directory: 書き込み可能に設定した上で再試行してください。"
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:147
+msgid ""
+"You are about to delete the selected products.\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:222
+msgid "&laquo;"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:223
+#, fuzzy
+msgid "&raquo;"
+msgstr "更新"
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:260
+#, fuzzy
+msgid "Search"
+msgstr "検索を表示"
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:265
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:380
+#, fuzzy
+msgid "Bulk Actions"
+msgstr "アクション"
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:267
+#: wp-e-commerce/wpsc-admin/display-items.page.php:396
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:816
+msgid "Publish"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:268
+#: wp-e-commerce/wpsc-admin/display-items.page.php:343
+#, fuzzy
+msgid "Draft"
+msgstr "日付"
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:272
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:389
+msgid "Apply"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:308
+msgid "No Name"
+msgstr "名前がありません"
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:367
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:341
+#, fuzzy
+msgid "Delete this product"
+msgstr "商品を削除"
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:369
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:341
+#, php-format
+msgid ""
+"You are about to delete this product '%s'\n"
+" 'Cancel' to stop, 'OK' to delete."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:394
+msgid "Unpublish"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:423
+msgid "You have no products added."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-items.page.php:440
+msgid "View All Categories"
+msgstr "すべてのグループを見る"
+
+#: wp-e-commerce/wpsc-admin/display-options-settings.page.php:37
+#, fuzzy
+msgid "Thanks, your thumbnail images have been resized."
+msgstr "変更が保存されました"
+
+#: wp-e-commerce/wpsc-admin/display-options-settings.page.php:92
+msgid "General"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-options-settings.page.php:93
+#, fuzzy
+msgid "Presentation"
+msgstr "ページネーションを使用"
+
+#: wp-e-commerce/wpsc-admin/display-options-settings.page.php:94
+#, fuzzy
+msgid "Admin"
+msgstr "管理メニュー"
+
+#: wp-e-commerce/wpsc-admin/display-options-settings.page.php:96
+#, fuzzy
+msgid "Payment Options"
+msgstr "支払い"
+
+#: wp-e-commerce/wpsc-admin/display-options-settings.page.php:97
+msgid "Import"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-options-settings.page.php:169
+msgid "To configure a shipping module select one on the left."
+msgstr "配送オプションを選択して設定します"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:76
+msgid "When upgrading the Wp-E-Commerce Plugin from 3.6.* to 3.7 it is required that you associate your checkout form fields with the new Purchase Logs system. To do so please "
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:158
+msgid "Shipping Options"
+msgstr "配送オプション"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:161
+#, fuzzy
+msgid "Shipping Method:"
+msgstr "配送方法"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:162
+#, fuzzy
+msgid "Shipping Option:"
+msgstr "配送オプション"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:164
+#, fuzzy
+msgid "Tracking ID:"
+msgstr "トランザクションID"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:165
+#, fuzzy
+msgid "Shipping Status:"
+msgstr "追加配送料"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:166
+msgid "Track History:"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:172
+#, fuzzy
+msgid "Billing Details"
+msgstr "追加配送料"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:173
+#, fuzzy
+msgid "Purchase Log Date:"
+msgstr "購入ログ"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:174
+#, fuzzy
+msgid "Purchase Number:"
+msgstr "購入No."
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:175
+msgid "Buyers Name:"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:176
+#, fuzzy
+msgid "Address:"
+msgstr "住所"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:178
+#, fuzzy
+msgid "Phone:"
+msgstr "電話"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:179
+#, fuzzy
+msgid "Email:"
+msgstr "メール"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:180
+#, fuzzy
+msgid "Payment Method:"
+msgstr "支払い手段"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:182
+#, fuzzy
+msgid "How User Found Us:"
+msgstr "当店をどこでお知りになりましたか?"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:188
+#, fuzzy
+msgid "Items Ordered"
+msgstr "注文をフィルタ"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:230
+#, fuzzy
+msgid "Order Status:"
+msgstr "注文ステータス"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:250
+msgid "Actions"
+msgstr "アクション"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:254
+msgid "View Packing Slip"
+msgstr "出荷伝票を見る"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:256
+msgid "Resend Receipt to Buyer"
+msgstr "顧客にメールを再送信する"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:258
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:509
+msgid "Delete this log"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:258
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:509
+#, php-format
+msgid ""
+"You are about to delete this log '%s'\n"
+" 'Cancel' to stop, 'OK' to delete."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:258
+msgid "Remove this record"
+msgstr "このレコードを削除"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:260
+msgid "Go Back"
+msgstr "戻る"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:275
+msgid "e-Commerce Admin Menu"
+msgstr "e-Commerce管理メニュー"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:278
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:279
+msgid "Checkout Settings"
+msgstr "チェックアウト設定"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:294
+msgid "WP e-Commerce News"
+msgstr "WP e-Commerceニュース"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:316
+msgid "Order Summary"
+msgstr "注文サマリ"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:328
+msgid "(accepted payments)"
+msgstr "(受領済み金額)"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:343
+msgid "Subscribe to your orders"
+msgstr "注文状況をRSSで購読"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:345
+msgid "Subscribe to an RSS feed"
+msgstr "RSSフィード"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:345
+msgid "of your orders"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:348
+msgid "Plugin News"
+msgstr "プラグイン関連ニュース"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:350
+msgid "The <a href=\"http://instinct.co.nz/blogshop/products-page/\" target=\"_blank\">WP DropShop Module</a> is the latest and most cutting edge shopping cart available online. Coupled with Grid View then your site will be the talk of street! <br/><br/>The <a href=\"http://instinct.co.nz/blogshop/products-page/\" target=\"_blank\">GridView Module</a> is a visual module built to enhance the way your product page looks.<br/><br/><a href=\"http://www.instinct.co.nz/wp-campaign-monitor/100\">WP Campaign Monitor</a> is an email newsletter tool built just for WP users who want to send campaigns, track the results and manage their subscribers. The latest version integrates with e-commerce lite meaning that you will be able to send buyers email newsletters and much more. "
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:351
+msgid "This shop is powered by "
+msgstr "このプラグイン発行元 "
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:360
+msgid "Upgrade to Gold"
+msgstr "GoldにUpgrade"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:360
+msgid " and unleash more functionality into your shop."
+msgstr "して高機能なショップに！"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:391
+msgid "View:"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:430
+#, fuzzy
+msgid "Filter"
+msgstr "ファイル"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:433
+msgid "Oops there are no purchase logs for your selection, please try again."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:453
+#, fuzzy
+msgid "Total:"
+msgstr "合計"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:465
+msgid "Download CSV"
+msgstr "CSVをダウンロード"
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:474
+msgid ""
+"You are about to delete the selected purchase logs.\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-sales-logs.php:537
+#, fuzzy
+msgid "Search Logs"
+msgstr "購入ログ"
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:12
+#, fuzzy
+msgid "WP e-Commerce Upgrades"
+msgstr "WP e-Commerceニュース"
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:13
+msgid "Add more functionality to your e-Commerce site. Prices may be subject to change."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:18
+msgid "Pure Gold"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:24
+msgid "DropShop"
+msgstr "DropShop"
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:30
+msgid "MP3 Player"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:36
+msgid "Members Only Module"
+msgstr "Activation Settings: Members Module"
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:48
+msgid "NextGen Gallery Buy Now Buttons"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:71
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:79
+msgid "API Key Reset"
+msgstr "API Keyをリセット"
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:74
+msgid "Enter your API name and key to release it from an old site that you no longer use."
+msgstr "API Keyをリセットします"
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:85
+msgid "API Key"
+msgstr "アクティベーションキー"
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:90
+msgid "Reset API Key"
+msgstr "API keyをリセット"
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:99
+#, fuzzy
+msgid "Upgrade Instructions"
+msgstr "トランザクション"
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:101
+#, php-format
+msgid "Copy the gold_cart_files directory into the %s folder."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:104
+msgid "This folder should be automatically created when the e-commerce plugin is activated, but if it is not, you will have to create it yourself."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:107
+msgid "Now a new panel should appear in the Upgrades page where you must enter your API Username and API Key. "
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:110
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:113
+msgid "For more information visit our documentation page."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/display-upgrades.page.php:157
+msgid "Your API key has been Reset"
+msgstr "API Keyがリセットされました"
+
+#: wp-e-commerce/wpsc-admin/display-variations.page.php:21
+msgid "Are you sure you want to delete this product?"
+msgstr "この商品を削除してもいいですか?"
+
+#: wp-e-commerce/wpsc-admin/display-variations.page.php:37
+#, fuzzy
+msgid "Display Variations"
+msgstr "説明を表示"
+
+#: wp-e-commerce/wpsc-admin/display-variations.page.php:39
+msgid "A variation can be anything \"optional\" about a product. ie: Size, Color, etc <br />For example: if you are selling t-shirts you might setup a variation set called size with the values small, medium, large..."
+msgstr "バリエーションは商品のオプション属性を表します。例: サイズ、色など<br />たとえばＴシャツを販売しているならサイズというバリエーションを設定し以下のような値を設定できます... Small, Medium, Large..."
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:133
+#, fuzzy
+msgid "Edit Product"
+msgstr "グループを編集"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:144
+msgid "Product Name"
+msgstr "商品名"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:153
+#, fuzzy
+msgid "Display Product Shortcode"
+msgstr "グループを表示"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:154
+msgid "Buy Now Shortcode"
+msgstr "Buy Now Shortcode"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:155
+msgid "Add to Cart Shortcode"
+msgstr "Add to Cart Shortcode"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:161
+#, fuzzy
+msgid "Display Product Template Tag"
+msgstr "商品を表示"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:162
+msgid "Buy Now PHP"
+msgstr "Buy Now PHP"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:163
+msgid "Add to Cart PHP"
+msgstr "Add to Cart PHP"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:164
+#, fuzzy
+msgid "Display Product SKU"
+msgstr "商品を表示"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:180
+msgid "Stock Keeping Unit"
+msgstr "在庫単位"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:188
+#, fuzzy
+msgid "Sale Price :"
+msgstr "特別価格"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:205
+#, fuzzy
+msgid "New Currency"
+msgstr "通貨タイプ"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:233
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:272
+#, fuzzy
+msgid "Delete Currency"
+msgstr "商品を削除"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:290
+msgid "Additional Description"
+msgstr "追加の説明"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:340
+#, fuzzy
+msgid "Update Product"
+msgstr "最新の商品"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:364
+msgid "Categories and Tags"
+msgstr "カテゴリーとタグ"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:403
+msgid "Select &quot;[categorisation]&quot;"
+msgstr "カテゴリーを選択"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:459
+msgid "Price and Stock Control"
+msgstr "価格と在庫の管理"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:469
+#, fuzzy, php-format
+msgid "Do not include tax (tax is set in <a href=\"%s\"/wp-admin/admin.php?page=wpsc-settings\">shop config</a>)"
+msgstr "税込み"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:476
+msgid "This is a donation, checking this box populates the donations widget."
+msgstr "寄付のみ－ウィジェットで表示する"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:486
+msgid "Table Rate Price"
+msgstr "テーブルレート価格"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:527
+#, fuzzy
+msgid "Custom Tax Rate"
+msgstr "カスタムメタ"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:541
+msgid "I have a limited number of this item in stock. If the stock runs out, this product will not be available on the shop unless you untick this box or add more stock."
+msgstr "在庫僅少－在庫切れの場合このチェックボックスを解除するか在庫を追加するまでショップには表示されません"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:556
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:570
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:577
+msgid "If this product runs out of stock set status to Unpublished & email site owner"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:569
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:576
+#, fuzzy
+msgid "Stock Qty"
+msgstr "在庫"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:603
+msgid "Variation Control"
+msgstr "バリエーションコントロール"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:607
+msgid "+ Add New Variations"
+msgstr "+ 新規バリエーションを追加"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:653
+msgid "Weight"
+msgstr "重さ"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:717
+msgid "Flat Rate Settings"
+msgstr "フラットレート設定"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:722
+msgid "Local Shipping Fee"
+msgstr "国内配送料"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:731
+msgid "International Shipping Fee"
+msgstr "国際配送料"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:740
+msgid "Disregard Shipping for this product"
+msgstr "配送を伴わない商品"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:769
+msgid "Advanced Options"
+msgstr "高度なオプション"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:777
+msgid "Custom Meta"
+msgstr "カスタムメタ"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:778
+msgid "Add Custom Meta"
+msgstr "カスタムメタを保存"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:788
+msgid "Value"
+msgstr "値"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:805
+msgid "Merchant Notes"
+msgstr "販売者ノート"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:808
+msgid "These notes are only available here."
+msgstr "この注意書きはここでのみ表示されます"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:827
+msgid "Personalisation Options"
+msgstr "パーソナリゼーションオプション"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:830
+msgid "Users can personalize this product by leaving a message on single product page"
+msgstr "この商品をパーソナライズ可能(チェックアウト時にメッセージを残す）"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:839
+msgid "Users can upload images on single product page to purchase logs."
+msgstr "チェックアウト時に購入ログにイメージをアップロード可能"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:850
+msgid "Prohibited"
+msgstr "禁止"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:864
+msgid "Off Site Product Link"
+msgstr "商品の外部リンク"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:865
+msgid "If this product is for sale on another website enter the link here. For instance if your product is an MP3 file for sale on itunes you could put the link here. This option over rides the buy now and add to cart links and takes you to the site linked here."
+msgstr "商品が外部サイトで販売されている場合ここにリンクを入力します（たとえば商品がiTunesで販売されているMP3ファイルの場合）。このオプションは\"今すぐ購入\"や\"カートに追加\"ボタンの機能を無効にし、ここで指定した外部サイトにユーザーを誘導します。"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:866
+msgid "External Link"
+msgstr "外部リンク"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:874
+#, fuzzy
+msgid "Enable IntenseDebate Comments"
+msgstr "IntenseDebateを利用したコメントを有効化"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:880
+msgid "Allow users to comment on this product."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:907
+#, fuzzy
+msgid "Product Images"
+msgstr "商品のイメージ"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:915
+#, fuzzy
+msgid "Select Files"
+msgstr "既定のテーマ"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:969
+#, fuzzy
+msgid "You are using the Flash uploader.  Problems?  Try the <a class=\"wpsc_upload_switcher\" onclick='wpsc_upload_switcher(\"browser\")'>Browser uploader</a> instead."
+msgstr "Flashアップローダーを利用中です。問題がありますか?<br>代わりに <a class=\"wpsc_upload_switcher\" onclick=\"wpsc_upload_switcher(\"browser\")\">ブラウザアップローダー</a> を試してみてください。"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:973
+msgid "To upload multiple product thumbnails you must <a href=\"http://www.instinct.co.nz/shop/\">install the premium upgrade</a>"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:982
+msgid "Select an image to upload:"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:992
+#, fuzzy
+msgid "You are using the Browser uploader.  Problems?  Try the <a class=\"wpsc_upload_switcher\" onclick='wpsc_upload_switcher(\"flash\")'>Flash uploader</a> instead."
+msgstr "ブラウザアップローダーを利用中です。問題がありますか?<br>代わりに <a class=\"wpsc_upload_switcher\" onclick=\"wpsc_upload_switcher(\"flash\")\">Flashアップローダー</a> を試してみてください。"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:996
+#, fuzzy
+msgid "Manage your thumbnails"
+msgstr "商品サムネール"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1018
+msgid "Product Download"
+msgstr "商品をダウンロード"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1021
+msgid "Upload File"
+msgstr "ファイルのアップロード"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1022
+#, fuzzy
+msgid "Max Upload Size"
+msgstr "ファイルのアップロード"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1026
+msgid "Preview File"
+msgstr "ファイルをプレビュー"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1036
+msgid "Select an MP3 file to upload as a preview"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1057
+msgid "Label Control"
+msgstr "ラベルコントロール"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1063
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1064
+msgid "Add Label"
+msgstr "ラベルを追加"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1121
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1148
+msgid "Preview"
+msgstr "プレビュー"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1192
+msgid "Thumbnail Settings"
+msgstr "サムネール"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1200
+msgid "use default size"
+msgstr "既定のサイズを利用"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1200
+msgid "This is set on the Settings Page"
+msgstr "This is set on the Settings Page"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1206
+msgid "do not resize thumbnail image"
+msgstr "イメージをリサイズしない"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1210
+msgid "use specific size"
+msgstr "特定のサイズを利用"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1212
+msgid "px width"
+msgstr "幅:ピクセル"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1213
+msgid "px height"
+msgstr "高さ:ピクセル"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1218
+msgid "use separate thumbnail"
+msgstr "別のサムネールを利用"
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1323
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1328
+msgid "HTML"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1324
+#: wp-e-commerce/wpsc-admin/includes/display-items-functions.php:1329
+#, fuzzy
+msgid "Visual"
+msgstr "可視化"
+
+#: wp-e-commerce/wpsc-admin/includes/product-functions.php:41
+#, php-format
+msgid "Please refrain from uploading images larger than <strong>%d x %d</strong> pixels"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/product-functions.php:52
+msgid "N/A"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/product-functions.php:77
+msgid "<strong>ERROR</strong>: Please enter a Product name.<br />"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/product-functions.php:80
+msgid "<strong>ERROR</strong>: Please enter a Product Category.<br />"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/product-functions.php:196
+msgid "Could not update product in the database"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/product-functions.php:204
+msgid "Could not insert product into the database"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/purchlogs_upgrade.php:74
+msgid "Upgrading to WP e-Commerce 3.7 and later requires you to run this fix once.The following Boxes corresponds to the form fields in your current checkout page.  All you have to do is select from the drop-down menu box what each of the following fields represent. Sorry for any inconvenience caused, but we're sure you'll agree that the new purchase logs are worth this minor hassle. "
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:7
+#, fuzzy
+msgid "Admin Settings"
+msgstr "管理者設定"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:13
+msgid "Max downloads per file"
+msgstr "ファイルの最大ダウンロード数"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:35
+msgid "Lock downloads to IP address"
+msgstr "特定IPアドレスに制限"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:61
+msgid "Check MIME types on file uploads"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:68
+msgid "Warning: Disabling this exposes your site to greater possibility of malicious files being uploaded, we reccomend installing the Fileinfo extention for PHP rather than disabling this."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:76
+msgid "Purchase Log Email"
+msgstr "購入ログを送信するメールアドレス"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:84
+#, fuzzy
+msgid "Purchase Receipt - Reply Address"
+msgstr "レシート"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:93
+#, fuzzy
+msgid "Purchase Receipt - Reply Name"
+msgstr "レシート"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:110
+msgid "Custom Messages"
+msgstr "メール設定"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:113
+msgid "Tags can be used"
+msgstr "利用可能タグ"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:134
+msgid "Admin Report"
+msgstr "管理レポート"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:145
+msgid "Tracking Email Subject"
+msgstr "トラッキングメールの件名"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:149
+msgid "Tracking Email Message"
+msgstr "トラッキングメール"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:153
+msgid "URL Settings"
+msgstr "URL設定"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:184
+msgid "Transaction Details URL"
+msgstr "トランザクション詳細URL"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:195
+msgid "User Account URL"
+msgstr "ユーザーアカウント"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:205
+msgid "Update Page URLs"
+msgstr "ページのURLを更新"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/admin.php:206
+msgid "Fix Product Group Permalinks"
+msgstr "グループのパーマリンクを修正"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/checkout.php:27
+msgid "Checkout Options"
+msgstr "チェックアウトオプション"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/checkout.php:40
+msgid "Users must register before checking out"
+msgstr "チェックアウト前に登録が必要"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/checkout.php:60
+msgid "If yes then you must also turn on the wordpress option \"Any one can register\""
+msgstr "はいを選んだ場合WordPressの一般設定で\"誰でもユーザー登録ができるようにする\"を選択する必要があります"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/checkout.php:77
+#, fuzzy
+msgid "Lock Tax to Billing Country"
+msgstr "Google Shipping Country"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/checkout.php:102
+msgid "Enable Shipping Same as Billing Option: "
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/checkout.php:115
+msgid "Here you can customise the forms to be displayed in your checkout page. The checkout page is where you collect important user information that will show up in your purchase logs i.e. the buyers address, and name..."
+msgstr "チェックアウトページに表示されるフォームをカスタマイズできます。チェックアウトページで集められた重要なユーザー情報は購買ログに表示されます。例：顧客名、住所..."
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/checkout.php:208
+msgid "This will be the Email address that the Purchase Reciept is sent to."
+msgstr "領収メール送付先"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/checkout.php:311
+msgid "Add New Form Field"
+msgstr "新しいフォームフィールドを追加"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/gateway.php:31
+msgid "Please Select A Payment Gateway"
+msgstr "支払ゲートウェイを選択してください"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/gateway.php:55
+msgid "Gateway Options"
+msgstr "ゲートウェイオプション"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/gateway.php:64
+#, fuzzy
+msgid "General Settings"
+msgstr "ゲートウェイ設定"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/gateway.php:68
+#, fuzzy
+msgid "Payment Gateways"
+msgstr "支払ゲートウェイ"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/gateway.php:72
+msgid "Activate the payment gateways that you want to make available to your customers by selecting them below."
+msgstr "有効化したい支払ゲートウェイを選択してください"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/gateway.php:98
+msgid "We Recommend"
+msgstr "以下のPayment Gatewayを推奨します"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/gateway.php:107
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/gateway.php:114
+msgid " Select a Payment Gateway below to configure it."
+msgstr "設定したい支払ゲートウェイを選択してください"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/gateway.php:122
+msgid "Payment Gateway"
+msgstr "支払ゲートウェイ"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/gateway.php:134
+#, fuzzy
+msgid "Display Name"
+msgstr "表示タイプ"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/gateway.php:162
+msgid "The text that people see when making a purchase"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/general.php:13
+msgid "Base Country/Region"
+msgstr "基準国"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/general.php:39
+msgid "Select your primary business location."
+msgstr "営業している国を選択してください"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/general.php:43
+msgid "Tax Settings"
+msgstr "消費税率"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/general.php:60
+msgid "Tax Included in prices"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/general.php:115
+msgid "Language"
+msgstr "言語"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/general.php:224
+msgid "Currency Settings"
+msgstr "通貨の設定"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/import.php:7
+msgid "Import Products CSV"
+msgstr "商品CSVをインポート"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/import.php:8
+msgid "<p>You can import your products from a comma delimited text file.</p><p>An example of a cvs import file would look like this: </p><p>Description, Additional Description, Product Name, Price, SKU, weight, weight unit, stock quantity, is limited quantity</p>"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:14
+msgid "Show All Products"
+msgstr "すべての商品を表示"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:21
+msgid "Show list of product groups"
+msgstr "カテゴリーのリスト"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:28
+msgid "Show all products + list"
+msgstr "全カテゴリー／商品のリスト"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:63
+msgid "Button Settings"
+msgstr "ボタン設定"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:67
+msgid "Button Type"
+msgstr "ボタンタイプ"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:92
+msgid "Hide \"Add to cart\" button"
+msgstr "\"カートに追加\"ボタンを隠す"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:117
+msgid "Product Settings"
+msgstr "商品表示の設定"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:146
+msgid "Display Fancy Purchase Notifications"
+msgstr "特別な購入通知を表示"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:170
+msgid "Show Postage and Packaging"
+msgstr "(郵)送料を表示"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:193
+msgid "Disable link in Title"
+msgstr "商品名リンクを隠す"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:217
+msgid "Add quantity field to each product description"
+msgstr "各商品の説明欄に数量フィールドを追加"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:242
+msgid "Theme Customisation"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:247
+#, fuzzy
+msgid "Thanks, the themes have been copied."
+msgstr "変更が保存されました"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:256
+msgid "Theming your stores appearance is easy."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:258
+msgid "You just need to edit the appropriate files in the following location."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:259
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:271
+#, fuzzy
+msgid "Path:"
+msgstr "SoX Path"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:261
+msgid "To create a new theme:"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:263
+msgid "Copy the default directory and rename it 'newTheme'"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:264
+msgid "Rename the default.css file inside the 'newTheme' directory to 'newTheme.css'"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:269
+msgid "The permissions on your themes directory are incorrect."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:270
+msgid "Please set the permissions to 775 on the following directory."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:275
+msgid "Your theme files have not been moved. Until your theme files have been moved, we have disabled automatic upgrades."
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:276
+#, php-format
+msgid "Click here to <a href='%s'>Move your files</a> to a safe place"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:280
+msgid "Read Tutorials"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:285
+msgid "Product Page Settings"
+msgstr "商品ページ設定"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:288
+msgid "Product Display"
+msgstr "商品の表示方法"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:372
+msgid "Purchase unavailable options"
+msgstr "その他のオプションを購入"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:377
+msgid "Show quantity form in list view"
+msgstr "Show quantity form in list view"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:382
+#, fuzzy
+msgid "Products Per Row"
+msgstr "商品ページ"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:387
+msgid "Show images only"
+msgstr "イメージのみ表示"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:397
+msgid "Display Description"
+msgstr "説明を表示"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:402
+msgid "Display \"Add To Cart\" Button"
+msgstr "\"カートに追加\"ボタンを表示"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:406
+msgid "Display \"More Details\" Button"
+msgstr "\"さらに詳しく\"ボタンを表示"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:416
+msgid "Select Theme"
+msgstr "既定のテーマ"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:449
+msgid "Sort Product By"
+msgstr "ソート順"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:455
+msgid "Time Uploaded"
+msgstr "アップロード所要時間"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:461
+msgid "Show Breadcrumbs"
+msgstr "パンくずリスト表示"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:487
+msgid "Product Groups/Products Display"
+msgstr "グループと商品の表示方法"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:505
+msgid "Product Groups Only (All products displayed)"
+msgstr "グループのみ(全商品を表示)"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:506
+msgid "Sliding Product Groups (1 product per page)"
+msgstr "グループをスライド(1商品/１ページ)"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:514
+msgid "Show Search"
+msgstr "検索を表示"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:551
+msgid "Show Advanced Search"
+msgstr "\"高度な検索\"を表示"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:554
+msgid "Use Live Search"
+msgstr "Live Searchを利用"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:565
+msgid "Replace Page Title With Product/Category Name"
+msgstr "ページタイトルをカテゴリーで置換"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:587
+msgid "Shopping Cart Settings"
+msgstr "ショッピングカート設定"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:619
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:623
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:627
+msgid "Page"
+msgstr "ページ"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:631
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:635
+msgid "Widget"
+msgstr "ウィジェット"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:635
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:645
+msgid "You need to enable the widgets plugin to use this"
+msgstr "ウィジェットプラグインを有効化してください"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:645
+msgid "You need to install the Gold and DropShop extentions to use this"
+msgstr "You need to install the Gold and DropShop extentions to use this"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:649
+msgid "Manual"
+msgstr "マニュアル"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:652
+msgid "Show Dropshop on every page"
+msgstr "すべてのページでDropshopを表示"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:653
+msgid "Show Dropshop only on product page"
+msgstr "商品ページでのみDropshopを表示"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:656
+msgid "Use light Dropshop style"
+msgstr "Use light Dropshop style"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:657
+msgid "Use dark Dropshop style"
+msgstr "Use dark Dropshop style"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:658
+#, fuzzy
+msgid "Crafty"
+msgstr "市町村"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:668
+msgid "Use Sliding Cart"
+msgstr "スライディングカートを利用"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:693
+msgid "Display \"+ Postage & Tax\""
+msgstr "\"+消費税\"を表示"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:719
+msgid "Product Group Settings"
+msgstr "グループ設定"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:723
+msgid "Show Product Group Description"
+msgstr "グループの説明を表示"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:748
+msgid "Show Product Group Thumbnails"
+msgstr "グループサムネールを表示"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:775
+msgid "Show Product Count per Product Group"
+msgstr "グループごとの商品数を表示"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:801
+msgid "Use Category Grid View"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:832
+msgid "Default Product Thumbnail Size"
+msgstr "サムネールの既定サイズ－商品"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:836
+#, fuzzy
+msgid "Resize Existing Thumbnails"
+msgstr "イメージをリサイズ"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:842
+msgid "Default Product Group Thumbnail Size"
+msgstr "サムネールの既定サイズ－グループ"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:851
+msgid "Single Product Image Size"
+msgstr "単独商品のイメージサイズ"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:888
+msgid "Show Thumbnail Gallery"
+msgstr "サムネールギャラリーを表示"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:912
+#, fuzzy
+msgid "Gallery Thumbnail Image Size"
+msgstr "サムネールの既定サイズ－商品"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:926
+msgid "Pagination settings"
+msgstr "ページネーション設定"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:930
+msgid "Use Pagination"
+msgstr "ページネーションを使用"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:952
+msgid "number of products to show per page"
+msgstr "ページあたりの表示商品数"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:962
+msgid "Top"
+msgstr "トップ"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:963
+msgid "Bottom"
+msgstr "ボトム"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:964
+#, fuzzy
+msgid "Both"
+msgstr "月"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:971
+msgid "Comment Settings"
+msgstr "コメント設定"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:975
+msgid "Use IntenseDebate Comments"
+msgstr "IntenseDebateを利用したコメントを有効化"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:999
+#, fuzzy
+msgid "IntenseDebate Account ID"
+msgstr "IntenseDebateを利用したコメントを有効化"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:1001
+msgid "Help on finding the Account ID"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/presentation.php:1010
+msgid "By Default Display Comments on"
+msgstr "既定のコメント対象"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/shipping.php:67
+msgid "Use Shipping"
+msgstr "配送業者を利用"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/shipping.php:89
+msgid "If you are only selling digital downloads, you should select no to disable the shipping on your site."
+msgstr "デジタルダウンロード販売のみを行う場合、いいえを選択します"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/shipping.php:94
+msgid "Base Zipcode/Postcode:"
+msgstr ""
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/shipping.php:97
+msgid "If you are based in America then you need to set your own Zipcode for UPS and USPS to work. This should be the Zipcode for your Base of Operations."
+msgstr "米国で営業しUPS/USPSを利用する場合には、自社所在地の郵便番号（Zipcode）設定が必要です"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/shipping.php:119
+msgid "ShipWire Settings"
+msgstr "ShipWire設定"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/shipping.php:130
+msgid "ShipWire Email"
+msgstr "ShipWireメール"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/shipping.php:131
+msgid "ShipWire Password"
+msgstr "ShipWireパスワード"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/shipping.php:139
+#, fuzzy
+msgid "Enable Free Shipping Discount"
+msgstr "Google Shipping Country"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/shipping.php:183
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/shipping.php:188
+msgid "Shipping Modules"
+msgstr "配送モジュール"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/shipping.php:194
+msgid "To enable shipping in WP e-Commerce you must select  which shipping methods you want to enable on your site"
+msgstr "WP e-Commerceで配送モジュールを有効化するにはサイトで利用する配送手段を選択します"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/shipping.php:198
+msgid "Internal Shipping Calculators"
+msgstr "国内配送料の計算"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/shipping.php:231
+msgid "External Shipping Calculators"
+msgstr "国際配送料の計算"
+
+#: wp-e-commerce/wpsc-admin/includes/settings-pages/shipping.php:234
+msgid "The following shipping modules all need cURL which is not installed on this server, you may need to contact your web hosting provider to get it set up. "
+msgstr "The following shipping modules all need cURL which is not installed on this server, you may need to contact your web hosting provider to get it set up. "
+
+#: wp-e-commerce/wpsc-includes/ajax.functions.php:88
+msgid "You just added \"[product_name]\" to your cart."
+msgstr "商品 \"[product_name]\" がカートに追加されました。"
+
+#: wp-e-commerce/wpsc-includes/ajax.functions.php:91
+msgid "Sorry, but you cannot add zero items to your cart"
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/ajax.functions.php:93
+#, fuzzy
+msgid "Sorry, but there are only [number] of this item in stock."
+msgstr "申し訳ありません。 \"[product_name]\" は在庫切れです。"
+
+#: wp-e-commerce/wpsc-includes/ajax.functions.php:95
+msgid "Sorry, but the item \"[product_name]\" is out of stock."
+msgstr "申し訳ありません。 \"[product_name]\" は在庫切れです。"
+
+#: wp-e-commerce/wpsc-includes/ajax.functions.php:475
+#, fuzzy
+msgid "You must select a shipping method, otherwise we cannot process your order."
+msgstr "利用条件オプションを選択してください。選択しないと注文処理ができません。"
+
+#: wp-e-commerce/wpsc-includes/ajax.functions.php:480
+msgid "Please agree to the terms and conditions, otherwise we cannot process your order."
+msgstr "利用条件オプションを選択してください。選択しないと注文処理ができません。"
+
+#: wp-e-commerce/wpsc-includes/ajax.functions.php:503
+#, php-format
+msgid "Oops the product : %s cannot be shipped to %s. To continue with your transaction please remove this product from the list above."
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/ajax.functions.php:526
+msgid "Please enter a Zipcode and click calculate to proceed"
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/category.functions.php:354
+#, fuzzy
+msgid "Brands"
+msgstr "ブランド"
+
+#: wp-e-commerce/wpsc-includes/checkout.class.php:49
+msgid "Tax"
+msgstr "消費税"
+
+#: wp-e-commerce/wpsc-includes/display.functions.php:83
+msgid "People who bought this item also bought"
+msgstr "この商品を買った方は次の商品も購入しています"
+
+#: wp-e-commerce/wpsc-includes/display.functions.php:131
+#, fuzzy
+msgid "Updating"
+msgstr "再計算"
+
+#: wp-e-commerce/wpsc-includes/display.functions.php:147
+msgid "Continue Shopping"
+msgstr "買い物を続ける"
+
+#: wp-e-commerce/wpsc-includes/display.functions.php:248
+msgid "You are using the example product group as your default group and it has no products in it, you should set the default group to something else, you can do so from your Shop Settings page."
+msgstr "サンプルの商品グループを利用中ですが、そこに商品がありません。規定のグループをほかのものに切り替えてください。これはショップ設定ページで行うことができます。"
+
+#: wp-e-commerce/wpsc-includes/display.functions.php:250
+msgid "This group is set as your default product group, you should either add some items to it or switch your default product group to one that does contain items."
+msgstr "このグループは規定の商品グループとして設定されます。アイテムを追加するか、規定の商品グループを切り替えてください。"
+
+#: wp-e-commerce/wpsc-includes/form-display.functions.php:65
+msgid "Select Parent"
+msgstr "親を選択"
+
+#: wp-e-commerce/wpsc-includes/form-display.functions.php:133
+msgid "Choose a downloadable file for this product:"
+msgstr "この商品でダウンロード可能なファイルを選択してください:"
+
+#: wp-e-commerce/wpsc-includes/form-display.functions.php:180
+msgid "Choose a downloadable file for this variation"
+msgstr "このバリエーションでダウンロード可能なファイルを選択してください"
+
+#: wp-e-commerce/wpsc-includes/form-display.functions.php:186
+msgid "No Product"
+msgstr "商品がありません"
+
+#: wp-e-commerce/wpsc-includes/misc.functions.php:61
+msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/processing.functions.php:30
+#: wp-e-commerce/wpsc-includes/processing.functions.php:36
+#: wp-e-commerce/wpsc-includes/processing.functions.php:46
+#, fuzzy
+msgid " is out of stock"
+msgstr "在庫数が不足しています"
+
+#: wp-e-commerce/wpsc-includes/processing.functions.php:30
+#: wp-e-commerce/wpsc-includes/processing.functions.php:36
+#: wp-e-commerce/wpsc-includes/processing.functions.php:46
+msgid "Remaining stock of "
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/processing.functions.php:30
+msgid " and its variations is 0. Product was unpublished."
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/processing.functions.php:36
+msgid " is 0. Product variation was set to invisible."
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/processing.functions.php:46
+msgid " is 0. Product was unpublished."
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/processing.functions.php:916
+msgid "This product has no available stock"
+msgstr "This product has no stock remaining."
+
+#: wp-e-commerce/wpsc-includes/processing.functions.php:961
+msgid "UPS does not support products without a weight set. Please either disable shipping for this product or give it a weight"
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/purchaselogs.class.php:539
+#, fuzzy, php-format
+msgid "Release downloads locked to this IP address %s"
+msgstr "IPアドレス制限を解除"
+
+#: wp-e-commerce/wpsc-includes/purchaselogs.class.php:759
+msgid "Thanks, the purchase log record has been deleted"
+msgstr "購入ログは削除されました"
+
+#: wp-e-commerce/wpsc-includes/upgrades.php:122
+#, fuzzy
+msgid "Visit upgrade homepage"
+msgstr "ショップを訪問する"
+
+#: wp-e-commerce/wpsc-includes/upgrades.php:127
+#, fuzzy
+msgid "Visit author homepage"
+msgstr "ショップを訪問する"
+
+#: wp-e-commerce/wpsc-includes/upgrades.php:131
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: wp-e-commerce/wpsc-includes/variations.class.php:217
+msgid "Variation"
+msgstr "バリエーション"
+
+#: wp-e-commerce/wpsc-includes/variations.class.php:218
+msgid "Stock"
+msgstr "在庫"
+
+#: wp-e-commerce/wpsc-includes/variations.class.php:221
+msgid "More"
+msgstr "続ける"
+
+#: wp-e-commerce/wpsc-includes/variations.class.php:349
+msgid "Weight Settings"
+msgstr "重量の設定"
+
+#~ msgid "3. Additional Information"
+#~ msgstr "3. 追加情報"
+#~ msgid "ANNUAL SALES GRAPH"
+#~ msgstr "年間販売グラフ"
+#~ msgid "Use the experimental Theme Engine"
+#~ msgstr "未完成のテーマエンジンを利用"
+#~ msgid "UPS does not support products without a weight set"
+#~ msgstr "UPS does not support products without a weight set"
+#~ msgid ""
+#~ "Oops. We have encountered a problem with the shipping details you "
+#~ "provided. If this problem persists you should contact the site owner."
+#~ msgstr ""
+#~ "Opps. We have encountered a problem with the shipping details you "
+#~ "provided. If this problem persists you should contact the site owner."
+#~ msgid ""
+#~ "This product has a zero weight associated with it and you have UPS "
+#~ "shipping enabled. UPS does not support products with zero weight, "
+#~ "therefore if your product is a digital download, we would reccomend "
+#~ "disabling shipping for this product."
+#~ msgstr ""
+#~ "This product has a zero weight associated with it and you have UPS "
+#~ "shipping enabled. UPS does not support products with zero weight, "
+#~ "therefore if your product is a digital download, we would reccomend "
+#~ "disabling shipping for this product."
+#~ msgid "Calculate"
+#~ msgstr "計算"
+#~ msgid "Daily Pickup"
+#~ msgstr "Daily Pickup"
+#~ msgid "Please enter a zipcode."
+#~ msgstr "郵便番号を入力してください"
+#~ msgid "Please select a shipping option."
+#~ msgstr "配送オプションを選択してください"
+#~ msgid "An Error Occured While Sending Email"
+#~ msgstr "メール送信でエラーが発生しました"
+#~ msgid "Add comments/notes field per each item"
+#~ msgstr "各アイテムにコメント用フィールドを追加"
+#~ msgid "No Stock"
+#~ msgstr "在庫がありません"
+#~ msgid ""
+#~ "Enter the email address for the owner of this shop to receive e-mail "
+#~ "notifications."
+#~ msgstr "ショップオーナーのメールアドレス－通知を受け取ります"
+#~ msgid "Choose Shipping Modules"
+#~ msgstr "配送モジュールを選択"
+#~ msgid "Select a Shipping Provider"
+#~ msgstr "配送業者を選択"
+#~ msgid "Line 1"
+#~ msgstr "Line 1"
+#~ msgid "Line 2"
+#~ msgstr "Line 2"
+#~ msgid "Login to Google base"
+#~ msgstr "Google baseにログイン"
+#~ msgid "Add Pages"
+#~ msgstr "ページを追加"
+#~ msgid "People come here to write new pages"
+#~ msgstr "People come here to write new pages"
+#~ msgid "People come here to add products"
+#~ msgstr "People come here to add products"
+#~ msgid "People come here to change themes and widgets settings"
+#~ msgstr "People come here to change themes and widgets settings"
+#~ msgid "The gold cart is currently activated."
+#~ msgstr "ゴールドカートは有効化されています。"
+#~ msgid "The gold cart is currently deactivated."
+#~ msgstr "ゴールドカートは無効化されています。"
+#~ msgid "Commission to Pay"
+#~ msgstr "Commission to Pay"
+#~ msgid "Total Commission"
+#~ msgstr "Total Commission"
+#~ msgid "Paid"
+#~ msgstr "Paid"
+#~ msgid "No need to pay"
+#~ msgstr "No need to pay"
+#~ msgid "Affiliation Code"
+#~ msgstr "Affiliation Code"
+#~ msgid "Commission Percentage"
+#~ msgstr "Commission Percentage"
+#~ msgid "Your Paypal Account Email"
+#~ msgstr "Paypalアカウントとして利用中のメールアドレス"
+#~ msgid "Earnings"
+#~ msgstr "Earnings"
+#~ msgid "Affiliate"
+#~ msgstr "Affiliate"
+#~ msgid "Commission to pay"
+#~ msgstr "支払予定コミッション"
+#~ msgid "Display Affiliate Sales"
+#~ msgstr "アフィリエイト売り上げを表示"
+#~ msgid "Product Image Size"
+#~ msgstr "商品イメージサイズ"
+#~ msgid "Affiliation"
+#~ msgstr "Affiliation"
+#~ msgid ""
+#~ "This item product is still waiting to be added to your catalogue. There "
+#~ "are no shortcodes or tags available at this point."
+#~ msgstr ""
+#~ "This item product is still waiting to be added to your catalogue. There "
+#~ "are no shortcodes or tags available at this point."
+#~ msgid "SKU"
+#~ msgstr "SKU"
+#~ msgid "Product ID"
+#~ msgstr "Product ID"
+#~ msgid "Download attached file"
+#~ msgstr "添付されたファイルをダウンロード"
+#~ msgid "Search for a Product"
+#~ msgstr "商品を検索"
+#~ msgid "Upload Image for"
+#~ msgstr "アップロードするイメージ"
+#~ msgid ""
+#~ "Thanks, the downloads that were locked to this users IP number have been "
+#~ "freed."
+#~ msgstr "IPアドレス制限が解除されました"
+#~ msgid "Dear Custome"
+#~ msgstr "ご注文ありがとうございます"
+#~ msgid "Invalid Coupon"
+#~ msgstr "無効なクーポン"
+#~ msgid "Financial Status"
+#~ msgstr "Financial Status"
+#~ msgid "Fulfillment Status"
+#~ msgstr "Fulfillment Status"
+#~ msgid "Edit Custom Fields"
+#~ msgstr "カスタムフィールド編集"
+#~ msgid "Save"
+#~ msgstr "保存"
+#~ msgid "Display &quot;[categorisation]&quot;"
+#~ msgstr "[categorisation]を表示"
+#~ msgid "Manage &quot;[categorisation]&quot;"
+#~ msgstr "[categorisation]を管理"
+#~ msgid "Credit Verification"
+#~ msgstr "クレジット有効性確認"
+#~ msgid "Address Verification"
+#~ msgstr "住所の確認"
+#~ msgid "Email Allowed"
+#~ msgstr "メール可"
+#~ msgid "Email NOT Allowed"
+#~ msgstr "メール不可"
+#~ msgid "Eligible for Protection"
+#~ msgstr "Eligible for Protection"
+#~ msgid "Google User Marketing Preference"
+#~ msgstr "Google User Marketing Preference"
+#~ msgid "Pick up"
+#~ msgstr "梱包"
+#~ msgid "Enable Google Store Locator"
+#~ msgstr "Google Store Locatorを有効化"
+#~ msgid "This post is for members only, you must log in to view this post"
+#~ msgstr "This post is for members only, you must log in to view this post"
+#~ msgid "Base Shipping"
+#~ msgstr "基準配送料"
+#~ msgid "Store Name"
+#~ msgstr "店舗名"
+#~ msgid "Display Variations in Checkboxes"
+#~ msgstr "バリエーションをチェックボックスで表示"
+#~ msgid "Engrave text"
+#~ msgstr "Engrave text"
+#~ msgid "One Month Free Trial"
+#~ msgstr "一か月フリートライアル"
+#~ msgid "Associate With File?(Tick one please)"
+#~ msgstr "ファイルに関連付けますか?(一つ選択)"
+#~ msgid "Permanent subscription?"
+#~ msgstr "Permanent subscription?"
+#~ msgid "Older Orders"
+#~ msgstr "過去の注文"
+#~ msgid "Six Monthly Report"
+#~ msgstr "過去半年のレポート"
+#~ msgid "Help/Upgrade"
+#~ msgstr "ヘルプ／アップグレード"
+#~ msgid "Display categories or brands or both"
+#~ msgstr "カテゴリーとブランド表示"
+#~ msgid "Enter Your Details"
+#~ msgstr "詳細を入力してください"
+#~ msgid "Select a Product Group"
+#~ msgstr "グループを選択"
+#~ msgid "Choose a Brand"
+#~ msgstr "ブランドを選択"
+#~ msgid "Product Details"
+#~ msgstr "商品の説明"
+#~ msgid "Limited Stock"
+#~ msgstr "在庫僅少"
+#~ msgid "Create a new Variation"
+#~ msgstr "バリエーションを新規作成"
+#~ msgid "Product Attachments"
+#~ msgstr "商品への添付"
+#~ msgid ""
+#~ "Note: if this is filled in, the file uploaded will be the product to be "
+#~ "purchased."
+#~ msgstr ""
+#~ "注意:ここに入力すると、アップロードされたファイルが購入する商品となります"
+#~ msgid "use"
+#~ msgstr "利用"
+#~ msgid "Type"
+#~ msgstr "タイプ"
+#~ msgid "Mandatory"
+#~ msgstr "必須"
+#~ msgid "Display<br /> in Log"
+#~ msgstr "ログに表示"
+#~ msgid "There are no items in the shopping cart"
+#~ msgstr "カートは空です"
+#~ msgid ""
+#~ "There was a problem with processing the purchase, please contact the site "
+#~ "owner."
+#~ msgstr "購入手続き中に問題が発生しました。サイト管理者に連絡してください"
+#~ msgid "Specials"
+#~ msgstr "スペシャル"
+#~ msgid "Buy"
+#~ msgstr "購入"
+#~ msgid "Continue shopping"
+#~ msgstr "ショッピングを続ける"
+#~ msgid "Out of"
+#~ msgstr "中"
+#~ msgid "votes."
+#~ msgstr "投票"
+#~ msgid "Average rating of"
+#~ msgstr "平均レート"
+#~ msgid "Average vote"
+#~ msgstr "平均"
+#~ msgid "Please select a valid Product Group"
+#~ msgstr "有効なグループを選択してください"
+#~ msgid "Product Price"
+#~ msgstr "商品の価格"
+#~ msgid "No tax"
+#~ msgstr "税抜き"
+#~ msgid "About"
+#~ msgstr "...について"
+#~ msgid ""
+#~ "Welcome to the e-commerce panel. <br /><br /><strong>Note:</strong> on "
+#~ "some setups, the shopping cart may empty on every page load, if this "
+#~ "happens, you will have to add this line:<br /><br />session_start();<br /"
+#~ "><br />to the index.php file in the base wordpress directory.<br />"
+#~ msgstr ""
+#~ "Welcome to the e-commerce panel. <br /><br /><strong>Note:</strong> on "
+#~ "some setups, the shopping cart may empty on every page load, if this "
+#~ "happens, you will have to add this line:<br /><br />session_start();<br /"
+#~ "><br />to the index.php file in the base wordpress directory.<br />"
+#~ msgid ""
+#~ "Note, Once you press submit, you will need to have your Credit card handy."
+#~ msgstr ""
+#~ "注意:「購入する」ボタンを押したら、クレジットカードを準備願います。<br>"
+#~ msgid ""
+#~ "Oops, there is nothing in your cart. <a href=\"get_option"
+#~ "(\"product_list_url\")\">Please visit our shop</a>"
+#~ msgstr "このページを利用する前に商品を購入してください"
+#~ msgid "The brand has been edited."
+#~ msgstr "The brand has been edited."
+#~ msgid "Add Brand"
+#~ msgstr "ブランドを追加"
+#~ msgid "Display Brands"
+#~ msgstr "ブランドを表示"
+#~ msgid "Edit Brand"
+#~ msgstr "ブランドを編集"
+#~ msgid "The variation has been edited."
+#~ msgstr "バリエーションが編集されました"
+#~ msgid "Remove This Set"
+#~ msgstr "セットを削除"
+#~ msgid "The product has been edited."
+#~ msgstr "商品は編集されました"
+#~ msgid "Choose a Product Group"
+#~ msgstr "グループを選択してください"
+#~ msgid "Edit Item"
+#~ msgstr "アイテムを編集"
+#~ msgid "Select an Existing Product"
+#~ msgstr "商品を選択してください"
+#~ msgid "(enter in your product details here)"
+#~ msgstr "(商品の説明をここに入力してください)"
+#~ msgid "Additional Product Description"
+#~ msgstr "商品の追加説明"
+#~ msgid "Add Item"
+#~ msgstr "アイテムを追加"
+#~ msgid "use the actual image. No resize."
+#~ msgstr "実イメージを利用（リサイズしない）"
+#~ msgid "ID"
+#~ msgstr "ID"
+#~ msgid "Transaction Status"
+#~ msgstr "トランザクションステータス"
+#~ msgid "Successful"
+#~ msgstr "成功"
+#~ msgid "Failed"
+#~ msgstr "失敗"
+#~ msgid ""
+#~ "<strong>Note:</strong> This lite version of the e-Commerce plugin only "
+#~ "allows you to interface with PayPal.<br /><br />If you are looking for a "
+#~ "more profesional \"non paypal solution\" then we have a <a href=\"http://"
+#~ "www.instinct.co.nz/blogshop\">gold version of e-Commerce</a> available "
+#~ "that interfaces seamlessly with authorize.net,  DPS (www.dps.co.nz), and "
+#~ "paystation (www.paystation.co.nz)."
+#~ msgstr ""
+#~ "<strong>注意:</strong>この無償版のe-CommerceプラグインではPayPalのみ利用可"
+#~ "能です.<br /><br />Paypal以外のより高度なソリューションをお探しの場合は "
+#~ "<a href=\"http://www.instinct.co.nz/blogshop\">e-Commerce Gold Version</"
+#~ "a> を利用してAuthorize.Net DPS(www.dps.co.nz) Paystation (www.paystation."
+#~ "co.nz)とシームレスに統合できます"
+#~ msgid "Show Specials in the Sidebar"
+#~ msgstr "Show Specials in the Sidebar"
+#~ msgid "Default Postage &amp; Packaging"
+#~ msgstr "Default Postage &amp; Packaging"
+#~ msgid "Reply Email"
+#~ msgstr "返信先メールアドレス"
+#~ msgid "brand"
+#~ msgstr "brand"
+#~ msgid "There are no items in this"
+#~ msgstr "アイテムがありません"
+#~ msgid "Category or Brand"
+#~ msgstr "Category or Brand"
+#~ msgid "Please choose a Product Group"
+#~ msgstr "Please choose a Product Group"
+#~ msgid "Make Payment"
+#~ msgstr "支払いに進む"
+#~ msgid ""
+#~ "Thank you, the order has been accepted, any items to be shipped will be "
+#~ "processed as soon as possible, any items that can be downloaded can be "
+#~ "downloaded using the links on this page"
+#~ msgstr ""
+#~ "Thank you, the order has been accepted, any items to be shipped will be "
+#~ "processed as soon as possible, any items that can be downloaded can be "
+#~ "downloaded using the links on this page"
+#~ msgid "Download"
+#~ msgstr "ダウンロード"
+#~ msgid "The Transaction was not successful"
+#~ msgstr "トランザクションは失敗しました"
+#~ msgid "Go back to the checkout"
+#~ msgstr "チェックアウトに戻る"
+#~ msgid "Base Local Shipping"
+#~ msgstr "国内配送"
+#~ msgid "Base International Shipping"
+#~ msgstr "国際配送"
+#~ msgid "Note: charged only once per product regardless of quantity ordered."
+#~ msgstr "注意: 注文数にかかわらず、注文商品につき１回チャージされます"
+#~ msgid "Country Form Field"
+#~ msgstr "Country Form Field"
+#~ msgid ""
+#~ "(select which form field on the checkout page you want to use for "
+#~ "specifying the country)"
+#~ msgstr ""
+#~ "(select which form field on the checkout page you want to use for "
+#~ "specifying the country)"
+#~ msgid "Email Form Field"
+#~ msgstr "Email Form Field"
+#~ msgid ""
+#~ "(select which form field on the checkout page you want to use for "
+#~ "specifying the email address)"
+#~ msgstr ""
+#~ "(select which form field on the checkout page you want to use for "
+#~ "specifying the email address)"
+#~ msgid "Product image"
+#~ msgstr "商品イメージ"
+#~ msgid "Add Additional Image"
+#~ msgstr "イメージを追加"
+#~ msgid "Upgrades (Old)"
+#~ msgstr "Goldオプション"
+#~ msgid "Gold Cart Activation"
+#~ msgstr "有効化設定: Gold Cart"
+#~ msgid "Thanks, the gold shopping cart has been activated."
+#~ msgstr "Gold Shopping Cartが有効化されました"
+#~ msgid "Sorry, the API key was incorrect."
+#~ msgstr "APIキーが正しくありません"
+#~ msgid "Additional Image"
+#~ msgstr "追加のイメージ"
+#~ msgid "Confirm your totals before making the payment:"
+#~ msgstr "支払手続きの前に合計額を確認してください:"
+#~ msgid ""
+#~ "Choose what payment options you want to make available in the checkout "
+#~ "page. By default purchasers can only pay for items using a credit card "
+#~ "however you may wish to also let them pay manually in which case you "
+#~ "should select the credit card + manual payment option."
+#~ msgstr ""
+#~ "Choose what payment options you want to make available in the checkout "
+#~ "page. By default purchasers can only pay for items using a credit card "
+#~ "however you may wish to also let them pay manually in which case you "
+#~ "should select the credit card + manual payment option."
+#~ msgid " only"
+#~ msgstr " only"
+#~ msgid " plus manual payment option"
+#~ msgstr " plus manual payment option"
+#~ msgid "Pay using"
+#~ msgstr "Pay using"
+#~ msgid "Pay by Cheque/Bank Deposit"
+#~ msgstr "Pay by Cheque/Bank Deposit"
+#~ msgid "Credit Card"
+#~ msgstr "クレジットカード"
+#~ msgid "Created default options."
+#~ msgstr "既定オプションを作成"
+#~ msgid "MP3 Settings"
+#~ msgstr "MP3設定"
+#~ msgid ""
+#~ "To create the 30 second MP3 file clips, this plugin needs <a href="
+#~ "\"http://sox.sourceforge.net/\">SoX</a> compiled with MP3 support, enter "
+#~ "the path to SoX here."
+#~ msgstr ""
+#~ "To create the 30 second MP3 file clips, this plugin needs <a href="
+#~ "\"http://sox.sourceforge.net/\">SoX</a> compiled with MP3 support, enter "
+#~ "the path to SoX here."
+#~ msgid "New Preview File"
+#~ msgstr "新規プレビューファイル"
+#~ msgid "Replace Product"
+#~ msgstr "商品を置き換え"
+#~ msgid "Display on Front page"
+#~ msgstr "フロントページに表示"
+#~ msgid "returned no results."
+#~ msgstr "検索結果は見つかりません"
+#~ msgid "Postage"
+#~ msgstr "郵便料金"
+#~ msgid "Subtotal"
+#~ msgstr "小計"
+#~ msgid "Delivery Region"
+#~ msgstr "配送地域"
+#~ msgid "You cannot move a product group with subcategories."
+#~ msgstr "サブカテゴリーがある商品は移動できません"
+#~ msgid ""
+#~ "Variation stock and price control does not work if you have more than two "
+#~ "variations."
+#~ msgstr "バリエーションが複数ある場合は在庫と価格のコントロールはできません"
+#~ msgid "Categories &amp; Brands Location"
+#~ msgstr "Categories &amp; Brands Location"
+#~ msgid "Shipping country:"
+#~ msgstr "Shipping country:"
+#~ msgid "Categories &amp; Brands"
+#~ msgstr "カテゴリー &amp;ブランド"
+#~ msgid "Drag any item here to add it to your cart."
+#~ msgstr "Drag any item here to add it to your cart."
+#~ msgid ""
+#~ "Note: If you do not upload a preview file and your server has sox "
+#~ "compiled with MP3 support then a preview file will be created for you."
+#~ msgstr ""
+#~ "Note: If you do not upload a preview file and your server has sox "
+#~ "compiled with MP3 support then a preview file will be created for you."
+#~ msgid "Display results from current month"
+#~ msgstr "今月の結果を表示"
+#~ msgid "Display results from past three months"
+#~ msgstr "過去３カ月の結果を表示"
+#~ msgid "Display all results"
+#~ msgstr "すべての結果を表示"
+#~ msgid "Reset"
+#~ msgstr "リセット"
+#~ msgid ""
+#~ "It appears that an item has gone out of stock, please go back and edit "
+#~ "your order."
+#~ msgstr "このアイテムは在庫がなくなりました。ご注文内容を再編集願います"
+#~ msgid "If you have a user account, Please "
+#~ msgstr "ユーザーIDをお持ちの方: "
+#~ msgid "log in."
+#~ msgstr "ログイン"
+#~ msgid "No shipping for donations"
+#~ msgstr "寄付には配送がありません"
+#~ msgid "Product Filename"
+#~ msgstr "商品ファイル名"
+#~ msgid ""
+#~ "Note: Upload your file to the e-commerce files directory and enter the "
+#~ "filename here."
+#~ msgstr ""
+#~ "Note: Upload your file to the e-commerce files directory and enter the "
+#~ "filename here."
+#~ msgid "Products per Page"
+#~ msgstr "ページあたりの商品数"
+#~ msgid ""
+#~ "Note: You cannot currently set a special price on a product with "
+#~ "variations"
+#~ msgstr ""
+#~ "注意: このバージョンではバリエーションを持つ商品に特別価格を設定できませ"
+#~ "ん。"
+#~ msgid ":variation1: Control"
+#~ msgstr ":variation1: Control"
+#~ msgid ":variation1: and :variation2: Control"
+#~ msgstr ":variation1: and :variation2: Control"
+#~ msgid "View Preview Clip"
+#~ msgstr "プレビュー用クリップを表示"
+#~ msgid "Please login or signup above to make your purchase"
+#~ msgstr "Please login or signup above to make your purchase"
+#~ msgid ""
+#~ "If you have just registered, please check your email and login before you "
+#~ "make your purchase"
+#~ msgstr ""
+#~ "If you have just registered, please check your email and login before you "
+#~ "make your purchase"
+#~ msgid "This page is for members only, you must log in to access this page"
+#~ msgstr "このページは会員専用です...ご利用には登録が必要です..."
+#~ msgid "Membership Control"
+#~ msgstr "メンバーシップ管理"
+#~ msgid "Is this product a membership?"
+#~ msgstr "Is this product a membership?"
+#~ msgid "Membership Length"
+#~ msgstr "メンバー期間"
+#~ msgid "Days"
+#~ msgstr "日"
+#~ msgid "Years"
+#~ msgstr "年"
+#~ msgid "Gold Cart"
+#~ msgstr "Gold Cart"
+#~ msgid "That coupon has expired or does not exist."
+#~ msgstr "このクーポンは期限切れまたは存在しません"
+#~ msgid "DropShop Display"
+#~ msgstr "ドロップシップ表示"
+#~ msgid "Price after discount"
+#~ msgstr "割引後の価格"
+#~ msgid "Save Product Order"
+#~ msgstr "注文を保存"
+#~ msgid "e-Commerce Subscribers"
+#~ msgstr "e-Commerce利用者"
+#~ msgid "Manual Payment"
+#~ msgstr "マニュアル支払"
+#~ msgid "Manual Payment and Credit Card"
+#~ msgstr "マニュアル支払とクレジットカード"
+#~ msgid "Enter the manual payment instructions that you wish to display"
+#~ msgstr "マニュアル支払に関して表示したい指定事項を入力してください"
+#~ msgid "Address verification failed"
+#~ msgstr "クレジットカードの住所が違います"
+#~ msgid "Credit card verification failed"
+#~ msgstr "クレジットカードの有効性確認に失敗しました"
+#~ msgid "Credit card and Address verification failed"
+#~ msgstr "クレジットカードの有効性および住所確認に失敗しました"
+#~ msgid "Google Risk"
+#~ msgstr "Google Risk"
+#~ msgid "Cancel this order"
+#~ msgstr "注文をキャンセル"
+#~ msgid "Delivery First Name"
+#~ msgstr "配送先－名"
+#~ msgid "Display only accepted transactions"
+#~ msgstr "処理済みオーダーのみ表示"
+#~ msgid "Search By Email"
+#~ msgstr "メールアドレスで検索"
+

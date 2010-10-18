@@ -1,0 +1,15 @@
+/*#setup_wizard h3 {
+}
+
+#additem .togbox, #productform h3 .togbox {
+	display:block;
+  float: left;
+	height:37px;
+  width: 12px;
+	margin: 0px 4px 0px 0px;
+	text-indent: 0px;
+	position: relative;
+	background: none !important;
+}
+
+*/
