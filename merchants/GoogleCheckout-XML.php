@@ -42,6 +42,7 @@ function gateway_google($fromcheckout = false){
 		$base_shipping = $wpsc_cart->calculate_total_shipping();
 		$tax = $wpsc_cart->calculate_total_tax();
 		$total = $wpsc_cart->calculate_total_price();
+		
 	//	exit('<pre>'.print_r($wpsc_cart, true).'</pre>');
 		if($total > 0 ){
 			$sql = "UPDATE `".WPSC_TABLE_PURCHASE_LOGS."` SET `totalprice` = ".$total.", `statusno` = '0',`user_ID`=".(int)$user_ID.", `date`= UNIX_TIMESTAMP() , `gateway`='google', `billing_country`='".$wpsc_cart->delivery_country."', shipping_country='".$wpsc_cart->selected_country."', `base_shipping`= '".$base_shipping."', shipping_method = '".$wpsc_cart->selected_shipping_method."', shipping_option= '".$wpsc_cart->selected_shipping_option."', `plugin_version`= '".WPSC_VERSION."' , `discount_value` = '".$wpsc_cart->coupons_amount."', `discount_data`='".$wpsc_cart->coupons_name."' WHERE `sessionid`=".$_SESSION['wpsc_sessionid']."";
@@ -69,7 +70,6 @@ function gateway_google($fromcheckout = false){
 			//exit();
 
 		}
-		
 		
 	}
 
@@ -112,10 +112,12 @@ function gateway_google($fromcheckout = false){
 			}
 			else 
 			{
-				$google_currency_productprice = (wpsc_cart_item_price(false)/wpsc_cart_item_quantity()) + $wpsc_cart->calculate_total_shipping();
+				$google_currency_productprice = (wpsc_cart_item_price(false)/wpsc_cart_item_quantity()) + wpsc_cart_item_shipping(false);
 				$google_currency_shipping = $wpsc_cart->selected_shipping_amount;
 			}
 
+		
+		
 			//	exit('<pre>'.print_r(wpsc_cart_item_name(),true).'</pre>');
 			$cartitem["$no"] = new GoogleItem(
 				wpsc_cart_item_name(),      		// Item name
