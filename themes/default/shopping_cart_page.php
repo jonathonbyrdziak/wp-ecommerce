@@ -7,6 +7,25 @@ $wpsc_coupons = new wpsc_coupons($_SESSION['coupon_numbers']);
 // //echo "<pre>".print_r($wpsc_checkout, true)."</pre>";
 if(wpsc_cart_item_count() > 0) :
 ?>
+<style>
+.wpsc_checkout_forms, .google_wrapper
+{
+	width:49%;
+	position:relative;
+	float:left;
+}
+.google_wrapper
+{
+	padding-top:60px;
+}
+.clearfix
+{
+	width:100%;
+	display:block;
+	clear:both;
+}
+</style>
+
 <p><?php echo __('Please review your order', 'wpsc'); ?></p>
 <table class="productcart">
 	<tr class="firstrow">
@@ -323,8 +342,13 @@ if(wpsc_cart_item_count() > 0) :
 					<h3><?php echo __('Select a payment gateway', 'wpsc');?></h3>
 					<?php while (wpsc_have_gateways()) : wpsc_the_gateway(); ?>
 						<div class="custom_gateway">
-							<?php if(wpsc_gateway_internal_name() == 'noca'){ ?>
+							<?php if (wpsc_gateway_internal_name() == 'noca'){ ?>
 								<label><input type="radio" id='noca_gateway' value="<?php echo wpsc_gateway_internal_name();?>" <?php echo wpsc_gateway_is_checked(); ?> name="custom_gateway" class="custom_gateway"/><?php echo wpsc_gateway_name();?></label>
+							<?php } elseif (wpsc_gateway_internal_name() == 'google'){ ?>
+								
+							<?php } elseif (wpsc_gateway_internal_name() == 'paypal_multiple'){ ?>
+								<input type="hidden" value="<?php echo wpsc_gateway_internal_name();?>" name="custom_gateway"/>
+								<input type="image" name="submit" alt="Checkout" src="https://www.paypal.com/en_US/i/btn/btn_paynowCC_LG.gif" height="47" width="144">
 							<?php }else{ ?>
 								<label><input type="radio" value="<?php echo wpsc_gateway_internal_name();?>" <?php echo wpsc_gateway_is_checked(); ?> name="custom_gateway" class="custom_gateway"/><?php echo wpsc_gateway_name();?></label>
 							<?php } ?>
@@ -365,10 +389,14 @@ if(wpsc_cart_item_count() > 0) :
 					<input type='hidden' value='yes' name='agree' />
 				<?php endif; ?>	
 				<?php //exit('<pre>'.print_r($wpsc_gateway->wpsc_gateways[0]['name'], true).'</pre>');
-				 if(count($wpsc_gateway->wpsc_gateways) == 1 && $wpsc_gateway->wpsc_gateways[0]['name'] == 'Noca'){}else{?>
+				 if(count($wpsc_gateway->wpsc_gateways) == 1 && $wpsc_gateway->wpsc_gateways[0]['name'] == 'Noca'){}else{ 
+				 ?>
 					<input type='hidden' value='submit_checkout' name='wpsc_action' />
+				<?php /*?>
 					<input type='submit' value='<?php echo __('Make Purchase', 'wpsc');?>' name='submit' class='make_purchase' />
-				<?php }/* else: ?>
+				<?php 
+				*/
+				}/* else: ?>
 				
 				<br /><strong><?php echo __('Please login or signup above to make your purchase', 'wpsc');?></strong><br />
 				<?php echo __('If you have just registered, please check your email and login before you make your purchase', 'wpsc');?>
@@ -378,6 +406,20 @@ if(wpsc_cart_item_count() > 0) :
 		</tr>
 	</table>
 </form>
+
+<div class="google_wrapper">
+	<?php 
+	global $nzshpcrt_gateways;
+	foreach($nzshpcrt_gateways as $gateway) {
+		if($gateway['internalname'] == 'google' ) {
+			$gateway_used = $gateway['internalname'];
+			$gateway['function'](true);
+		}
+	}
+	?>
+</div>
+<div class="clearfix"></div>
+
 </div>
 <?php
 else:

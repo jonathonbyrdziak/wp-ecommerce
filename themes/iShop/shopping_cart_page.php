@@ -296,6 +296,7 @@ if(wpsc_cart_item_count() > 0) :
 					<h3><?php echo __('Select a payment gateway', 'wpsc');?></h3>
 					<?php while (wpsc_have_gateways()) : wpsc_the_gateway(); ?>
 						<div class="custom_gateway">
+						
 							<?php if(wpsc_gateway_internal_name() == 'noca'){ ?>
 								<label><input type="radio" id='noca_gateway' value="<?php echo wpsc_gateway_internal_name();?>" <?php echo wpsc_gateway_is_checked(); ?> name="custom_gateway" class="custom_gateway"/><?php echo wpsc_gateway_name();?></label>
 							<?php }else{ ?>

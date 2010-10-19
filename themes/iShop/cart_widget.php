@@ -83,7 +83,7 @@
 <?php endif; ?>
 
 <?php
-wpsc_google_checkout();
+//wpsc_google_checkout();
 
 
 ?>
